@@ -1,0 +1,17 @@
+[1,0]<stdout>:NCCL version 2.26.2+cuda12.2
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520273:520273 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520273:520273 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520274:520274 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520274:520274 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520276:520276 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520276:520276 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520277:520277 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-08-31 22:09:39] a2ap-dgx004:520277:520277 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA

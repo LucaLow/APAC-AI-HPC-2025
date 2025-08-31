@@ -1,0 +1,202 @@
+[1,1]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues. 
+[1,1]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 2048 to avoid MoE kernel issues. 
+[1,1]<stderr>:[2025-08-31 22:09:42 DP1 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-08-31 22:09:42 DP1 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-08-31 22:09:42 DP1 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-08-31 22:09:42 DP1 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-08-31 22:09:46 DP1 TP4] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2534, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 313, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:    self.worker = TpModelWorker(
+[1,1]<stderr>:                  ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stderr>:    self.initialize(min_per_gpu_memory)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 285, in initialize
+[1,1]<stderr>:    self.load_model()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 643, in load_model
+[1,1]<stderr>:    self.model = get_model(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/__init__.py", line 22, in get_model
+[1,1]<stderr>:    return loader.load_model(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 559, in load_model
+[1,1]<stderr>:    model = _initialize_model(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 174, in _initialize_model
+[1,1]<stderr>:    return model_class(
+[1,1]<stderr>:           ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2075, in __init__
+[1,1]<stderr>:    self.model = DeepseekV2Model(
+[1,1]<stderr>:                 ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1991, in __init__
+[1,1]<stderr>:    DeepseekV2DecoderLayer(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1792, in __init__
+[1,1]<stderr>:    self.mlp = DeepseekV2MoE(
+[1,1]<stderr>:               ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 325, in __init__
+[1,1]<stderr>:    self.experts = get_moe_impl_class()(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/layer.py", line 164, in __init__
+[1,1]<stderr>:    self.quant_method.create_weights(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8.py", line 578, in create_weights
+[1,1]<stderr>:    torch.empty(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_device.py", line 104, in __torch_function__
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 900.00 MiB. GPU 0 has a total capacity of 79.10 GiB of which 288.00 MiB is free. Including non-PyTorch memory, this process has 78.81 GiB memory in use. Of the allocated memory 76.48 GiB is allocated by PyTorch, and 154.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/d[1,1]<stderr>:ocs/stable/notes/cuda.html#environment-variables)
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-08-31 22:09:46 DP1 TP6] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2534, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 313, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:    self.worker = TpModelWorker(
+[1,1]<stderr>:                  ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stderr>:    self.initialize(min_per_gpu_memory)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 285, in initialize
+[1,1]<stderr>:    self.load_model()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 643, in load_model
+[1,1]<stderr>:    self.model = get_model(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/__init__.py", line 22, in get_model
+[1,1]<stderr>:    return loader.load_model(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 559, in load_model
+[1,1]<stderr>:    model = _initialize_model(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 174, in _initialize_model
+[1,1]<stderr>:    return model_class(
+[1,1]<stderr>:           ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2075, in __init__
+[1,1]<stderr>:    self.model = DeepseekV2Model(
+[1,1]<stderr>:                 ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1991, in __init__
+[1,1]<stderr>:    DeepseekV2DecoderLayer(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1792, in __init__
+[1,1]<stderr>:    self.mlp = DeepseekV2MoE(
+[1,1]<stderr>:               ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 325, in __init__
+[1,1]<stderr>:    self.experts = get_moe_impl_class()(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/layer.py", line 164, in __init__
+[1,1]<stderr>:    self.quant_method.create_weights(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8.py", line 578, in create_weights
+[1,1]<stderr>:    torch.empty(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_device.py", line 104, in __torch_function__
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 900.00 MiB. GPU 2 has a total capacity of 79.10 GiB of which 288.00 MiB is free. Including non-PyTorch memory, this process has 78.81 GiB memory in use. Of the allocated memory 76.48 GiB is allocated by PyTorch, and 154.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See document[1,1]<stderr>:ation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-08-31 22:09:46 DP1 TP5] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2534, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 313, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:    self.worker = TpModelWorker(
+[1,1]<stderr>:                  ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stderr>:    self.initialize(min_per_gpu_memory)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 285, in initialize
+[1,1]<stderr>:    self.load_model()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 643, in load_model
+[1,1]<stderr>:    self.model = get_model(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/__init__.py", line 22, in get_model
+[1,1]<stderr>:    return loader.load_model(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 559, in load_model
+[1,1]<stderr>:    model = _initialize_model(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 174, in _initialize_model
+[1,1]<stderr>:    return model_class(
+[1,1]<stderr>:           ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2075, in __init__
+[1,1]<stderr>:    self.model = DeepseekV2Model(
+[1,1]<stderr>:                 ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1991, in __init__
+[1,1]<stderr>:    DeepseekV2DecoderLayer(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1792, in __init__
+[1,1]<stderr>:    self.mlp = DeepseekV2MoE(
+[1,1]<stderr>:               ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 325, in __init__
+[1,1]<stderr>:    self.experts = get_moe_impl_class()(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/layer.py", line 164, in __init__
+[1,1]<stderr>:    self.quant_method.create_weights(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8.py", line 578, in create_weights
+[1,1]<stderr>:    torch.empty(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_device.py", line 104, in __torch_function__
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 900.00 MiB. GPU 1 has a total capacity of 79.10 GiB of which 288.00 MiB is free. Including non-PyTorch memory, this process has 78.81 GiB memory in use. Of the allocated memory 76.48 GiB is allocated by PyTorch, and 154.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_[1,1]<stderr>:segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-08-31 22:09:46 DP1 TP7] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2534, in run_scheduler_process
+[1,1]<stderr>:    scheduler = Scheduler(
+[1,1]<stderr>:                ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 313, in __init__
+[1,1]<stderr>:    self.tp_worker = TpWorkerClass(
+[1,1]<stderr>:                     ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker_overlap_thread.py", line 67, in __init__
+[1,1]<stderr>:    self.worker = TpModelWorker(
+[1,1]<stderr>:                  ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/tp_worker.py", line 84, in __init__
+[1,1]<stderr>:    self.model_runner = ModelRunner(
+[1,1]<stderr>:                        ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 242, in __init__
+[1,1]<stderr>:    self.initialize(min_per_gpu_memory)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 285, in initialize
+[1,1]<stderr>:    self.load_model()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_executor/model_runner.py", line 643, in load_model
+[1,1]<stderr>:    self.model = get_model(
+[1,1]<stderr>:                 ^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/__init__.py", line 22, in get_model
+[1,1]<stderr>:    return loader.load_model(
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 559, in load_model
+[1,1]<stderr>:    model = _initialize_model(
+[1,1]<stderr>:            ^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/model_loader/loader.py", line 174, in _initialize_model
+[1,1]<stderr>:    return model_class(
+[1,1]<stderr>:           ^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 2075, in __init__
+[1,1]<stderr>:    self.model = DeepseekV2Model(
+[1,1]<stderr>:                 ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1991, in __init__
+[1,1]<stderr>:    DeepseekV2DecoderLayer(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 1792, in __init__
+[1,1]<stderr>:    self.mlp = DeepseekV2MoE(
+[1,1]<stderr>:               ^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/models/deepseek_v2.py", line 325, in __init__
+[1,1]<stderr>:    self.experts = get_moe_impl_class()(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/layer.py", line 164, in __init__
+[1,1]<stderr>:    self.quant_method.create_weights(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/layers/quantization/fp8.py", line 578, in create_weights
+[1,1]<stderr>:    torch.empty(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_device.py", line 104, in __torch_function__
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 900.00 MiB. GPU 3 has a total capacity of 79.10 GiB of which 288.00 MiB is free. Including non-PyTorch memory, this process has 78.81 GiB memory in use. Of the allocated memory 76.48 GiB is allocated by PyTorch, and 154.77 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/d[1,1]<stderr>:ocs/stable/notes/cuda.html#environment-variables)
+[1,1]<stderr>:
