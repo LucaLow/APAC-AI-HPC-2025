@@ -17,12 +17,13 @@ time /usr/mpi/gcc/openmpi-4.1.7a1/bin/mpirun \
 -tag-output -output-filename $HOME/run/sglang.$PBS_JOBID \
 -x PATH \
 -x NCCL_DEBUG=WARN \
+-x NCCL_IB_HCA=mlx5_1:1,mlx5_7:1 \
 -x DIST_INIT_ADDR=$(head -n 1 $PBS_NODEFILE) \
 bash -c 'time $HOME/scratch/py312/bin/python3 \
 -m sglang.bench_offline_throughput \
 --model-path deepseek-ai/DeepSeek-R1 \
 --dataset-path $HOME/scratch/ShareGPT_V3_unfiltered_cleaned_split.json \
 --num-prompts 100 --load-format dummy \
---enable-dp-attention \
---enable-dp-attention --tp 16 --dp 2 --nnodes 2 --trust-remote-code \
+--tp 16 --nnodes 2 --trust-remote-code \
 --dist-init-addr $DIST_INIT_ADDR:5000 --node-rank $OMPI_COMM_WORLD_RANK'
+
