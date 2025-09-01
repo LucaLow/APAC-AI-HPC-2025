@@ -1,0 +1,778 @@
+ Data for JOB [26432,1] offset 0 Total slots allocated 16
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx021	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [26432,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx025	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [26432,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [26432,1] offset 0 Total slots allocated 16
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx021	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [26432,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx025	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [26432,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,1]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues. 
+[1,1]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 2048 to avoid MoE kernel issues. 
+[1,0]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues. 
+[1,0]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 2048 to avoid MoE kernel issues. 
+[1,0]<stderr>:[2025-09-01 17:05:32] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:[2025-09-01 17:06:16 DP0 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,0]<stderr>:[2025-09-01 17:06:16 DP0 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>:[2025-09-01 17:06:16 DP0 TP0] Init torch distributed begin.
+[1,0]<stderr>:[2025-09-01 17:06:22 DP0 TP0] sglang is using nccl==2.26.2
+[1,0]<stdout>:NCCL version 2.26.2+cuda12.2
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014717:4014717 [7] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014717:4014717 [7] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014714:4014714 [4] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014714:4014714 [4] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014713:4014713 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014713:4014713 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014715:4014715 [5] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014715:4014715 [5] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014716:4014716 [6] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014716:4014716 [6] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014711:4014711 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014711:4014711 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014712:4014712 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014712:4014712 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014710:4014710 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-01 17:06:26] a2ap-dgx021:4014710:4014710 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:26] a2ap-dgx025:4005985:4005985 [7] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:26] a2ap-dgx025:4005985:4005985 [7] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005980:4005980 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005982:4005982 [4] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005980:4005980 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005982:4005982 [4] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005979:4005979 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005979:4005979 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005984:4005984 [6] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005984:4005984 [6] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005983:4005983 [5] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005983:4005983 [5] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005981:4005981 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005981:4005981 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005978:4005978 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 17:06:27] a2ap-dgx025:4005978:4005978 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP0] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP1] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP3] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP2] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP15] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP14] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP13] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP12] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP11] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP10] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP9] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-01 17:06:28 DP1 TP8] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-01 17:06:28 DP0 TP0] sglang is using nccl==2.26.2
+[1,0]<stderr>:[2025-09-01 17:06:30 DP0 TP0] Init torch distributed ends. mem usage=1.77 GB
+[1,0]<stderr>:[2025-09-01 17:06:32 DP0 TP0] Load weight begin. avail mem=76.78 GB
+[1,0]<stderr>:[2025-09-01 17:06:32 DP0 TP0] Detected fp8 checkpoint.
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=33.54 GB, mem usage=43.25 GB.
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP7] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP2] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP1] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP6] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP13] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP10] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP12] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP14] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP0] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP15] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP0] Memory pool end. avail mem=19.63 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP9] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP11] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP3] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP5] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,1]<stderr>:[2025-09-01 17:06:33 DP1 TP8] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:33 DP0 TP4] KV Cache is allocated. #tokens: 195508, KV size: 12.80 GB
+[1,0]<stderr>:[2025-09-01 17:06:34 DP0 TP0] Capture cuda graph begin. This can take up to several minutes. avail mem=19.56 GB
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP0] Capture cuda graph bs [8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160]
+[1,0]<stderr>:  0%|          | 0/20 [00:00<?, ?it/s][1,0]<stderr>:Capturing batches (bs=160 avail_mem=19.19 GB):   0%|          | 0/20 [00:00<?, ?it/s][1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:35 DP1 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:35 DP0 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 4963.85it/s][1,1]<stderr>:
+[1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 5572.37it/s]
+[1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 5224.08it/s][1,1]<stderr>:
+[1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 6071.77it/s]
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 6069.11it/s][1,1]<stderr>:
+[1,1]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 5467.16it/s]
+[1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 5233.36it/s]
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:100%|██████████| 33/33 [00:00<00:00, 4650.79it/s][1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:36 DP1 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:
+[1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:[A[1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/33 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 3292.70it/s]
+[1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 2861.82it/s][1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 2180.64it/s][1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 2465.35it/s]
+[1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 2734.23it/s][1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 3696.80it/s]
+[1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 2523.69it/s][1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 33/33 [00:00<00:00, 4958.34it/s][1,0]<stderr>:
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:36 DP0 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=3072, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 6617.42it/s]
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 11554.56it/s]
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 14342.04it/s]
+[1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 14043.97it/s]
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 14274.71it/s]
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 13241.33it/s][1,1]<stderr>:
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 14509.70it/s]
+[1,1]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 29/29 [00:00<00:00, 13557.16it/s]
+[1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 8074.54it/s]
+[1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 13987.44it/s]
+[1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 13268.77it/s]
+[1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 15307.68it/s][1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 14795.62it/s][1,0]<stderr>:
+[1,0]<stderr>:
+[1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:[A[1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 13195.36it/s]
+[1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 12741.97it/s]
+[1,0]<stderr>:  0%|          | 0/29 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 29/29 [00:00<00:00, 11808.06it/s]
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:37 DP1 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:37 DP0 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=2048, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 9033.36it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 23950.34it/s]
+[1,1]<stdout>:NCCL version 2.26.2+cuda12.2
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 12234.98it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 14952.96it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 15742.17it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 14202.93it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 18176.83it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 17225.07it/s]
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 8458.39it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 17476.27it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 17489.93it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 11894.52it/s][1,0]<stderr>:
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][A[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 11823.27it/s][1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 15959.30it/s]
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 17102.16it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 17002.50it/s]
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-01 17:06:40 DP1 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:40 DP0 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 14961.29it/s]
+[1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 12921.70it/s]
+[1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 14322.67it/s][1,1]<stderr>:
+[1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 11821.18it/s]
+[1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 12440.24it/s]
+[1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 13048.58it/s]
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 13292.83it/s]
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:100%|██████████| 32/32 [00:00<00:00, 12917.97it/s]
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:
+[1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:[A[1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 8469.60it/s]
+[1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 9569.21it/s][1,0]<stderr>:
+[1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 13972.28it/s]
+[1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 13445.98it/s]
+[1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 13265.24it/s]
+[1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 13184.45it/s]
+[1,0]<stderr>:  0%|          | 0/32 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 14658.99it/s]
+[1,0]<stderr>:100%|██████████| 32/32 [00:00<00:00, 12488.86it/s]
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 10096.11it/s]
+[1,0]<stderr>:
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][A[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 8070.82it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 13601.31it/s]
+[1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 14169.95it/s][1,1]<stderr>:
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 16368.02it/s]
+[1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 12381.71it/s]
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 17688.16it/s]
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 13937.46it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 12356.63it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 14996.39it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 13743.37it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 12586.06it/s]
+[1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 16853.05it/s]
+[1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 14086.66it/s]
+[1,0]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/16 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 16/16 [00:00<00:00, 16170.81it/s]
+[1,0]<stderr>:100%|██████████| 16/16 [00:00<00:00, 11501.09it/s][1,0]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP9] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP15] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP10] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP11] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP12] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP8] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP13] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-01 17:06:41 DP1 TP14] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP7] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP4] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP3] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP0] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP1] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP2] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP5] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-01 17:06:41 DP0 TP6] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:Capturing batches (bs=160 avail_mem=19.19 GB):   5%|▌         | 1/20 [00:06<02:12,  6.97s/it][1,0]<stderr>:Capturing batches (bs=152 avail_mem=17.75 GB):   5%|▌         | 1/20 [00:06<02:12,  6.97s/it][1,0]<stderr>:Capturing batches (bs=152 avail_mem=17.75 GB):  10%|█         | 2/20 [00:07<00:56,  3.15s/it][1,0]<stderr>:Capturing batches (bs=144 avail_mem=17.72 GB):  10%|█         | 2/20 [00:07<00:56,  3.15s/it][1,0]<stderr>:Capturing batches (bs=144 avail_mem=17.72 GB):  15%|█▌        | 3/20 [00:07<00:32,  1.94s/it][1,0]<stderr>:Capturing batches (bs=136 avail_mem=17.69 GB):  15%|█▌        | 3/20 [00:07<00:32,  1.94s/it][1,0]<stderr>:Capturing batches (bs=136 avail_mem=17.69 GB):  20%|██        | 4/20 [00:08<00:22,  1.38s/it][1,0]<stderr>:Capturing batches (bs=128 avail_mem=17.66 GB):  20%|██        | 4/20 [00:08<00:22,  1.38s/it][1,0]<stderr>:Capturing batches (bs=128 avail_mem=17.66 GB):  25%|██▌       | 5/20 [00:09<00:16,  1.13s/it][1,0]<stderr>:Capturing batches (bs=120 avail_mem=17.63 GB):  25%|██▌       | 5/20 [00:09<00:16,  1.13s/it][1,0]<stderr>:Capturing batches (bs=120 avail_mem=17.63 GB):  30%|███       | 6/20 [00:09<00:12,  1.10it/s]Capturing batches (bs=112 avail_mem=17.60 GB):  30%|███       | 6/20 [00:09<00:12,  1.10it/s][1,0]<stderr>:Capturing batches (bs=112 avail_mem=17.60 GB):  35%|███▌      | 7/20 [00:10<00:10,  1.25it/s][1,0]<stderr>:Capturing batches (bs=104 avail_mem=17.56 GB):  35%|███▌      | 7/20 [00:10<00:10,  1.25it/s][1,0]<stderr>:Capturing batches (bs=104 avail_mem=17.56 GB):  40%|████      | 8/20 [00:10<00:08,  1.42it/s][1,0]<stderr>:Capturing batches (bs=96 avail_mem=17.53 GB):  40%|████      | 8/20 [00:10<00:08,  1.42it/s] [1,0]<stderr>:Capturing batches (bs=96 avail_mem=17.53 GB):  45%|████▌     | 9/20 [00:11<00:07,  1.51it/s][1,0]<stderr>:Capturing batches (bs=88 avail_mem=17.50 GB):  45%|████▌     | 9/20 [00:11<00:07,  1.51it/s][1,0]<stderr>:Capturing batches (bs=88 avail_mem=17.50 GB):  50%|█████     | 10/20 [00:11<00:06,  1.64it/s][1,0]<stderr>:Capturing batches (bs=80 avail_mem=17.47 GB):  50%|█████     | 10/20 [00:11<00:06,  1.64it/s][1,0]<stderr>:Capturing batches (bs=80 avail_mem=17.47 GB):  55%|█████▌    | 11/20 [00:12<00:05,  1.76it/s]Capturing batches (bs=72 avail_mem=17.44 GB):  55%|█████▌    | 11/20 [00:12<00:05,  1.76it/s][1,0]<stderr>:Capturing batches (bs=72 avail_mem=17.44 GB):  60%|██████    | 12/20 [00:12<00:04,  1.79it/s][1,0]<stderr>:Capturing batches (bs=64 avail_mem=17.41 GB):  60%|██████    | 12/20 [00:12<00:04,  1.79it/s][1,0]<stderr>:Capturing batches (bs=64 avail_mem=17.41 GB):  65%|██████▌   | 13/20 [00:13<00:03,  1.79it/s][1,0]<stderr>:Capturing batches (bs=56 avail_mem=17.37 GB):  65%|██████▌   | 13/20 [00:13<00:03,  1.79it/s][1,0]<stderr>:Capturing batches (bs=56 avail_mem=17.37 GB):  70%|███████   | 14/20 [00:13<00:03,  1.82it/s][1,0]<stderr>:Capturing batches (bs=48 avail_mem=17.34 GB):  70%|███████   | 14/20 [00:13<00:03,  1.82it/s][1,0]<stderr>:Capturing batches (bs=48 avail_mem=17.34 GB):  75%|███████▌  | 15/20 [00:14<00:02,  1.88it/s][1,0]<stderr>:Capturing batches (bs=40 avail_mem=17.31 GB):  75%|███████▌  | 15/20 [00:14<00:02,  1.88it/s][1,0]<stderr>:Capturing batches (bs=40 avail_mem=17.31 GB):  80%|████████  | 16/20 [00:14<00:02,  1.94it/s][1,0]<stderr>:Capturing batches (bs=32 avail_mem=17.28 GB):  80%|████████  | 16/20 [00:14<00:02,  1.94it/s][1,0]<stderr>:Capturing batches (bs=32 avail_mem=17.28 GB):  85%|████████▌ | 17/20 [00:15<00:01,  1.90it/s][1,0]<stderr>:Capturing batches (bs=24 avail_mem=17.25 GB):  85%|████████▌ | 17/20 [00:15<00:01,  1.90it/s][1,0]<stderr>:Capturing batches (bs=24 avail_mem=17.25 GB):  90%|█████████ | 18/20 [00:15<00:01,  1.87it/s][1,0]<stderr>:Capturing batches (bs=16 avail_mem=17.22 GB):  90%|█████████ | 18/20 [00:15<00:01,  1.87it/s][1,0]<stderr>:Capturing batches (bs=16 avail_mem=17.22 GB):  95%|█████████▌| 19/20 [00:20<00:01,  1.87s/it][1,0]<stderr>:Capturing batches (bs=8 avail_mem=17.19 GB):  95%|█████████▌| 19/20 [00:20<00:01,  1.87s/it] [1,0]<stderr>:Capturing batches (bs=8 avail_mem=17.19 GB): 100%|██████████| 20/20 [00:22<00:00,  1.65s/it][1,0]<stderr>:Capturing batches (bs=8 avail_mem=17.19 GB): 100%|██████████| 20/20 [00:22<00:00,  1.10s/it]
+[1,0]<stderr>:[2025-09-01 17:06:57 DP0 TP0] Capture cuda graph end. Time elapsed: 23.27 s. mem usage=2.41 GB. avail mem=17.16 GB.
+[1,0]<stderr>:[2025-09-01 17:06:59 DP0 TP0] max_total_num_tokens=195508, chunked_prefill_size=2048, max_prefill_tokens=16384, max_running_requests=2048, context_len=163840, available_gpu_mem=17.16 GB
+[1,1]<stderr>:[2025-09-01 17:06:59] Starting dummy health check server at 127.0.0.1:30000
+[1,0]<stdout>:#Input tokens: 34308
+[1,0]<stdout>:#Output tokens: 21395
+[1,0]<stdout>:#Input tokens: 4096
+[1,0]<stdout>:#Output tokens: 256
+[1,0]<stderr>:[2025-09-01 17:07:11] 
+[1,0]<stderr>:Warmup...
+[1,1]<stderr>:[2025-09-01 17:07:11 DP1 TP8] Prefill batch. #new-seq: 1, #new-token: 257, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:11 DP0 TP0] Prefill batch. #new-seq: 2, #new-token: 514, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:11 DP0 TP0] Prefill batch. #new-seq: 6, #new-token: 1542, #cached-token: 0, token usage: 0.00, #running-req: 2, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:11 DP1 TP8] Prefill batch. #new-seq: 7, #new-token: 1799, #cached-token: 0, token usage: 0.00, #running-req: 1, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP3] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP5] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP0] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP0] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP6] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP7] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP2] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP13] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP9] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP11] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP8] Entering DeepGEMM JIT Pre-Compile session. It may takes a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP8] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP15] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP14] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP12] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP4] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:[2025-09-01 17:07:12 DP0 TP1] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,1]<stderr>:[2025-09-01 17:07:12 DP1 TP10] Try DeepGEMM JIT Compiling for <gemm_fp8_fp8_bf16_nt> N=4096, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 8238.26it/s]
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 14648.33it/s]
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 14542.52it/s]
+[1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 8042.77it/s]
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 14773.01it/s]
+[1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 14915.29it/s]
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 11715.93it/s]
+[1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 13948.08it/s]
+[1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 12173.58it/s]
+[1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 13959.69it/s]
+[1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 13761.22it/s]
+[1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 14450.66it/s]
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 13882.68it/s]
+[1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 15252.01it/s]
+[1,0]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,0]<stderr>:100%|██████████| 24/24 [00:00<00:00, 12495.44it/s]
+[1,1]<stderr>:  0%|          | 0/24 [00:00<?, ?it/s][1,1]<stderr>:100%|██████████| 24/24 [00:00<00:00, 13546.40it/s]
+[1,0]<stderr>:[2025-09-01 17:07:17] 
+[1,0]<stderr>:Benchmark...
+[1,0]<stderr>:[2025-09-01 17:07:17 DP0 TP0] Prefill batch. #new-seq: 1, #new-token: 15, #cached-token: 1, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:17 DP1 TP8] Prefill batch. #new-seq: 1, #new-token: 30, #cached-token: 1, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:17 DP0 TP0] Prefill batch. #new-seq: 3, #new-token: 887, #cached-token: 3, token usage: 0.00, #running-req: 1, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:17 DP1 TP8] Prefill batch. #new-seq: 2, #new-token: 300, #cached-token: 2, token usage: 0.00, #running-req: 1, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:17 DP0 TP0] Prefill batch. #new-seq: 2, #new-token: 2048, #cached-token: 2, token usage: 0.00, #running-req: 4, #queue-req: 44, 
+[1,1]<stderr>:[2025-09-01 17:07:17 DP1 TP8] Prefill batch. #new-seq: 5, #new-token: 2048, #cached-token: 5, token usage: 0.00, #running-req: 3, #queue-req: 42, 
+[1,1]<stderr>:[2025-09-01 17:07:18 DP1 TP8] Prefill batch. #new-seq: 8, #new-token: 2048, #cached-token: 7, token usage: 0.01, #running-req: 7, #queue-req: 35, 
+[1,0]<stderr>:[2025-09-01 17:07:18 DP0 TP0] Prefill batch. #new-seq: 11, #new-token: 2048, #cached-token: 10, token usage: 0.02, #running-req: 5, #queue-req: 34, 
+[1,0]<stderr>:[2025-09-01 17:07:18 DP0 TP0] Prefill batch. #new-seq: 7, #new-token: 2048, #cached-token: 6, token usage: 0.03, #running-req: 15, #queue-req: 28, 
+[1,1]<stderr>:[2025-09-01 17:07:18 DP1 TP8] Prefill batch. #new-seq: 11, #new-token: 2048, #cached-token: 11, token usage: 0.02, #running-req: 14, #queue-req: 25, 
+[1,0]<stderr>:[2025-09-01 17:07:18 DP0 TP0] Prefill batch. #new-seq: 7, #new-token: 2048, #cached-token: 8, token usage: 0.04, #running-req: 21, #queue-req: 22, 
+[1,1]<stderr>:[2025-09-01 17:07:18 DP1 TP8] Prefill batch. #new-seq: 9, #new-token: 2048, #cached-token: 10, token usage: 0.03, #running-req: 24, #queue-req: 17, 
+[1,1]<stderr>:[2025-09-01 17:07:18 DP1 TP8] Prefill batch. #new-seq: 8, #new-token: 2048, #cached-token: 8, token usage: 0.04, #running-req: 32, #queue-req: 10, 
+[1,0]<stderr>:[2025-09-01 17:07:18 DP0 TP0] Prefill batch. #new-seq: 5, #new-token: 2048, #cached-token: 5, token usage: 0.05, #running-req: 27, #queue-req: 18, 
+[1,0]<stderr>:[2025-09-01 17:07:18 DP0 TP0] Prefill batch. #new-seq: 6, #new-token: 2048, #cached-token: 10, token usage: 0.06, #running-req: 31, #queue-req: 13, 
+[1,1]<stderr>:[2025-09-01 17:07:18 DP1 TP8] Prefill batch. #new-seq: 6, #new-token: 2048, #cached-token: 10, token usage: 0.05, #running-req: 39, #queue-req: 5, 
+[1,1]<stderr>:[2025-09-01 17:07:18 DP1 TP8] Prefill batch. #new-seq: 6, #new-token: 1462, #cached-token: 10, token usage: 0.06, #running-req: 44, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:18 DP0 TP0] Prefill batch. #new-seq: 5, #new-token: 2048, #cached-token: 6, token usage: 0.07, #running-req: 36, #queue-req: 9, 
+[1,0]<stderr>:[2025-09-01 17:07:19 DP0 TP0] Prefill batch. #new-seq: 1, #new-token: 2048, #cached-token: 0, token usage: 0.08, #running-req: 40, #queue-req: 9, 
+[1,0]<stderr>:[2025-09-01 17:07:19 DP0 TP0] Prefill batch. #new-seq: 7, #new-token: 2048, #cached-token: 17, token usage: 0.09, #running-req: 40, #queue-req: 3, 
+[1,0]<stderr>:[2025-09-01 17:07:19 DP0 TP0] Prefill batch. #new-seq: 4, #new-token: 757, #cached-token: 5, token usage: 0.10, #running-req: 46, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:20 DP1 TP8] Decode batch. #running-req: 33, #token: 8812, token usage: 0.05, cuda graph: True, gen throughput (token/s): 53.07, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:20 DP0 TP0] Decode batch. #running-req: 38, #token: 16711, token usage: 0.09, cuda graph: True, gen throughput (token/s): 54.06, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:21 DP1 TP8] Decode batch. #running-req: 28, #token: 8503, token usage: 0.04, cuda graph: True, gen throughput (token/s): 824.47, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:22 DP0 TP0] Decode batch. #running-req: 32, #token: 15409, token usage: 0.08, cuda graph: True, gen throughput (token/s): 933.71, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:23 DP1 TP8] Decode batch. #running-req: 23, #token: 8280, token usage: 0.04, cuda graph: True, gen throughput (token/s): 741.83, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:23 DP0 TP0] Decode batch. #running-req: 30, #token: 13825, token usage: 0.07, cuda graph: True, gen throughput (token/s): 915.66, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:24 DP1 TP8] Decode batch. #running-req: 22, #token: 9051, token usage: 0.05, cuda graph: True, gen throughput (token/s): 653.62, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:24 DP0 TP0] Decode batch. #running-req: 27, #token: 12906, token usage: 0.07, cuda graph: True, gen throughput (token/s): 840.87, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:26 DP1 TP8] Decode batch. #running-req: 20, #token: 8818, token usage: 0.05, cuda graph: True, gen throughput (token/s): 637.68, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:26 DP0 TP0] Decode batch. #running-req: 25, #token: 12855, token usage: 0.07, cuda graph: True, gen throughput (token/s): 774.42, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:27 DP1 TP8] Decode batch. #running-req: 15, #token: 8468, token usage: 0.04, cuda graph: True, gen throughput (token/s): 488.75, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:27 DP0 TP0] Decode batch. #running-req: 22, #token: 13106, token usage: 0.07, cuda graph: True, gen throughput (token/s): 694.27, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:28 DP1 TP8] Decode batch. #running-req: 15, #token: 8764, token usage: 0.04, cuda graph: True, gen throughput (token/s): 427.40, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:28 DP0 TP0] Decode batch. #running-req: 18, #token: 12363, token usage: 0.06, cuda graph: True, gen throughput (token/s): 580.37, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:30 DP1 TP8] Decode batch. #running-req: 11, #token: 4811, token usage: 0.02, cuda graph: True, gen throughput (token/s): 356.94, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:30 DP0 TP0] Decode batch. #running-req: 15, #token: 12187, token usage: 0.06, cuda graph: True, gen throughput (token/s): 479.31, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:31 DP1 TP8] Decode batch. #running-req: 10, #token: 4886, token usage: 0.02, cuda graph: True, gen throughput (token/s): 330.88, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:31 DP0 TP0] Decode batch. #running-req: 14, #token: 12392, token usage: 0.06, cuda graph: True, gen throughput (token/s): 446.98, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:32 DP1 TP8] Decode batch. #running-req: 8, #token: 4340, token usage: 0.02, cuda graph: True, gen throughput (token/s): 287.45, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:32 DP0 TP0] Decode batch. #running-req: 11, #token: 8451, token usage: 0.04, cuda graph: True, gen throughput (token/s): 366.07, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:33 DP1 TP8] Decode batch. #running-req: 8, #token: 4096, token usage: 0.02, cuda graph: True, gen throughput (token/s): 250.73, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:34 DP0 TP0] Decode batch. #running-req: 8, #token: 5577, token usage: 0.03, cuda graph: True, gen throughput (token/s): 294.78, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:35 DP1 TP8] Decode batch. #running-req: 6, #token: 3669, token usage: 0.02, cuda graph: True, gen throughput (token/s): 180.33, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:35 DP0 TP0] Decode batch. #running-req: 6, #token: 4067, token usage: 0.02, cuda graph: True, gen throughput (token/s): 191.50, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:36 DP1 TP8] Decode batch. #running-req: 6, #token: 3909, token usage: 0.02, cuda graph: True, gen throughput (token/s): 161.54, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:37 DP0 TP0] Decode batch. #running-req: 5, #token: 3685, token usage: 0.02, cuda graph: True, gen throughput (token/s): 154.01, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:38 DP1 TP8] Decode batch. #running-req: 5, #token: 3575, token usage: 0.02, cuda graph: True, gen throughput (token/s): 150.70, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:38 DP0 TP0] Decode batch. #running-req: 5, #token: 3885, token usage: 0.02, cuda graph: True, gen throughput (token/s): 135.19, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:39 DP1 TP8] Decode batch. #running-req: 4, #token: 2525, token usage: 0.01, cuda graph: True, gen throughput (token/s): 118.24, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:40 DP0 TP0] Decode batch. #running-req: 4, #token: 3489, token usage: 0.02, cuda graph: True, gen throughput (token/s): 116.06, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:41 DP1 TP8] Decode batch. #running-req: 4, #token: 2685, token usage: 0.01, cuda graph: True, gen throughput (token/s): 107.54, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:41 DP0 TP0] Decode batch. #running-req: 3, #token: 2999, token usage: 0.02, cuda graph: True, gen throughput (token/s): 102.87, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:42 DP1 TP8] Decode batch. #running-req: 4, #token: 2845, token usage: 0.01, cuda graph: True, gen throughput (token/s): 107.20, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:43 DP0 TP0] Decode batch. #running-req: 3, #token: 3119, token usage: 0.02, cuda graph: True, gen throughput (token/s): 80.43, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:44 DP1 TP8] Decode batch. #running-req: 3, #token: 2282, token usage: 0.01, cuda graph: True, gen throughput (token/s): 97.36, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:44 DP0 TP0] Decode batch. #running-req: 3, #token: 3239, token usage: 0.02, cuda graph: True, gen throughput (token/s): 80.55, #queue-req: 0, 
+[1,1]<stderr>:[2025-09-01 17:07:45 DP1 TP8] Decode batch. #running-req: 2, #token: 1585, token usage: 0.01, cuda graph: True, gen throughput (token/s): 77.78, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:46 DP0 TP0] Decode batch. #running-req: 3, #token: 3359, token usage: 0.02, cuda graph: True, gen throughput (token/s): 62.19, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:48 DP0 TP0] Decode batch. #running-req: 2, #token: 1881, token usage: 0.01, cuda graph: True, gen throughput (token/s): 75.08, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:50 DP0 TP0] Decode batch. #running-req: 1, #token: 1114, token usage: 0.01, cuda graph: True, gen throughput (token/s): 23.47, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:51 DP0 TP0] Decode batch. #running-req: 1, #token: 1154, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.28, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:52 DP0 TP0] Decode batch. #running-req: 1, #token: 1194, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.49, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:54 DP0 TP0] Decode batch. #running-req: 1, #token: 1234, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.38, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:55 DP0 TP0] Decode batch. #running-req: 1, #token: 1274, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.00, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:57 DP0 TP0] Decode batch. #running-req: 1, #token: 1314, token usage: 0.01, cuda graph: True, gen throughput (token/s): 26.87, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:07:58 DP0 TP0] Decode batch. #running-req: 1, #token: 1354, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.06, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:00 DP0 TP0] Decode batch. #running-req: 1, #token: 1394, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.18, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:01 DP0 TP0] Decode batch. #running-req: 1, #token: 1434, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.11, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:03 DP0 TP0] Decode batch. #running-req: 1, #token: 1474, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.58, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:04 DP0 TP0] Decode batch. #running-req: 1, #token: 1514, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.55, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:06 DP0 TP0] Decode batch. #running-req: 1, #token: 1554, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.30, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:07 DP0 TP0] Decode batch. #running-req: 1, #token: 1594, token usage: 0.01, cuda graph: True, gen throughput (token/s): 26.88, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:09 DP0 TP0] Decode batch. #running-req: 1, #token: 1634, token usage: 0.01, cuda graph: True, gen throughput (token/s): 26.97, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:10 DP0 TP0] Decode batch. #running-req: 1, #token: 1674, token usage: 0.01, cuda graph: True, gen throughput (token/s): 26.96, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:12 DP0 TP0] Decode batch. #running-req: 1, #token: 1714, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.19, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:13 DP0 TP0] Decode batch. #running-req: 1, #token: 1754, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.03, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:15 DP0 TP0] Decode batch. #running-req: 1, #token: 1794, token usage: 0.01, cuda graph: True, gen throughput (token/s): 26.96, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:16 DP0 TP0] Decode batch. #running-req: 1, #token: 1834, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.12, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:18 DP0 TP0] Decode batch. #running-req: 1, #token: 1874, token usage: 0.01, cuda graph: True, gen throughput (token/s): 27.03, #queue-req: 0, 
+[1,0]<stderr>:[2025-09-01 17:08:19 DP0 TP0] Decode batch. #running-req: 1, #token: 1914, token usage: 0.01, cuda graph: True, gen throughput (token/s): 26.90, #queue-req: 0, 
+[1,0]<stdout>:
+[1,0]<stdout>:====== Offline Throughput Benchmark Result =======
+[1,0]<stdout>:Backend:                                 engine    
+[1,0]<stdout>:Successful requests:                     100       
+[1,0]<stdout>:Benchmark duration (s):                  62.46     
+[1,0]<stdout>:Total input tokens:                      34308     
+[1,0]<stdout>:Total generated tokens:                  21395     
+[1,0]<stdout>:Last generation throughput (tok/s):      77.78     
+[1,0]<stdout>:Request throughput (req/s):              1.60      
+[1,0]<stdout>:Input token throughput (tok/s):          549.31    
+[1,0]<stdout>:Output token throughput (tok/s):         342.56    
+[1,0]<stdout>:Total token throughput (tok/s):          891.87    
+[1,0]<stdout>:==================================================
+[1,1]<stderr>:[rank11]:[W901 17:08:21.946042493 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx025.asp2p.nscc.sg]:39870, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank8]:[W901 17:08:21.946145688 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=114, addr=[a2ap-dgx025.asp2p.nscc.sg]:39832, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank9]:[W901 17:08:21.946296667 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx025.asp2p.nscc.sg]:39858, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Uti[1,1]<stderr>:ls.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank15]:[W901 17:08:21.946333751 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=99, addr=[a2ap-dgx025.asp2p.nscc.sg]:39862, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank11]:[W901 17:08:21.950113470 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 11] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank8]:[W901 17:08:21.950121231 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 8] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank13]:[W901 17:08:21.946320274 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=102, addr=[a2a[1,1]<stderr>:p-dgx025.asp2p.nscc.sg]:39864, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank9]:[W901 17:08:21.950145739 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 9] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank15]:[W901 17:08:21.950155074 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 15] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank13]:[W901 17:08:21.950184419 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 13] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank10]:[W901 17:08:21.946550509 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx025.asp2p.nscc.sg]:39842, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libt[1,1]<stderr>:orch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank12]:[W901 17:08:21.946546344 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=102, addr=[a2ap-dgx025.asp2p.nscc.sg]:39848, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank14]:[W901 17:08:21.946679466 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx025.asp2p.nscc.sg]:39868, remote=[a2ap-dgx021.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:675 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x98 (0x7ffe773785e8 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5ba8bfe (0x7ffe606fabfe in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5baafcf (0x7ffe606fcfcf in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5bab84a (0x7ffe606fd84a in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x2a9 (0x7ffe606f72a9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::heartbeatMonitor() + 0x379 (0x7ffe21df69f9 in /home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff5390253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7d1fac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7db1850 in /lib/x86_64-linux-[1,1]<stderr>:gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank10]:[W901 17:08:21.950429121 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 10] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank12]:[W901 17:08:21.950438012 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 12] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank14]:[W901 17:08:21.950453014 ProcessGroupNCCL.cpp:1662] [PG ID 0 PG GUID 0 Rank 14] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP14] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [10.104.4.95]:23952
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP11] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [10.104.4.95]:13746
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP15] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [10.104.4.95]:1460
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP8] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:525] Read error [10.104.4.95]:54169: Connection reset by peer
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP12] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [10.104.4.95]:23989
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP13] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:525] Read error [10.104.4.95]:45492: Connection reset by peer
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP10] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:525] Read error [10.104.4.95]:29623: Connection reset by peer
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-01 17:08:21 DP1 TP9] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 2557, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 777, in event_loop_overlap
+[1,1]<stderr>:    recv_reqs = self.recv_requests()
+[1,1]<stderr>:                ^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/managers/scheduler.py", line 1012, in recv_requests
+[1,1]<stderr>:    control_reqs = broadcast_pyobj(
+[1,1]<stderr>:                   ^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/sglang/srt/utils.py", line 1078, in broadcast_pyobj
+[1,1]<stderr>:    dist.broadcast(tensor_size, src=src, group=dist_group)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:           ^^^^^^^^^^^^^^^^^^^^^
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/distributed/distributed_c10d.py", line 2718, in broadcast
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:534] Connection closed by peer [10.104.4.95]:19894
+[1,1]<stderr>:
+[1,0]<stderr>:
+[1,0]<stderr>:real	3m21.796s
+[1,0]<stderr>:user	2m42.021s
+[1,0]<stderr>:sys	0m23.413s
+=>> PBS: job killed: walltime 312 exceeded limit 300
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-09-01 17:10:30.426446:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 82229.pbs111
+	Project: 50000097
+	Exit Status: -29
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 00:21:59
+	Memory: Requested(3760gb), Used(30660824kb)
+	Vmem Used: 25870115704kb
+	Walltime: Requested(00:05:00), Used(00:05:26)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx021:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx025:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 5.61mins
+	GPU Power Consumed: 209.38W
+	GPU Max GPU Memory Used: 1.02TB
+	Memory Throughput Rate (Average): a2ap-dgx021:(gpu1:1%+gpu0:1%+gpu2:1%+gpu3:1%+gpu5:1%+gpu4:1%+gpu6:1%+gpu7:1%)+a2ap-dgx025:(gpu1:1%+gpu0:1%+gpu2:1%+gpu3:1%+gpu5:1%+gpu4:1%+gpu6:1%+gpu7:1%)
+	Memory Throughput Rate (Max): a2ap-dgx021:(gpu1:9%+gpu0:8%+gpu2:8%+gpu3:8%+gpu5:8%+gpu4:8%+gpu6:9%+gpu7:9%)+a2ap-dgx025:(gpu1:8%+gpu0:8%+gpu2:8%+gpu3:8%+gpu5:8%+gpu4:8%+gpu6:8%+gpu7:11%)
+	Memory Throughput Rate (Min): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx025:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx021:(gpu1:18%+gpu0:16%+gpu2:16%+gpu3:16%+gpu5:18%+gpu4:15%+gpu6:18%+gpu7:20%)+a2ap-dgx025:(gpu1:17%+gpu0:16%+gpu2:16%+gpu3:16%+gpu5:13%+gpu4:16%+gpu6:15%+gpu7:17%)
+	GPU SM Utilization (Max): a2ap-dgx021:(gpu1:97%+gpu0:90%+gpu2:94%+gpu3:91%+gpu5:97%+gpu4:69%+gpu6:69%+gpu7:69%)+a2ap-dgx025:(gpu1:100%+gpu0:92%+gpu2:91%+gpu3:98%+gpu5:67%+gpu4:95%+gpu6:70%+gpu7:68%)
+	GPU SM Utilization (Min): a2ap-dgx021:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx025:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: None
+GPU application profile: Low
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+

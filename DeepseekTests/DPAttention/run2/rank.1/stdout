@@ -1,0 +1,36 @@
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679435:3679435 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679435:3679435 [2] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679434:3679434 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679434:3679434 [1] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679433:3679433 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679433:3679433 [0] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679437:3679437 [4] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679437:3679437 [4] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679436:3679436 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679436:3679436 [3] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679440:3679440 [7] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679440:3679440 [7] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679438:3679438 [5] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679438:3679438 [5] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679439:3679439 [6] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-01 15:13:07] a2ap-dgx015:3679439:3679439 [6] transport/net_ib.cc:543 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:NCCL version 2.26.2+cuda12.2
+[1,1]<stdout>:NCCL version 2.26.2+cuda12.2
+[1,1]<stdout>:NCCL version 2.26.2+cuda12.2
+[1,1]<stdout>:NCCL version 2.26.2+cuda12.2

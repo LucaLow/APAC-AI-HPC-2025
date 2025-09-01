@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -P 50000097
+#PBS -l walltime=00:20:00
+#PBS -l select=1:ncpus=14:ngpus=1:mpiprocs=1:mem=235gb
+#PBS -j oe
+#PBS -M oculus.quest11@gmail.com
+#PBS -m abe
+
+# Purpose: Precompile DeepGEMM kernels for DeepSeek-R1 on a single GPU to
+#          avoid 10–20 minutes of JIT on larger multi-GPU runs.
+# Notes:
+# - This does NOT run the benchmark or load full KV caches, so it avoids OOM.
+# - Keep caches under $HOME so all nodes can reuse them later.
+
+module load cuda
+nvidia-smi
+export TORCHINDUCTOR_CACHE_DIR="$HOME/.cache/torchinductor"
+export TRITON_CACHE_DIR="$HOME/.cache/triton"
+mkdir -p "$TORCHINDUCTOR_CACHE_DIR" "$TRITON_CACHE_DIR"
+
+echo "Starting DeepGEMM precompile on 1 GPU at $(date)"
+time "$HOME/scratch/py312/bin/python3" -m sglang.compile_deep_gemm \
+  --model deepseek-ai/DeepSeek-R1 \
+  --tp 16 \
+  --trust-remote-code
+
+echo "DeepGEMM precompile finished at $(date)"
