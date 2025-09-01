@@ -1,1 +1,47 @@
+# System files
 *.DS_Store
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Log files
+*.log
+*.out
+*.err
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# SGLang cache
+.sglang_cache/
+
+# Build artifacts
+build/
+dist/
+
+# Job output files (keep in repository for analysis)
+# Uncomment if you want to exclude job outputs:
+# *.o*
+# stdout.*
+# stderr.*
+
+# Environment files
+.env
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test output files in /tmp
+**/test_*.json
+**/test_*.pbs

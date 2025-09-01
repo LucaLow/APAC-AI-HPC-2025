@@ -1,0 +1,72 @@
+#!/bin/bash
+#PBS -P 50000097
+#PBS -l walltime=420
+#PBS -l select=2:ncpus=112:ngpus=8:mpiprocs=8:mem=1880gb
+#PBS -j oe
+#PBS -M oculus.quest11@gmail.com
+#PBS -m abe
+##PBS -l other=hyperthread
+
+module load cuda
+
+# Enhanced NCCL configuration for optimal communication
+export NCCL_DEBUG=WARN
+export NCCL_IB_HCA=mlx5_0:1,mlx5_1:1,mlx5_3:1,mlx5_4:1,mlx5_5:1,mlx5_6:1,mlx5_9:1,mlx5_10:1,mlx5_11:1
+export NCCL_NET=IB
+export NCCL_IB_PCI_RELAXED_ORDERING=1
+export NCCL_TREE_THRESHOLD=0
+export NCCL_ALGO=Tree
+export NCCL_NET_GDR_LEVEL=5
+export NCCL_NET_GDR_READ=1
+
+# Memory and environment optimization
+export HF_HOME=$HOME/scratch/hf_home
+export HUGGINGFACE_HUB_CACHE=$HOME/scratch/hf_home/hub
+export TRANSFORMERS_OFFLINE=1
+export HF_HUB_OFFLINE=1
+export HF_HUB_DISABLE_TELEMETRY=1
+
+echo "=== Competition Configuration ==="
+echo "Job ID: $PBS_JOBID"
+echo "Nodes: $(cat $PBS_NODEFILE | wc -l)"
+echo "GPUs: 16 (8 per node)"
+echo "Model: DeepSeek-R1"
+echo "Prompts: 2000"
+echo "Time Limit: 420 seconds"
+echo "Started: $(date)"
+echo "==============================="
+
+time /usr/mpi/gcc/openmpi-4.1.7a1/bin/mpirun \
+-hostfile $PBS_NODEFILE \
+-map-by ppr:1:node:PE=112 -oversubscribe -use-hwthread-cpus \
+-bind-to none --report-bindings -display-map \
+-tag-output -output-filename $HOME/run/sglang.$PBS_JOBID \
+-x PATH \
+-x NCCL_DEBUG -x NCCL_IB_HCA -x NCCL_NET -x NCCL_IB_PCI_RELAXED_ORDERING \
+-x NCCL_TREE_THRESHOLD -x NCCL_ALGO -x NCCL_NET_GDR_LEVEL -x NCCL_NET_GDR_READ \
+-x HF_HOME -x HUGGINGFACE_HUB_CACHE -x TRANSFORMERS_OFFLINE -x HF_HUB_OFFLINE -x HF_HUB_DISABLE_TELEMETRY \
+-x DIST_INIT_ADDR=$(head -n 1 $PBS_NODEFILE) \
+bash -c 'echo "Node $OMPI_COMM_WORLD_RANK starting at $(date)"; time $HOME/scratch/py312/bin/python3 -m sglang.bench_offline_throughput \
+    --model-path $HOME/scratch/models/DeepSeek-R1 \
+    --dataset-path $HOME/scratch/ShareGPT_V3_unfiltered_cleaned_split.json \
+    --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 \
+    --tp 16 --nnodes 2 --trust-remote-code \
+    --dist-init-addr $DIST_INIT_ADDR:5000 --node-rank $OMPI_COMM_WORLD_RANK \
+    --mem-fraction-static 0.8 \
+    --kv-cache-dtype fp8_e5m2 \
+    --chunked-prefill-size 4096 \
+    --max-prefill-tokens 8192 \
+    --cuda-graph-max-bs 64 \
+    --cuda-graph-bs 8,16,32,64 \
+    --attention-backend flashinfer \
+    --enable-mixed-chunk \
+    --num-continuous-decode-steps 2 \
+    --max-running-requests 128 \
+    --max-total-tokens 1048576 \
+    --page-size 16 \
+    --schedule-conservativeness 0.8'
+
+echo "=== Job Completed ==="
+echo "Finished: $(date)"
+echo "Job ID: $PBS_JOBID"
+echo "===================="
