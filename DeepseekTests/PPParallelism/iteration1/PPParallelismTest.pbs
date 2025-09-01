@@ -23,5 +23,5 @@ bash -c 'time $HOME/scratch/py312/bin/python3 \
 --model-path deepseek-ai/DeepSeek-R1 \
 --dataset-path $HOME/scratch/ShareGPT_V3_unfiltered_cleaned_split.json \
 --num-prompts 100 --load-format dummy \
---tp 16 --nnodes 2 --trust-remote-code \
+--tp 8 --pp 2 --nnodes 2 --trust-remote-code \
 --dist-init-addr $DIST_INIT_ADDR:5000 --node-rank $OMPI_COMM_WORLD_RANK'
