@@ -336,8 +336,8 @@ Consult the sections below and [`server_args.py`](https://github.com/sgl-project
 | `--disable-cuda-graph`               | Disable CUDA graph.                                                                                  | `False` |
 | `--disable-cuda-graph-padding`       | Disable CUDA graph when padding needed.                                                              | `False` |
 | `--enable-profile-cuda-graph`        | Profile CUDA graph capture.                                                                          | `False` |
-| `--enable-nccl-nvls`                 | Enable NCCL NVLS (prefill-heavy requests).                                                           | `False` |
-| `--enable-symm-mem`                  | Enable NCCL symmetric memory.                                                                        | `False` |
+| `--enable-nccl-nvls` 82752.pbs111    | Enable NCCL NVLS (prefill-heavy requests).                                                           | `False` |
+| `--enable-symm-mem`  82752.pbs111    | Enable NCCL symmetric memory.                                                                        | `False` |
 | `--enable-tokenizer-batch-encode`    | Batch tokenization (avoid with images/pre-tokenized/embeds).                                         | `False` |
 | `--disable-outlines-disk-cache`      | Disable outlines disk cache.                                                                         | `False` |
 | `--disable-custom-all-reduce`        | Fall back to NCCL for all-reduce.                                                                    | `False` |
