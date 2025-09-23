@@ -2,3 +2,6 @@
 	path = 2025-APAC-HPC-AI
 	url = https://github.com/hpcac/2025-APAC-HPC-AI
 	branch = main
+[submodule "lm-sys.github.io"]
+	path = lm-sys.github.io
+	url = https://github.com/lm-sys/lm-sys.github.io

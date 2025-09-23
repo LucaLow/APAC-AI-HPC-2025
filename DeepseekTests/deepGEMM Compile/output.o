@@ -1,0 +1,614 @@
+Warning: Permanently added 'a2ap-dgx016' (ED25519) to the list of known hosts.
+ Data for JOB [1207,1] offset 0 Total slots allocated 16
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx010	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [1207,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx016	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [1207,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [1207,1] offset 0 Total slots allocated 16
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx010	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [1207,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx016	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [1207,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:01.564000 467990 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:01.564000 467990 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:02.758000 522782 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:02.758000 522782 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:A new version of the following files was downloaded from https://huggingface.co/deepseek-ai/DeepSeek-V3:
+[1,0]<stderr>:- configuration_deepseek.py
+[1,0]<stderr>:. Make sure to double-check they do not contain any added malicious code. To avoid downloading new versions of the code file, you can pin a revision.
+[1,0]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues.
+[1,0]<stdout>:Disable CUDA Graph and Torch Compile to save time...
+[1,0]<stdout>:Begin DeepGEMM Kernels compilation...
+[1,0]<stdout>:It may take a long time and timeout maybe raised while the compilation is still in progress.
+[1,0]<stdout>:Just feel free to restart the command until the compilation is fully finished.
+[1,0]<stdout>:
+[1,1]<stderr>:WARNING:sglang.srt.server_args:DP attention is enabled. The chunked prefill size is adjusted to 4096 to avoid MoE kernel issues.
+[1,1]<stdout>:Disable CUDA Graph and Torch Compile to save time...
+[1,1]<stdout>:Begin DeepGEMM Kernels compilation...
+[1,1]<stdout>:It may take a long time and timeout maybe raised while the compilation is still in progress.
+[1,1]<stdout>:Just feel free to restart the command until the compilation is fully finished.
+[1,1]<stdout>:
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:14.326000 468917 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:14.326000 468917 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-09-07 16:33:14] server_args=ServerArgs(model_path='deepseek-ai/DeepSeek-V3', tokenizer_path='deepseek-ai/DeepSeek-V3', tokenizer_mode='auto', skip_tokenizer_init=False, load_format='dummy', model_loader_extra_config='{}', trust_remote_code=True, context_length=None, is_embedding=False, enable_multimodal=None, revision=None, model_impl='auto', host='127.0.0.1', port=30000, skip_server_warmup=False, warmups='compile-deep-gemm', nccl_port=None, dtype='auto', quantization=None, quantization_param_path=None, kv_cache_dtype='auto', mem_fraction_static=0.73, max_running_requests=None, max_queued_requests=9223372036854775807, max_total_tokens=None, chunked_prefill_size=4096, max_prefill_tokens=16384, schedule_policy='fcfs', schedule_conservativeness=0.3, page_size=1, hybrid_kvcache_ratio=None, swa_full_tokens_ratio=0.8, disable_hybrid_swa_memory=False, device='cuda', tp_size=16, pp_size=1, max_micro_batch_size=None, stream_interval=1, stream_output=False, random_seed=355133861, constrained_json_whitespace_pattern=None, watchdog_timeout=3600, dist_timeout=None, download_dir=None, base_gpu_id=0, gpu_id_step=1, sleep_on_idle=False, log_level='info', log_level_http=None, log_requests=False, log_requests_level=2, crash_dump_folder=None, show_time_cost=False, enable_metrics=False, enable_metrics_for_all_schedulers=False, bucket_time_to_first_token=None, bucket_inter_token_latency=None, bucket_e2e_request_latency=None, collect_tokens_histogram=False, decode_log_interval=40, enable_request_time_stats_logging=False, kv_events_config=None, gc_warning_threshold_secs=0.0, api_key=None, served_model_name='deepseek-ai/DeepSeek-V3', weight_version='default', chat_template=None, completion_template=None, file_storage_path='sglang_storage', enable_cache_report=False, reasoning_parser=None, tool_call_parser=None, tool_server=None, dp_size=2, load_balance_method='round_robin', dist_init_addr='a2ap-dgx010.asp2p.nscc.sg:5000', nnodes=2, node_rank=0, json_model_override_args='{}', preferred_sampling_params=None, enable_lora=None, max_lora_rank=None, lora_target_modules=None, lora_paths=None, max_loaded_loras=None, max_loras_per_batch=8, lora_backend='triton', attention_backend=None, decode_attention_backend=None, prefill_attention_backend=None, sampling_backend='flashinfer', grammar_backend='xgrammar', mm_attention_backend=None, speculative_algorithm=None, speculative_draft_model_path=None, speculative_num_steps=None, speculative_eagle_topk=None, speculative_num_draft_tokens=None, speculative_accept_threshold_single=1.0, speculative_accept_threshold_acc=1.0, speculative_token_map=None, ep_size=1, moe_a2a_backend='none', moe_runner_backend='auto', flashinfer_mxfp4_moe_precision='default', enable_flashinfer_allreduce_fusion=False, deepep_mode='auto', ep_num_redundant_experts=0, ep_dispatch_algorithm='static', init_expert_location='trivial', enable_eplb=False, eplb_algorithm='auto', eplb_rebalance_num_iterations=1000, eplb_rebalance_layers_per_chunk=None, expert_distribution_recorder_mode=None, expert_distribution_recorder_buffer_size=1000, enable_expert_distribution_metrics=False, deepep_config=None, moe_dense_tp_size=None, enable_hierarchical_cache=False, hicache_ratio=2.0, hicache_size=0, hicache_write_policy='write_through_selective', hicache_io_backend='kernel', hicache_mem_layout='layer_first', hicache_storage_backend=None, hicache_storage_prefetch_policy='best_effort', hicache_storage_backend_extra_config=None, enable_double_sparsity=False, ds_channel_config_path=None, ds_heavy_channel_num=32, ds_heavy_token_num=256, ds_heavy_channel_type='qk', ds_sparse_decode_threshold=4096, cpu_offload_gb=0, offload_group_size=-1, offload_num_in_group=1, offload_prefetch_step=1, offload_mode='cpu', disable_radix_cache=False, cuda_graph_max_bs=None, cuda_graph_bs=None, disable_cuda_graph=True, disable_cuda_graph_padding=False, enable_profile_cuda_graph=False, enable_cudagraph_gc=False, enable_nccl_nvls=False, enable_symm_mem=False, disable_flashinfer_cutlass_moe_fp4_allgather=False, enable_tokenizer_batch_encode=False, disable_outlines_disk_cache=False, d[1,0]<stderr>:isable_custom_all_reduce=False, enable_mscclpp=False, disable_overlap_schedule=False, enable_mixed_chunk=False, enable_dp_attention=True, enable_dp_lm_head=True, enable_two_batch_overlap=False, tbo_token_distribution_threshold=0.48, enable_torch_compile=False, torch_compile_max_bs=32, torchao_config='', enable_nan_detection=False, enable_p2p_check=False, triton_attention_reduce_in_fp32=False, triton_attention_num_kv_splits=8, num_continuous_decode_steps=1, delete_ckpt_after_loading=False, enable_memory_saver=False, allow_auto_truncate=False, enable_custom_logit_processor=False, flashinfer_mla_disable_ragged=False, disable_shared_experts_fusion=False, disable_chunked_prefix_cache=False, disable_fast_image_processor=False, enable_return_hidden_states=False, scheduler_recv_interval=1, debug_tensor_dump_output_folder=None, debug_tensor_dump_input_file=None, debug_tensor_dump_inject=False, debug_tensor_dump_prefill_only=False, disaggregation_mode='null', disaggregation_transfer_backend='mooncake', disaggregation_bootstrap_port=8998, disaggregation_decode_tp=None, disaggregation_decode_dp=None, disaggregation_prefill_pp=1, disaggregation_ib_device=None, num_reserved_decode_tokens=512, pdlb_url=None, custom_weight_loader=[], weight_loader_disable_mmap=False, enable_pdmux=False, sm_group_num=3, enable_ep_moe=False, enable_deepep_moe=False, enable_flashinfer_cutlass_moe=False, enable_flashinfer_trtllm_moe=False, enable_triton_kernel_moe=False, enable_flashinfer_mxfp4_moe=False)
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:14.884000 523727 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:14.884000 523727 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:[2025-09-07 16:33:15] server_args=ServerArgs(model_path='deepseek-ai/DeepSeek-V3', tokenizer_path='deepseek-ai/DeepSeek-V3', tokenizer_mode='auto', skip_tokenizer_init=False, load_format='dummy', model_loader_extra_config='{}', trust_remote_code=True, context_length=None, is_embedding=False, enable_multimodal=None, revision=None, model_impl='auto', host='127.0.0.1', port=30000, skip_server_warmup=False, warmups='compile-deep-gemm', nccl_port=None, dtype='auto', quantization=None, quantization_param_path=None, kv_cache_dtype='auto', mem_fraction_static=0.73, max_running_requests=None, max_queued_requests=9223372036854775807, max_total_tokens=None, chunked_prefill_size=4096, max_prefill_tokens=16384, schedule_policy='fcfs', schedule_conservativeness=0.3, page_size=1, hybrid_kvcache_ratio=None, swa_full_tokens_ratio=0.8, disable_hybrid_swa_memory=False, device='cuda', tp_size=16, pp_size=1, max_micro_batch_size=None, stream_interval=1, stream_output=False, random_seed=633521176, constrained_json_whitespace_pattern=None, watchdog_timeout=3600, dist_timeout=None, download_dir=None, base_gpu_id=0, gpu_id_step=1, sleep_on_idle=False, log_level='info', log_level_http=None, log_requests=False, log_requests_level=2, crash_dump_folder=None, show_time_cost=False, enable_metrics=False, enable_metrics_for_all_schedulers=False, bucket_time_to_first_token=None, bucket_inter_token_latency=None, bucket_e2e_request_latency=None, collect_tokens_histogram=False, decode_log_interval=40, enable_request_time_stats_logging=False, kv_events_config=None, gc_warning_threshold_secs=0.0, api_key=None, served_model_name='deepseek-ai/DeepSeek-V3', weight_version='default', chat_template=None, completion_template=None, file_storage_path='sglang_storage', enable_cache_report=False, reasoning_parser=None, tool_call_parser=None, tool_server=None, dp_size=2, load_balance_method='round_robin', dist_init_addr='a2ap-dgx010.asp2p.nscc.sg:5000', nnodes=2, node_rank=1, json_model_override_args='{}', preferred_sampling_params=None, enable_lora=None, max_lora_rank=None, lora_target_modules=None, lora_paths=None, max_loaded_loras=None, max_loras_per_batch=8, lora_backend='triton', attention_backend=None, decode_attention_backend=None, prefill_attention_backend=None, sampling_backend='flashinfer', grammar_backend='xgrammar', mm_attention_backend=None, speculative_algorithm=None, speculative_draft_model_path=None, speculative_num_steps=None, speculative_eagle_topk=None, speculative_num_draft_tokens=None, speculative_accept_threshold_single=1.0, speculative_accept_threshold_acc=1.0, speculative_token_map=None, ep_size=1, moe_a2a_backend='none', moe_runner_backend='auto', flashinfer_mxfp4_moe_precision='default', enable_flashinfer_allreduce_fusion=False, deepep_mode='auto', ep_num_redundant_experts=0, ep_dispatch_algorithm='static', init_expert_location='trivial', enable_eplb=False, eplb_algorithm='auto', eplb_rebalance_num_iterations=1000, eplb_rebalance_layers_per_chunk=None, expert_distribution_recorder_mode=None, expert_distribution_recorder_buffer_size=1000, enable_expert_distribution_metrics=False, deepep_config=None, moe_dense_tp_size=None, enable_hierarchical_cache=False, hicache_ratio=2.0, hicache_size=0, hicache_write_policy='write_through_selective', hicache_io_backend='kernel', hicache_mem_layout='layer_first', hicache_storage_backend=None, hicache_storage_prefetch_policy='best_effort', hicache_storage_backend_extra_config=None, enable_double_sparsity=False, ds_channel_config_path=None, ds_heavy_channel_num=32, ds_heavy_token_num=256, ds_heavy_channel_type='qk', ds_sparse_decode_threshold=4096, cpu_offload_gb=0, offload_group_size=-1, offload_num_in_group=1, offload_prefetch_step=1, offload_mode='cpu', disable_radix_cache=False, cuda_graph_max_bs=None, cuda_graph_bs=None, disable_cuda_graph=True, disable_cuda_graph_padding=False, enable_profile_cuda_graph=False, enable_cudagraph_gc=False, enable_nccl_nvls=False, enable_symm_mem=False, disable_flashinfer_cutlass_moe_fp4_allgather=False, enable_tokenizer_batch_encode=False, disable_outlines_disk_cache=False, d[1,1]<stderr>:isable_custom_all_reduce=False, enable_mscclpp=False, disable_overlap_schedule=False, enable_mixed_chunk=False, enable_dp_attention=True, enable_dp_lm_head=True, enable_two_batch_overlap=False, tbo_token_distribution_threshold=0.48, enable_torch_compile=False, torch_compile_max_bs=32, torchao_config='', enable_nan_detection=False, enable_p2p_check=False, triton_attention_reduce_in_fp32=False, triton_attention_num_kv_splits=8, num_continuous_decode_steps=1, delete_ckpt_after_loading=False, enable_memory_saver=False, allow_auto_truncate=False, enable_custom_logit_processor=False, flashinfer_mla_disable_ragged=False, disable_shared_experts_fusion=False, disable_chunked_prefix_cache=False, disable_fast_image_processor=False, enable_return_hidden_states=False, scheduler_recv_interval=1, debug_tensor_dump_output_folder=None, debug_tensor_dump_input_file=None, debug_tensor_dump_inject=False, debug_tensor_dump_prefill_only=False, disaggregation_mode='null', disaggregation_transfer_backend='mooncake', disaggregation_bootstrap_port=8998, disaggregation_decode_tp=None, disaggregation_decode_dp=None, disaggregation_prefill_pp=1, disaggregation_ib_device=None, num_reserved_decode_tokens=512, pdlb_url=None, custom_weight_loader=[], weight_loader_disable_mmap=False, enable_pdmux=False, sm_group_num=3, enable_ep_moe=False, enable_deepep_moe=False, enable_flashinfer_cutlass_moe=False, enable_flashinfer_trtllm_moe=False, enable_triton_kernel_moe=False, enable_flashinfer_mxfp4_moe=False)
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:[2025-09-07 16:33:18] Using default HuggingFace chat template with detected content format: string
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:27.306000 469521 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:27.306000 469521 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0907 16:33:27.312000 469522 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:27.312000 469522 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:27.602000 524090 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:27.602000 524090 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:36.983000 524955 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:36.983000 524955 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:37.265000 470155 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:37.265000 470155 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:56.328000 470807 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:56.328000 470807 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:56.986000 470803 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:56.986000 470803 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:57.042000 525402 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:57.042000 525402 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:57.175000 470809 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:57.175000 470809 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:57.269000 470806 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:57.269000 470806 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0907 16:33:57.314000 470802 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:57.314000 470802 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:57.504000 470804 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:57.504000 470804 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,0]<stderr>:W0907 16:33:57.750000 470808 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:57.750000 470808 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0907 16:33:57.863000 470805 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0907 16:33:57.863000 470805 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:58.037000 525398 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.037000 525398 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:58.183000 525399 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.183000 525399 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:58.447000 525401 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.447000 525401 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W0907 16:33:58.474000 525405 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.474000 525405 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W0907 16:33:58.508000 525404 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.508000 525404 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:Warning: Missing operations: ['set_num_sms', 'get_num_sms', 'set_tc_util', 'get_tc_util', 'fp8_gemm_nt', 'fp8_gemm_nn', 'fp8_gemm_tn', 'fp8_gemm_tt', 'm_grouped_fp8_gemm_nt_contiguous', 'm_grouped_fp8_gemm_nn_contiguous', 'm_grouped_fp8_gemm_nt_masked', 'k_grouped_fp8_gemm_tn_contiguous', 'transform_sf_into_required_layout']
+[1,1]<stderr>:W0907 16:33:58.523000 525400 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.523000 525400 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W0907 16:33:58.643000 525403 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0907 16:33:58.643000 525403 /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:[2025-09-07 16:34:00 DP0 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,0]<stderr>:[2025-09-07 16:34:00 DP0 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>:[2025-09-07 16:34:00 DP0 TP0] Init torch distributed begin.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-09-07 16:34:03 DP0 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470802:470802 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470802:470802 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470809:470809 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470809:470809 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470806:470806 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470806:470806 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470805:470805 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470805:470805 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470804:470804 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470804:470804 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470808:470808 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470808:470808 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470807:470807 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470807:470807 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470803:470803 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-07 16:34:09] a2ap-dgx010:470803:470803 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525400:525400 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525400:525400 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525398:525398 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525398:525398 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525405:525405 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525405:525405 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525403:525403 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525403:525403 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525401:525401 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525401:525401 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525402:525402 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525402:525402 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525404:525404 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525404:525404 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525399:525399 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-07 16:34:10] a2ap-dgx016:525399:525399 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP3] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP1] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP0] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP2] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP15] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP14] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP13] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP11] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP10] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP9] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP12] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-07 16:34:11 DP1 TP8] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-09-07 16:34:11 DP0 TP0] sglang is using nccl==2.27.3
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,1]<stdout>:[Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+[1,0]<stderr>:[2025-09-07 16:34:14 DP0 TP0] Init torch distributed ends. mem usage=1.83 GB
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP1] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP7] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP0] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP5] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP4] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP3] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP2] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:15 DP0 TP6] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP13] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP11] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP12] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP15] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP8] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP10] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP14] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,1]<stderr>:[2025-09-07 16:34:15 DP1 TP9] Ignore import error when loading sglang.srt.models.glm4v_moe: No module named 'transformers.models.glm4v_moe'
+[1,0]<stderr>:[2025-09-07 16:34:16 DP0 TP0] Load weight begin. avail mem=76.72 GB
+[1,0]<stderr>:[2025-09-07 16:34:16 DP0 TP0] Detected fp8 checkpoint.
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=33.47 GB, mem usage=43.25 GB.
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP14] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP15] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP11] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP8] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP3] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP6] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP7] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP13] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP10] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP2] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP1] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP4] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP0] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP0] Memory pool end. avail mem=19.56 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP9] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:17 DP0 TP5] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,1]<stderr>:[2025-09-07 16:34:17 DP1 TP12] KV Cache is allocated. #tokens: 194811, KV size: 12.75 GB
+[1,0]<stderr>:[2025-09-07 16:34:19 DP0 TP0] max_total_num_tokens=194811, chunked_prefill_size=4096, max_prefill_tokens=16384, max_running_requests=2048, context_len=163840, available_gpu_mem=19.50 GB
+[1,1]<stderr>:[2025-09-07 16:34:19] Starting dummy health check server at 127.0.0.1:30000
+[1,0]<stderr>:[2025-09-07 16:34:19] INFO:     Started server process [468917]
+[1,0]<stderr>:[2025-09-07 16:34:19] INFO:     Waiting for application startup.
+[1,0]<stderr>:[2025-09-07 16:34:20] Running warmup compile-deep-gemm
+[1,0]<stdout>:
+[1,0]<stdout>:Generate warm up request for compiling DeepGEMM...
+[1,0]<stdout>:
+[1,0]<stderr>:[2025-09-07 16:34:20 DP0 TP0] Prefill batch. #new-seq: 1, #new-token: 4, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0,
+[1,0]<stderr>:[2025-09-07 16:34:22 DP0 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2112, K=7168, num_groups=1 with all Ms.
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][1,0]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4099.48it/s][1,0]<stderr>:
+[1,0]<stderr>:[2025-09-07 16:34:26 DP0 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=3072, K=1536, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 7741.15it/s][1,0]<stderr>::
+[1,0]<stderr>:[2025-09-07 16:34:28 DP0 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=4096, K=512, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:55<00:00, 294.50it/s] [1,0]<stderr>:
+[1,0]<stderr>:[2025-09-07 16:35:24 DP0 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=2048, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4613.83it/s][1,0]<stderr>:
+[1,1]<stderr>:[2025-09-07 16:35:30 DP1 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2304, K=7168, num_groups=1 with all Ms.
+DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+[1,1]<stdout>:Warning: please use at least NVCC 12.9 for the best DeepGEMM performance
+DeepGEMM warmup:   1%|          | 193/16384 [00:00<00:10, 1524.84it/s][1,0]<stderr>:[2025-09-07 16:35:30 DP0 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2304, K=7168, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4183.73it/s][1,1]<stderr>:
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4405.64it/s]
+[1,1]<stderr>:[2025-09-07 16:35:34 DP1 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1152, num_groups=1 with all Ms.
+DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][1,0]<stderr>:[2025-09-07 16:35:34 DP0 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1152, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 6848.26it/s][1,0]<stderr>:
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 6830.57it/s]
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP1] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP5] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP4] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP12] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP11] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP9] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP2] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP0] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP8] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP6] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP15] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP14] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP3] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,0]<stderr>:[2025-09-07 16:35:37 DP0 TP7] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP13] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stderr>:[2025-09-07 16:35:37 DP1 TP10] Config file not found at /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.2.0 and use MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/.venv/lib/python3.10/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_2_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+[1,1]<stdout>:NCCL version 2.27.3+cuda12.9
+[1,0]<stderr>:[2025-09-07 16:35:43] Warmup ended
+[1,0]<stderr>:[2025-09-07 16:35:43] INFO:     Application startup complete.
+[1,0]<stderr>:[2025-09-07 16:35:43] INFO:     Uvicorn running on http://127.0.0.1:30000 (Press CTRL+C to quit)
+[1,0]<stdout>:[2025-09-07 16:35:44] INFO:     127.0.0.1:45000 - "GET /v1/models HTTP/1.1" 200 OK
+[1,1]<stderr>:[2025-09-07 16:35:44 DP1 TP8] Prefill batch. #new-seq: 1, #new-token: 4, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0,
+[1,0]<stdout>:[2025-09-07 16:35:44] INFO:     127.0.0.1:45016 - "GET /get_model_info HTTP/1.1" 200 OK
+[1,1]<stderr>:[2025-09-07 16:35:44 DP1 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2112, K=7168, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4902.75it/s][1,1]<stderr>:
+[1,1]<stderr>:[2025-09-07 16:35:48 DP1 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=3072, K=1536, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 10698.23it/s][1,1]<stderr>:
+[1,1]<stderr>:[2025-09-07 16:35:49 DP1 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=4096, K=512, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 15820.30it/s][1,1]<stderr>:
+[1,1]<stderr>:[2025-09-07 16:35:50 DP1 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=2048, num_groups=1 with all Ms.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 5046.79it/s][1,1]<stderr>:
+[1,0]<stderr>:[2025-09-07 16:35:55 DP0 TP0] Prefill batch. #new-seq: 1, #new-token: 6, #cached-token: 1, token usage: 0.00, #running-req: 0, #queue-req: 0,
+[1,1]<stderr>:[2025-09-07 16:35:55 DP1 TP8] Prefill batch. #new-seq: 1, #new-token: 6, #cached-token: 1, token usage: 0.00, #running-req: 1, #queue-req: 0,
+[1,0]<stdout>:[2025-09-07 16:35:58] INFO:     127.0.0.1:45012 - "POST /generate HTTP/1.1" 200 OK
+[1,0]<stdout>:
+[1,0]<stdout>:DeepGEMM Kernels compilation finished successfully.
+[1,0]<stdout>:[2025-09-07 16:35:58] INFO:     127.0.0.1:45026 - "POST /generate HTTP/1.1" 200 OK
+[1,0]<stderr>:[2025-09-07 16:35:58] The server is fired up and ready to roll!
+[1,1]<stderr>:[rank15]:[W907 16:36:09.266785810 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=99, addr=[a2ap-dgx016.asp2p.nscc.sg]:51682, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank9]:[W907 16:36:09.266739760 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx016.asp2p.nscc.sg]:51648, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank14]:[W907 16:36:09.266752716 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=99, addr=[a2ap-dgx016.asp2p.nscc.sg]:51656, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/dis[1,1]<stderr>:tributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank10]:[W907 16:36:09.266741673 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx016.asp2p.nscc.sg]:51668, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank13]:[W907 16:36:09.266737954 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=100, addr=[a2ap-dgx016.asp2p.nscc.sg]:51680, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv[1,1]<stderr>:/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank12]:[W907 16:36:09.266744513 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=102, addr=[a2ap-dgx016.asp2p.nscc.sg]:51634, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank8]:[W907 16:36:09.266728127 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=114, addr=[a2ap-dgx016.asp2p.nscc.sg]:51624, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0[1,1]<stderr>:x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank11]:[W907 16:36:09.266764626 TCPStore.cpp:125] [c10d] recvValue failed on SocketImpl(fd=101, addr=[a2ap-dgx016.asp2p.nscc.sg]:51684, remote=[a2ap-dgx010.asp2p.nscc.sg]:5000): Connection reset by peer
+[1,1]<stderr>:Exception raised from recvBytes at /pytorch/torch/csrc/distributed/c10d/Utils.hpp:679 (most recent call first):
+[1,1]<stderr>:frame #0: c10::Error::Error(c10::SourceLocation, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) + 0x80 (0x7ffe75ad9eb0 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libc10.so)
+[1,1]<stderr>:frame #1: <unknown function> + 0x5d694f1 (0x7ffe5e9e94f1 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #2: <unknown function> + 0x5d6a953 (0x7ffe5e9ea953 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #3: <unknown function> + 0x5d6b49a (0x7ffe5e9eb49a in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #4: c10d::TCPStore::check(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) + 0x31e (0x7ffe5e9e61be in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cpu.so)
+[1,1]<stderr>:frame #5: c10d::ProcessGroupNCCL::HeartbeatMonitor::runLoop() + 0x398 (0x7ffe20aff0c8 in /home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/lib/libtorch_cuda.so)
+[1,1]<stderr>:frame #6: <unknown function> + 0xdc253 (0x7ffff518a253 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+[1,1]<stderr>:frame #7: <unknown function> + 0x94ac3 (0x7ffff7ce3ac3 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:frame #8: <unknown function> + 0x126850 (0x7ffff7d75850 in /lib/x86_64-linux-gnu/libc.so.6)
+[1,1]<stderr>:
+[1,1]<stderr>:[rank12]:[W907 16:36:09.272819257 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 12] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank9]:[W907 16:36:09.272808830 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 9] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank8]:[W907 16:36:09.272825713 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 8] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank10]:[W907 16:36:09.272832120 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 10] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank13]:[W907 16:36:09.272838614 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 13] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank11]:[W907 16:36:09.272828642 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 11] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank14]:[W907 16:36:09.272828019 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 14] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[rank15]:[W907 16:36:09.272837565 ProcessGroupNCCL.cpp:1783] [PG ID 0 PG GUID 0 Rank 15] Failed to check the "should dump" flag on TCPStore, (maybe TCPStore server has shut down too early), with error: Connection reset by peer
+[1,1]<stderr>:[2025-09-07 16:36:10 DP1 TP8] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 2635, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 809, in event_loop_overlap
+[1,1]<stderr>:    batch = self.get_next_batch_to_run()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 1560, in get_next_batch_to_run
+[1,1]<stderr>:    ret = self.prepare_mlp_sync_batch(ret)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 1871, in prepare_mlp_sync_batch
+[1,1]<stderr>:    return self.prepare_mlp_sync_batch_raw(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 2031, in prepare_mlp_sync_batch_raw
+[1,1]<stderr>:    torch.distributed.all_gather_into_tensor(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 3993, in all_gather_into_tensor
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:535] Read error [10.104.4.84]:8604: Connection reset by peer
+[1,1]<stderr>:
+[1,1]<stderr>:[2025-09-07 16:36:10 DP1 TP15] Scheduler hit an exception: Traceback (most recent call last):
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 2635, in run_scheduler_process
+[1,1]<stderr>:    scheduler.event_loop_overlap()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 809, in event_loop_overlap
+[1,1]<stderr>:    batch = self.get_next_batch_to_run()
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 1560, in get_next_batch_to_run
+[1,1]<stderr>:    ret = self.prepare_mlp_sync_batch(ret)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 1871, in prepare_mlp_sync_batch
+[1,1]<stderr>:    return self.prepare_mlp_sync_batch_raw(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/sglang/srt/managers/scheduler.py", line 2031, in prepare_mlp_sync_batch_raw
+[1,1]<stderr>:    torch.distributed.all_gather_into_tensor(
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+[1,1]<stderr>:    return func(*args, **kwargs)
+[1,1]<stderr>:  File "/home/users/industry/ai-hpc/apacsc03/scratch/.venv/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py", line 3993, in all_gather_into_tensor
+[1,1]<stderr>:    work.wait()
+[1,1]<stderr>:RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:535] Read error [10.104.4.84]:26033: Connection reset by peer
+[1,1]<stderr>:
+[1,0]<stderr>:/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 9 leaked semaphore objects to clean up at shutdown
+[1,0]<stderr>:  warnings.warn('resource_tracker: There appear to be %d '
+[1,0]<stderr>:/usr/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked shared_memory objects to clean up at shutdown
+[1,0]<stderr>:  warnings.warn('resource_tracker: There appear to be %d '
+[1,0]<stderr>:
+[1,0]<stderr>:real	3m37.204s
+[1,0]<stderr>:user	0m55.551s
+[1,0]<stderr>:sys	0m13.483s

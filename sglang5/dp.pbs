@@ -1,0 +1,43 @@
+#!/bin/bash
+#PBS -P 50000097
+#PBS -l walltime=660
+#PBS -l select=2:ncpus=112:ngpus=8:mpiprocs=8:mem=1880gb
+#PBS -j oe
+#PBS -M oculus.quest11@gmail.com
+#PBS -m abe
+##PBS -l other=hyperthread
+
+# module load cuda
+
+export PATH="$CUDA_HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
+export VENV="$HOME/scratch/py312"
+export CUDA_HOME="$HOME/cuda-12.9"
+
+export LD_LIBRARY_PATH="$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
+export PATH="$VENV/bin:$PATH"
+export PATH="$CUDA_HOME/bin:$PATH"
+
+which nvcc || true
+nvcc --version || true
+nvidia-smi -L || true
+which ninja || true
+ninja --version || true
+
+time /usr/mpi/gcc/openmpi-4.1.7a1/bin/mpirun \
+-hostfile ${PBS_NODEFILE} \
+-map-by ppr:1:node:PE=112 -oversubscribe -use-hwthread-cpus \
+-bind-to none --report-bindings -display-map \
+-tag-output -output-filename ${HOME}/run/sglang.${PBS_JOBID} \
+-x PATH=$HOME/scratch/py312/bin:$PATH \
+-x NCCL_DEBUG=INFO \
+-x DIST_INIT_ADDR=$(head -n 1 $PBS_NODEFILE) \
+bash -c 'time ${HOME}/scratch/py312/bin/python3 \
+-m sglang.bench_offline_throughput \
+--model-path deepseek-ai/DeepSeek-R1 \
+--dataset-path ${HOME}/scratch/ShareGPT_V3_unfiltered_cleaned_split.json \
+--num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 \
+--tp-size 16 --nnodes 2 --trust-remote-code \
+--enable-dp-attention --dp-size 2 \
+--dist-init-addr ${DIST_INIT_ADDR}:5000 --node-rank ${OMPI_COMM_WORLD_RANK}' \
+2>&1 | tee ${HOME}/run/stdout.sglang.${PBS_JOBID}

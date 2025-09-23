@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -P 50000097
+#PBS -l walltime=420
+#PBS -l select=2:ncpus=112:ngpus=8:mpiprocs=8:mem=1880gb
+#PBS -j oe
+module load cuda
+
+export DIST_INIT_ADDR=$(head -n 1 $PBS_NODEFILE)
+
+# (Optional) IB / NCCL hygiene
+export NCCL_DEBUG=WARN
+export NCCL_NET=IB
+export NCCL_IB_PCI_RELAXED_ORDERING=1
+export NCCL_SHM_DISABLE=1
+export NCCL_CROSS_NIC=1
+
+time /usr/mpi/gcc/openmpi-4.1.7a1/bin/mpirun \
+  -hostfile $PBS_NODEFILE \
+  -map-by ppr:1:node:PE=112 -oversubscribe -use-hwthread-cpus \
+  -bind-to none --report-bindings -display-map \
+  -tag-output -output-filename ${HOME}/run/sglang.${PBS_JOBID} \
+  -x PATH -x NCCL_DEBUG -x NCCL_NET -x NCCL_IB_PCI_RELAXED_ORDERING -x NCCL_SHM_DISABLE -x NCCL_CROSS_NIC \
+  -x HF_HOME=$HOME/scratch/.cache/hf \
+  -x DIST_INIT_ADDR \
+  bash -c 'time ${HOME}/scratch/.venv/bin/python3 -m sglang.bench_offline_throughput \
+    --model-path deepseek-ai/DeepSeek-R1 \
+    --dataset-path ${HOME}/scratch/ShareGPT_V3_unfiltered_cleaned_split.json \
+    --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 \
+    --tp 16 --dp 2 --enable-dp-attention --enable-dp-lm-head \
+    --nnodes 2 --trust-remote-code \
+    --chunked-prefill-size 4096 \
+    --dist-init-addr ${DIST_INIT_ADDR}:5000 --node-rank ${OMPI_COMM_WORLD_RANK} \
+    --max-running-requests 2048 --schedule-conservativeness 0.6' \
+  2>&1 | tee ${HOME}/run/stdout.sglang.${PBS_JOBID}

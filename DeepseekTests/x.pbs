@@ -1,0 +1,20 @@
+[1,0]<stdout>:====== Offline Throughput Benchmark Result =======
+[1,0]<stdout>:Backend:                                 engine
+[1,0]<stdout>:Successful requests:                     2000
+[1,0]<stdout>:Benchmark duration (s):                  170.85
+[1,0]<stdout>:Total input tokens:                      626729
+[1,0]<stdout>:Total generated tokens:                  388685
+[1,0]<stdout>:Last generation throughput (tok/s):      33.78
+[1,0]<stdout>:Request throughput (req/s):              11.71
+[1,0]<stdout>:Input token throughput (tok/s):          3668.28
+[1,0]<stdout>:Output token throughput (tok/s):         2275.00
+[1,0]<stdout>:Total token throughput (tok/s):          5943.28
+[1,0]<stdout>:==================================================
+
+
+
+archive-v0    .gitignore      old_venv.txt                               simple-v16  .tmp3uBuOy  .tmp9nznxf  .tmpDHEmyk  .tmpenrJgE  .tmpfS4TOc  .tmph5rQ20  .tmpIlgLja  .tmpJoJiG1  .tmplR2xXr  .tmpN3PoQL  .tmpOggKnW  .tmpQahNbG  .tmprjhC2z  .tmpSTWoAL  .tmpUD6EVV  .tmpvuHzA3  .tmpxCY0bd  .tmpYXnVan  .tmpzRzyza
+builds-v0     hf_home                                               .tmp0pxjy6  .tmp4kqchG  .tmpb1mgDO  .tmpdJwxj3  .tmpEQxUlH  .tmpfzKdyT  .tmpHGKvQk  .tmpj2Kgoo  .tmpJrkMvP  .tmplVhFQx  .tmpN4t7iS  .tmpOoukQP  .tmpQCpbOH  .tmprqQdML  .tmpT9Aj8K  .tmpuLcugP  .tmpw5M40w  .tmpXqbqzs  .tmpz079xy  .tmpZYAvPz
+.cache        interpreter-v4  py312_new_sglang                           .tmp1w9eMa  .tmp567sLS  .tmpbaEx3e  .tmpDupZDC  .tmpEtzXCC  .tmpgBKCNQ  .tmphHVb41  .tmpjBeTyG  .tmpKYD0C4  .tmpLwfscI  .tmpN8WlT1  .tmpOVQKrr  .tmpQe1j5D  .tmps3UlAc  .tmpTeG65D  .tmpVcXbi1  .tmpwEy0CE  .tmpxRJWIa  .tmpZf2r95  .venv
+CACHEDIR.TAG  models          sdists-v9                                  .tmp2W4v6K  .tmp5PTc6W  .tmpBwgz8J  .tmpDzP9cp  .tmpEVpW57  .tmpgfFKu2  .tmpIAlxN1  .tmpJixP4e  .tmplMBh2g  .tmpm1BnsP  .tmpncSCqr  .tmpq2bauq  .tmpqtSmHV  .tmpShJbpW  .tmpTnuBTK  .tmpVfKUb0  .tmpwOtXkt  .tmpxtjrJy  .tmpZJvbox  wheels-v5
+env_check.sh  new_venv.txt    ShareGPT_V3_unfiltered_cleaned_split.json
