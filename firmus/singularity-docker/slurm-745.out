@@ -1,0 +1,128 @@
+DIST_INIT_ADDR=g1
+NODE0=g1 NODE1=g2
+Waiting for servers to be ready...
+0: TRITON_CACHE_DIR=/tmp/triton/745/node0/rank0
+1: TRITON_CACHE_DIR=/tmp/triton/745/node1/rank1
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: NCCL version 2.27.3+cuda12.9
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: [2025-10-01 09:44:03] INFO:     127.0.0.1:60490 - "GET /get_model_info HTTP/1.1" 200 OK
+0: [2025-10-01 09:44:03] INFO:     127.0.0.1:45864 - "GET /get_model_info HTTP/1.1" 200 OK
+0: [2025-10-01 09:44:04] INFO:     198.18.151.51:56876 - "GET /health HTTP/1.1" 503 Service Unavailable
+1: [2025-10-01 09:44:04] INFO:     127.0.0.1:60504 - "POST /generate HTTP/1.1" 200 OK
+0: [2025-10-01 09:44:05] INFO:     127.0.0.1:45870 - "POST /generate HTTP/1.1" 200 OK
+0: [2025-10-01 09:44:07] INFO:     198.18.151.51:56886 - "GET /health HTTP/1.1" 200 OK
+1: [2025-10-01 09:44:08] INFO:     198.18.151.51:57154 - "GET /health HTTP/1.1" 200 OK
+Servers healthy.
+Starting router on g1 (port 31000)...
+[2m2025-10-01 01:44:09[0m [32m INFO[0m [2msglang_router_rs::server[0m[2m:[0m [2msrc/server.rs[0m[2m:[0m[2m568:[0m Starting router on 0.0.0.0:31000 | mode: Regular { worker_urls: ["http://g1:30000", "http://g2:30000"] } | policy: CacheAware { cache_threshold: 0.3, balance_abs_threshold: 64, balance_rel_threshold: 1.5, eviction_interval_secs: 120, max_tree_size: 67108864 } | max_payload: 512MB
+[2m2025-10-01 01:44:09[0m [32m INFO[0m [2msglang_router_rs::server[0m[2m:[0m [2msrc/server.rs[0m[2m:[0m[2m661:[0m Single router mode (enable_igw=false)
+[2m2025-10-01 01:44:09[0m [32m INFO[0m [2msglang_router_rs::routers::http::router[0m[2m:[0m [2msrc/routers/http/router.rs[0m[2m:[0m[2m202:[0m Waiting for 2 workers to become healthy (timeout: 600s)
+0: [2025-10-01 09:44:10] INFO:     198.18.151.51:58480 - "GET /health HTTP/1.1" 200 OK
+1: [2025-10-01 09:44:10] INFO:     198.18.151.51:60500 - "GET /health HTTP/1.1" 200 OK
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::routers::http::router[0m[2m:[0m [2msrc/routers/http/router.rs[0m[2m:[0m[2m273:[0m All 2 workers are healthy
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::policies::registry[0m[2m:[0m [2msrc/policies/registry.rs[0m[2m:[0m[2m83:[0m Assigning policy cache_aware to new model unknown
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::server[0m[2m:[0m [2msrc/server.rs[0m[2m:[0m[2m673:[0m Started health checker for workers with 60s interval
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::server[0m[2m:[0m [2msrc/server.rs[0m[2m:[0m[2m688:[0m Started request queue with size: 100, timeout: 60s
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::middleware[0m[2m:[0m [2msrc/middleware.rs[0m[2m:[0m[2m335:[0m Starting concurrency queue processor
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::server[0m[2m:[0m [2msrc/server.rs[0m[2m:[0m[2m724:[0m Router ready | workers: ["http://g1:30000", "http://g2:30000"]
+[2m2025-10-01 01:44:10[0m [32m INFO[0m [2msglang_router_rs::server[0m[2m:[0m [2msrc/server.rs[0m[2m:[0m[2m748:[0m Starting server on 0.0.0.0:31000
+0: [2025-10-01 09:44:11] INFO:     198.18.151.51:58490 - "GET /health HTTP/1.1" 200 OK
+1: [2025-10-01 09:44:12] INFO:     198.18.151.51:60514 - "GET /health HTTP/1.1" 200 OK

@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -P 50000097
+#PBS -l walltime=300
+#PBS -l select=2:ncpus=112:ngpus=8:mpiprocs=8:mem=1880gb
+#PBS -j oe
+#PBS -M oculus.quest11@gmail.com
+#PBS -m abe
+##PBS -l other=hyperthread
+#mpirun -hostfile $PBS_NODEFILE -display-map -tag-output -output-filename $HOME/env --map-by ppr:1:node env
+
+module load cuda
+
+time /usr/mpi/gcc/openmpi-4.1.7a1/bin/mpirun \
+-hostfile $PBS_NODEFILE \
+-map-by ppr:1:node:PE=112 -oversubscribe -use-hwthread-cpus \
+-bind-to none --report-bindings -display-map \
+-tag-output -output-filename $HOME/run/sglang.$PBS_JOBID \
+-x PATH \
+-x NCCL_DEBUG=WARN \
+-x DIST_INIT_ADDR=$(head -n 1 $PBS_NODEFILE) \
+bash -c 'time $HOME/scratch/py312/bin/python3 \
+-m sglang.bench_offline_throughput \
+--model-path deepseek-ai/DeepSeek-R1 \
+--dataset-path $HOME/scratch/ShareGPT_V3_unfiltered_cleaned_split.json \
+--num-prompts 100 --load-format dummy \
+--tp 16 --enable-dp-attention --dp 2 --ep-size 8 --nnodes 2 --trust-remote-code \
+--dist-init-addr $DIST_INIT_ADDR:5000 --node-rank $OMPI_COMM_WORLD_RANK'

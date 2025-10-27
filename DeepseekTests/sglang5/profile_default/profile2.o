@@ -1,0 +1,849 @@
+apacsc03@a2ap-login01:~$ cat profile.pbs.o88901
+/home/users/industry/ai-hpc/apacsc03/cuda-12.9/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2025 NVIDIA Corporation
+Built on Wed_Apr__9_19:24:57_PDT_2025
+Cuda compilation tools, release 12.9, V12.9.41
+Build cuda_12.9.r12.9/compiler.35813241_0
+GPU 0: NVIDIA H100 80GB HBM3 (UUID: GPU-6a20ace4-12a1-1ee7-8e6b-3c5ff298ccc7)
+GPU 1: NVIDIA H100 80GB HBM3 (UUID: GPU-3e5bbbad-0910-8063-9a32-70d2b144fd63)
+GPU 2: NVIDIA H100 80GB HBM3 (UUID: GPU-a94a8f47-e62c-ad3e-6533-86aadab994bf)
+GPU 3: NVIDIA H100 80GB HBM3 (UUID: GPU-ec0451fb-477e-d909-4797-70a1350fc0b2)
+GPU 4: NVIDIA H100 80GB HBM3 (UUID: GPU-f815991b-d244-ee38-9d62-2c6241eaf2d6)
+GPU 5: NVIDIA H100 80GB HBM3 (UUID: GPU-740454f1-f45d-7286-aadb-97c99ea6fa2c)
+GPU 6: NVIDIA H100 80GB HBM3 (UUID: GPU-53d702a4-fa2d-0e6a-d932-f794611dba38)
+GPU 7: NVIDIA H100 80GB HBM3 (UUID: GPU-d86409d7-9cf0-c5c6-b0ea-1ca6e53c0373)
+/home/users/industry/ai-hpc/apacsc03/scratch/py312/bin/ninja
+1.13.0.git.kitware.jobserver-pipe-1
+ Data for JOB [49419,1] offset 0 Total slots allocated 16
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx006	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [49419,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx019	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [49419,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+ Data for JOB [49419,1] offset 0 Total slots allocated 16
+
+ ========================   JOB MAP   ========================
+
+ Data for node: a2ap-dgx006	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [49419,1] App: 0 Process rank: 0 Bound: N/A
+
+ Data for node: a2ap-dgx019	Num slots: 8	Max slots: 0	Num procs: 1
+ 	Process OMPI jobid: [49419,1] App: 0 Process rank: 1 Bound: N/A
+
+ =============================================================
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stderr>:W0922 17:56:14.898000 2879246 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:14.898000 2879246 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:[2025-09-22 17:56:19] Using default HuggingFace chat template with detected content format: string
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,0]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:32.681000 70475 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:32.681000 70475 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,1]<stderr>:/home/users/industry/ai-hpc/apacsc03/scratch/py312/lib/python3.12/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+[1,1]<stderr>:  import pynvml  # type: ignore[import]
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stderr>:W0922 17:56:40.550000 2880198 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:40.550000 2880198 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stderr>:W0922 17:56:40.678000 2880196 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:40.678000 2880196 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0922 17:56:40.687000 2880199 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:40.687000 2880199 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0922 17:56:40.695000 2880200 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:40.695000 2880200 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0922 17:56:40.792000 2880195 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:40.792000 2880195 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stderr>:W0922 17:56:41.182000 2880197 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:41.182000 2880197 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stdout>:All deep_gemm operations loaded successfully!
+[1,0]<stderr>:W0922 17:56:41.253000 2880193 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:41.253000 2880193 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0922 17:56:41.315000 2880194 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:41.315000 2880194 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:W0922 17:56:41.365000 2880201 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,0]<stderr>:W0922 17:56:41.365000 2880201 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stderr>:[2025-09-22 17:56:45 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+[1,0]<stderr>:[2025-09-22 17:56:45 TP0] Chunked prefix cache is turned on.
+[1,0]<stderr>:[2025-09-22 17:56:45 TP0] Init torch distributed begin.
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:55.246000 71742 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:55.246000 71742 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:56.014000 71740 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:56.014000 71740 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:57.217000 71739 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:57.217000 71739 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:57.734000 71741 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:57.734000 71741 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:57.830000 71744 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:57.830000 71744 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W0922 17:56:57.840000 71746 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:57.840000 71746 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stdout>:All deep_gemm operations loaded successfully!
+[1,1]<stderr>:W0922 17:56:57.899000 71743 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:57.899000 71743 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:W0922 17:56:57.975000 71745 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included for compilation.
+[1,1]<stderr>:W0922 17:56:57.975000 71745 /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/torch/utils/cpp_extension.py:2425] If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'] to specific architectures.
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,1]<stderr>:`torch_dtype` is deprecated! Use `dtype` instead!
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-09-22 17:57:03 TP0] sglang is using nccl==2.27.3
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:NCCL version 2.27.3+cuda12.9
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880200:2880200 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880200:2880200 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880197:2880197 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880197:2880197 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880196:2880196 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880196:2880196 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880195:2880195 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880195:2880195 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880199:2880199 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880199:2880199 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880198:2880198 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880198:2880198 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880193:2880193 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880193:2880193 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880194:2880194 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stdout>:
+[1,0]<stdout>:[2025-09-22 17:57:09] a2ap-dgx006:2880194:2880194 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71739:71739 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71739:71739 [0] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71740:71740 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71740:71740 [1] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71745:71745 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71745:71745 [6] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71743:71743 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71743:71743 [4] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71741:71741 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71741:71741 [2] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71746:71746 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71746:71746 [7] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71742:71742 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71742:71742 [3] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71744:71744 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [1]mlx5_1:1/IB and [2]mlx5_2:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,1]<stdout>:
+[1,1]<stdout>:[2025-09-22 17:57:09] a2ap-dgx019:71744:71744 [5] transport/net_ib.cc:587 NCCL WARN NET/IB : Attempted to merge incompatible devices: [7]mlx5_7:1/IB and [8]mlx5_8:1/RoCE. Try selecting NICs of only one link type using NCCL_IB_HCA
+[1,0]<stderr>:[2025-09-22 17:57:10 TP1] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP0] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP2] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP3] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP4] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP15] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP14] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP13] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP12] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP11] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP10] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP9] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP6] Custom allreduce is disabled because this process group spans across nodes.
+[1,1]<stderr>:[2025-09-22 17:57:10 TP8] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP7] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stderr>:[2025-09-22 17:57:10 TP5] Custom allreduce is disabled because this process group spans across nodes.
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,1]<stdout>:[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1,0]<stdout>:[Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stdout>:[Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,1]<stdout>:[Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+[1,0]<stderr>:[2025-09-22 17:57:10 TP0] Init torch distributed ends. mem usage=1.12 GB
+[1,0]<stderr>:[2025-09-22 17:57:12 TP0] Load weight begin. avail mem=77.42 GB
+[1,0]<stderr>:[2025-09-22 17:57:12 TP0] Detected fp8 checkpoint.
+[1,0]<stderr>:[2025-09-22 17:57:13 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=36.87 GB, mem usage=40.55 GB.
+[1,0]<stderr>:[2025-09-22 17:57:14 TP4] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP9] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP8] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP14] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP11] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP12] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP15] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP13] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,1]<stderr>:[2025-09-22 17:57:14 TP10] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP7] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP2] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP3] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP6] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP0] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP0] Memory pool end. avail mem=15.72 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP1] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP5] KV Cache is allocated. #tokens: 302983, KV size: 19.83 GB
+[1,0]<stderr>:[2025-09-22 17:57:14 TP0] Capture cuda graph begin. This can take up to several minutes. avail mem=15.63 GB
+[1,0]<stderr>:[2025-09-22 17:57:15 TP0] Capture cuda graph bs [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160]
+Capturing batches (bs=160 avail_mem=15.35 GB):   0%|          | 0/23 [00:00<?, ?it/s][1,0]<stderr>:[2025-09-22 17:57:17 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-22 17:57:17 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+[1,0]<stderr>:                                                          [1,1]<stderr>:[2025-09-22 17:57:17 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-22 17:57:17 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 22518.29it/s],0]<stderr>:>:[1,1]<stderr>:
+[1,0]<stderr>:[2025-09-22 17:57:18 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-22 17:57:18 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 21276.97it/s][1,0]<stderr>:
+DeepGEMM warmup:  95%|█████████▍| 15496/16384 [00:01<00:00, 18749.06it/s][1,0]<stderr>:[2025-09-22 17:57:19 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-22 17:57:19 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 10195.00it/s]
+[1,1]<stderr>:[2025-09-22 17:57:19 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-22 17:57:19 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 29230.27it/s]0]<stderr>:r>:
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 7853.31it/s] [1,1]<stderr>:
+[1,1]<stderr>:[2025-09-22 17:57:21 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-22 17:57:21 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 17506.24it/s][1,1]<stderr>:
+[1,0]<stderr>:[2025-09-22 17:57:22 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-22 17:57:22 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+[1,0]<stderr>:                                            [1,1]<stderr>:[2025-09-22 17:57:22 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-22 17:57:22 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 24027.34it/s],0]<stderr>:>:
+[1,0]<stderr>:[2025-09-22 17:57:23 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-22 17:57:23 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 29820.26it/s]1,0]<stderr>::1,0]<stderr>:
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 10701.09it/s][1,1]<stderr>:
+[1,1]<stderr>:[2025-09-22 17:57:23 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-22 17:57:23 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 18944.46it/s][1,1]<stderr>:
+[1,0]<stderr>:[2025-09-22 17:57:24 TP0] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP3] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP2] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP1] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP6] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP5] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP7] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,0]<stderr>:[2025-09-22 17:57:24 TP4] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP14] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP15] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP9] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP13] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP11] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP10] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP8] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+[1,1]<stderr>:[2025-09-22 17:57:24 TP12] Using MoE kernel config from /scratch/users/industry/ai-hpc/apacsc03/py312/lib/python3.12/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H100_80GB_HBM3,dtype=fp8_w8a8,block_shape=[128, 128].json.
+Capturing batches (bs=1 avail_mem=14.40 GB): 100%|██████████| 23/23 [00:22<00:00,  1.02it/s][1,0]<stderr>::
+[1,0]<stderr>:[2025-09-22 17:57:38 TP0] Capture cuda graph end. Time elapsed: 23.84 s. mem usage=1.25 GB. avail mem=14.38 GB.
+[1,0]<stderr>:[2025-09-22 17:57:39 TP0] max_total_num_tokens=302983, chunked_prefill_size=8192, max_prefill_tokens=16384, max_running_requests=2048, context_len=163840, available_gpu_mem=14.38 GB
+[1,1]<stderr>:[2025-09-22 17:57:40] Starting dummy health check server at 127.0.0.1:30000
+[1,0]<stdout>:#Input tokens: 626729
+[1,0]<stdout>:#Output tokens: 388685
+[1,0]<stdout>:#Input tokens: 4096
+[1,0]<stdout>:#Output tokens: 256
+[1,0]<stderr>:[2025-09-22 17:57:54]
+[1,0]<stderr>:Warmup...
+[1,0]<stderr>:[2025-09-22 17:57:54 TP0] Prefill batch. #new-seq: 16, #new-token: 4112, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0,
+[1,1]<stderr>:[2025-09-22 17:57:58 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,1]<stderr>:[2025-09-22 17:57:58 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][1,0]<stderr>:[2025-09-22 17:57:58 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+[1,0]<stderr>:[2025-09-22 17:57:58 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`.
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:00<00:00, 22989.89it/s][1,0]<stderr>:
+DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 10213.68it/s][1,1]<stderr>:
+[1,0]<stderr>:[2025-09-22 17:58:01]
+[1,0]<stderr>:Benchmark...
+[1,0]<stderr>:[2025-09-22 17:58:01 TP0] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP4] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP1] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP7] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP2] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP5] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP6] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:01 TP3] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP8] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP13] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP14] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP10] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP9] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP15] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP12] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,1]<stderr>:[2025-09-22 17:58:01 TP11] Profiling starts for True. Traces will be saved to: /home/users/industry/ai-hpc/apacsc03/profile (with profile id: 1758535081.631471)
+[1,0]<stderr>:[2025-09-22 17:58:02 TP0] Prefill batch. #new-seq: 4, #new-token: 748, #cached-token: 4, token usage: 0.00, #running-req: 0, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 17:58:02 TP0] Prefill batch. #new-seq: 15, #new-token: 2039, #cached-token: 15, token usage: 0.00, #running-req: 4, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 17:58:03 TP0] Prefill batch. #new-seq: 20, #new-token: 8192, #cached-token: 25, token usage: 0.01, #running-req: 19, #queue-req: 813,
+[1,0]<stderr>:[2025-09-22 17:58:03 TP0] Prefill batch. #new-seq: 31, #new-token: 8192, #cached-token: 37, token usage: 0.04, #running-req: 38, #queue-req: 1260,
+[1,0]<stderr>:[2025-09-22 17:58:03 TP0] Prefill batch. #new-seq: 15, #new-token: 8192, #cached-token: 28, token usage: 0.06, #running-req: 68, #queue-req: 1686,
+[1,0]<stderr>:[2025-09-22 17:58:04 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 62, token usage: 0.09, #running-req: 82, #queue-req: 1888,
+[1,0]<stderr>:[2025-09-22 17:58:04 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 73, token usage: 0.12, #running-req: 111, #queue-req: 1857,
+[1,0]<stderr>:[2025-09-22 17:58:04 TP0] Prefill batch. #new-seq: 28, #new-token: 8192, #cached-token: 55, token usage: 0.14, #running-req: 142, #queue-req: 1830,
+[1,0]<stderr>:[2025-09-22 17:58:05 TP0] Prefill batch. #new-seq: 24, #new-token: 8192, #cached-token: 52, token usage: 0.17, #running-req: 169, #queue-req: 1807,
+[1,0]<stderr>:[2025-09-22 17:58:05 TP0] Prefill batch. #new-seq: 38, #new-token: 8192, #cached-token: 97, token usage: 0.20, #running-req: 192, #queue-req: 1770,
+[1,0]<stderr>:[2025-09-22 17:58:05 TP0] Prefill batch. #new-seq: 31, #new-token: 8192, #cached-token: 61, token usage: 0.23, #running-req: 229, #queue-req: 1740,
+[1,0]<stderr>:[2025-09-22 17:58:06 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 78, token usage: 0.25, #running-req: 259, #queue-req: 1709,
+[1,0]<stderr>:[2025-09-22 17:58:06 TP0] Prefill batch. #new-seq: 33, #new-token: 8192, #cached-token: 92, token usage: 0.28, #running-req: 290, #queue-req: 1677,
+[1,0]<stderr>:[2025-09-22 17:58:06 TP0] Prefill batch. #new-seq: 35, #new-token: 8192, #cached-token: 95, token usage: 0.31, #running-req: 322, #queue-req: 1643,
+[1,0]<stderr>:[2025-09-22 17:58:07 TP0] Prefill batch. #new-seq: 21, #new-token: 8192, #cached-token: 55, token usage: 0.33, #running-req: 356, #queue-req: 1623,
+[1,0]<stderr>:[2025-09-22 17:58:07 TP0] Prefill batch. #new-seq: 21, #new-token: 8192, #cached-token: 48, token usage: 0.36, #running-req: 376, #queue-req: 1603,
+[1,0]<stderr>:[2025-09-22 17:58:07 TP0] Prefill batch. #new-seq: 28, #new-token: 8192, #cached-token: 62, token usage: 0.39, #running-req: 396, #queue-req: 1576,
+[1,0]<stderr>:[2025-09-22 17:58:08 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 78, token usage: 0.41, #running-req: 423, #queue-req: 1552,
+[1,0]<stderr>:[2025-09-22 17:58:08 TP0] Prefill batch. #new-seq: 38, #new-token: 8192, #cached-token: 91, token usage: 0.44, #running-req: 447, #queue-req: 1515,
+[1,0]<stderr>:[2025-09-22 17:58:08 TP0] Prefill batch. #new-seq: 33, #new-token: 8192, #cached-token: 97, token usage: 0.47, #running-req: 484, #queue-req: 1483,
+[1,0]<stderr>:[2025-09-22 17:58:08 TP0] Prefill batch. #new-seq: 36, #new-token: 8192, #cached-token: 97, token usage: 0.50, #running-req: 516, #queue-req: 1448,
+[1,0]<stderr>:[2025-09-22 17:58:09 TP0] Prefill batch. #new-seq: 19, #new-token: 8192, #cached-token: 49, token usage: 0.52, #running-req: 551, #queue-req: 1430,
+[1,0]<stderr>:[2025-09-22 17:58:09 TP0] Prefill batch. #new-seq: 24, #new-token: 8192, #cached-token: 80, token usage: 0.55, #running-req: 569, #queue-req: 1407,
+[1,0]<stderr>:[2025-09-22 17:58:09 TP0] Prefill batch. #new-seq: 26, #new-token: 8192, #cached-token: 84, token usage: 0.58, #running-req: 592, #queue-req: 1382,
+[1,0]<stderr>:[2025-09-22 17:58:10 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 81, token usage: 0.60, #running-req: 617, #queue-req: 1358,
+[1,0]<stderr>:[2025-09-22 17:58:10 TP0] Prefill batch. #new-seq: 41, #new-token: 8192, #cached-token: 129, token usage: 0.63, #running-req: 641, #queue-req: 1318,
+[1,0]<stderr>:[2025-09-22 17:58:10 TP0] Prefill batch. #new-seq: 17, #new-token: 5441, #cached-token: 36, token usage: 0.66, #running-req: 681, #queue-req: 1302,
+[1,0]<stderr>:[2025-09-22 17:58:12 TP0] Prefill batch. #new-seq: 27, #new-token: 8192, #cached-token: 94, token usage: 0.63, #running-req: 682, #queue-req: 1275,
+[1,0]<stderr>:[2025-09-22 17:58:12 TP0] Prefill batch. #new-seq: 9, #new-token: 7545, #cached-token: 17, token usage: 0.65, #running-req: 708, #queue-req: 1267,
+[1,0]<stderr>:[2025-09-22 17:58:13 TP0] Prefill batch. #new-seq: 15, #new-token: 4909, #cached-token: 157, token usage: 0.65, #running-req: 701, #queue-req: 1252,
+[1,0]<stderr>:[2025-09-22 17:58:13 TP0] Prefill batch. #new-seq: 8, #new-token: 1944, #cached-token: 27, token usage: 0.66, #running-req: 696, #queue-req: 1244,
+[1,0]<stderr>:[2025-09-22 17:58:14 TP0] Prefill batch. #new-seq: 2, #new-token: 2304, #cached-token: 5, token usage: 0.66, #running-req: 698, #queue-req: 1242,
+[1,0]<stderr>:[2025-09-22 17:58:14 TP0] Prefill batch. #new-seq: 12, #new-token: 1906, #cached-token: 20, token usage: 0.66, #running-req: 691, #queue-req: 1230,
+[1,0]<stderr>:[2025-09-22 17:58:15 TP0] Prefill batch. #new-seq: 10, #new-token: 4529, #cached-token: 32, token usage: 0.65, #running-req: 683, #queue-req: 1220,
+[1,0]<stderr>:[2025-09-22 17:58:15 TP0] Prefill batch. #new-seq: 11, #new-token: 3988, #cached-token: 24, token usage: 0.65, #running-req: 681, #queue-req: 1209,
+[1,0]<stderr>:[2025-09-22 17:58:16 TP0] Prefill batch. #new-seq: 15, #new-token: 4313, #cached-token: 55, token usage: 0.65, #running-req: 680, #queue-req: 1194,
+[1,0]<stderr>:[2025-09-22 17:58:16 TP0] Prefill batch. #new-seq: 2, #new-token: 826, #cached-token: 5, token usage: 0.66, #running-req: 687, #queue-req: 1192,
+[1,0]<stderr>:[2025-09-22 17:58:17 TP0] Prefill batch. #new-seq: 8, #new-token: 4063, #cached-token: 18, token usage: 0.65, #running-req: 681, #queue-req: 1184,
+[1,0]<stderr>:[2025-09-22 17:58:17 TP0] Prefill batch. #new-seq: 9, #new-token: 2202, #cached-token: 34, token usage: 0.65, #running-req: 680, #queue-req: 1175,
+[1,0]<stderr>:[2025-09-22 17:58:17 TP0] Prefill batch. #new-seq: 13, #new-token: 2463, #cached-token: 39, token usage: 0.64, #running-req: 678, #queue-req: 1162,
+[1,0]<stderr>:[2025-09-22 17:58:18 TP0] Prefill batch. #new-seq: 7, #new-token: 3190, #cached-token: 25, token usage: 0.64, #running-req: 683, #queue-req: 1155,
+[1,0]<stderr>:[2025-09-22 17:58:18 TP0] Prefill batch. #new-seq: 13, #new-token: 3509, #cached-token: 1055, token usage: 0.63, #running-req: 675, #queue-req: 1142,
+[1,0]<stderr>:[2025-09-22 17:58:18 TP0] Prefill batch. #new-seq: 6, #new-token: 1576, #cached-token: 19, token usage: 0.64, #running-req: 681, #queue-req: 1136,
+[1,0]<stderr>:[2025-09-22 17:58:19 TP0] Prefill batch. #new-seq: 8, #new-token: 2626, #cached-token: 25, token usage: 0.63, #running-req: 679, #queue-req: 1128,
+[1,0]<stderr>:[2025-09-22 17:58:19 TP0] Prefill batch. #new-seq: 10, #new-token: 1916, #cached-token: 376, token usage: 0.63, #running-req: 679, #queue-req: 1118,
+[1,0]<stderr>:[2025-09-22 17:58:20 TP0] Prefill batch. #new-seq: 2, #new-token: 681, #cached-token: 10, token usage: 0.64, #running-req: 687, #queue-req: 1116,
+[1,0]<stderr>:[2025-09-22 17:58:20 TP0] Prefill batch. #new-seq: 1, #new-token: 767, #cached-token: 5, token usage: 0.64, #running-req: 687, #queue-req: 1115,
+[1,0]<stderr>:[2025-09-22 17:58:20 TP0] Prefill batch. #new-seq: 4, #new-token: 2224, #cached-token: 12, token usage: 0.64, #running-req: 679, #queue-req: 1111,
+[1,0]<stderr>:[2025-09-22 17:58:21 TP0] Decode batch. #running-req: 679, #token: 193646, token usage: 0.64, cuda graph: False, gen throughput (token/s): 405.65, #queue-req: 1111,
+[1,0]<stderr>:[2025-09-22 17:58:21 TP0] Prefill batch. #new-seq: 2, #new-token: 876, #cached-token: 11, token usage: 0.64, #running-req: 680, #queue-req: 1109,
+[1,0]<stderr>:[2025-09-22 17:58:21 TP0] Prefill batch. #new-seq: 12, #new-token: 1567, #cached-token: 33, token usage: 0.63, #running-req: 670, #queue-req: 1097,
+[1,0]<stderr>:[2025-09-22 17:58:21 TP0] Prefill batch. #new-seq: 6, #new-token: 755, #cached-token: 389, token usage: 0.64, #running-req: 677, #queue-req: 1091,
+[1,0]<stderr>:[2025-09-22 17:58:22 TP0] Prefill batch. #new-seq: 15, #new-token: 3238, #cached-token: 58, token usage: 0.63, #running-req: 675, #queue-req: 1076,
+[1,0]<stderr>:[2025-09-22 17:58:22 TP0] Prefill batch. #new-seq: 3, #new-token: 1978, #cached-token: 6, token usage: 0.63, #running-req: 681, #queue-req: 1073,
+[1,0]<stderr>:[2025-09-22 17:58:22 TP0] Prefill batch. #new-seq: 7, #new-token: 1999, #cached-token: 16, token usage: 0.63, #running-req: 676, #queue-req: 1066,
+[1,0]<stderr>:[2025-09-22 17:58:23 TP0] Prefill batch. #new-seq: 2, #new-token: 948, #cached-token: 10, token usage: 0.63, #running-req: 678, #queue-req: 1064,
+[1,0]<stderr>:[2025-09-22 17:58:23 TP0] Prefill batch. #new-seq: 2, #new-token: 257, #cached-token: 11, token usage: 0.64, #running-req: 678, #queue-req: 1062,
+[1,0]<stderr>:[2025-09-22 17:58:24 TP0] Prefill batch. #new-seq: 9, #new-token: 1048, #cached-token: 24, token usage: 0.63, #running-req: 674, #queue-req: 1053,
+[1,0]<stderr>:[2025-09-22 17:58:24 TP0] Prefill batch. #new-seq: 3, #new-token: 1753, #cached-token: 22, token usage: 0.63, #running-req: 678, #queue-req: 1050,
+[1,0]<stderr>:[2025-09-22 17:58:25 TP0] Prefill batch. #new-seq: 6, #new-token: 652, #cached-token: 17, token usage: 0.63, #running-req: 672, #queue-req: 1044,
+[1,0]<stderr>:[2025-09-22 17:58:25 TP0] Prefill batch. #new-seq: 4, #new-token: 982, #cached-token: 12, token usage: 0.63, #running-req: 673, #queue-req: 1040,
+[1,0]<stderr>:[2025-09-22 17:58:25 TP0] Prefill batch. #new-seq: 11, #new-token: 2452, #cached-token: 23, token usage: 0.63, #running-req: 667, #queue-req: 1029,
+[1,0]<stderr>:[2025-09-22 17:58:26 TP0] Prefill batch. #new-seq: 1, #new-token: 277, #cached-token: 1, token usage: 0.63, #running-req: 676, #queue-req: 1028,
+[1,0]<stderr>:[2025-09-22 17:58:26 TP0] Prefill batch. #new-seq: 5, #new-token: 3870, #cached-token: 14, token usage: 0.62, #running-req: 669, #queue-req: 1023,
+[1,0]<stderr>:[2025-09-22 17:58:26 TP0] Prefill batch. #new-seq: 4, #new-token: 1301, #cached-token: 9, token usage: 0.63, #running-req: 665, #queue-req: 1019,
+[1,0]<stderr>:[2025-09-22 17:58:27 TP0] Prefill batch. #new-seq: 6, #new-token: 1748, #cached-token: 23, token usage: 0.63, #running-req: 664, #queue-req: 1013,
+[1,0]<stderr>:[2025-09-22 17:58:27 TP0] Prefill batch. #new-seq: 3, #new-token: 1115, #cached-token: 7, token usage: 0.63, #running-req: 664, #queue-req: 1010,
+[1,0]<stderr>:[2025-09-22 17:58:27 TP0] Prefill batch. #new-seq: 4, #new-token: 2286, #cached-token: 9, token usage: 0.63, #running-req: 660, #queue-req: 1006,
+[1,0]<stderr>:[2025-09-22 17:58:28 TP0] Prefill batch. #new-seq: 5, #new-token: 1070, #cached-token: 12, token usage: 0.63, #running-req: 660, #queue-req: 1001,
+[1,0]<stderr>:[2025-09-22 17:58:28 TP0] Prefill batch. #new-seq: 4, #new-token: 955, #cached-token: 11, token usage: 0.63, #running-req: 657, #queue-req: 997,
+[1,0]<stderr>:[2025-09-22 17:58:28 TP0] Prefill batch. #new-seq: 3, #new-token: 1600, #cached-token: 11, token usage: 0.63, #running-req: 658, #queue-req: 994,
+[1,0]<stderr>:[2025-09-22 17:58:29 TP0] Prefill batch. #new-seq: 7, #new-token: 2468, #cached-token: 21, token usage: 0.63, #running-req: 659, #queue-req: 987,
+[1,0]<stderr>:[2025-09-22 17:58:30 TP0] Prefill batch. #new-seq: 3, #new-token: 1080, #cached-token: 8, token usage: 0.64, #running-req: 659, #queue-req: 984,
+[1,0]<stderr>:[2025-09-22 17:58:30 TP0] Prefill batch. #new-seq: 7, #new-token: 1526, #cached-token: 26, token usage: 0.64, #running-req: 659, #queue-req: 977,
+[1,0]<stderr>:[2025-09-22 17:58:31 TP0] Prefill batch. #new-seq: 11, #new-token: 4620, #cached-token: 34, token usage: 0.63, #running-req: 652, #queue-req: 966,
+[1,0]<stderr>:[2025-09-22 17:58:31 TP0] Prefill batch. #new-seq: 2, #new-token: 32, #cached-token: 4, token usage: 0.65, #running-req: 657, #queue-req: 964,
+[1,0]<stderr>:[2025-09-22 17:58:32 TP0] Prefill batch. #new-seq: 1, #new-token: 2032, #cached-token: 2, token usage: 0.65, #running-req: 652, #queue-req: 963,
+[1,0]<stderr>:[2025-09-22 17:58:32 TP0] Prefill batch. #new-seq: 3, #new-token: 965, #cached-token: 12, token usage: 0.65, #running-req: 649, #queue-req: 960,
+[1,0]<stderr>:[2025-09-22 17:58:33 TP0] Prefill batch. #new-seq: 3, #new-token: 1377, #cached-token: 8, token usage: 0.65, #running-req: 650, #queue-req: 957,
+[1,0]<stderr>:[2025-09-22 17:58:33 TP0] Prefill batch. #new-seq: 2, #new-token: 430, #cached-token: 6, token usage: 0.65, #running-req: 648, #queue-req: 955,
+[1,0]<stderr>:[2025-09-22 17:58:33 TP0] Prefill batch. #new-seq: 6, #new-token: 1222, #cached-token: 14, token usage: 0.65, #running-req: 642, #queue-req: 949,
+[1,0]<stderr>:[2025-09-22 17:58:34 TP0] Decode batch. #running-req: 642, #token: 195737, token usage: 0.65, cuda graph: False, gen throughput (token/s): 2020.06, #queue-req: 949,
+[1,0]<stderr>:[2025-09-22 17:58:34 TP0] Prefill batch. #new-seq: 4, #new-token: 2693, #cached-token: 8, token usage: 0.65, #running-req: 644, #queue-req: 945,
+[1,0]<stderr>:[2025-09-22 17:58:34 TP0] Prefill batch. #new-seq: 5, #new-token: 1597, #cached-token: 33, token usage: 0.65, #running-req: 643, #queue-req: 940,
+[1,0]<stderr>:[2025-09-22 17:58:35 TP0] Prefill batch. #new-seq: 9, #new-token: 3227, #cached-token: 21, token usage: 0.65, #running-req: 642, #queue-req: 931,
+[1,0]<stderr>:[2025-09-22 17:58:35 TP0] Prefill batch. #new-seq: 5, #new-token: 1394, #cached-token: 19, token usage: 0.65, #running-req: 643, #queue-req: 926,
+[1,0]<stderr>:[2025-09-22 17:58:36 TP0] Prefill batch. #new-seq: 3, #new-token: 1748, #cached-token: 15, token usage: 0.66, #running-req: 643, #queue-req: 923,
+[1,0]<stderr>:[2025-09-22 17:58:36 TP0] Prefill batch. #new-seq: 4, #new-token: 510, #cached-token: 6, token usage: 0.66, #running-req: 641, #queue-req: 919,
+[1,0]<stderr>:[2025-09-22 17:58:36 TP0] Prefill batch. #new-seq: 1, #new-token: 1779, #cached-token: 1, token usage: 0.66, #running-req: 641, #queue-req: 918,
+[1,0]<stderr>:[2025-09-22 17:58:37 TP0] Prefill batch. #new-seq: 3, #new-token: 2165, #cached-token: 13, token usage: 0.66, #running-req: 634, #queue-req: 915,
+[1,0]<stderr>:[2025-09-22 17:58:37 TP0] Prefill batch. #new-seq: 1, #new-token: 812, #cached-token: 3, token usage: 0.66, #running-req: 632, #queue-req: 914,
+[1,0]<stderr>:[2025-09-22 17:58:38 TP0] Prefill batch. #new-seq: 1, #new-token: 12, #cached-token: 4, token usage: 0.67, #running-req: 632, #queue-req: 913,
+[1,0]<stderr>:[2025-09-22 17:58:40 TP0] Prefill batch. #new-seq: 4, #new-token: 3537, #cached-token: 7, token usage: 0.67, #running-req: 617, #queue-req: 909,
+[1,0]<stderr>:[2025-09-22 17:58:40 TP0] Prefill batch. #new-seq: 5, #new-token: 1873, #cached-token: 15, token usage: 0.68, #running-req: 614, #queue-req: 904,
+[1,0]<stderr>:[2025-09-22 17:58:40 TP0] Prefill batch. #new-seq: 2, #new-token: 791, #cached-token: 8, token usage: 0.68, #running-req: 615, #queue-req: 902,
+[1,0]<stderr>:[2025-09-22 17:58:40 TP0] Prefill batch. #new-seq: 1, #new-token: 225, #cached-token: 5, token usage: 0.69, #running-req: 615, #queue-req: 901,
+[1,0]<stderr>:[2025-09-22 17:58:41 TP0] Prefill batch. #new-seq: 2, #new-token: 327, #cached-token: 3, token usage: 0.69, #running-req: 613, #queue-req: 899,
+[1,0]<stderr>:[2025-09-22 17:58:42 TP0] Prefill batch. #new-seq: 1, #new-token: 7, #cached-token: 1, token usage: 0.69, #running-req: 611, #queue-req: 898,
+[1,0]<stderr>:[2025-09-22 17:58:42 TP0] Prefill batch. #new-seq: 4, #new-token: 396, #cached-token: 9, token usage: 0.69, #running-req: 609, #queue-req: 894,
+[1,0]<stderr>:[2025-09-22 17:58:42 TP0] Prefill batch. #new-seq: 3, #new-token: 641, #cached-token: 12, token usage: 0.69, #running-req: 611, #queue-req: 891,
+[1,0]<stderr>:[2025-09-22 17:58:43 TP0] Prefill batch. #new-seq: 1, #new-token: 14, #cached-token: 3, token usage: 0.69, #running-req: 611, #queue-req: 890,
+[1,0]<stderr>:[2025-09-22 17:58:43 TP0] Prefill batch. #new-seq: 2, #new-token: 759, #cached-token: 6, token usage: 0.69, #running-req: 609, #queue-req: 888,
+[1,0]<stderr>:[2025-09-22 17:58:43 TP0] Prefill batch. #new-seq: 1, #new-token: 4, #cached-token: 3, token usage: 0.69, #running-req: 609, #queue-req: 887,
+[1,0]<stderr>:[2025-09-22 17:58:44 TP0] Prefill batch. #new-seq: 2, #new-token: 698, #cached-token: 5, token usage: 0.69, #running-req: 605, #queue-req: 885,
+[1,0]<stderr>:[2025-09-22 17:58:44 TP0] Prefill batch. #new-seq: 5, #new-token: 1717, #cached-token: 18, token usage: 0.69, #running-req: 605, #queue-req: 880,
+[1,0]<stderr>:[2025-09-22 17:58:44 TP0] Decode batch. #running-req: 605, #token: 211378, token usage: 0.70, cuda graph: False, gen throughput (token/s): 2329.00, #queue-req: 880,
+[1,0]<stderr>:[2025-09-22 17:58:45 TP0] Prefill batch. #new-seq: 1, #new-token: 194, #cached-token: 2, token usage: 0.70, #running-req: 606, #queue-req: 879,
+[1,0]<stderr>:[2025-09-22 17:58:45 TP0] Prefill batch. #new-seq: 2, #new-token: 34, #cached-token: 3, token usage: 0.70, #running-req: 604, #queue-req: 877,
+[1,0]<stderr>:[2025-09-22 17:58:46 TP0] Prefill batch. #new-seq: 1, #new-token: 1080, #cached-token: 1, token usage: 0.70, #running-req: 603, #queue-req: 876,
+[1,0]<stderr>:[2025-09-22 17:58:46 TP0] Prefill batch. #new-seq: 1, #new-token: 23, #cached-token: 1, token usage: 0.71, #running-req: 600, #queue-req: 875,
+[1,0]<stderr>:[2025-09-22 17:58:46 TP0] Prefill batch. #new-seq: 1, #new-token: 8, #cached-token: 3, token usage: 0.71, #running-req: 599, #queue-req: 874,
+[1,0]<stderr>:[2025-09-22 17:58:47 TP0] Prefill batch. #new-seq: 1, #new-token: 500, #cached-token: 2, token usage: 0.71, #running-req: 595, #queue-req: 873,
+[1,0]<stderr>:[2025-09-22 17:58:50 TP0] Prefill batch. #new-seq: 3, #new-token: 3632, #cached-token: 10, token usage: 0.72, #running-req: 568, #queue-req: 870,
+[1,0]<stderr>:[2025-09-22 17:58:50 TP0] Prefill batch. #new-seq: 1, #new-token: 21, #cached-token: 3, token usage: 0.74, #running-req: 567, #queue-req: 869,
+[1,0]<stderr>:[2025-09-22 17:58:51 TP0] Prefill batch. #new-seq: 2, #new-token: 72, #cached-token: 4, token usage: 0.74, #running-req: 567, #queue-req: 867,
+[1,0]<stderr>:[2025-09-22 17:58:51 TP0] Prefill batch. #new-seq: 3, #new-token: 102, #cached-token: 7, token usage: 0.74, #running-req: 567, #queue-req: 864,
+[1,0]<stderr>:[2025-09-22 17:58:51 TP0] Prefill batch. #new-seq: 7, #new-token: 1814, #cached-token: 21, token usage: 0.73, #running-req: 568, #queue-req: 857,
+[1,0]<stderr>:[2025-09-22 17:58:52 TP0] Prefill batch. #new-seq: 1, #new-token: 251, #cached-token: 5, token usage: 0.74, #running-req: 573, #queue-req: 856,
+[1,0]<stderr>:[2025-09-22 17:58:53 TP0] Prefill batch. #new-seq: 1, #new-token: 23, #cached-token: 1, token usage: 0.75, #running-req: 571, #queue-req: 855,
+[1,0]<stderr>:[2025-09-22 17:58:53 TP0] Prefill batch. #new-seq: 5, #new-token: 1238, #cached-token: 8, token usage: 0.75, #running-req: 566, #queue-req: 850,
+[1,0]<stderr>:[2025-09-22 17:58:53 TP0] Decode batch. #running-req: 566, #token: 226855, token usage: 0.75, cuda graph: False, gen throughput (token/s): 2573.75, #queue-req: 850,
+[1,0]<stderr>:[2025-09-22 17:58:54 TP0] Prefill batch. #new-seq: 1, #new-token: 455, #cached-token: 2, token usage: 0.75, #running-req: 569, #queue-req: 849,
+[1,0]<stderr>:[2025-09-22 17:58:54 TP0] Prefill batch. #new-seq: 3, #new-token: 887, #cached-token: 6, token usage: 0.75, #running-req: 565, #queue-req: 846,
+[1,0]<stderr>:[2025-09-22 17:58:55 TP0] Prefill batch. #new-seq: 1, #new-token: 674, #cached-token: 1, token usage: 0.75, #running-req: 565, #queue-req: 845,
+[1,0]<stderr>:[2025-09-22 17:58:55 TP0] Prefill batch. #new-seq: 2, #new-token: 537, #cached-token: 11, token usage: 0.75, #running-req: 563, #queue-req: 843,
+[1,0]<stderr>:[2025-09-22 17:58:55 TP0] Prefill batch. #new-seq: 2, #new-token: 775, #cached-token: 4, token usage: 0.75, #running-req: 562, #queue-req: 841,
+[1,0]<stderr>:[2025-09-22 17:58:56 TP0] Prefill batch. #new-seq: 6, #new-token: 1283, #cached-token: 29, token usage: 0.75, #running-req: 560, #queue-req: 835,
+[1,0]<stderr>:[2025-09-22 17:58:56 TP0] Prefill batch. #new-seq: 4, #new-token: 1432, #cached-token: 8, token usage: 0.75, #running-req: 561, #queue-req: 831,
+[1,0]<stderr>:[2025-09-22 17:58:57 TP0] Prefill batch. #new-seq: 3, #new-token: 683, #cached-token: 6, token usage: 0.76, #running-req: 563, #queue-req: 828,
+[1,0]<stderr>:[2025-09-22 17:58:57 TP0] Prefill batch. #new-seq: 2, #new-token: 40, #cached-token: 6, token usage: 0.76, #running-req: 564, #queue-req: 826,
+[1,0]<stderr>:[2025-09-22 17:58:57 TP0] Prefill batch. #new-seq: 4, #new-token: 879, #cached-token: 10, token usage: 0.76, #running-req: 562, #queue-req: 822,
+[1,0]<stderr>:[2025-09-22 17:58:58 TP0] Prefill batch. #new-seq: 2, #new-token: 1144, #cached-token: 4, token usage: 0.76, #running-req: 564, #queue-req: 820,
+[1,0]<stderr>:[2025-09-22 17:58:58 TP0] Prefill batch. #new-seq: 5, #new-token: 1110, #cached-token: 12, token usage: 0.76, #running-req: 561, #queue-req: 815,
+[1,0]<stderr>:[2025-09-22 17:58:58 TP0] Prefill batch. #new-seq: 2, #new-token: 811, #cached-token: 4, token usage: 0.76, #running-req: 565, #queue-req: 813,
+[1,0]<stderr>:[2025-09-22 17:58:59 TP0] Prefill batch. #new-seq: 3, #new-token: 1498, #cached-token: 10, token usage: 0.76, #running-req: 563, #queue-req: 810,
+[1,0]<stderr>:[2025-09-22 17:58:59 TP0] Prefill batch. #new-seq: 5, #new-token: 683, #cached-token: 7, token usage: 0.77, #running-req: 564, #queue-req: 805,
+[1,0]<stderr>:[2025-09-22 17:59:00 TP0] Prefill batch. #new-seq: 1, #new-token: 210, #cached-token: 6, token usage: 0.77, #running-req: 565, #queue-req: 804,
+[1,0]<stderr>:[2025-09-22 17:59:00 TP0] Prefill batch. #new-seq: 1, #new-token: 334, #cached-token: 1, token usage: 0.77, #running-req: 565, #queue-req: 803,
+[1,0]<stderr>:[2025-09-22 17:59:00 TP0] Prefill batch. #new-seq: 2, #new-token: 731, #cached-token: 10, token usage: 0.77, #running-req: 564, #queue-req: 801,
+[1,0]<stderr>:[2025-09-22 17:59:01 TP0] Prefill batch. #new-seq: 1, #new-token: 804, #cached-token: 5, token usage: 0.77, #running-req: 561, #queue-req: 800,
+[1,0]<stderr>:[2025-09-22 17:59:01 TP0] Prefill batch. #new-seq: 5, #new-token: 1653, #cached-token: 26, token usage: 0.77, #running-req: 559, #queue-req: 795,
+[1,0]<stderr>:[2025-09-22 17:59:02 TP0] Prefill batch. #new-seq: 4, #new-token: 490, #cached-token: 9, token usage: 0.77, #running-req: 562, #queue-req: 791,
+[1,0]<stderr>:[2025-09-22 17:59:02 TP0] Prefill batch. #new-seq: 3, #new-token: 366, #cached-token: 5, token usage: 0.77, #running-req: 565, #queue-req: 788,
+[1,0]<stderr>:[2025-09-22 17:59:02 TP0] Prefill batch. #new-seq: 1, #new-token: 20, #cached-token: 4, token usage: 0.78, #running-req: 566, #queue-req: 787,
+[1,0]<stderr>:[2025-09-22 17:59:03 TP0] Prefill batch. #new-seq: 1, #new-token: 241, #cached-token: 2, token usage: 0.78, #running-req: 565, #queue-req: 786,
+[1,0]<stderr>:[2025-09-22 17:59:03 TP0] Prefill batch. #new-seq: 1, #new-token: 40, #cached-token: 3, token usage: 0.78, #running-req: 564, #queue-req: 785,
+[1,0]<stderr>:[2025-09-22 17:59:04 TP0] Prefill batch. #new-seq: 11, #new-token: 3476, #cached-token: 25, token usage: 0.77, #running-req: 559, #queue-req: 774,
+[1,0]<stderr>:[2025-09-22 17:59:04 TP0] Prefill batch. #new-seq: 2, #new-token: 646, #cached-token: 5, token usage: 0.78, #running-req: 566, #queue-req: 772,
+[1,0]<stderr>:[2025-09-22 17:59:05 TP0] Decode batch. #running-req: 567, #token: 237734, token usage: 0.78, cuda graph: False, gen throughput (token/s): 2035.47, #queue-req: 772,
+[1,0]<stderr>:[2025-09-22 17:59:05 TP0] Prefill batch. #new-seq: 1, #new-token: 237, #cached-token: 2, token usage: 0.78, #running-req: 562, #queue-req: 771,
+[1,0]<stderr>:[2025-09-22 17:59:05 TP0] Prefill batch. #new-seq: 3, #new-token: 180, #cached-token: 10, token usage: 0.78, #running-req: 560, #queue-req: 768,
+[1,0]<stderr>:[2025-09-22 17:59:05 TP0] Prefill batch. #new-seq: 6, #new-token: 1616, #cached-token: 35, token usage: 0.78, #running-req: 559, #queue-req: 762,
+[1,0]<stderr>:[2025-09-22 17:59:06 TP0] Prefill batch. #new-seq: 3, #new-token: 38, #cached-token: 9, token usage: 0.78, #running-req: 561, #queue-req: 759,
+[1,0]<stderr>:[2025-09-22 17:59:06 TP0] Prefill batch. #new-seq: 3, #new-token: 809, #cached-token: 10, token usage: 0.78, #running-req: 562, #queue-req: 756,
+[1,0]<stderr>:[2025-09-22 17:59:06 TP0] Prefill batch. #new-seq: 2, #new-token: 115, #cached-token: 4, token usage: 0.78, #running-req: 564, #queue-req: 754,
+[1,0]<stderr>:[2025-09-22 17:59:07 TP0] Prefill batch. #new-seq: 8, #new-token: 2874, #cached-token: 25, token usage: 0.77, #running-req: 561, #queue-req: 746,
+[1,0]<stderr>:[2025-09-22 17:59:07 TP0] Prefill batch. #new-seq: 4, #new-token: 911, #cached-token: 9, token usage: 0.78, #running-req: 567, #queue-req: 742,
+[1,0]<stderr>:[2025-09-22 17:59:07 TP0] Prefill batch. #new-seq: 8, #new-token: 951, #cached-token: 16, token usage: 0.78, #running-req: 567, #queue-req: 734,
+[1,0]<stderr>:[2025-09-22 17:59:08 TP0] Prefill batch. #new-seq: 4, #new-token: 1471, #cached-token: 6, token usage: 0.78, #running-req: 571, #queue-req: 730,
+[1,0]<stderr>:[2025-09-22 17:59:08 TP0] Prefill batch. #new-seq: 3, #new-token: 748, #cached-token: 8, token usage: 0.78, #running-req: 569, #queue-req: 727,
+[1,0]<stderr>:[2025-09-22 17:59:09 TP0] Prefill batch. #new-seq: 2, #new-token: 566, #cached-token: 8, token usage: 0.79, #running-req: 571, #queue-req: 725,
+[1,0]<stderr>:[2025-09-22 17:59:09 TP0] Prefill batch. #new-seq: 2, #new-token: 948, #cached-token: 7, token usage: 0.78, #running-req: 570, #queue-req: 723,
+[1,0]<stderr>:[2025-09-22 17:59:09 TP0] Prefill batch. #new-seq: 2, #new-token: 631, #cached-token: 5, token usage: 0.79, #running-req: 569, #queue-req: 721,
+[1,0]<stderr>:[2025-09-22 17:59:10 TP0] Prefill batch. #new-seq: 5, #new-token: 879, #cached-token: 20, token usage: 0.79, #running-req: 569, #queue-req: 716,
+[1,0]<stderr>:[2025-09-22 17:59:10 TP0] Prefill batch. #new-seq: 4, #new-token: 33, #cached-token: 14, token usage: 0.78, #running-req: 569, #queue-req: 712,
+[1,0]<stderr>:[2025-09-22 17:59:10 TP0] Prefill batch. #new-seq: 3, #new-token: 964, #cached-token: 11, token usage: 0.79, #running-req: 570, #queue-req: 709,
+[1,0]<stderr>:[2025-09-22 17:59:11 TP0] Prefill batch. #new-seq: 3, #new-token: 562, #cached-token: 10, token usage: 0.79, #running-req: 569, #queue-req: 706,
+[1,0]<stderr>:[2025-09-22 17:59:11 TP0] Prefill batch. #new-seq: 1, #new-token: 9, #cached-token: 2, token usage: 0.79, #running-req: 571, #queue-req: 705,
+[1,0]<stderr>:[2025-09-22 17:59:12 TP0] Prefill batch. #new-seq: 1, #new-token: 832, #cached-token: 2, token usage: 0.79, #running-req: 568, #queue-req: 704,
+[1,0]<stderr>:[2025-09-22 17:59:12 TP0] Prefill batch. #new-seq: 1, #new-token: 435, #cached-token: 1, token usage: 0.79, #running-req: 566, #queue-req: 703,
+[1,0]<stderr>:[2025-09-22 17:59:12 TP0] Prefill batch. #new-seq: 3, #new-token: 1150, #cached-token: 5, token usage: 0.79, #running-req: 564, #queue-req: 700,
+[1,0]<stderr>:[2025-09-22 17:59:13 TP0] Prefill batch. #new-seq: 3, #new-token: 414, #cached-token: 4, token usage: 0.80, #running-req: 563, #queue-req: 697,
+[1,0]<stderr>:[2025-09-22 17:59:13 TP0] Prefill batch. #new-seq: 1, #new-token: 285, #cached-token: 5, token usage: 0.80, #running-req: 561, #queue-req: 696,
+[1,0]<stderr>:[2025-09-22 17:59:14 TP0] Prefill batch. #new-seq: 1, #new-token: 1543, #cached-token: 1, token usage: 0.79, #running-req: 558, #queue-req: 695,
+[1,0]<stderr>:[2025-09-22 17:59:14 TP0] Prefill batch. #new-seq: 1, #new-token: 5, #cached-token: 1, token usage: 0.79, #running-req: 555, #queue-req: 694,
+[1,0]<stderr>:[2025-09-22 17:59:15 TP0] Prefill batch. #new-seq: 1, #new-token: 4374, #cached-token: 2, token usage: 0.79, #running-req: 549, #queue-req: 693,
+[1,0]<stderr>:[2025-09-22 17:59:15 TP0] Decode batch. #running-req: 549, #token: 244070, token usage: 0.81, cuda graph: False, gen throughput (token/s): 2072.42, #queue-req: 693,
+[1,0]<stderr>:[2025-09-22 17:59:16 TP0] Prefill batch. #new-seq: 3, #new-token: 1836, #cached-token: 6, token usage: 0.80, #running-req: 537, #queue-req: 690,
+[1,0]<stderr>:[2025-09-22 17:59:16 TP0] Prefill batch. #new-seq: 3, #new-token: 1462, #cached-token: 5, token usage: 0.80, #running-req: 535, #queue-req: 687,
+[1,0]<stderr>:[2025-09-22 17:59:17 TP0] Prefill batch. #new-seq: 2, #new-token: 1268, #cached-token: 13, token usage: 0.81, #running-req: 534, #queue-req: 685,
+[1,0]<stderr>:[2025-09-22 17:59:18 TP0] Prefill batch. #new-seq: 6, #new-token: 2579, #cached-token: 18, token usage: 0.80, #running-req: 530, #queue-req: 679,
+[1,0]<stderr>:[2025-09-22 17:59:18 TP0] Prefill batch. #new-seq: 3, #new-token: 739, #cached-token: 11, token usage: 0.81, #running-req: 532, #queue-req: 676,
+[1,0]<stderr>:[2025-09-22 17:59:19 TP0] Prefill batch. #new-seq: 2, #new-token: 82, #cached-token: 5, token usage: 0.82, #running-req: 533, #queue-req: 674,
+[1,0]<stderr>:[2025-09-22 17:59:19 TP0] Prefill batch. #new-seq: 2, #new-token: 1042, #cached-token: 4, token usage: 0.82, #running-req: 529, #queue-req: 672,
+[1,0]<stderr>:[2025-09-22 17:59:20 TP0] Prefill batch. #new-seq: 13, #new-token: 3936, #cached-token: 43, token usage: 0.81, #running-req: 526, #queue-req: 659,
+[1,0]<stderr>:[2025-09-22 17:59:20 TP0] Prefill batch. #new-seq: 2, #new-token: 182, #cached-token: 3, token usage: 0.82, #running-req: 536, #queue-req: 657,
+[1,0]<stderr>:[2025-09-22 17:59:20 TP0] Prefill batch. #new-seq: 9, #new-token: 1684, #cached-token: 21, token usage: 0.81, #running-req: 534, #queue-req: 648,
+[1,0]<stderr>:[2025-09-22 17:59:21 TP0] Prefill batch. #new-seq: 3, #new-token: 2420, #cached-token: 6, token usage: 0.81, #running-req: 541, #queue-req: 645,
+[1,0]<stderr>:[2025-09-22 17:59:21 TP0] Prefill batch. #new-seq: 4, #new-token: 279, #cached-token: 12, token usage: 0.82, #running-req: 538, #queue-req: 641,
+[1,0]<stderr>:[2025-09-22 17:59:22 TP0] Prefill batch. #new-seq: 4, #new-token: 1228, #cached-token: 9, token usage: 0.82, #running-req: 539, #queue-req: 637,
+[1,0]<stderr>:[2025-09-22 17:59:22 TP0] Prefill batch. #new-seq: 3, #new-token: 854, #cached-token: 13, token usage: 0.82, #running-req: 541, #queue-req: 634,
+[1,0]<stderr>:[2025-09-22 17:59:23 TP0] Prefill batch. #new-seq: 1, #new-token: 75, #cached-token: 3, token usage: 0.82, #running-req: 541, #queue-req: 633,
+[1,0]<stderr>:[2025-09-22 17:59:23 TP0] Prefill batch. #new-seq: 6, #new-token: 3310, #cached-token: 14, token usage: 0.81, #running-req: 531, #queue-req: 627,
+[1,0]<stderr>:[2025-09-22 17:59:24 TP0] Prefill batch. #new-seq: 2, #new-token: 666, #cached-token: 6, token usage: 0.82, #running-req: 534, #queue-req: 625,
+[1,0]<stderr>:[2025-09-22 17:59:24 TP0] Prefill batch. #new-seq: 13, #new-token: 2917, #cached-token: 46, token usage: 0.81, #running-req: 533, #queue-req: 612,
+[1,0]<stderr>:[2025-09-22 17:59:24 TP0] Prefill batch. #new-seq: 9, #new-token: 1234, #cached-token: 23, token usage: 0.81, #running-req: 543, #queue-req: 603,
+[1,0]<stderr>:[2025-09-22 17:59:25 TP0] Prefill batch. #new-seq: 9, #new-token: 1612, #cached-token: 28, token usage: 0.81, #running-req: 550, #queue-req: 594,
+[1,0]<stderr>:[2025-09-22 17:59:25 TP0] Prefill batch. #new-seq: 2, #new-token: 450, #cached-token: 4, token usage: 0.82, #running-req: 557, #queue-req: 592,
+[1,0]<stderr>:[2025-09-22 17:59:25 TP0] Prefill batch. #new-seq: 4, #new-token: 48, #cached-token: 8, token usage: 0.82, #running-req: 556, #queue-req: 588,
+[1,0]<stderr>:[2025-09-22 17:59:26 TP0] Prefill batch. #new-seq: 1, #new-token: 201, #cached-token: 1, token usage: 0.82, #running-req: 558, #queue-req: 587,
+[1,0]<stderr>:[2025-09-22 17:59:26 TP0] Prefill batch. #new-seq: 4, #new-token: 1856, #cached-token: 9, token usage: 0.81, #running-req: 554, #queue-req: 583,
+[1,0]<stderr>:[2025-09-22 17:59:26 TP0] Prefill batch. #new-seq: 2, #new-token: 469, #cached-token: 7, token usage: 0.82, #running-req: 556, #queue-req: 581,
+[1,0]<stderr>:[2025-09-22 17:59:26 TP0] Decode batch. #running-req: 556, #token: 248454, token usage: 0.82, cuda graph: False, gen throughput (token/s): 1970.01, #queue-req: 581,
+[1,0]<stderr>:[2025-09-22 17:59:27 TP0] Prefill batch. #new-seq: 1, #new-token: 871, #cached-token: 7, token usage: 0.82, #running-req: 557, #queue-req: 580,
+[1,0]<stderr>:[2025-09-22 17:59:27 TP0] Prefill batch. #new-seq: 2, #new-token: 916, #cached-token: 7, token usage: 0.82, #running-req: 556, #queue-req: 578,
+[1,0]<stderr>:[2025-09-22 17:59:27 TP0] Prefill batch. #new-seq: 3, #new-token: 1279, #cached-token: 9, token usage: 0.82, #running-req: 555, #queue-req: 575,
+[1,0]<stderr>:[2025-09-22 17:59:27 TP0] Prefill batch. #new-seq: 1, #new-token: 11, #cached-token: 3, token usage: 0.83, #running-req: 556, #queue-req: 574,
+[1,0]<stderr>:[2025-09-22 17:59:28 TP0] Prefill batch. #new-seq: 4, #new-token: 515, #cached-token: 7, token usage: 0.82, #running-req: 553, #queue-req: 570,
+[1,0]<stderr>:[2025-09-22 17:59:28 TP0] Prefill batch. #new-seq: 5, #new-token: 1379, #cached-token: 18, token usage: 0.82, #running-req: 554, #queue-req: 565,
+[1,0]<stderr>:[2025-09-22 17:59:29 TP0] Prefill batch. #new-seq: 5, #new-token: 2334, #cached-token: 25, token usage: 0.82, #running-req: 556, #queue-req: 560,
+[1,0]<stderr>:[2025-09-22 17:59:29 TP0] Prefill batch. #new-seq: 1, #new-token: 19, #cached-token: 2, token usage: 0.82, #running-req: 554, #queue-req: 559,
+[1,0]<stderr>:[2025-09-22 17:59:29 TP0] Prefill batch. #new-seq: 3, #new-token: 2213, #cached-token: 6, token usage: 0.82, #running-req: 551, #queue-req: 556,
+[1,0]<stderr>:[2025-09-22 17:59:30 TP0] Prefill batch. #new-seq: 3, #new-token: 813, #cached-token: 6, token usage: 0.83, #running-req: 549, #queue-req: 553,
+[1,0]<stderr>:[2025-09-22 17:59:30 TP0] Prefill batch. #new-seq: 3, #new-token: 121, #cached-token: 5, token usage: 0.83, #running-req: 550, #queue-req: 550,
+[1,0]<stderr>:[2025-09-22 17:59:30 TP0] Prefill batch. #new-seq: 8, #new-token: 844, #cached-token: 21, token usage: 0.82, #running-req: 552, #queue-req: 542,
+[1,0]<stderr>:[2025-09-22 17:59:31 TP0] Prefill batch. #new-seq: 3, #new-token: 1407, #cached-token: 8, token usage: 0.82, #running-req: 558, #queue-req: 539,
+[1,0]<stderr>:[2025-09-22 17:59:31 TP0] Prefill batch. #new-seq: 2, #new-token: 507, #cached-token: 6, token usage: 0.83, #running-req: 556, #queue-req: 537,
+[1,0]<stderr>:[2025-09-22 17:59:32 TP0] Prefill batch. #new-seq: 1, #new-token: 23, #cached-token: 3, token usage: 0.83, #running-req: 556, #queue-req: 536,
+[1,0]<stderr>:[2025-09-22 17:59:32 TP0] Prefill batch. #new-seq: 3, #new-token: 1271, #cached-token: 8, token usage: 0.83, #running-req: 553, #queue-req: 533,
+[1,0]<stderr>:[2025-09-22 17:59:32 TP0] Prefill batch. #new-seq: 2, #new-token: 89, #cached-token: 4, token usage: 0.83, #running-req: 554, #queue-req: 531,
+[1,0]<stderr>:[2025-09-22 17:59:33 TP0] Prefill batch. #new-seq: 3, #new-token: 532, #cached-token: 5, token usage: 0.83, #running-req: 552, #queue-req: 528,
+[1,0]<stderr>:[2025-09-22 17:59:33 TP0] Prefill batch. #new-seq: 4, #new-token: 588, #cached-token: 10, token usage: 0.83, #running-req: 553, #queue-req: 524,
+[1,0]<stderr>:[2025-09-22 17:59:33 TP0] Prefill batch. #new-seq: 11, #new-token: 805, #cached-token: 25, token usage: 0.82, #running-req: 553, #queue-req: 513,
+[1,0]<stderr>:[2025-09-22 17:59:34 TP0] Prefill batch. #new-seq: 7, #new-token: 2854, #cached-token: 13, token usage: 0.82, #running-req: 561, #queue-req: 506,
+[1,0]<stderr>:[2025-09-22 17:59:34 TP0] Prefill batch. #new-seq: 3, #new-token: 763, #cached-token: 8, token usage: 0.83, #running-req: 567, #queue-req: 503,
+[1,0]<stderr>:[2025-09-22 17:59:34 TP0] Prefill batch. #new-seq: 4, #new-token: 837, #cached-token: 13, token usage: 0.83, #running-req: 566, #queue-req: 499,
+[1,0]<stderr>:[2025-09-22 17:59:35 TP0] Prefill batch. #new-seq: 1, #new-token: 1051, #cached-token: 1, token usage: 0.83, #running-req: 566, #queue-req: 498,
+[1,0]<stderr>:[2025-09-22 17:59:35 TP0] Prefill batch. #new-seq: 2, #new-token: 179, #cached-token: 14, token usage: 0.83, #running-req: 563, #queue-req: 496,
+[1,0]<stderr>:[2025-09-22 17:59:36 TP0] Prefill batch. #new-seq: 4, #new-token: 1493, #cached-token: 7, token usage: 0.83, #running-req: 563, #queue-req: 492,
+[1,0]<stderr>:[2025-09-22 17:59:36 TP0] Prefill batch. #new-seq: 2, #new-token: 69, #cached-token: 5, token usage: 0.83, #running-req: 564, #queue-req: 490,
+[1,0]<stderr>:[2025-09-22 17:59:37 TP0] Prefill batch. #new-seq: 4, #new-token: 1063, #cached-token: 14, token usage: 0.83, #running-req: 564, #queue-req: 486,
+[1,0]<stderr>:[2025-09-22 17:59:37 TP0] Prefill batch. #new-seq: 5, #new-token: 1056, #cached-token: 11, token usage: 0.83, #running-req: 564, #queue-req: 481,
+[1,0]<stderr>:[2025-09-22 17:59:37 TP0] Prefill batch. #new-seq: 3, #new-token: 770, #cached-token: 7, token usage: 0.84, #running-req: 565, #queue-req: 478,
+[1,0]<stderr>:[2025-09-22 17:59:38 TP0] Decode batch. #running-req: 565, #token: 252525, token usage: 0.83, cuda graph: False, gen throughput (token/s): 1947.42, #queue-req: 478,
+[1,0]<stderr>:[2025-09-22 17:59:38 TP0] Prefill batch. #new-seq: 1, #new-token: 2404, #cached-token: 1, token usage: 0.83, #running-req: 559, #queue-req: 477,
+[1,0]<stderr>:[2025-09-22 17:59:38 TP0] Prefill batch. #new-seq: 3, #new-token: 625, #cached-token: 10, token usage: 0.84, #running-req: 555, #queue-req: 474,
+[1,0]<stderr>:[2025-09-22 17:59:38 TP0] Prefill batch. #new-seq: 9, #new-token: 1389, #cached-token: 20, token usage: 0.83, #running-req: 555, #queue-req: 465,
+[1,0]<stderr>:[2025-09-22 17:59:39 TP0] Prefill batch. #new-seq: 2, #new-token: 226, #cached-token: 6, token usage: 0.84, #running-req: 562, #queue-req: 463,
+[1,0]<stderr>:[2025-09-22 17:59:39 TP0] Prefill batch. #new-seq: 2, #new-token: 1497, #cached-token: 17, token usage: 0.84, #running-req: 557, #queue-req: 461,
+[1,0]<stderr>:[2025-09-22 17:59:40 TP0] Prefill batch. #new-seq: 3, #new-token: 819, #cached-token: 4, token usage: 0.84, #running-req: 555, #queue-req: 458,
+[1,0]<stderr>:[2025-09-22 17:59:40 TP0] Prefill batch. #new-seq: 2, #new-token: 22, #cached-token: 3, token usage: 0.84, #running-req: 554, #queue-req: 456,
+[1,0]<stderr>:[2025-09-22 17:59:41 TP0] Prefill batch. #new-seq: 6, #new-token: 2237, #cached-token: 11, token usage: 0.84, #running-req: 551, #queue-req: 450,
+[1,0]<stderr>:[2025-09-22 17:59:41 TP0] Prefill batch. #new-seq: 3, #new-token: 280, #cached-token: 6, token usage: 0.84, #running-req: 553, #queue-req: 447,
+[1,0]<stderr>:[2025-09-22 17:59:41 TP0] Prefill batch. #new-seq: 2, #new-token: 139, #cached-token: 5, token usage: 0.84, #running-req: 554, #queue-req: 445,
+[1,0]<stderr>:[2025-09-22 17:59:42 TP0] Prefill batch. #new-seq: 2, #new-token: 2646, #cached-token: 4, token usage: 0.84, #running-req: 550, #queue-req: 443,
+[1,0]<stderr>:[2025-09-22 17:59:42 TP0] Prefill batch. #new-seq: 2, #new-token: 317, #cached-token: 3, token usage: 0.85, #running-req: 550, #queue-req: 441,
+[1,0]<stderr>:[2025-09-22 17:59:42 TP0] Prefill batch. #new-seq: 2, #new-token: 79, #cached-token: 11, token usage: 0.85, #running-req: 549, #queue-req: 439,
+[1,0]<stderr>:[2025-09-22 17:59:43 TP0] Prefill batch. #new-seq: 4, #new-token: 298, #cached-token: 9, token usage: 0.85, #running-req: 546, #queue-req: 435,
+[1,0]<stderr>:[2025-09-22 17:59:43 TP0] Prefill batch. #new-seq: 7, #new-token: 1089, #cached-token: 423, token usage: 0.84, #running-req: 546, #queue-req: 428,
+[1,0]<stderr>:[2025-09-22 17:59:43 TP0] Prefill batch. #new-seq: 5, #new-token: 369, #cached-token: 16, token usage: 0.84, #running-req: 552, #queue-req: 423,
+[1,0]<stderr>:[2025-09-22 17:59:44 TP0] Prefill batch. #new-seq: 1, #new-token: 268, #cached-token: 3, token usage: 0.85, #running-req: 556, #queue-req: 422,
+[1,0]<stderr>:[2025-09-22 17:59:44 TP0] Prefill batch. #new-seq: 2, #new-token: 1393, #cached-token: 10, token usage: 0.84, #running-req: 555, #queue-req: 420,
+[1,0]<stderr>:[2025-09-22 17:59:44 TP0] Prefill batch. #new-seq: 5, #new-token: 1730, #cached-token: 9, token usage: 0.84, #running-req: 553, #queue-req: 415,
+[1,0]<stderr>:[2025-09-22 17:59:45 TP0] Prefill batch. #new-seq: 4, #new-token: 1528, #cached-token: 11, token usage: 0.84, #running-req: 556, #queue-req: 411,
+[1,0]<stderr>:[2025-09-22 17:59:45 TP0] Prefill batch. #new-seq: 4, #new-token: 92, #cached-token: 8, token usage: 0.85, #running-req: 558, #queue-req: 407,
+[1,0]<stderr>:[2025-09-22 17:59:45 TP0] Prefill batch. #new-seq: 4, #new-token: 2829, #cached-token: 14, token usage: 0.84, #running-req: 555, #queue-req: 403,
+[1,0]<stderr>:[2025-09-22 17:59:46 TP0] Prefill batch. #new-seq: 3, #new-token: 1286, #cached-token: 10, token usage: 0.84, #running-req: 558, #queue-req: 400,
+[1,0]<stderr>:[2025-09-22 17:59:46 TP0] Prefill batch. #new-seq: 6, #new-token: 2054, #cached-token: 16, token usage: 0.84, #running-req: 557, #queue-req: 394,
+[1,0]<stderr>:[2025-09-22 17:59:46 TP0] Prefill batch. #new-seq: 6, #new-token: 2127, #cached-token: 11, token usage: 0.84, #running-req: 556, #queue-req: 388,
+[1,0]<stderr>:[2025-09-22 17:59:47 TP0] Prefill batch. #new-seq: 4, #new-token: 1068, #cached-token: 7, token usage: 0.84, #running-req: 561, #queue-req: 384,
+[1,0]<stderr>:[2025-09-22 17:59:47 TP0] Prefill batch. #new-seq: 7, #new-token: 2160, #cached-token: 24, token usage: 0.84, #running-req: 563, #queue-req: 377,
+[1,0]<stderr>:[2025-09-22 17:59:48 TP0] Prefill batch. #new-seq: 1, #new-token: 651, #cached-token: 6, token usage: 0.85, #running-req: 565, #queue-req: 376,
+[1,0]<stderr>:[2025-09-22 17:59:48 TP0] Prefill batch. #new-seq: 2, #new-token: 1015, #cached-token: 11, token usage: 0.85, #running-req: 564, #queue-req: 374,
+[1,0]<stderr>:[2025-09-22 17:59:49 TP0] Prefill batch. #new-seq: 2, #new-token: 1259, #cached-token: 3, token usage: 0.85, #running-req: 563, #queue-req: 372,
+[1,0]<stderr>:[2025-09-22 17:59:49 TP0] Prefill batch. #new-seq: 5, #new-token: 1349, #cached-token: 12, token usage: 0.85, #running-req: 557, #queue-req: 367,
+[1,0]<stderr>:[2025-09-22 17:59:49 TP0] Prefill batch. #new-seq: 11, #new-token: 2742, #cached-token: 25, token usage: 0.84, #running-req: 553, #queue-req: 356,
+[1,0]<stderr>:[2025-09-22 17:59:49 TP0] Decode batch. #running-req: 553, #token: 256894, token usage: 0.85, cuda graph: False, gen throughput (token/s): 1918.11, #queue-req: 356,
+[1,0]<stderr>:[2025-09-22 17:59:50 TP0] Prefill batch. #new-seq: 8, #new-token: 636, #cached-token: 17, token usage: 0.85, #running-req: 561, #queue-req: 348,
+[1,0]<stderr>:[2025-09-22 17:59:50 TP0] Prefill batch. #new-seq: 4, #new-token: 918, #cached-token: 10, token usage: 0.85, #running-req: 567, #queue-req: 344,
+[1,0]<stderr>:[2025-09-22 17:59:50 TP0] Prefill batch. #new-seq: 4, #new-token: 1951, #cached-token: 15, token usage: 0.85, #running-req: 567, #queue-req: 340,
+[1,0]<stderr>:[2025-09-22 17:59:51 TP0] Prefill batch. #new-seq: 6, #new-token: 2999, #cached-token: 12, token usage: 0.85, #running-req: 563, #queue-req: 334,
+[1,0]<stderr>:[2025-09-22 17:59:51 TP0] Prefill batch. #new-seq: 4, #new-token: 552, #cached-token: 16, token usage: 0.86, #running-req: 566, #queue-req: 330,
+[1,0]<stderr>:[2025-09-22 17:59:52 TP0] Prefill batch. #new-seq: 2, #new-token: 1151, #cached-token: 5, token usage: 0.85, #running-req: 568, #queue-req: 328,
+[1,0]<stderr>:[2025-09-22 17:59:52 TP0] Prefill batch. #new-seq: 4, #new-token: 1106, #cached-token: 11, token usage: 0.86, #running-req: 565, #queue-req: 324,
+[1,0]<stderr>:[2025-09-22 17:59:52 TP0] Prefill batch. #new-seq: 5, #new-token: 1077, #cached-token: 13, token usage: 0.85, #running-req: 563, #queue-req: 319,
+[1,0]<stderr>:[2025-09-22 17:59:53 TP0] Prefill batch. #new-seq: 5, #new-token: 1218, #cached-token: 18, token usage: 0.85, #running-req: 562, #queue-req: 314,
+[1,0]<stderr>:[2025-09-22 17:59:53 TP0] Prefill batch. #new-seq: 8, #new-token: 2897, #cached-token: 21, token usage: 0.85, #running-req: 563, #queue-req: 306,
+[1,0]<stderr>:[2025-09-22 17:59:53 TP0] Prefill batch. #new-seq: 4, #new-token: 1398, #cached-token: 11, token usage: 0.85, #running-req: 568, #queue-req: 302,
+[1,0]<stderr>:[2025-09-22 17:59:53 TP0] Prefill batch. #new-seq: 3, #new-token: 1017, #cached-token: 11, token usage: 0.85, #running-req: 567, #queue-req: 299,
+[1,0]<stderr>:[2025-09-22 17:59:54 TP0] Prefill batch. #new-seq: 2, #new-token: 503, #cached-token: 2, token usage: 0.86, #running-req: 567, #queue-req: 297,
+[1,0]<stderr>:[2025-09-22 17:59:54 TP0] Prefill batch. #new-seq: 3, #new-token: 1323, #cached-token: 7, token usage: 0.86, #running-req: 565, #queue-req: 294,
+[1,0]<stderr>:[2025-09-22 17:59:55 TP0] Prefill batch. #new-seq: 8, #new-token: 1495, #cached-token: 24, token usage: 0.85, #running-req: 558, #queue-req: 286,
+[1,0]<stderr>:[2025-09-22 17:59:55 TP0] Prefill batch. #new-seq: 2, #new-token: 301, #cached-token: 5, token usage: 0.86, #running-req: 565, #queue-req: 284,
+[1,0]<stderr>:[2025-09-22 17:59:55 TP0] Prefill batch. #new-seq: 3, #new-token: 1767, #cached-token: 6, token usage: 0.85, #running-req: 560, #queue-req: 281,
+[1,0]<stderr>:[2025-09-22 17:59:56 TP0] Prefill batch. #new-seq: 4, #new-token: 3685, #cached-token: 14, token usage: 0.85, #running-req: 559, #queue-req: 277,
+[1,0]<stderr>:[2025-09-22 17:59:57 TP0] Prefill batch. #new-seq: 3, #new-token: 868, #cached-token: 7, token usage: 0.86, #running-req: 557, #queue-req: 274,
+[1,0]<stderr>:[2025-09-22 17:59:57 TP0] Prefill batch. #new-seq: 2, #new-token: 768, #cached-token: 2, token usage: 0.86, #running-req: 557, #queue-req: 272,
+[1,0]<stderr>:[2025-09-22 17:59:57 TP0] Prefill batch. #new-seq: 2, #new-token: 12, #cached-token: 5, token usage: 0.87, #running-req: 557, #queue-req: 270,
+[1,0]<stderr>:[2025-09-22 17:59:58 TP0] Prefill batch. #new-seq: 3, #new-token: 3519, #cached-token: 7, token usage: 0.86, #running-req: 553, #queue-req: 267,
+[1,0]<stderr>:[2025-09-22 17:59:58 TP0] Prefill batch. #new-seq: 2, #new-token: 98, #cached-token: 4, token usage: 0.87, #running-req: 551, #queue-req: 265,
+[1,0]<stderr>:[2025-09-22 17:59:58 TP0] Prefill batch. #new-seq: 2, #new-token: 17, #cached-token: 3, token usage: 0.87, #running-req: 550, #queue-req: 263,
+[1,0]<stderr>:[2025-09-22 17:59:59 TP0] Prefill batch. #new-seq: 5, #new-token: 877, #cached-token: 17, token usage: 0.87, #running-req: 549, #queue-req: 258,
+[1,0]<stderr>:[2025-09-22 17:59:59 TP0] Prefill batch. #new-seq: 1, #new-token: 42, #cached-token: 1, token usage: 0.87, #running-req: 548, #queue-req: 257,
+[1,0]<stderr>:[2025-09-22 18:00:00 TP0] Prefill batch. #new-seq: 3, #new-token: 4938, #cached-token: 13, token usage: 0.86, #running-req: 544, #queue-req: 254,
+[1,0]<stderr>:[2025-09-22 18:00:00 TP0] Prefill batch. #new-seq: 4, #new-token: 596, #cached-token: 11, token usage: 0.87, #running-req: 545, #queue-req: 250,
+[1,0]<stderr>:[2025-09-22 18:00:01 TP0] Decode batch. #running-req: 549, #token: 265621, token usage: 0.88, cuda graph: False, gen throughput (token/s): 1996.10, #queue-req: 250,
+[1,0]<stderr>:[2025-09-22 18:00:01 TP0] Prefill batch. #new-seq: 5, #new-token: 1555, #cached-token: 16, token usage: 0.87, #running-req: 548, #queue-req: 245,
+[1,0]<stderr>:[2025-09-22 18:00:01 TP0] Prefill batch. #new-seq: 6, #new-token: 880, #cached-token: 20, token usage: 0.87, #running-req: 546, #queue-req: 239,
+[1,0]<stderr>:[2025-09-22 18:00:01 TP0] Prefill batch. #new-seq: 8, #new-token: 1985, #cached-token: 21, token usage: 0.87, #running-req: 548, #queue-req: 231,
+[1,0]<stderr>:[2025-09-22 18:00:02 TP0] Prefill batch. #new-seq: 5, #new-token: 1048, #cached-token: 14, token usage: 0.87, #running-req: 554, #queue-req: 226,
+[1,0]<stderr>:[2025-09-22 18:00:02 TP0] Prefill batch. #new-seq: 3, #new-token: 1246, #cached-token: 13, token usage: 0.87, #running-req: 555, #queue-req: 223,
+[1,0]<stderr>:[2025-09-22 18:00:02 TP0] Prefill batch. #new-seq: 5, #new-token: 3914, #cached-token: 11, token usage: 0.86, #running-req: 555, #queue-req: 218,
+[1,0]<stderr>:[2025-09-22 18:00:03 TP0] Prefill batch. #new-seq: 4, #new-token: 361, #cached-token: 13, token usage: 0.87, #running-req: 556, #queue-req: 214,
+[1,0]<stderr>:[2025-09-22 18:00:03 TP0] Prefill batch. #new-seq: 4, #new-token: 1779, #cached-token: 14, token usage: 0.87, #running-req: 556, #queue-req: 210,
+[1,0]<stderr>:[2025-09-22 18:00:03 TP0] Prefill batch. #new-seq: 2, #new-token: 492, #cached-token: 18, token usage: 0.88, #running-req: 558, #queue-req: 208,
+[1,0]<stderr>:[2025-09-22 18:00:04 TP0] Prefill batch. #new-seq: 3, #new-token: 256, #cached-token: 5, token usage: 0.87, #running-req: 556, #queue-req: 205,
+[1,0]<stderr>:[2025-09-22 18:00:04 TP0] Prefill batch. #new-seq: 1, #new-token: 792, #cached-token: 5, token usage: 0.88, #running-req: 558, #queue-req: 204,
+[1,0]<stderr>:[2025-09-22 18:00:05 TP0] Prefill batch. #new-seq: 4, #new-token: 586, #cached-token: 10, token usage: 0.88, #running-req: 555, #queue-req: 200,
+[1,0]<stderr>:[2025-09-22 18:00:05 TP0] Prefill batch. #new-seq: 19, #new-token: 4905, #cached-token: 63, token usage: 0.85, #running-req: 553, #queue-req: 181,
+[1,0]<stderr>:[2025-09-22 18:00:05 TP0] Prefill batch. #new-seq: 8, #new-token: 2893, #cached-token: 25, token usage: 0.87, #running-req: 568, #queue-req: 173,
+[1,0]<stderr>:[2025-09-22 18:00:06 TP0] Prefill batch. #new-seq: 5, #new-token: 1400, #cached-token: 14, token usage: 0.87, #running-req: 571, #queue-req: 168,
+[1,0]<stderr>:[2025-09-22 18:00:06 TP0] Prefill batch. #new-seq: 9, #new-token: 1193, #cached-token: 22, token usage: 0.87, #running-req: 571, #queue-req: 159,
+[1,0]<stderr>:[2025-09-22 18:00:06 TP0] Prefill batch. #new-seq: 5, #new-token: 1457, #cached-token: 18, token usage: 0.87, #running-req: 577, #queue-req: 154,
+[1,0]<stderr>:[2025-09-22 18:00:07 TP0] Prefill batch. #new-seq: 2, #new-token: 1733, #cached-token: 9, token usage: 0.87, #running-req: 577, #queue-req: 152,
+[1,0]<stderr>:[2025-09-22 18:00:08 TP0] Prefill batch. #new-seq: 5, #new-token: 4023, #cached-token: 13, token usage: 0.87, #running-req: 571, #queue-req: 147,
+[1,0]<stderr>:[2025-09-22 18:00:08 TP0] Prefill batch. #new-seq: 2, #new-token: 574, #cached-token: 3, token usage: 0.88, #running-req: 569, #queue-req: 145,
+[1,0]<stderr>:[2025-09-22 18:00:08 TP0] Prefill batch. #new-seq: 5, #new-token: 2341, #cached-token: 15, token usage: 0.88, #running-req: 566, #queue-req: 140,
+[1,0]<stderr>:[2025-09-22 18:00:09 TP0] Prefill batch. #new-seq: 4, #new-token: 1096, #cached-token: 10, token usage: 0.88, #running-req: 567, #queue-req: 136,
+[1,0]<stderr>:[2025-09-22 18:00:09 TP0] Prefill batch. #new-seq: 5, #new-token: 651, #cached-token: 7, token usage: 0.88, #running-req: 565, #queue-req: 131,
+[1,0]<stderr>:[2025-09-22 18:00:09 TP0] Prefill batch. #new-seq: 2, #new-token: 1000, #cached-token: 9, token usage: 0.88, #running-req: 569, #queue-req: 129,
+[1,0]<stderr>:[2025-09-22 18:00:10 TP0] Prefill batch. #new-seq: 2, #new-token: 869, #cached-token: 9, token usage: 0.88, #running-req: 566, #queue-req: 127,
+[1,0]<stderr>:[2025-09-22 18:00:10 TP0] Prefill batch. #new-seq: 1, #new-token: 1170, #cached-token: 4, token usage: 0.88, #running-req: 562, #queue-req: 126,
+[1,0]<stderr>:[2025-09-22 18:00:10 TP0] Prefill batch. #new-seq: 2, #new-token: 233, #cached-token: 4, token usage: 0.89, #running-req: 562, #queue-req: 124,
+[1,0]<stderr>:[2025-09-22 18:00:11 TP0] Prefill batch. #new-seq: 1, #new-token: 183, #cached-token: 1, token usage: 0.88, #running-req: 561, #queue-req: 123,
+[1,0]<stderr>:[2025-09-22 18:00:11 TP0] Prefill batch. #new-seq: 6, #new-token: 5486, #cached-token: 16, token usage: 0.87, #running-req: 553, #queue-req: 117,
+[1,0]<stderr>:[2025-09-22 18:00:12 TP0] Prefill batch. #new-seq: 1, #new-token: 3145, #cached-token: 2, token usage: 0.88, #running-req: 549, #queue-req: 116,
+[1,0]<stderr>:[2025-09-22 18:00:12 TP0] Decode batch. #running-req: 549, #token: 270928, token usage: 0.89, cuda graph: False, gen throughput (token/s): 1950.10, #queue-req: 116,
+[1,0]<stderr>:[2025-09-22 18:00:13 TP0] Prefill batch. #new-seq: 1, #new-token: 412, #cached-token: 3, token usage: 0.89, #running-req: 544, #queue-req: 115,
+[1,0]<stderr>:[2025-09-22 18:00:13 TP0] Prefill batch. #new-seq: 4, #new-token: 1823, #cached-token: 10, token usage: 0.89, #running-req: 538, #queue-req: 111,
+[1,0]<stderr>:[2025-09-22 18:00:14 TP0] Prefill batch. #new-seq: 2, #new-token: 448, #cached-token: 5, token usage: 0.90, #running-req: 540, #queue-req: 109,
+[1,0]<stderr>:[2025-09-22 18:00:14 TP0] Prefill batch. #new-seq: 3, #new-token: 617, #cached-token: 5, token usage: 0.90, #running-req: 540, #queue-req: 106,
+[1,0]<stderr>:[2025-09-22 18:00:14 TP0] Prefill batch. #new-seq: 5, #new-token: 1235, #cached-token: 9, token usage: 0.89, #running-req: 538, #queue-req: 101,
+[1,0]<stderr>:[2025-09-22 18:00:15 TP0] Prefill batch. #new-seq: 4, #new-token: 390, #cached-token: 10, token usage: 0.89, #running-req: 541, #queue-req: 97,
+[1,0]<stderr>:[2025-09-22 18:00:15 TP0] Prefill batch. #new-seq: 3, #new-token: 948, #cached-token: 11, token usage: 0.89, #running-req: 542, #queue-req: 94,
+[1,0]<stderr>:[2025-09-22 18:00:15 TP0] Prefill batch. #new-seq: 1, #new-token: 364, #cached-token: 6, token usage: 0.90, #running-req: 544, #queue-req: 93,
+[1,0]<stderr>:[2025-09-22 18:00:16 TP0] Prefill batch. #new-seq: 5, #new-token: 2817, #cached-token: 9, token usage: 0.89, #running-req: 539, #queue-req: 88,
+[1,0]<stderr>:[2025-09-22 18:00:16 TP0] Prefill batch. #new-seq: 4, #new-token: 1785, #cached-token: 12, token usage: 0.89, #running-req: 537, #queue-req: 84,
+[1,0]<stderr>:[2025-09-22 18:00:17 TP0] Prefill batch. #new-seq: 1, #new-token: 458, #cached-token: 2, token usage: 0.90, #running-req: 540, #queue-req: 83,
+[1,0]<stderr>:[2025-09-22 18:00:17 TP0] Prefill batch. #new-seq: 7, #new-token: 1564, #cached-token: 14, token usage: 0.89, #running-req: 536, #queue-req: 76,
+[1,0]<stderr>:[2025-09-22 18:00:17 TP0] Prefill batch. #new-seq: 3, #new-token: 461, #cached-token: 8, token usage: 0.90, #running-req: 542, #queue-req: 73,
+[1,0]<stderr>:[2025-09-22 18:00:18 TP0] Prefill batch. #new-seq: 5, #new-token: 321, #cached-token: 14, token usage: 0.90, #running-req: 543, #queue-req: 68,
+[1,0]<stderr>:[2025-09-22 18:00:18 TP0] Prefill batch. #new-seq: 3, #new-token: 489, #cached-token: 13, token usage: 0.90, #running-req: 547, #queue-req: 65,
+[1,0]<stderr>:[2025-09-22 18:00:18 TP0] Prefill batch. #new-seq: 7, #new-token: 2626, #cached-token: 25, token usage: 0.89, #running-req: 548, #queue-req: 58,
+[1,0]<stderr>:[2025-09-22 18:00:19 TP0] Prefill batch. #new-seq: 8, #new-token: 3418, #cached-token: 16, token usage: 0.89, #running-req: 551, #queue-req: 50,
+[1,0]<stderr>:[2025-09-22 18:00:20 TP0] Prefill batch. #new-seq: 8, #new-token: 486, #cached-token: 21, token usage: 0.90, #running-req: 555, #queue-req: 42,
+[1,0]<stderr>:[2025-09-22 18:00:20 TP0] Prefill batch. #new-seq: 2, #new-token: 1472, #cached-token: 14, token usage: 0.90, #running-req: 558, #queue-req: 40,
+[1,0]<stderr>:[2025-09-22 18:00:20 TP0] Prefill batch. #new-seq: 1, #new-token: 134, #cached-token: 2, token usage: 0.90, #running-req: 557, #queue-req: 39,
+[1,0]<stderr>:[2025-09-22 18:00:21 TP0] Prefill batch. #new-seq: 6, #new-token: 2943, #cached-token: 11, token usage: 0.89, #running-req: 553, #queue-req: 33,
+[1,0]<stderr>:[2025-09-22 18:00:21 TP0] Prefill batch. #new-seq: 3, #new-token: 795, #cached-token: 5, token usage: 0.90, #running-req: 556, #queue-req: 30,
+[1,0]<stderr>:[2025-09-22 18:00:22 TP0] Prefill batch. #new-seq: 3, #new-token: 347, #cached-token: 6, token usage: 0.91, #running-req: 558, #queue-req: 27,
+[1,0]<stderr>:[2025-09-22 18:00:23 TP0] Prefill batch. #new-seq: 2, #new-token: 1564, #cached-token: 3, token usage: 0.90, #running-req: 552, #queue-req: 25,
+[1,0]<stderr>:[2025-09-22 18:00:23 TP0] Prefill batch. #new-seq: 2, #new-token: 1432, #cached-token: 6, token usage: 0.91, #running-req: 551, #queue-req: 23,
+[1,0]<stderr>:[2025-09-22 18:00:23 TP0] Decode batch. #running-req: 551, #token: 275022, token usage: 0.91, cuda graph: False, gen throughput (token/s): 2007.13, #queue-req: 23,
+[1,0]<stderr>:[2025-09-22 18:00:23 TP0] Prefill batch. #new-seq: 2, #new-token: 132, #cached-token: 6, token usage: 0.91, #running-req: 550, #queue-req: 21,
+[1,0]<stderr>:[2025-09-22 18:00:24 TP0] Prefill batch. #new-seq: 9, #new-token: 1752, #cached-token: 26, token usage: 0.90, #running-req: 547, #queue-req: 12,
+[1,0]<stderr>:[2025-09-22 18:00:24 TP0] Prefill batch. #new-seq: 3, #new-token: 1061, #cached-token: 7, token usage: 0.90, #running-req: 547, #queue-req: 9,
+[1,0]<stderr>:[2025-09-22 18:00:25 TP0] Prefill batch. #new-seq: 3, #new-token: 1449, #cached-token: 8, token usage: 0.91, #running-req: 546, #queue-req: 6,
+[1,0]<stderr>:[2025-09-22 18:00:25 TP0] Prefill batch. #new-seq: 6, #new-token: 792, #cached-token: 18, token usage: 0.91, #running-req: 545, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:00:31 TP0] Decode batch. #running-req: 478, #token: 249104, token usage: 0.82, cuda graph: False, gen throughput (token/s): 2726.18, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:00:37 TP0] Decode batch. #running-req: 405, #token: 224193, token usage: 0.74, cuda graph: False, gen throughput (token/s): 2660.33, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:00:44 TP0] Decode batch. #running-req: 349, #token: 210610, token usage: 0.70, cuda graph: False, gen throughput (token/s): 2296.93, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:00:51 TP0] Decode batch. #running-req: 297, #token: 186574, token usage: 0.62, cuda graph: False, gen throughput (token/s): 1951.13, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:00:57 TP0] Decode batch. #running-req: 238, #token: 168889, token usage: 0.56, cuda graph: False, gen throughput (token/s): 1599.57, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:04 TP0] Decode batch. #running-req: 195, #token: 151006, token usage: 0.50, cuda graph: False, gen throughput (token/s): 1344.96, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:10 TP0] Decode batch. #running-req: 161, #token: 135713, token usage: 0.45, cuda graph: False, gen throughput (token/s): 1135.70, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:11 TP0] Decode batch. #running-req: 120, #token: 108757, token usage: 0.36, cuda graph: True, gen throughput (token/s): 4128.58, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:13 TP0] Decode batch. #running-req: 90, #token: 86898, token usage: 0.29, cuda graph: True, gen throughput (token/s): 3375.32, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:14 TP0] Decode batch. #running-req: 70, #token: 70335, token usage: 0.23, cuda graph: True, gen throughput (token/s): 2811.05, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:15 TP0] Decode batch. #running-req: 57, #token: 59978, token usage: 0.20, cuda graph: True, gen throughput (token/s): 2403.38, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:16 TP0] Decode batch. #running-req: 51, #token: 50864, token usage: 0.17, cuda graph: True, gen throughput (token/s): 2179.19, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:17 TP0] Decode batch. #running-req: 44, #token: 45277, token usage: 0.15, cuda graph: True, gen throughput (token/s): 1957.73, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:18 TP0] Decode batch. #running-req: 37, #token: 40275, token usage: 0.13, cuda graph: True, gen throughput (token/s): 1682.99, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:19 TP0] Decode batch. #running-req: 32, #token: 37470, token usage: 0.12, cuda graph: True, gen throughput (token/s): 1488.25, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:19 TP0] Decode batch. #running-req: 22, #token: 26013, token usage: 0.09, cuda graph: True, gen throughput (token/s): 1172.54, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:21 TP0] Decode batch. #running-req: 13, #token: 14664, token usage: 0.05, cuda graph: True, gen throughput (token/s): 570.40, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:22 TP0] Decode batch. #running-req: 11, #token: 13545, token usage: 0.04, cuda graph: True, gen throughput (token/s): 360.69, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:23 TP0] Decode batch. #running-req: 6, #token: 8669, token usage: 0.03, cuda graph: True, gen throughput (token/s): 344.70, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:24 TP0] Decode batch. #running-req: 3, #token: 5454, token usage: 0.02, cuda graph: True, gen throughput (token/s): 206.69, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:24 TP0] Decode batch. #running-req: 2, #token: 3171, token usage: 0.01, cuda graph: True, gen throughput (token/s): 124.41, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:25 TP0] Decode batch. #running-req: 2, #token: 3251, token usage: 0.01, cuda graph: True, gen throughput (token/s): 110.72, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:27 TP0] Decode batch. #running-req: 1, #token: 1495, token usage: 0.00, cuda graph: True, gen throughput (token/s): 28.26, #queue-req: 0,
+[1,0]<stderr>:[2025-09-22 18:01:27 TP0] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP2] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP4] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP3] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP5] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP6] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP7] Stop profiling...
+[1,0]<stderr>:[2025-09-22 18:01:27 TP1] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP14] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP8] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP12] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP11] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP15] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP10] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP9] Stop profiling...
+[1,1]<stderr>:[2025-09-22 18:01:27 TP13] Stop profiling...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Resource Usage on 2025-09-22 18:04:00.002899:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	JobId: 88901.pbs111
+	Project: 50000097
+	Exit Status: 271
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	NCPUs: Requested(224), Used(224)
+	CPU Time Used: 01:20:32
+	Memory: Requested(3760gb), Used(777182568kb)
+	Vmem Used: 20987435676kb
+	Walltime: Requested(00:10:00), Used(00:08:00)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	Execution Nodes Used: (a2ap-dgx006:ncpus=112:ngpus=8:mem=1971322880kb)+(a2ap-dgx019:ncpus=112:ngpus=8:mem=1971322880kb)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	GPU Duration: 8.15mins
+	GPU Power Consumed: 363.57W
+	GPU Max GPU Memory Used: 1.07TB
+	Memory Throughput Rate (Average): a2ap-dgx006:(gpu1:3%+gpu0:5%+gpu2:4%+gpu3:5%+gpu5:5%+gpu4:5%+gpu6:5%+gpu7:4%)+a2ap-dgx019:(gpu1:5%+gpu0:5%+gpu2:5%+gpu3:5%+gpu5:5%+gpu4:5%+gpu6:5%+gpu7:4%)
+	Memory Throughput Rate (Max): a2ap-dgx006:(gpu1:17%+gpu0:44%+gpu2:44%+gpu3:44%+gpu5:44%+gpu4:44%+gpu6:45%+gpu7:45%)+a2ap-dgx019:(gpu1:44%+gpu0:44%+gpu2:45%+gpu3:44%+gpu5:45%+gpu4:44%+gpu6:44%+gpu7:44%)
+	Memory Throughput Rate (Min): a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx019:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+	GPU SM Utilization (Average): a2ap-dgx006:(gpu1:35%+gpu0:44%+gpu2:45%+gpu3:47%+gpu5:26%+gpu4:45%+gpu6:44%+gpu7:43%)+a2ap-dgx019:(gpu1:44%+gpu0:39%+gpu2:45%+gpu3:45%+gpu5:43%+gpu4:44%+gpu6:42%+gpu7:45%)
+	GPU SM Utilization (Max): a2ap-dgx006:(gpu1:100%+gpu0:100%+gpu2:100%+gpu3:100%+gpu5:100%+gpu4:100%+gpu6:100%+gpu7:100%)+a2ap-dgx019:(gpu1:100%+gpu0:100%+gpu2:100%+gpu3:100%+gpu5:100%+gpu4:100%+gpu6:100%+gpu7:100%)
+	GPU SM Utilization (Min): a2ap-dgx006:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)+a2ap-dgx019:(gpu1:0%+gpu0:0%+gpu2:0%+gpu3:0%+gpu5:0%+gpu4:0%+gpu6:0%+gpu7:0%)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: None
+GPU application profile: Medium
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+apacsc03@a2ap-login01:~$

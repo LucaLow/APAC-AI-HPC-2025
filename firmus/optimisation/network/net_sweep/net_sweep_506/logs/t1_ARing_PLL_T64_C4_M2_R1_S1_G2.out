@@ -1,0 +1,718 @@
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: [2025-09-29 17:03:32] Using default HuggingFace chat template with detected content format: string
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+0: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+0:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: /home/apacsc03/py312/lib/python3.13/site-packages/torch/cuda/__init__.py:63: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+1:   import pynvml  # type: ignore[import]
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+1: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: `torch_dtype` is deprecated! Use `dtype` instead!
+0: [2025-09-29 17:03:53 TP0] Attention backend not explicitly specified. Use fa3 backend by default.
+0: [2025-09-29 17:03:53 TP0] Chunked prefix cache is turned on.
+0: [2025-09-29 17:03:53 TP0] Init torch distributed begin.
+0: [W929 17:03:53.818985582 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:53.821552433 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.043720356 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.073393299 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:54.206773311 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:54.221554995 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.166065191 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.171324008 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:54.247186677 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.221095951 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:54.315277125 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:54.326358021 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.273794694 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.451584941 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+1: [W929 17:03:54.562381179 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [W929 17:03:54.627896356 Utils.hpp:137] Warning: Environment variable NCCL_ASYNC_ERROR_HANDLING is deprecated; use TORCH_NCCL_ASYNC_ERROR_HANDLING instead (function operator())
+0: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [2025-09-29 17:03:54 TP0] sglang is using nccl==2.27.3
+0: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [2025-09-29 17:03:56 TP3] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP1] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP2] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP4] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP5] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP6] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP0] Custom allreduce is disabled because this process group spans across nodes.
+0: [2025-09-29 17:03:56 TP7] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP15] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP14] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP10] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP12] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP11] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP8] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP9] Custom allreduce is disabled because this process group spans across nodes.
+1: [2025-09-29 17:03:56 TP13] Custom allreduce is disabled because this process group spans across nodes.
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [2025-09-29 17:03:56 TP0] Init torch distributed ends. mem usage=1.08 GB
+0: [2025-09-29 17:03:58 TP0] Load weight begin. avail mem=138.17 GB
+0: [2025-09-29 17:03:58 TP0] Detected fp8 checkpoint.
+0: [2025-09-29 17:03:58 TP0] Load weight end. type=DeepseekV3ForCausalLM, dtype=torch.bfloat16, avail mem=97.62 GB, mem usage=40.55 GB.
+1: [2025-09-29 17:03:58 TP13] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP7] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+1: [2025-09-29 17:03:58 TP9] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP5] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP3] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+1: [2025-09-29 17:03:58 TP8] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP6] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP0] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+1: [2025-09-29 17:03:58 TP11] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP0] Memory pool end. avail mem=17.29 GB
+1: [2025-09-29 17:03:58 TP12] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP4] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP1] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+1: [2025-09-29 17:03:58 TP15] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+1: [2025-09-29 17:03:58 TP10] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:58 TP2] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+1: [2025-09-29 17:03:59 TP14] KV Cache is allocated. #tokens: 1191491, KV size: 77.98 GB
+0: [2025-09-29 17:03:59 TP0] Capture cuda graph begin. This can take up to several minutes. avail mem=17.19 GB
+0: [2025-09-29 17:03:59 TP0] Capture cuda graph bs [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256]
+0: All deep_gemm operations loaded successfully!
+0:   0%|          | 0/35 [00:00<?, ?it/s]Capturing batches (bs=256 avail_mem=16.76 GB):   0%|          | 0/35 [00:00<?, ?it/s][rank1]:W0929 17:04:00.648000 2348771 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [0/0] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.c481aa68-a464-49d2-b02e-6795dc12ccba is not empty - skipping!
+1: [rank13]:W0929 17:04:00.649000 2095359 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [0/0] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.f724be15-75d1-4f21-a1cc-4e8811ed2cbd is not empty - skipping!
+1: [rank11]:W0929 17:04:00.649000 2095357 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [0/0] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.f1c5c576-854b-426b-a1f6-b07fac608b6f is not empty - skipping!
+0: [2025-09-29 17:04:01 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+0: [2025-09-29 17:04:01 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+1: [2025-09-29 17:04:01 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+1: [2025-09-29 17:04:01 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2112, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: 
+1: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][A
+0: DeepGEMM warmup:   0%|          | 1/16384 [00:00<2:16:37,  2.00it/s][A
+0: DeepGEMM warmup:   1%|          | 193/16384 [00:00<00:40, 397.12it/s][A
+0: DeepGEMM warmup:   2%|▏         | 277/16384 [00:00<00:36, 435.78it/s][A
+0: DeepGEMM warmup:   2%|▏         | 385/16384 [00:01<00:35, 454.55it/s][A
+0: DeepGEMM warmup:   3%|▎         | 512/16384 [00:01<00:26, 593.02it/s][A
+0: DeepGEMM warmup:   4%|▎         | 590/16384 [00:01<00:28, 548.38it/s][A
+0: DeepGEMM warmup:   5%|▍         | 769/16384 [00:01<00:20, 753.43it/s][A
+0: DeepGEMM warmup:   7%|▋         | 1153/16384 [00:01<00:13, 1124.36it/s][A
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:   8%|▊         | 1281/16384 [00:01<00:15, 1005.54it/s][A
+0: DeepGEMM warmup:   9%|▊         | 1409/16384 [00:02<00:16, 890.90it/s] [A
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:  13%|█▎        | 2090/16384 [00:02<00:07, 2023.32it/s][A
+0: DeepGEMM warmup:  16%|█▋        | 2689/16384 [00:02<00:05, 2654.07it/s][A
+1: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 1/16384 [00:00<2:24:46,  1.89it/s]DeepGEMM warmup:   1%|          | 193/16384 [00:00<00:43, 370.71it/s]DeepGEMM warmup:   2%|▏         | 321/16384 [00:00<00:33, 473.39it/s]DeepGEMM warmup:   2%|▏         | 393/16384 [00:01<00:33, 480.60it/s]DeepGEMM warmup:   3%|▎         | 512/16384 [00:01<00:27, 574.87it/s]DeepGEMM warmup:   4%|▎         | 582/16384 [00:01<00:29, 530.35it/s]DeepGEMM warmup:   5%|▍         | 769/16384 [00:01<00:20, 767.64it/s]DeepGEMM warmup:   7%|▋         | 1153/16384 [00:01<00:14, 1079.19it/s]DeepGEMM warmup:   8%|▊         | 1281/16384 [00:01<00:15, 1002.33it/s]DeepGEMM warmup:   9%|▊         | 1409/16384 [00:02<00:15, 977.44it/s] DeepGEMM warmup:  13%|█▎        | 2049/16384 [00:02<00:06, 2084.96it/s]DeepGEMM warmup:  16%|█▌        | 2636/16384 [00:02<00:04, 2943.01it/s]DeepGEMM warmup:  19%|█▉        | 3148/16384 [00:02<00:03, 3475.57it/s]DeepGEMM warmup
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:  22%|██▏       | 3585/16384 [00:02<00:03, 3945.02it/s][A
+0: DeepGEMM warmup:  25%|██▌       | 4097/16384 [00:02<00:03, 3875.27it/s][A
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:  29%|██▉       | 4801/16384 [00:02<00:02, 4620.97it/s][A
+0: DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:02<00:02, 5013.81it/s][A
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:  41%|████      | 6657/16384 [00:02<00:01, 6224.79it/s][A
+0: DeepGEMM warmup:  50%|█████     | 8193/16384 [00:03<00:01, 8043.82it/s][A
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:  63%|██████▎   | 10314/16384 [00:03<00:00, 11418.76it/s][A
+0: DeepGEMM warmup:  73%|███████▎  | 12033/16384 [00:03<00:00, 12128.28it/s][A
+0: DeepGEMM warmup:  95%|█████████▍| 15560/16384 [00:03<00:00, 18230.56it/s][ADeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4885.18it/s] 
+0: [2025-09-29 17:04:05 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+0: [2025-09-29 17:04:05 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: 
+1: :  24%|██▎       | 3868/16384 [00:02<00:02, 4440.02it/s]DeepGEMM warmup:  27%|██▋       | 4368/16384 [00:02<00:02, 4156.46it/s]DeepGEMM warmup:  31%|███▏      | 5147/16384 [00:02<00:02, 5096.74it/s]DeepGEMM warmup:  35%|███▌      | 5736/16384 [00:02<00:02, 5310.69it/s]DeepGEMM warmup:  41%|████      | 6657/16384 [00:02<00:01, 6274.55it/s]DeepGEMM warmup:  50%|█████     | 8193/16384 [00:02<00:01, 8069.20it/s]DeepGEMM warmup:  61%|██████▏   | 10057/16384 [00:03<00:00, 10903.95it/s]DeepGEMM warmup:  73%|███████▎  | 12033/16384 [00:03<00:00, 12094.02it/s]DeepGEMM warmup:  94%|█████████▍| 15474/16384 [00:03<00:00, 17980.54it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:03<00:00, 4881.83it/s] 
+1: [2025-09-29 17:04:05 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+1: [2025-09-29 17:04:05 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=1536, K=1536, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][A
+0: DeepGEMM warmup:   0%|          | 65/16384 [00:00<00:31, 514.05it/s][A
+0: DeepGEMM warmup:   2%|▏         | 257/16384 [00:00<00:14, 1084.85it/s][A
+0: DeepGEMM warmup:   3%|▎         | 449/16384 [00:00<00:12, 1286.86it/s][A
+0: DeepGEMM warmup:   4%|▎         | 578/16384 [00:00<00:13, 1204.10it/s][A
+0: DeepGEMM warmup:   5%|▍         | 769/16384 [00:00<00:11, 1342.70it/s][A
+0: DeepGEMM warmup:   6%|▌         | 961/16384 [00:00<00:11, 1391.99it/s][A
+0: DeepGEMM warmup:   8%|▊         | 1281/16384 [00:00<00:08, 1779.96it/s][A
+0: DeepGEMM warmup:  10%|█         | 1665/16384 [00:01<00:06, 2177.05it/s][A
+0: DeepGEMM warmup:  12%|█▏        | 1921/16384 [00:01<00:06, 2276.18it/s][A
+0: DeepGEMM warmup:  15%|█▍        | 2446/16384 [00:01<00:04, 3093.98it/s][A
+0: DeepGEMM warmup:  19%|█▉        | 3073/16384 [00:01<00:03, 3623.19it/s][A
+1: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 65/16384 [00:00<00:30, 530.80it/s]DeepGEMM warmup:   2%|▏         | 257/16384 [00:00<00:14, 1151.42it/s]DeepGEMM warmup:   3%|▎         | 449/16384 [00:00<00:11, 1333.30it/s]DeepGEMM warmup:   4%|▎         | 583/16384 [00:00<00:12, 1257.38it/s]DeepGEMM warmup:   5%|▍         | 769/16384 [00:00<00:11, 1366.32it/s]DeepGEMM warmup:   6%|▌         | 961/16384 [00:00<00:10, 1461.58it/s]DeepGEMM warmup:   8%|▊         | 1281/16384 [00:00<00:08, 1855.36it/s]DeepGEMM warmup:  10%|█         | 1665/16384 [00:00<00:06, 2242.95it/s]DeepGEMM warmup:  13%|█▎        | 2049/16384 [00:01<00:05, 2511.30it/s]DeepGEMM warmup:  17%|█▋        | 2817/16384 [00:01<00:03, 3554.68it/s]DeepGEMM warmup:  22%|██▏       | 3578/16384 [00:01<00:02, 4602.37it/s]DeepGEMM warmup:  25%|██▌       | 4097/16384 [00:01<00:02, 4419.45it/s]DeepGEMM warmup:  30%|███       | 4943/16384 [00:01<00:02, 5483.24it
+0: DeepGEMM warmup:  23%|██▎       | 3690/16384 [00:01<00:02, 4305.40it/s][A
+0: DeepGEMM warmup:  26%|██▌       | 4225/16384 [00:01<00:02, 4116.56it/s][A
+0: DeepGEMM warmup:  31%|███▏      | 5121/16384 [00:01<00:02, 5316.33it/s][A
+0: DeepGEMM warmup:  36%|███▌      | 5893/16384 [00:01<00:01, 5964.00it/s][A
+0: DeepGEMM warmup:  40%|████      | 6622/16384 [00:01<00:01, 6332.38it/s][A
+0: DeepGEMM warmup:  45%|████▌     | 7382/16384 [00:01<00:01, 6692.59it/s][A
+0: DeepGEMM warmup:  49%|████▉     | 8067/16384 [00:02<00:01, 6727.76it/s][A
+0: DeepGEMM warmup:  56%|█████▋    | 9217/16384 [00:02<00:00, 7762.57it/s][A
+1: /s]DeepGEMM warmup:  35%|███▌      | 5761/16384 [00:01<00:01, 5641.77it/s]DeepGEMM warmup:  40%|████      | 6634/16384 [00:01<00:01, 6449.33it/s]DeepGEMM warmup:  45%|████▌     | 7385/16384 [00:01<00:01, 6737.52it/s]DeepGEMM warmup:  50%|█████     | 8203/16384 [00:01<00:01, 7141.11it/s]DeepGEMM warmup:  56%|█████▋    | 9217/16384 [00:02<00:00, 7890.92it/s]DeepGEMM warmup:  66%|██████▌   | 10753/16384 [00:02<00:00, 9487.60it/s]DeepGEMM warmup:  87%|████████▋ | 14195/16384 [00:02<00:00, 16451.49it/s]DeepGEMM warmup: 100%|█████████▉| 16320/16384 [00:02<00:00, 17819.69it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 6767.71it/s] 
+0: DeepGEMM warmup:  66%|██████▌   | 10753/16384 [00:02<00:00, 9341.38it/s][A
+1: [2025-09-29 17:04:07 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+1: [2025-09-29 17:04:07 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: DeepGEMM warmup:  86%|████████▋ | 14149/16384 [00:02<00:00, 16158.07it/s][A
+0: DeepGEMM warmup:  99%|█████████▉| 16263/16384 [00:02<00:00, 17569.31it/s][ADeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 6480.91it/s] 
+0: [2025-09-29 17:04:07 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+0: [2025-09-29 17:04:07 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1024, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: 
+0: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][A
+0: DeepGEMM warmup:   0%|          | 65/16384 [00:00<00:30, 529.66it/s][A
+0: DeepGEMM warmup:   3%|▎         | 512/16384 [00:00<00:07, 2223.92it/s][A
+0: DeepGEMM warmup:   6%|▋         | 1025/16384 [00:00<00:05, 2929.17it/s][A
+0: DeepGEMM warmup:  10%|█         | 1644/16384 [00:00<00:03, 3998.29it/s][A
+0: DeepGEMM warmup:  16%|█▌        | 2561/16384 [00:00<00:02, 5411.32it/s][A
+0: DeepGEMM warmup:  22%|██▏       | 3585/16384 [00:00<00:01, 6691.50it/s][A
+0: DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:00<00:01, 9580.60it/s][A
+1: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 65/16384 [00:00<00:30, 537.44it/s]DeepGEMM warmup:   3%|▎         | 512/16384 [00:00<00:06, 2332.89it/s]DeepGEMM warmup:   6%|▋         | 1025/16384 [00:00<00:04, 3086.54it/s]DeepGEMM warmup:  11%|█▏        | 1881/16384 [00:00<00:02, 4944.62it/s]DeepGEMM warmup:  17%|█▋        | 2730/16384 [00:00<00:02, 6102.17it/s]DeepGEMM warmup:  22%|██▏       | 3585/16384 [00:00<00:01, 6808.39it/s]DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:00<00:01, 9936.44it/s]DeepGEMM warmup:  55%|█████▌    | 9092/16384 [00:00<00:00, 16960.85it/s]DeepGEMM warmup:  76%|███████▋  | 12506/16384 [00:01<00:00, 21929.65it/s]DeepGEMM warmup:  98%|█████████▊| 16000/16384 [00:01<00:00, 25733.86it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 14522.54it/s]
+0: DeepGEMM warmup:  56%|█████▌    | 9188/16384 [00:00<00:00, 16687.35it/s][A
+0: DeepGEMM warmup:  78%|███████▊  | 12741/16384 [00:01<00:00, 21982.89it/s][A
+0: DeepGEMM warmup:  99%|█████████▉| 16286/16384 [00:01<00:00, 25839.66it/s][ADeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 14072.65it/s]
+1: [2025-09-29 17:04:08 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+1: [2025-09-29 17:04:08 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: [2025-09-29 17:04:09 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+0: [2025-09-29 17:04:09 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2304, K=7168, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: 
+0: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][A
+0: DeepGEMM warmup:   1%|          | 129/16384 [00:00<00:16, 1013.40it/s][A
+0: DeepGEMM warmup:   2%|▏         | 321/16384 [00:00<00:12, 1333.40it/s][A
+0: DeepGEMM warmup:   3%|▎         | 512/16384 [00:00<00:11, 1431.99it/s][A
+0: DeepGEMM warmup:   4%|▍         | 656/16384 [00:00<00:11, 1313.73it/s][A
+0: DeepGEMM warmup:   5%|▌         | 897/16384 [00:00<00:10, 1538.93it/s][A
+0: DeepGEMM warmup:   8%|▊         | 1281/16384 [00:00<00:07, 2038.38it/s][A
+0: DeepGEMM warmup:  11%|█         | 1793/16384 [00:00<00:05, 2646.34it/s][A
+0: DeepGEMM warmup:  16%|█▌        | 2561/16384 [00:00<00:03, 3948.46it/s][A
+0: DeepGEMM warmup:  23%|██▎       | 3841/16384 [00:01<00:02, 6107.04it/s][A
+1: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 1/16384 [00:00<42:26,  6.43it/s]DeepGEMM warmup:   1%|          | 129/16384 [00:00<00:29, 552.58it/s]DeepGEMM warmup:   2%|▏         | 321/16384 [00:00<00:15, 1008.98it/s]DeepGEMM warmup:   3%|▎         | 512/16384 [00:00<00:12, 1224.91it/s]DeepGEMM warmup:   4%|▍         | 641/16384 [00:00<00:13, 1191.08it/s]DeepGEMM warmup:   5%|▌         | 897/16384 [00:00<00:10, 1514.78it/s]DeepGEMM warmup:   8%|▊         | 1281/16384 [00:00<00:07, 2010.69it/s]DeepGEMM warmup:   9%|▉         | 1537/16384 [00:00<00:06, 2156.19it/s]DeepGEMM warmup:  15%|█▍        | 2430/16384 [00:01<00:03, 4060.22it/s]DeepGEMM warmup:  20%|██        | 3279/16384 [00:01<00:02, 5329.11it/s]DeepGEMM warmup:  25%|██▍       | 4091/16384 [00:01<00:02, 6139.42it/s]DeepGEMM warmup:  29%|██▉       | 4781/16384 [00:01<00:01, 6362.25it/s]DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:01<00:01, 6296.42it/s]
+0: DeepGEMM warmup:  28%|██▊       | 4594/16384 [00:01<00:01, 6494.73it/s][A
+0: DeepGEMM warmup:  32%|███▏      | 5263/16384 [00:01<00:01, 6467.60it/s][A
+0: DeepGEMM warmup:  37%|███▋      | 6031/16384 [00:01<00:01, 6810.77it/s][A
+0: DeepGEMM warmup:  41%|████▏     | 6762/16384 [00:01<00:01, 6954.34it/s][A
+0: DeepGEMM warmup:  52%|█████▏    | 8449/16384 [00:01<00:00, 9092.64it/s][A
+1: DeepGEMM warmup:  41%|████      | 6657/16384 [00:01<00:01, 7275.23it/s]DeepGEMM warmup:  52%|█████▏    | 8449/16384 [00:01<00:00, 9430.08it/s]DeepGEMM warmup:  57%|█████▋    | 9380/16384 [00:01<00:00, 9242.01it/s]DeepGEMM warmup:  78%|███████▊  | 12837/16384 [00:01<00:00, 16178.41it/s]DeepGEMM warmup:  98%|█████████▊| 16129/16384 [00:02<00:00, 19008.77it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 7784.67it/s] 
+1: [2025-09-29 17:04:11 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+1: [2025-09-29 17:04:11 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: DeepGEMM warmup:  57%|█████▋    | 9338/16384 [00:01<00:00, 8780.84it/s][A
+0: DeepGEMM warmup:  78%|███████▊  | 12726/16384 [00:01<00:00, 15765.10it/s][A
+0: DeepGEMM warmup:  98%|█████████▊| 16129/16384 [00:01<00:00, 18777.83it/s][ADeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 8199.63it/s] 
+0: [2025-09-29 17:04:11 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+0: [2025-09-29 17:04:11 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=7168, K=1152, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: 
+0: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s][A
+0: DeepGEMM warmup:   0%|          | 65/16384 [00:00<00:30, 534.17it/s][A
+0: DeepGEMM warmup:   3%|▎         | 512/16384 [00:00<00:06, 2290.32it/s][A
+0: DeepGEMM warmup:   6%|▋         | 1025/16384 [00:00<00:05, 3038.61it/s][A
+0: DeepGEMM warmup:  11%|█         | 1731/16384 [00:00<00:03, 4389.71it/s][A
+0: DeepGEMM warmup:  16%|█▌        | 2561/16384 [00:00<00:02, 5493.12it/s][A
+0: DeepGEMM warmup:  22%|██▏       | 3585/16384 [00:00<00:01, 6655.60it/s][A
+1: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 65/16384 [00:00<00:29, 559.76it/s]DeepGEMM warmup:   3%|▎         | 512/16384 [00:00<00:06, 2338.05it/s]DeepGEMM warmup:   6%|▋         | 1025/16384 [00:00<00:04, 3112.28it/s]DeepGEMM warmup:  10%|█         | 1697/16384 [00:00<00:03, 4343.61it/s]DeepGEMM warmup:  16%|█▌        | 2569/16384 [00:00<00:02, 5777.85it/s]DeepGEMM warmup:  22%|██▏       | 3585/16384 [00:00<00:01, 7087.66it/s]DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:00<00:01, 10096.89it/s]DeepGEMM warmup:  56%|█████▌    | 9097/16384 [00:00<00:00, 17085.78it/s]DeepGEMM warmup:  77%|███████▋  | 12575/16384 [00:01<00:00, 22202.14it/s]DeepGEMM warmup:  98%|█████████▊| 16051/16384 [00:01<00:00, 25873.09it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 14578.60it/s]
+0: DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:00<00:01, 9612.57it/s][A
+0: DeepGEMM warmup:  55%|█████▌    | 9080/16384 [00:00<00:00, 16448.41it/s][A
+0: DeepGEMM warmup:  77%|███████▋  | 12547/16384 [00:01<00:00, 21587.49it/s][A
+0: DeepGEMM warmup:  98%|█████████▊| 16035/16384 [00:01<00:00, 25403.94it/s][ADeepGEMM warmup: 100%|██████████| 16384/16384 [00:01<00:00, 14146.12it/s]
+0: [2025-09-29 17:04:12 TP0] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP7] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP6] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP3] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP1] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP4] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP2] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: [2025-09-29 17:04:12 TP5] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP14] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP9] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP13] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP15] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP8] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP11] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP12] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+1: [2025-09-29 17:04:12 TP10] Config file not found at /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_4_0/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Fallback to triton version 3.3.1 and use MoE kernel config from /scratch/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/layers/moe/fused_moe_triton/configs/triton_3_3_1/E=257,N=128,device_name=NVIDIA_H200,dtype=fp8_w8a8,block_shape=[128, 128].json. Performance might be sub-optimal!
+0: Capturing batches (bs=256 avail_mem=16.76 GB):   3%|▎         | 1/35 [00:16<09:04, 16.01s/it]Capturing batches (bs=248 avail_mem=16.25 GB):   3%|▎         | 1/35 [00:16<09:04, 16.01s/it]Capturing batches (bs=248 avail_mem=16.25 GB):   6%|▌         | 2/35 [00:17<04:12,  7.66s/it]Capturing batches (bs=240 avail_mem=16.24 GB):   6%|▌         | 2/35 [00:17<04:12,  7.66s/it]Capturing batches (bs=240 avail_mem=16.24 GB):   9%|▊         | 3/35 [00:18<02:17,  4.30s/it]Capturing batches (bs=232 avail_mem=16.22 GB):   9%|▊         | 3/35 [00:18<02:17,  4.30s/it]Capturing batches (bs=232 avail_mem=16.22 GB):  11%|█▏        | 4/35 [00:18<01:24,  2.72s/it]Capturing batches (bs=224 avail_mem=16.21 GB):  11%|█▏        | 4/35 [00:18<01:24,  2.72s/it]Capturing batches (bs=224 avail_mem=16.21 GB):  14%|█▍        | 5/35 [00:18<00:55,  1.85s/it]Capturing batches (bs=216 avail_mem=16.19 GB):  14%|█▍        | 5/35 [00:18<00:55,  1.85s/it]Capturing batches (bs=216 avail_mem=16.19 GB):  17%|█
+0: ▋        | 6/35 [00:19<00:38,  1.32s/it]Capturing batches (bs=208 avail_mem=16.18 GB):  17%|█▋        | 6/35 [00:19<00:38,  1.32s/it]Capturing batches (bs=208 avail_mem=16.18 GB):  20%|██        | 7/35 [00:19<00:27,  1.01it/s]Capturing batches (bs=200 avail_mem=16.16 GB):  20%|██        | 7/35 [00:19<00:27,  1.01it/s]Capturing batches (bs=200 avail_mem=16.16 GB):  23%|██▎       | 8/35 [00:19<00:20,  1.31it/s]Capturing batches (bs=192 avail_mem=16.15 GB):  23%|██▎       | 8/35 [00:19<00:20,  1.31it/s]Capturing batches (bs=192 avail_mem=16.15 GB):  26%|██▌       | 9/35 [00:20<00:19,  1.31it/s]Capturing batches (bs=184 avail_mem=16.14 GB):  26%|██▌       | 9/35 [00:20<00:19,  1.31it/s]Capturing batches (bs=184 avail_mem=16.14 GB):  29%|██▊       | 10/35 [00:20<00:15,  1.62it/s]Capturing batches (bs=176 avail_mem=16.12 GB):  29%|██▊       | 10/35 [00:20<00:15,  1.62it/s]Capturing batches (bs=176 avail_mem=16.12 GB):  31%|███▏      | 11/35 [00:20<
+0: 00:12,  1.92it/s]Capturing batches (bs=168 avail_mem=16.11 GB):  31%|███▏      | 11/35 [00:20<00:12,  1.92it/s]Capturing batches (bs=168 avail_mem=16.11 GB):  34%|███▍      | 12/35 [00:21<00:10,  2.22it/s]Capturing batches (bs=160 avail_mem=16.09 GB):  34%|███▍      | 12/35 [00:21<00:10,  2.22it/s]Capturing batches (bs=160 avail_mem=16.09 GB):  37%|███▋      | 13/35 [00:21<00:08,  2.48it/s]Capturing batches (bs=152 avail_mem=16.08 GB):  37%|███▋      | 13/35 [00:21<00:08,  2.48it/s]Capturing batches (bs=152 avail_mem=16.08 GB):  40%|████      | 14/35 [00:21<00:07,  2.73it/s]Capturing batches (bs=144 avail_mem=16.06 GB):  40%|████      | 14/35 [00:21<00:07,  2.73it/s]Capturing batches (bs=144 avail_mem=16.06 GB):  43%|████▎     | 15/35 [00:22<00:06,  2.94it/s]Capturing batches (bs=136 avail_mem=16.05 GB):  43%|████▎     | 15/35 [00:22<00:06,  2.94it/s]Capturing batches (bs=136 avail_mem=16.05 GB):  46%|████▌     | 1
+0: 6/35 [00:22<00:06,  3.11it/s]Capturing batches (bs=128 avail_mem=16.04 GB):  46%|████▌     | 16/35 [00:22<00:06,  3.11it/s]Capturing batches (bs=128 avail_mem=16.04 GB):  49%|████▊     | 17/35 [00:23<00:09,  1.87it/s]Capturing batches (bs=120 avail_mem=16.02 GB):  49%|████▊     | 17/35 [00:23<00:09,  1.87it/s]Capturing batches (bs=120 avail_mem=16.02 GB):  51%|█████▏    | 18/35 [00:23<00:07,  2.18it/s]Capturing batches (bs=112 avail_mem=16.01 GB):  51%|█████▏    | 18/35 [00:23<00:07,  2.18it/s]Capturing batches (bs=112 avail_mem=16.01 GB):  54%|█████▍    | 19/35 [00:24<00:06,  2.44it/s]Capturing batches (bs=104 avail_mem=16.00 GB):  54%|█████▍    | 19/35 [00:24<00:06,  2.44it/s]Capturing batches (bs=104 avail_mem=16.00 GB):  57%|█████▋    | 20/35 [00:24<00:05,  2.70it/s]Capturing batches (bs=96 avail_mem=15.98 GB):  57%|█████▋    | 20/35 [00:24<00:05,  2.70it/s] Capturing batches (bs=96 avail_mem=15
+0: .98 GB):  60%|██████    | 21/35 [00:24<00:04,  2.93it/s]Capturing batches (bs=88 avail_mem=15.97 GB):  60%|██████    | 21/35 [00:24<00:04,  2.93it/s]Capturing batches (bs=88 avail_mem=15.97 GB):  63%|██████▎   | 22/35 [00:24<00:04,  3.10it/s]Capturing batches (bs=80 avail_mem=15.95 GB):  63%|██████▎   | 22/35 [00:24<00:04,  3.10it/s]Capturing batches (bs=80 avail_mem=15.95 GB):  66%|██████▌   | 23/35 [00:26<00:07,  1.53it/s]Capturing batches (bs=72 avail_mem=15.94 GB):  66%|██████▌   | 23/35 [00:26<00:07,  1.53it/s]Capturing batches (bs=72 avail_mem=15.94 GB):  69%|██████▊   | 24/35 [00:27<00:09,  1.13it/s]Capturing batches (bs=64 avail_mem=15.92 GB):  69%|██████▊   | 24/35 [00:27<00:09,  1.13it/s]Capturing batches (bs=64 avail_mem=15.92 GB):  71%|███████▏  | 25/35 [00:28<00:09,  1.07it/s]Capturing batches (bs=56 avail_mem=15.91 GB):  71%|███████▏  | 25/35 [00:28
+0: <00:09,  1.07it/s]Capturing batches (bs=56 avail_mem=15.91 GB):  74%|███████▍  | 26/35 [00:30<00:09,  1.09s/it]Capturing batches (bs=48 avail_mem=15.89 GB):  74%|███████▍  | 26/35 [00:30<00:09,  1.09s/it]Capturing batches (bs=48 avail_mem=15.89 GB):  77%|███████▋  | 27/35 [00:31<00:09,  1.20s/it]Capturing batches (bs=40 avail_mem=15.88 GB):  77%|███████▋  | 27/35 [00:31<00:09,  1.20s/it]Capturing batches (bs=40 avail_mem=15.88 GB):  80%|████████  | 28/35 [00:33<00:08,  1.26s/it]Capturing batches (bs=32 avail_mem=15.86 GB):  80%|████████  | 28/35 [00:33<00:08,  1.26s/it]Capturing batches (bs=32 avail_mem=15.86 GB):  83%|████████▎ | 29/35 [00:34<00:07,  1.32s/it]Capturing batches (bs=24 avail_mem=15.85 GB):  83%|████████▎ | 29/35 [00:34<00:07,  1.32s/it][rank3]:W0929 17:04:34.375000 2348773 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [1/1] Dire
+0: ctory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.64cb1fb0-f1f5-4054-9bc1-ae40e21eb8cc is not empty - skipping!
+0: [rank6]:W0929 17:04:34.376000 2348776 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [1/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.725ebbf1-f214-4f4a-b73e-f1e5085d81ef is not empty - skipping!
+1: [rank14]:W0929 17:04:34.376000 2095360 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [1/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.2777283a-7078-477c-a406-8b283baa7659 is not empty - skipping!
+0: Capturing batches (bs=24 avail_mem=15.85 GB):  86%|████████▌ | 30/35 [00:34<00:05,  1.04s/it]Capturing batches (bs=16 avail_mem=15.84 GB):  86%|████████▌ | 30/35 [00:34<00:05,  1.04s/it]Capturing batches (bs=16 avail_mem=15.84 GB):  89%|████████▊ | 31/35 [00:35<00:03,  1.20it/s]Capturing batches (bs=8 avail_mem=15.82 GB):  89%|████████▊ | 31/35 [00:35<00:03,  1.20it/s] Capturing batches (bs=8 avail_mem=15.82 GB):  91%|█████████▏| 32/35 [00:36<00:03,  1.02s/it]Capturing batches (bs=4 avail_mem=15.81 GB):  91%|█████████▏| 32/35 [00:36<00:03,  1.02s/it]Capturing batches (bs=4 avail_mem=15.81 GB):  94%|█████████▍| 33/35 [00:38<00:02,  1.14s/it]Capturing batches (bs=2 avail_mem=15.79 GB):  94%|█████████▍| 33/35 [00:38<00:02,  1.14s/it]Capturing batches (bs=2 avail_mem=15.79 GB):  97%|█████████▋| 34/35 [00:39<00:01,  1.23s/it]Capturing 
+0: batches (bs=1 avail_mem=15.78 GB):  97%|█████████▋| 34/35 [00:39<00:01,  1.23s/it][rank3]:W0929 17:04:39.457000 2348773 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [1/2] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.4db71179-ddf4-4090-876e-b738803d63c9 is not empty - skipping!
+0: Capturing batches (bs=1 avail_mem=15.78 GB): 100%|██████████| 35/35 [00:39<00:00,  1.02it/s]Capturing batches (bs=1 avail_mem=15.78 GB): 100%|██████████| 35/35 [00:39<00:00,  1.14s/it]
+0: [2025-09-29 17:04:39 TP0] Capture cuda graph end. Time elapsed: 40.66 s. mem usage=1.43 GB. avail mem=15.77 GB.
+0: [2025-09-29 17:04:40 TP0] max_total_num_tokens=1191491, chunked_prefill_size=8192, max_prefill_tokens=16384, max_running_requests=3723, context_len=163840, available_gpu_mem=15.77 GB
+1: [2025-09-29 17:04:41] Starting dummy health check server at 127.0.0.1:30000
+0: [2025-09-29 17:04:53] 
+0: Warmup...
+0: [2025-09-29 17:04:53 TP0] Prefill batch. #new-seq: 11, #new-token: 2827, #cached-token: 0, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+0: [2025-09-29 17:04:54 TP0] Prefill batch. #new-seq: 5, #new-token: 1285, #cached-token: 0, token usage: 0.00, #running-req: 11, #queue-req: 0, 
+1: [2025-09-29 17:04:55 TP8] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+1: [2025-09-29 17:04:55 TP8] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: [2025-09-29 17:04:55 TP0] Entering DeepGEMM JIT Pre-Compile session. It may take a long time (typically 10-20 mins) if you have not run `sglang.compile_deep_gemm`. It is recommended to run `sglang.compile_deep_gemm` with same args as `sglang.launch_server` for pre-compilation to reduce the overhead if you have not run it before. For example: `python3 -m sglang.compile_deep_gemm --model deepseek-ai/DeepSeek-V3 --tp 8 --trust-remote-code`
+0: [2025-09-29 17:04:55 TP0] Try DeepGEMM JIT Compiling for <GEMM_NT_F8F8BF16> N=2048, K=512, num_groups=1 with all Ms. It only takes a little time (typically 1 sec) if you have run `python3 -m sglang.compile_deep_gemm`. 
+0: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 1/16384 [00:00<1:42:59,  2.65it/s]DeepGEMM warmup:   0%|          | 65/16384 [00:00<01:52, 145.46it/s]DeepGEMM warmup:   1%|          | 129/16384 [00:00<01:13, 222.34it/s]DeepGEMM warmup:   1%|          | 193/16384 [00:00<00:59, 273.21it/s]DeepGEMM warmup:   2%|▏         | 385/16384 [00:01<00:26, 594.40it/s]DeepGEMM warmup:   3%|▎         | 513/16384 [00:01<00:22, 705.70it/s]DeepGEMM warmup:   4%|▍         | 705/16384 [00:01<00:16, 925.32it/s]DeepGEMM warmup:   6%|▋         | 1025/16384 [00:01<00:11, 1362.04it/s]DeepGEMM warmup:   9%|▊         | 1409/16384 [00:01<00:08, 1788.87it/s]DeepGEMM warmup:  11%|█▏        | 1854/16384 [00:01<00:05, 2423.64it/s]DeepGEMM warmup:  14%|█▍        | 2312/16384 [00:01<00:04, 2971.60it/s]DeepGEMM warmup:  18%|█▊        | 2939/16384 [00:01<00:03, 3850.13it/s]DeepGEMM warmup:  22%|██▏       | 3585/16384 [00:01<00:02, 4548.32it/s]DeepGEMM warmup:
+1: DeepGEMM warmup:   0%|          | 0/16384 [00:00<?, ?it/s]DeepGEMM warmup:   0%|          | 1/16384 [00:00<1:37:56,  2.79it/s]DeepGEMM warmup:   0%|          | 65/16384 [00:00<01:47, 151.42it/s]DeepGEMM warmup:   1%|          | 129/16384 [00:00<01:11, 226.47it/s]DeepGEMM warmup:   1%|          | 193/16384 [00:00<00:58, 275.99it/s]DeepGEMM warmup:   2%|▏         | 385/16384 [00:01<00:27, 578.86it/s]DeepGEMM warmup:   3%|▎         | 513/16384 [00:01<00:23, 680.31it/s]DeepGEMM warmup:   4%|▍         | 705/16384 [00:01<00:17, 882.62it/s]DeepGEMM warmup:   6%|▋         | 1025/16384 [00:01<00:11, 1304.72it/s]DeepGEMM warmup:   9%|▊         | 1409/16384 [00:01<00:08, 1755.78it/s]DeepGEMM warmup:  12%|█▏        | 1893/16384 [00:01<00:05, 2481.10it/s]DeepGEMM warmup:  15%|█▌        | 2534/16384 [00:01<00:03, 3469.11it/s]DeepGEMM warmup:  19%|█▉        | 3073/16384 [00:01<00:03, 3587.13it/s]DeepGEMM warmup:  25%|██▌       | 4097/16384 [00:02<00:02, 5068.14it/s]DeepGEMM warmup:
+0:   26%|██▌       | 4225/16384 [00:02<00:02, 5033.77it/s]DeepGEMM warmup:  30%|██▉       | 4865/16384 [00:02<00:02, 5390.34it/s]DeepGEMM warmup:  34%|███▍      | 5633/16384 [00:02<00:01, 5981.11it/s]DeepGEMM warmup:  41%|████      | 6657/16384 [00:02<00:01, 6975.58it/s]DeepGEMM warmup:  50%|█████     | 8193/16384 [00:02<00:00, 8708.09it/s]DeepGEMM warmup:  59%|█████▉    | 9729/16384 [00:02<00:00, 9819.30it/s]DeepGEMM warmup:  80%|████████  | 13174/16384 [00:02<00:00, 16417.55it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 5783.01it/s] 
+1:   28%|██▊       | 4634/16384 [00:02<00:02, 5122.45it/s]DeepGEMM warmup:  33%|███▎      | 5377/16384 [00:02<00:01, 5667.75it/s]DeepGEMM warmup:  38%|███▊      | 6145/16384 [00:02<00:01, 6155.31it/s]DeepGEMM warmup:  44%|████▍     | 7169/16384 [00:02<00:01, 7004.25it/s]DeepGEMM warmup:  55%|█████▌    | 9042/16384 [00:02<00:00, 10254.73it/s]DeepGEMM warmup:  62%|██████▏   | 10102/16384 [00:02<00:00, 10033.37it/s]DeepGEMM warmup:  82%|████████▏ | 13485/16384 [00:02<00:00, 16742.69it/s]DeepGEMM warmup: 100%|██████████| 16384/16384 [00:02<00:00, 5731.89it/s] 
+0: [2025-09-29 17:05:02] 
+0: Benchmark...
+0: [2025-09-29 17:05:02 TP0] Prefill batch. #new-seq: 1, #new-token: 507, #cached-token: 1, token usage: 0.00, #running-req: 0, #queue-req: 0, 
+0: [2025-09-29 17:05:02 TP0] Prefill batch. #new-seq: 3, #new-token: 241, #cached-token: 3, token usage: 0.00, #running-req: 1, #queue-req: 0, 
+0: [2025-09-29 17:05:05 TP0] Prefill batch. #new-seq: 27, #new-token: 8192, #cached-token: 32, token usage: 0.00, #running-req: 4, #queue-req: 1969, 
+0: [2025-09-29 17:05:08 TP0] Prefill batch. #new-seq: 23, #new-token: 8192, #cached-token: 28, token usage: 0.01, #running-req: 30, #queue-req: 1947, 
+0: [2025-09-29 17:05:08 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 50, token usage: 0.01, #running-req: 52, #queue-req: 1918, 
+0: [2025-09-29 17:05:10 TP0] Prefill batch. #new-seq: 31, #new-token: 8192, #cached-token: 63, token usage: 0.02, #running-req: 81, #queue-req: 1888, 
+0: [2025-09-29 17:05:11 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 59, token usage: 0.03, #running-req: 111, #queue-req: 1864, 
+0: [2025-09-29 17:05:12 TP0] Prefill batch. #new-seq: 27, #new-token: 8192, #cached-token: 56, token usage: 0.03, #running-req: 135, #queue-req: 1838, 
+0: [2025-09-29 17:05:14 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 54, token usage: 0.04, #running-req: 161, #queue-req: 1814, 
+0: [2025-09-29 17:05:15 TP0] Prefill batch. #new-seq: 39, #new-token: 8192, #cached-token: 94, token usage: 0.05, #running-req: 185, #queue-req: 1776, 
+0: [2025-09-29 17:05:17 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 71, token usage: 0.06, #running-req: 223, #queue-req: 1745, 
+0: [2025-09-29 17:05:18 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 75, token usage: 0.06, #running-req: 254, #queue-req: 1714, 
+0: [2025-09-29 17:05:19 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 75, token usage: 0.07, #running-req: 285, #queue-req: 1685, 
+0: [2025-09-29 17:05:21 TP0] Prefill batch. #new-seq: 39, #new-token: 8192, #cached-token: 113, token usage: 0.08, #running-req: 314, #queue-req: 1647, 
+0: [2025-09-29 17:05:22 TP0] Prefill batch. #new-seq: 20, #new-token: 8192, #cached-token: 56, token usage: 0.08, #running-req: 352, #queue-req: 1628, 
+0: [2025-09-29 17:05:23 TP0] Prefill batch. #new-seq: 16, #new-token: 8192, #cached-token: 30, token usage: 0.09, #running-req: 371, #queue-req: 1613, 
+0: [2025-09-29 17:05:25 TP0] Prefill batch. #new-seq: 29, #new-token: 8192, #cached-token: 68, token usage: 0.10, #running-req: 386, #queue-req: 1585, 
+0: [2025-09-29 17:05:26 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 83, token usage: 0.10, #running-req: 414, #queue-req: 1556, 
+0: [2025-09-29 17:05:28 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 84, token usage: 0.11, #running-req: 443, #queue-req: 1525, 
+0: [2025-09-29 17:05:29 TP0] Prefill batch. #new-seq: 37, #new-token: 8192, #cached-token: 106, token usage: 0.12, #running-req: 474, #queue-req: 1489, 
+0: [2025-09-29 17:05:30 TP0] Prefill batch. #new-seq: 35, #new-token: 8192, #cached-token: 94, token usage: 0.12, #running-req: 510, #queue-req: 1455, 
+0: [2025-09-29 17:05:32 TP0] Prefill batch. #new-seq: 22, #new-token: 8192, #cached-token: 57, token usage: 0.13, #running-req: 544, #queue-req: 1434, 
+0: [2025-09-29 17:05:33 TP0] Prefill batch. #new-seq: 18, #new-token: 8192, #cached-token: 60, token usage: 0.14, #running-req: 565, #queue-req: 1417, 
+0: [2025-09-29 17:05:35 TP0] Prefill batch. #new-seq: 27, #new-token: 8192, #cached-token: 90, token usage: 0.14, #running-req: 582, #queue-req: 1391, 
+0: [2025-09-29 17:05:36 TP0] Prefill batch. #new-seq: 26, #new-token: 8192, #cached-token: 67, token usage: 0.15, #running-req: 608, #queue-req: 1366, 
+0: [2025-09-29 17:05:37 TP0] Prefill batch. #new-seq: 35, #new-token: 8192, #cached-token: 129, token usage: 0.16, #running-req: 633, #queue-req: 1332, 
+0: [2025-09-29 17:05:39 TP0] Prefill batch. #new-seq: 34, #new-token: 8192, #cached-token: 80, token usage: 0.17, #running-req: 667, #queue-req: 1299, 
+0: [2025-09-29 17:05:40 TP0] Prefill batch. #new-seq: 26, #new-token: 8192, #cached-token: 85, token usage: 0.17, #running-req: 700, #queue-req: 1274, 
+0: [2025-09-29 17:05:42 TP0] Prefill batch. #new-seq: 17, #new-token: 8192, #cached-token: 148, token usage: 0.18, #running-req: 725, #queue-req: 1258, 
+0: [2025-09-29 17:05:43 TP0] Prefill batch. #new-seq: 18, #new-token: 8192, #cached-token: 58, token usage: 0.19, #running-req: 741, #queue-req: 1241, 
+0: [2025-09-29 17:05:44 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 72, token usage: 0.19, #running-req: 758, #queue-req: 1210, 
+0: [2025-09-29 17:05:46 TP0] Prefill batch. #new-seq: 22, #new-token: 8192, #cached-token: 71, token usage: 0.20, #running-req: 789, #queue-req: 1189, 
+0: [2025-09-29 17:05:47 TP0] Prefill batch. #new-seq: 29, #new-token: 8192, #cached-token: 84, token usage: 0.21, #running-req: 810, #queue-req: 1161, 
+0: [2025-09-29 17:05:49 TP0] Prefill batch. #new-seq: 28, #new-token: 8192, #cached-token: 1103, token usage: 0.21, #running-req: 838, #queue-req: 1134, 
+0: [2025-09-29 17:05:50 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 431, token usage: 0.22, #running-req: 865, #queue-req: 1110, 
+0: [2025-09-29 17:05:51 TP0] Prefill batch. #new-seq: 39, #new-token: 8192, #cached-token: 477, token usage: 0.23, #running-req: 889, #queue-req: 1072, 
+0: [2025-09-29 17:05:53 TP0] Prefill batch. #new-seq: 38, #new-token: 8192, #cached-token: 121, token usage: 0.23, #running-req: 927, #queue-req: 1035, 
+0: [2025-09-29 17:05:54 TP0] Prefill batch. #new-seq: 20, #new-token: 8192, #cached-token: 46, token usage: 0.24, #running-req: 964, #queue-req: 1016, 
+0: [2025-09-29 17:05:55 TP0] Prefill batch. #new-seq: 24, #new-token: 8192, #cached-token: 65, token usage: 0.25, #running-req: 983, #queue-req: 993, 
+0: [2025-09-29 17:05:57 TP0] Prefill batch. #new-seq: 24, #new-token: 8192, #cached-token: 71, token usage: 0.25, #running-req: 1006, #queue-req: 970, 
+0: [2025-09-29 17:05:58 TP0] Prefill batch. #new-seq: 23, #new-token: 8192, #cached-token: 62, token usage: 0.26, #running-req: 1029, #queue-req: 948, 
+0: [2025-09-29 17:06:00 TP0] Prefill batch. #new-seq: 24, #new-token: 8192, #cached-token: 92, token usage: 0.27, #running-req: 1051, #queue-req: 925, 
+0: [2025-09-29 17:06:01 TP0] Prefill batch. #new-seq: 14, #new-token: 8192, #cached-token: 35, token usage: 0.28, #running-req: 1074, #queue-req: 912, 
+0: [2025-09-29 17:06:02 TP0] Prefill batch. #new-seq: 29, #new-token: 8192, #cached-token: 77, token usage: 0.28, #running-req: 1087, #queue-req: 884, 
+0: [2025-09-29 17:06:04 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 72, token usage: 0.29, #running-req: 1115, #queue-req: 860, 
+0: [2025-09-29 17:06:05 TP0] Prefill batch. #new-seq: 32, #new-token: 8192, #cached-token: 93, token usage: 0.30, #running-req: 1139, #queue-req: 829, 
+0: [2025-09-29 17:06:07 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 85, token usage: 0.30, #running-req: 1170, #queue-req: 800, 
+0: [2025-09-29 17:06:08 TP0] Prefill batch. #new-seq: 34, #new-token: 8192, #cached-token: 101, token usage: 0.31, #running-req: 1199, #queue-req: 767, 
+0: [2025-09-29 17:06:09 TP0] Prefill batch. #new-seq: 37, #new-token: 8192, #cached-token: 106, token usage: 0.32, #running-req: 1232, #queue-req: 731, 
+0: [2025-09-29 17:06:11 TP0] Prefill batch. #new-seq: 33, #new-token: 8192, #cached-token: 146, token usage: 0.32, #running-req: 1268, #queue-req: 699, 
+0: [2025-09-29 17:06:12 TP0] Prefill batch. #new-seq: 11, #new-token: 8192, #cached-token: 24, token usage: 0.33, #running-req: 1300, #queue-req: 689, 
+0: [2025-09-29 17:06:14 TP0] Prefill batch. #new-seq: 20, #new-token: 8192, #cached-token: 241, token usage: 0.34, #running-req: 1310, #queue-req: 670, 
+0: [2025-09-29 17:06:15 TP0] Prefill batch. #new-seq: 33, #new-token: 8192, #cached-token: 99, token usage: 0.34, #running-req: 1329, #queue-req: 638, 
+0: [2025-09-29 17:06:16 TP0] Prefill batch. #new-seq: 28, #new-token: 8192, #cached-token: 96, token usage: 0.35, #running-req: 1361, #queue-req: 611, 
+0: [2025-09-29 17:06:18 TP0] Prefill batch. #new-seq: 41, #new-token: 8192, #cached-token: 996, token usage: 0.36, #running-req: 1388, #queue-req: 571, 
+0: [2025-09-29 17:06:19 TP0] Prefill batch. #new-seq: 31, #new-token: 8192, #cached-token: 99, token usage: 0.36, #running-req: 1428, #queue-req: 541, 
+0: [2025-09-29 17:06:21 TP0] Prefill batch. #new-seq: 37, #new-token: 8192, #cached-token: 94, token usage: 0.37, #running-req: 1458, #queue-req: 505, 
+0: [2025-09-29 17:06:22 TP0] Prefill batch. #new-seq: 29, #new-token: 8192, #cached-token: 87, token usage: 0.38, #running-req: 1494, #queue-req: 477, 
+0: [2025-09-29 17:06:23 TP0] Prefill batch. #new-seq: 34, #new-token: 8192, #cached-token: 591, token usage: 0.39, #running-req: 1522, #queue-req: 444, 
+0: [2025-09-29 17:06:25 TP0] Prefill batch. #new-seq: 33, #new-token: 8192, #cached-token: 504, token usage: 0.39, #running-req: 1555, #queue-req: 412, 
+0: [2025-09-29 17:06:26 TP0] Prefill batch. #new-seq: 25, #new-token: 8192, #cached-token: 885, token usage: 0.40, #running-req: 1587, #queue-req: 388, 
+0: [2025-09-29 17:06:28 TP0] Prefill batch. #new-seq: 26, #new-token: 8192, #cached-token: 86, token usage: 0.41, #running-req: 1611, #queue-req: 363, 
+0: [2025-09-29 17:06:29 TP0] Prefill batch. #new-seq: 26, #new-token: 8192, #cached-token: 78, token usage: 0.41, #running-req: 1636, #queue-req: 338, 
+0: [2025-09-29 17:06:30 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 101, token usage: 0.42, #running-req: 1661, #queue-req: 309, 
+0: [2025-09-29 17:06:32 TP0] Prefill batch. #new-seq: 29, #new-token: 8192, #cached-token: 321, token usage: 0.43, #running-req: 1690, #queue-req: 281, 
+0: [2025-09-29 17:06:33 TP0] Prefill batch. #new-seq: 13, #new-token: 8192, #cached-token: 41, token usage: 0.43, #running-req: 1718, #queue-req: 269, 
+0: [2025-09-29 17:06:34 TP0] Prefill batch. #new-seq: 22, #new-token: 8192, #cached-token: 66, token usage: 0.44, #running-req: 1730, #queue-req: 248, 
+0: [2025-09-29 17:06:36 TP0] Prefill batch. #new-seq: 29, #new-token: 8192, #cached-token: 93, token usage: 0.45, #running-req: 1751, #queue-req: 220, 
+0: [2025-09-29 17:06:37 TP0] Prefill batch. #new-seq: 30, #new-token: 8192, #cached-token: 118, token usage: 0.45, #running-req: 1779, #queue-req: 191, 
+0: [2025-09-29 17:06:39 TP0] Prefill batch. #new-seq: 34, #new-token: 8192, #cached-token: 112, token usage: 0.46, #running-req: 1808, #queue-req: 158, 
+0: [2025-09-29 17:06:40 TP0] Prefill batch. #new-seq: 17, #new-token: 8192, #cached-token: 57, token usage: 0.47, #running-req: 1841, #queue-req: 142, 
+0: [2025-09-29 17:06:41 TP0] Prefill batch. #new-seq: 21, #new-token: 8192, #cached-token: 75, token usage: 0.47, #running-req: 1857, #queue-req: 122, 
+0: [2025-09-29 17:06:43 TP0] Prefill batch. #new-seq: 9, #new-token: 8192, #cached-token: 21, token usage: 0.48, #running-req: 1877, #queue-req: 114, 
+0: [2025-09-29 17:06:44 TP0] Prefill batch. #new-seq: 28, #new-token: 8192, #cached-token: 446, token usage: 0.49, #running-req: 1885, #queue-req: 87, 
+0: [2025-09-29 17:06:46 TP0] Prefill batch. #new-seq: 31, #new-token: 8192, #cached-token: 95, token usage: 0.50, #running-req: 1912, #queue-req: 57, 
+0: [2025-09-29 17:06:47 TP0] Prefill batch. #new-seq: 28, #new-token: 8192, #cached-token: 76, token usage: 0.50, #running-req: 1942, #queue-req: 30, 
+0: [2025-09-29 17:06:48 TP0] Prefill batch. #new-seq: 26, #new-token: 8192, #cached-token: 79, token usage: 0.51, #running-req: 1969, #queue-req: 5, 
+0: [2025-09-29 17:06:50 TP0] Prefill batch. #new-seq: 6, #new-token: 498, #cached-token: 23, token usage: 0.52, #running-req: 1994, #queue-req: 0, 
+0: [2025-09-29 17:07:03 TP0] Decode batch. #running-req: 1481, #token: 423647, token usage: 0.36, cuda graph: False, gen throughput (token/s): 291.27, #queue-req: 0, 
+0: [2025-09-29 17:07:13 TP0] Decode batch. #running-req: 1167, #token: 374126, token usage: 0.31, cuda graph: False, gen throughput (token/s): 4803.48, #queue-req: 0, 
+0: [2025-09-29 17:07:23 TP0] Decode batch. #running-req: 1030, #token: 366576, token usage: 0.31, cuda graph: False, gen throughput (token/s): 4692.62, #queue-req: 0, 
+0: [2025-09-29 17:07:29 TP0] Decode batch. #running-req: 913, #token: 362579, token usage: 0.30, cuda graph: False, gen throughput (token/s): 5668.00, #queue-req: 0, 
+0: [2025-09-29 17:07:36 TP0] Decode batch. #running-req: 818, #token: 353935, token usage: 0.30, cuda graph: False, gen throughput (token/s): 5457.43, #queue-req: 0, 
+0: [2025-09-29 17:07:44 TP0] Decode batch. #running-req: 725, #token: 347819, token usage: 0.29, cuda graph: False, gen throughput (token/s): 3952.52, #queue-req: 0, 
+0: [2025-09-29 17:07:50 TP0] Decode batch. #running-req: 616, #token: 324156, token usage: 0.27, cuda graph: False, gen throughput (token/s): 4125.65, #queue-req: 0, 
+0: [2025-09-29 17:07:55 TP0] Decode batch. #running-req: 512, #token: 297471, token usage: 0.25, cuda graph: False, gen throughput (token/s): 4252.45, #queue-req: 0, 
+0: [2025-09-29 17:08:00 TP0] Decode batch. #running-req: 419, #token: 268927, token usage: 0.23, cuda graph: False, gen throughput (token/s): 4311.99, #queue-req: 0, 
+0: [2025-09-29 17:08:05 TP0] Decode batch. #running-req: 348, #token: 239492, token usage: 0.20, cuda graph: False, gen throughput (token/s): 2901.35, #queue-req: 0, 
+0: [2025-09-29 17:08:09 TP0] Decode batch. #running-req: 284, #token: 207024, token usage: 0.17, cuda graph: False, gen throughput (token/s): 3112.99, #queue-req: 0, 
+0: [2025-09-29 17:08:12 TP0] Decode batch. #running-req: 245, #token: 192414, token usage: 0.16, cuda graph: True, gen throughput (token/s): 3418.61, #queue-req: 0, 
+0: [2025-09-29 17:08:14 TP0] Decode batch. #running-req: 202, #token: 176542, token usage: 0.15, cuda graph: True, gen throughput (token/s): 4359.36, #queue-req: 0, 
+0: [2025-09-29 17:08:16 TP0] Decode batch. #running-req: 166, #token: 153001, token usage: 0.13, cuda graph: True, gen throughput (token/s): 4085.44, #queue-req: 0, 
+0: [2025-09-29 17:08:18 TP0] Decode batch. #running-req: 139, #token: 135305, token usage: 0.11, cuda graph: True, gen throughput (token/s): 3699.66, #queue-req: 0, 
+0: [2025-09-29 17:08:19 TP0] Decode batch. #running-req: 113, #token: 117405, token usage: 0.10, cuda graph: True, gen throughput (token/s): 3312.99, #queue-req: 0, 
+0: [2025-09-29 17:08:20 TP0] Decode batch. #running-req: 94, #token: 104425, token usage: 0.09, cuda graph: True, gen throughput (token/s): 3002.58, #queue-req: 0, 
+0: [2025-09-29 17:08:22 TP0] Decode batch. #running-req: 81, #token: 98497, token usage: 0.08, cuda graph: True, gen throughput (token/s): 2590.49, #queue-req: 0, 
+0: [2025-09-29 17:08:23 TP0] Decode batch. #running-req: 59, #token: 73159, token usage: 0.06, cuda graph: True, gen throughput (token/s): 2429.30, #queue-req: 0, 
+0: [2025-09-29 17:08:24 TP0] Decode batch. #running-req: 29, #token: 38395, token usage: 0.03, cuda graph: True, gen throughput (token/s): 1815.62, #queue-req: 0, 
+0: [2025-09-29 17:08:25 TP0] Decode batch. #running-req: 13, #token: 13508, token usage: 0.01, cuda graph: True, gen throughput (token/s): 1015.43, #queue-req: 0, 
+0: [2025-09-29 17:08:25 TP0] Decode batch. #running-req: 7, #token: 7836, token usage: 0.01, cuda graph: True, gen throughput (token/s): 460.69, #queue-req: 0, 
+0: [2025-09-29 17:08:26 TP0] Decode batch. #running-req: 6, #token: 7070, token usage: 0.01, cuda graph: True, gen throughput (token/s): 338.49, #queue-req: 0, 
+0: [2025-09-29 17:08:27 TP0] Decode batch. #running-req: 4, #token: 5088, token usage: 0.00, cuda graph: True, gen throughput (token/s): 300.47, #queue-req: 0, 
+0: [2025-09-29 17:08:28 TP0] Decode batch. #running-req: 4, #token: 5248, token usage: 0.00, cuda graph: True, gen throughput (token/s): 240.51, #queue-req: 0, 
+0: [2025-09-29 17:08:28 TP0] Decode batch. #running-req: 3, #token: 4109, token usage: 0.00, cuda graph: True, gen throughput (token/s): 232.71, #queue-req: 0, 
+0: [2025-09-29 17:08:29 TP0] Decode batch. #running-req: 2, #token: 2723, token usage: 0.00, cuda graph: True, gen throughput (token/s): 165.79, #queue-req: 0, 
+0: [2025-09-29 17:08:30 TP0] Decode batch. #running-req: 2, #token: 2803, token usage: 0.00, cuda graph: True, gen throughput (token/s): 122.28, #queue-req: 0, 
+0: [2025-09-29 17:08:30 TP0] Decode batch. #running-req: 2, #token: 2883, token usage: 0.00, cuda graph: True, gen throughput (token/s): 122.28, #queue-req: 0, 
+0: [2025-09-29 17:08:31 TP0] Decode batch. #running-req: 2, #token: 2963, token usage: 0.00, cuda graph: True, gen throughput (token/s): 121.99, #queue-req: 0, 
+1: [rank8]:W0929 17:08:31.520000 2095354 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [2/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.269fca03-b659-4b4a-91d4-054687a8f775 is not empty - skipping!
+1: [rank10]:W0929 17:08:31.520000 2095356 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [2/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.bc55b4cc-2dfd-461a-96db-5a7cd8ad748b is not empty - skipping!
+0: [rank1]:W0929 17:08:31.521000 2348771 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [2/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.5bdd1a36-08e8-46fe-95a2-8a9d23a02beb is not empty - skipping!
+0: [rank6]:W0929 17:08:31.521000 2348776 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [2/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.92d85d6e-e633-4cfc-a7fc-81e85f22309b is not empty - skipping!
+0: [rank5]:W0929 17:08:31.521000 2348775 py312/lib/python3.13/site-packages/torch/_inductor/triton_bundler.py:401] [2/1] Directory /tmp/triton/506/t1_ARing_PLL_T64_C4_M2_R1_S1_G2/tmp.f0e1b8e0-4ab7-4ade-b0d3-955c183fdf30 is not empty - skipping!
+0: [2025-09-29 17:08:32 TP0] Decode batch. #running-req: 1, #token: 1697, token usage: 0.00, cuda graph: True, gen throughput (token/s): 66.13, #queue-req: 0, 
+0: [2025-09-29 17:08:32 TP0] Decode batch. #running-req: 1, #token: 1737, token usage: 0.00, cuda graph: True, gen throughput (token/s): 62.13, #queue-req: 0, 
+0: [2025-09-29 17:08:33 TP0] Decode batch. #running-req: 1, #token: 1777, token usage: 0.00, cuda graph: True, gen throughput (token/s): 61.95, #queue-req: 0, 
+1: [2025-09-29 17:08:34 TP14] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:44422
+1: 
+1: [2025-09-29 17:08:34 TP15] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:29591
+1: 
+1: [2025-09-29 17:08:34] Received sigquit from a child process. It usually means the child failed.
+1: [2025-09-29 17:08:34] Received sigquit from a child process. It usually means the child failed.
+1: [2025-09-29 17:08:34 TP8] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:64937
+1: 
+1: [2025-09-29 17:08:34 TP10] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:3493
+1: 
+1: [2025-09-29 17:08:34 TP11] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:37767
+1: 
+1: [2025-09-29 17:08:34 TP13] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:28595
+1: 
+1: [2025-09-29 17:08:34 TP12] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:64416
+1: 
+1: [2025-09-29 17:08:34 TP9] Scheduler hit an exception: Traceback (most recent call last):
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 2610, in run_scheduler_process
+1:     scheduler.event_loop_overlap()
+1:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/utils/_contextlib.py", line 120, in decorate_context
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 832, in event_loop_overlap
+1:     recv_reqs = self.recv_requests()
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/managers/scheduler.py", line 1095, in recv_requests
+1:     recv_reqs = broadcast_pyobj(
+1:         recv_reqs,
+1:     ...<2 lines>...
+1:         src=self.tp_group.ranks[0],
+1:     )
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/sglang/srt/utils.py", line 1059, in broadcast_pyobj
+1:     dist.broadcast(tensor_size, src=src, group=dist_group)
+1:     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/c10d_logger.py", line 81, in wrapper
+1:     return func(*args, **kwargs)
+1:   File "/home/apacsc03/py312/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py", line 2830, in broadcast
+1:     work.wait()
+1:     ~~~~~~~~~^^
+1: RuntimeError: [/pytorch/third_party/gloo/gloo/transport/tcp/pair.cc:544] Connection closed by peer [198.18.151.51]:49051
+1: 
+1: [2025-09-29 17:08:34] Received sigquit from a child process. It usually means the child failed.
+1: /usr/bin/bash: line 3: 2095106 Killed                  python3 -m sglang.bench_offline_throughput --model-path deepseek-ai/DeepSeek-R1 --dataset-path /home/apacsc03/ShareGPT_V3_unfiltered_cleaned_split.json --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 --tp 16 --nnodes 2 --trust-remote-code --dist-init-addr g1:5000 --node-rank $SLURM_NODEID
+1: 
+1: real	5m19.534s
+1: user	0m16.020s
+1: sys	0m4.346s
+0: #Input tokens: 626729
+0: #Output tokens: 388685
+0: #Input tokens: 4096
+0: #Output tokens: 256
+0: 
+0: ====== Offline Throughput Benchmark Result =======
+0: Backend:                                 engine    
+0: Successful requests:                     2000      
+0: Benchmark duration (s):                  211.85    
+0: Total input tokens:                      626729    
+0: Total generated tokens:                  388685    
+0: Last generation throughput (tok/s):      61.95     
+0: Request throughput (req/s):              9.44      
+0: Input token throughput (tok/s):          2958.34   
+0: Output token throughput (tok/s):         1834.70   
+0: Total token throughput (tok/s):          4793.04   
+0: ==================================================
+0: 
+0: real	5m22.390s
+0: user	43m41.147s
+0: sys	16m2.428s

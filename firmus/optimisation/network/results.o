@@ -1,0 +1,467 @@
+==> net_sweep_496/logs/t1_ARing_PLL_T64_C4_M1_R0_S1_G0.out <==
+0: Last generation throughput (tok/s):      47.77
+0: Request throughput (req/s):              4.05
+0: Input token throughput (tok/s):          1268.93
+0: Output token throughput (tok/s):         786.96
+0: Total token throughput (tok/s):          2055.89
+0: ==================================================
+0:
+0: real	10m7.987s
+0: user	68m54.607s
+0: sys	32m21.775s
+
+==> net_sweep_496/logs/t2_ARing_PLL_T64_C4_M1_R0_S1_G2.out <==
+0: Last generation throughput (tok/s):      61.09
+0: Request throughput (req/s):              9.50
+0: Input token throughput (tok/s):          2975.51
+0: Output token throughput (tok/s):         1845.35
+0: Total token throughput (tok/s):          4820.86
+0: ==================================================
+0:
+0: real	5m18.017s
+0: user	43m10.040s
+0: sys	15m48.874s
+
+==> net_sweep_496/logs/t3_ARing_PLL_T64_C4_M1_R0_S2_G0.out <==
+0: Last generation throughput (tok/s):      47.54
+0: Request throughput (req/s):              4.05
+0: Input token throughput (tok/s):          1270.34
+0: Output token throughput (tok/s):         787.84
+0: Total token throughput (tok/s):          2058.18
+0: ==================================================
+0:
+0: real	10m11.074s
+0: user	69m25.586s
+0: sys	32m20.636s
+
+==> net_sweep_496/logs/t4_ARing_PLL_T64_C4_M1_R0_S2_G2.out <==
+0: Last generation throughput (tok/s):      61.40
+0: Request throughput (req/s):              9.52
+0: Input token throughput (tok/s):          2983.06
+0: Output token throughput (tok/s):         1850.04
+0: Total token throughput (tok/s):          4833.10
+0: ==================================================
+0:
+0: real	5m18.350s
+0: user	43m15.355s
+0: sys	16m1.345s
+
+==> net_sweep_496/logs/t5_ARing_PLL_T64_C4_M1_R1_S1_G0.out <==
+0: Last generation throughput (tok/s):      47.58
+0: Request throughput (req/s):              4.01
+0: Input token throughput (tok/s):          1256.13
+0: Output token throughput (tok/s):         779.03
+0: Total token throughput (tok/s):          2035.16
+0: ==================================================
+0:
+0: real	10m13.174s
+0: user	69m26.042s
+0: sys	33m1.815s
+
+==> net_sweep_496/logs/t6_ARing_PLL_T64_C4_M1_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      62.35
+0: Request throughput (req/s):              9.58
+0: Input token throughput (tok/s):          3003.21
+0: Output token throughput (tok/s):         1862.53
+0: Total token throughput (tok/s):          4865.74
+0: ==================================================
+0:
+0: real	5m20.429s
+0: user	43m26.131s
+0: sys	15m55.456s
+
+==> net_sweep_496/logs/t7_ARing_PLL_T64_C4_M1_R1_S2_G0.out <==
+0: Last generation throughput (tok/s):      46.80
+0: Request throughput (req/s):              4.07
+0: Input token throughput (tok/s):          1275.48
+0: Output token throughput (tok/s):         791.03
+0: Total token throughput (tok/s):          2066.51
+0: ==================================================
+0:
+0: real	10m5.110s
+0: user	68m55.444s
+0: sys	32m10.101s
+
+==> net_sweep_496/logs/t8_ARing_PLL_T64_C4_M1_R1_S2_G2.out <==
+0: Last generation throughput (tok/s):      62.00
+0: Request throughput (req/s):              9.54
+0: Input token throughput (tok/s):          2988.16
+0: Output token throughput (tok/s):         1853.20
+0: Total token throughput (tok/s):          4841.35
+0: ==================================================
+0:
+0: real	5m18.596s
+0: user	43m13.846s
+0: sys	16m2.128s
+
+==> net_sweep_496/logs/t9_ARing_PLL_T64_C4_M2_R0_S1_G0.out <==
+0: Last generation throughput (tok/s):      47.34
+0: Request throughput (req/s):              3.98
+0: Input token throughput (tok/s):          1246.34
+0: Output token throughput (tok/s):         772.96
+0: Total token throughput (tok/s):          2019.30
+0: ==================================================
+0:
+0: real	10m16.009[48;56;212;1792;2968ts
+0: user	69m45.026s
+0: sys	32m48.180s
+
+==> net_sweep_501/logs/t1_ARing_PLL_T64_C4_M1_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      62.61
+0: Request throughput (req/s):              9.58
+0: Input token throughput (tok/s):          3002.42
+0: Output token throughput (tok/s):         1862.04
+0: Total token throughput (tok/s):          4864.46
+0: ==================================================
+0:
+0: real	5m17.877s
+0: user	43m30.811s
+0: sys	15m51.601s
+
+==> net_sweep_501/logs/t2_ARing_PLL_T64_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      61.93
+0: Request throughput (req/s):              9.58
+0: Input token throughput (tok/s):          3003.54
+0: Output token throughput (tok/s):         1862.74
+0: Total token throughput (tok/s):          4866.28
+0: ==================================================
+0:
+0: real	5m18.522s
+0: user	43m37.705s
+0: sys	15m43.717s
+
+==> net_sweep_501/logs/t3_ARing_PLL_T64_C4_M8_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      62.01
+0: Request throughput (req/s):              9.45
+0: Input token throughput (tok/s):          2962.67
+0: Output token throughput (tok/s):         1837.39
+0: Total token throughput (tok/s):          4800.07
+0: ==================================================
+0:
+0: real	5m21.760s
+0: user	43m45.570s
+0: sys	15m58.824s
+
+==> net_sweep_506/logs/t10_ARing_PLL128_T64_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      45.78
+0: Request throughput (req/s):              18.36
+0: Input token throughput (tok/s):          5753.02
+0: Output token throughput (tok/s):         3567.91
+0: Total token throughput (tok/s):          9320.93
+0: ==================================================
+0:
+0: real	3m35.963s
+0: user	21m26.457s
+0: sys	9m34.192s
+
+==> net_sweep_506/logs/t11_ARing_PLL128_T64_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      46.08
+0: Request throughput (req/s):              18.60
+0: Input token throughput (tok/s):          5829.70
+0: Output token throughput (tok/s):         3615.47
+0: Total token throughput (tok/s):          9445.17
+0: ==================================================
+0:
+0: real	3m38.352s
+0: user	21m35.473s
+0: sys	9m34.236s
+
+==> net_sweep_506/logs/t12_ARing_PLL128_T64_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      46.13
+0: Request throughput (req/s):              18.68
+0: Input token throughput (tok/s):          5853.55
+0: Output token throughput (tok/s):         3630.25
+0: Total token throughput (tok/s):          9483.80
+0: ==================================================
+0:
+0: real	3m37.604s
+0: user	21m37.249s
+0: sys	9m38.343s
+
+==> net_sweep_506/logs/t13_ARing_PLL128_T160_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      45.98
+0: Request throughput (req/s):              18.79
+0: Input token throughput (tok/s):          5887.21
+0: Output token throughput (tok/s):         3651.13
+0: Total token throughput (tok/s):          9538.34
+0: ==================================================
+0:
+0: real	3m36.779s
+0: user	21m39.167s
+0: sys	9m39.725s
+
+==> net_sweep_506/logs/t14_ARing_PLL128_T160_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      46.14
+0: Request throughput (req/s):              18.33
+0: Input token throughput (tok/s):          5744.10
+0: Output token throughput (tok/s):         3562.37
+0: Total token throughput (tok/s):          9306.47
+0: ==================================================
+0:
+0: real	3m38.618s
+0: user	21m37.727s
+0: sys	9m42.679s
+
+==> net_sweep_506/logs/t15_ARing_PLL128_T160_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      45.80
+0: Request throughput (req/s):              18.67
+0: Input token throughput (tok/s):          5851.59
+0: Output token throughput (tok/s):         3629.04
+0: Total token throughput (tok/s):          9480.64
+0: ==================================================
+0:
+0: real	3m37.042s
+0: user	21m37.310s
+0: sys	9m36.897s
+
+==> net_sweep_506/logs/t16_ARing_PLL128_T256_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      46.00
+0: Request throughput (req/s):              18.64
+0: Input token throughput (tok/s):          5840.61
+0: Output token throughput (tok/s):         3622.23
+0: Total token throughput (tok/s):          9462.84
+0: ==================================================
+0:
+0: real	3m37.588s
+0: user	21m37.053s
+0: sys	9m46.996s
+
+==> net_sweep_506/logs/t17_ARing_PLL128_T256_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      46.10
+0: Request throughput (req/s):              18.34
+0: Input token throughput (tok/s):          5745.59
+0: Output token throughput (tok/s):         3563.30
+0: Total token throughput (tok/s):          9308.89
+0: ==================================================
+0:
+0: real	3m36.814s
+0: user	21m41.177s
+0: sys	9m42.575s
+
+==> net_sweep_506/logs/t18_ARing_PLL128_T256_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      45.92
+0: Request throughput (req/s):              18.83
+0: Input token throughput (tok/s):          5901.21
+0: Output token throughput (tok/s):         3659.82
+0: Total token throughput (tok/s):          9561.03
+0: ==================================================
+0:
+0: real	3m36.033s
+0: user	21m43.792s
+0: sys	9m41.241s
+
+==> net_sweep_506/logs/t19_ARing_PSimple_T64_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.75
+0: Request throughput (req/s):              14.84
+0: Input token throughput (tok/s):          4651.21
+0: Output token throughput (tok/s):         2884.59
+0: Total token throughput (tok/s):          7535.79
+0: ==================================================
+0:
+0: real	4m2.697s
+0: user	24m59.749s
+0: sys	11m42.640s
+
+==> net_sweep_506/logs/t1_ARing_PLL_T64_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      61.95
+0: Request throughput (req/s):              9.44
+0: Input token throughput (tok/s):          2958.34
+0: Output token throughput (tok/s):         1834.70
+0: Total token throughput (tok/s):          4793.04
+0: ==================================================
+0:
+0: real	5m22.390s
+0: user	43m41.147s
+0: sys	16m2.428s
+
+==> net_sweep_506/logs/t20_ARing_PSimple_T64_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.68
+0: Request throughput (req/s):              14.73
+0: Input token throughput (tok/s):          4614.89
+0: Output token throughput (tok/s):         2862.07
+0: Total token throughput (tok/s):          7476.96
+0: ==================================================
+0:
+0: real	4m5.032s
+0: user	25m1.398s
+0: sys	11m59.352s
+
+==> net_sweep_506/logs/t21_ARing_PSimple_T64_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.87
+0: Request throughput (req/s):              14.85
+0: Input token throughput (tok/s):          4654.18
+0: Output token throughput (tok/s):         2886.43
+0: Total token throughput (tok/s):          7540.61
+0: ==================================================
+0:
+0: real	4m3.395s
+0: user	24m53.797s
+0: sys	11m40.899s
+
+==> net_sweep_506/logs/t22_ARing_PSimple_T160_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.70
+0: Request throughput (req/s):              16.08
+0: Input token throughput (tok/s):          5038.16
+0: Output token throughput (tok/s):         3124.57
+0: Total token throughput (tok/s):          8162.72
+0: ==================================================
+0:
+0: real	3m53.408s
+0: user	23m31.996s
+0: sys	10m38.883s
+
+==> net_sweep_506/logs/t23_ARing_PSimple_T160_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.49
+0: Request throughput (req/s):              16.02
+0: Input token throughput (tok/s):          5020.36
+0: Output token throughput (tok/s):         3113.53
+0: Total token throughput (tok/s):          8133.89
+0: ==================================================
+0:
+0: real	3m54.695s
+0: user	23m32.686s
+0: sys	10m38.070s
+
+==> net_sweep_506/logs/t24_ARing_PSimple_T160_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.61
+0: Request throughput (req/s):              15.87
+0: Input token throughput (tok/s):          4973.24
+0: Output token throughput (tok/s):         3084.30
+0: Total token throughput (tok/s):          8057.54
+0: ==================================================
+0:
+0: real	3m54.064s
+0: user	23m43.988s
+0: sys	10m41.954s
+
+==> net_sweep_506/logs/t25_ARing_PSimple_T256_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      27.96
+0: Request throughput (req/s):              16.24
+0: Input token throughput (tok/s):          5089.88
+0: Output token throughput (tok/s):         3156.65
+0: Total token throughput (tok/s):          8246.53
+0: ==================================================
+0:
+0: real	3m53.454s
+0: user	23m26.388s
+0: sys	10m39.824s
+
+==> net_sweep_506/logs/t26_ARing_PSimple_T256_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      28.05
+0: Request throughput (req/s):              16.25
+0: Input token throughput (tok/s):          5092.76
+0: Output token throughput (tok/s):         3158.43
+0: Total token throughput (tok/s):          8251.19
+0: ==================================================
+0:
+0: real	3m53.841s
+0: user	23m27.324s
+0: sys	10m31.407s
+
+==> net_sweep_506/logs/t27_ARing_PSimple_T256_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      28.28
+0: Request throughput (req/s):              16.24
+0: Input token throughput (tok/s):          5088.54
+0: Output token throughput (tok/s):         3155.81
+0: Total token throughput (tok/s):          8244.35
+0: ==================================================
+0:
+0: real	3m55.600s
+0: user	23m24.758s
+0: sys	10m34.098s
+
+==> net_sweep_506/logs/t2_ARing_PLL_T64_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      62.07
+0: Request throughput (req/s):              9.41
+0: Input token throughput (tok/s):          2949.93
+0: Output token throughput (tok/s):         1829.49
+0: Total token throughput (tok/s):          4779.41
+0: ==================================================
+0:
+0: real	5m23.673s
+0: user	43m48.959s
+0: sys	15m56.493s
+
+==> net_sweep_506/logs/t3_ARing_PLL_T64_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      61.81
+0: Request throughput (req/s):              9.45
+0: Input token throughput (tok/s):          2962.17
+0: Output token throughput (tok/s):         1837.08
+0: Total token throughput (tok/s):          4799.24
+0: ==================================================
+0:
+0: real	5m20.063s
+0: user	43m39.669s
+0: sys	15m54.038s
+
+==> net_sweep_506/logs/t4_ARing_PLL_T160_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      64.10
+0: Request throughput (req/s):              11.95
+0: Input token throughput (tok/s):          3744.09
+0: Output token throughput (tok/s):         2322.01
+0: Total token throughput (tok/s):          6066.10
+0: ==================================================
+0:
+0: real	4m37.934s
+0: user	35m11.579s
+0: sys	12m25.222s
+
+==> net_sweep_506/logs/t5_ARing_PLL_T160_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      64.29
+0: Request throughput (req/s):              11.96
+0: Input token throughput (tok/s):          3747.36
+0: Output token throughput (tok/s):         2324.04
+0: Total token throughput (tok/s):          6071.39
+0: ==================================================
+0:
+0: real	4m36.767s
+0: user	35m4.174s
+0: sys	12m19.067s
+
+==> net_sweep_506/logs/t6_ARing_PLL_T160_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      64.76
+0: Request throughput (req/s):              11.92
+0: Input token throughput (tok/s):          3736.74
+0: Output token throughput (tok/s):         2317.45
+0: Total token throughput (tok/s):          6054.20
+0: ==================================================
+0:
+0: real	4m41.246s
+0: user	35m31.160s
+0: sys	12m27.360s
+
+==> net_sweep_506/logs/t7_ARing_PLL_T256_C4_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      62.55
+0: Request throughput (req/s):              12.50
+0: Input token throughput (tok/s):          3916.15
+0: Output token throughput (tok/s):         2428.72
+0: Total token throughput (tok/s):          6344.87
+0: ==================================================
+0:
+0: real	4m30.009s
+0: user	33m38.651s
+0: sys	12m11.057s
+
+==> net_sweep_506/logs/t8_ARing_PLL_T256_C8_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      61.05
+0: Request throughput (req/s):              12.66
+0: Input token throughput (tok/s):          3966.41
+0: Output token throughput (tok/s):         2459.89
+0: Total token throughput (tok/s):          6426.30
+0: ==================================================
+0:
+0: real	4m29.339s
+0: user	33m13.417s
+0: sys	11m54.748s
+
+==> net_sweep_506/logs/t9_ARing_PLL_T256_C16_M2_R1_S1_G2.out <==
+0: Last generation throughput (tok/s):      61.90
+0: Request throughput (req/s):              12.75
+0: Input token throughput (tok/s):          3996.23
+0: Output token throughput (tok/s):         2478.38
+0: Total token throughput (tok/s):          6474.61
+0: ==================================================
+0:
+0: real	4m25.420s
+0: user	33m4.363s
+0: sys	11m49.389s

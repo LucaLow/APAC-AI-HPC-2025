@@ -1,0 +1,11 @@
+throughput_token_s,algo,proto,nthreads,min_nchannels,cuda_dev_max_conn,ib_relaxed,sock_threads,gdr_level,logfile
+0,Ring,LL,64,4,1,0,1,0,/home/apacsc03/net_sweep_496/logs/t1_ARing_PLL_T64_C4_M1_R0_S1_G0.out
+0,Ring,LL,64,4,1,0,1,2,/home/apacsc03/net_sweep_496/logs/t2_ARing_PLL_T64_C4_M1_R0_S1_G2.out
+0,Ring,LL,64,4,1,0,2,0,/home/apacsc03/net_sweep_496/logs/t3_ARing_PLL_T64_C4_M1_R0_S2_G0.out
+0,Ring,LL,64,4,1,0,2,2,/home/apacsc03/net_sweep_496/logs/t4_ARing_PLL_T64_C4_M1_R0_S2_G2.out
+0,Ring,LL,64,4,1,1,1,0,/home/apacsc03/net_sweep_496/logs/t5_ARing_PLL_T64_C4_M1_R1_S1_G0.out
+0,Ring,LL,64,4,1,1,1,2,/home/apacsc03/net_sweep_496/logs/t6_ARing_PLL_T64_C4_M1_R1_S1_G2.out
+0,Ring,LL,64,4,1,1,2,0,/home/apacsc03/net_sweep_496/logs/t7_ARing_PLL_T64_C4_M1_R1_S2_G0.out
+0,Ring,LL,64,4,1,1,2,2,/home/apacsc03/net_sweep_496/logs/t8_ARing_PLL_T64_C4_M1_R1_S2_G2.out
+0,Ring,LL,64,4,2,0,1,0,/home/apacsc03/net_sweep_496/logs/t9_ARing_PLL_T64_C4_M2_R0_S1_G0.out
+0,Ring,LL,64,4,2,0,1,2,/home/apacsc03/net_sweep_496/logs/t10_ARing_PLL_T64_C4_M2_R0_S1_G2.out

@@ -1,0 +1,1933 @@
+/home/apacsc03/cuda-12.9/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2025 NVIDIA Corporation
+Built on Wed_Apr__9_19:24:57_PDT_2025
+Cuda compilation tools, release 12.9, V12.9.41
+Build cuda_12.9.r12.9/compiler.35813241_0
+GPU 0: NVIDIA H200 (UUID: GPU-e6ed95f0-0e8f-f804-f205-aea9c25f1ac3)
+GPU 1: NVIDIA H200 (UUID: GPU-2f69f949-296d-654f-c334-7014e8586a1e)
+GPU 2: NVIDIA H200 (UUID: GPU-c295f81a-26b6-1f8d-7b94-ce31bcb59f84)
+GPU 3: NVIDIA H200 (UUID: GPU-309eb8b2-836c-10cc-819c-f17aadf8f9f8)
+GPU 4: NVIDIA H200 (UUID: GPU-c2400d2f-339f-7e31-8b2c-738ca1afe858)
+GPU 5: NVIDIA H200 (UUID: GPU-51c4a066-a47b-13f0-dd20-f99835f53077)
+GPU 6: NVIDIA H200 (UUID: GPU-e1bd4c6e-5dd8-6830-4144-c6aa15c1b308)
+GPU 7: NVIDIA H200 (UUID: GPU-d9c437ee-d425-32bc-d1b2-41f6c77673b2)
+DIST_INIT_ADDR=g1
+0: TRITON_CACHE_DIR=/tmp/triton/194/node0/rank0
+1: TRITON_CACHE_DIR=/tmp/triton/194/node1/rank1
+0: profile dir: /home/apacsc03/run/sgprofile/194/node0/rank0
+1: profile dir: /home/apacsc03/run/sgprofile/194/node1/rank1
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: g1:1172775:1172775 [0] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172775:1172775 [0] NCCL INFO cudaDriverVersion 13000
+0: g1:1172775:1172775 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172775:1172775 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172775:1172775 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172775:1172775 [0] NCCL INFO Initialized NET plugin IB
+0: g1:1172775:1172775 [0] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172775:1172775 [0] NCCL INFO Using network IB
+0: g1:1172775:1172775 [0] NCCL INFO DMA-BUF is available on GPU device 0
+0: g1:1172775:1172775 [0] NCCL INFO ncclCommInitRank comm 0x10bc5b20 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 19000 commId 0xab959ab129b96742 - Init START
+0: g1:1172775:1172775 [0] NCCL INFO RAS client listening socket at ::1<28028>
+0: g1:1172775:1172775 [0] NCCL INFO Bootstrap timings total 0.020547 (create 0.000024, send 0.000049, recv 0.000045, ring 0.001584, delay 0.000000)
+0: g1:1172775:1172775 [0] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172775:1172775 [0] NCCL INFO MNNVL busId 0x19000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172775:1172775 [0] NCCL INFO Setting affinity for GPU 0 to 0-31,64-95
+0: g1:1172775:1172775 [0] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172775:1172775 [0] NCCL INFO comm 0x10bc5b20 rank 0 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+0: g1:1172775:1172775 [0] NCCL INFO Channel 00/16 :  0  7  6  5  4  3  2  1  9 10 11 12 13 14 15  8
+0: g1:1172775:1172775 [0] NCCL INFO Channel 01/16 :  0  8 15 14 13 12 11 10  9  1  2  3  4  5  6  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 02/16 :  0  7  6  5  4  3 11 12 13 14 15  8  9 10  2  1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 03/16 :  0  1  2 10  9  8 15 14 13 12 11  3  4  5  6  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 04/16 :  0  7  6  5 13 14 15  8  9 10 11 12  4  3  2  1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 05/16 :  0  1  2  3  4 12 11 10  9  8 15 14 13  5  6  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 06/16 :  0  7 15  8  9 10 11 12 13 14  6  5  4  3  2  1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 07/16 :  0  1  2  3  4  5  6 14 13 12 11 10  9  8 15  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 08/16 :  0  7  6  5  4  3  2  1  9 10 11 12 13 14 15  8
+0: g1:1172775:1172775 [0] NCCL INFO Channel 09/16 :  0  8 15 14 13 12 11 10  9  1  2  3  4  5  6  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 10/16 :  0  7  6  5  4  3 11 12 13 14 15  8  9 10  2  1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 11/16 :  0  1  2 10  9  8 15 14 13 12 11  3  4  5  6  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 12/16 :  0  7  6  5 13 14 15  8  9 10 11 12  4  3  2  1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 13/16 :  0  1  2  3  4 12 11 10  9  8 15 14 13  5  6  7
+0: g1:1172775:1172775 [0] NCCL INFO Channel 14/16 :  0  7 15  8  9 10 11 12 13 14  6  5  4  3  2  1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 15/16 :  0  1  2  3  4  5  6 14 13 12 11 10  9  8 15  7
+0: g1:1172775:1172775 [0] NCCL INFO Trees [0] 1/8/-1->0->-1 [1] -1/-1/-1->0->7 [2] 1/-1/-1->0->7 [3] 1/-1/-1->0->7 [4] 1/-1/-1->0->7 [5] 1/-1/-1->0->7 [6] 1/-1/-1->0->7 [7] 1/-1/-1->0->7 [8] 1/-1/-1->0->8 [9] -1/-1/-1->0->7 [10] 1/-1/-1->0->7 [11] 1/-1/-1->0->7 [12] 1/-1/-1->0->7 [13] 1/-1/-1->0->7 [14] 1/-1/-1->0->7 [15] 1/-1/-1->0->7
+0: g1:1172775:1172775 [0] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172775:1172775 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172775:1172775 [0] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 0
+0: g1:1172775:1175478 [0] NCCL INFO [Proxy Service] Device 0 CPU core 0
+0: g1:1172775:1175479 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 65
+0: g1:1172775:1172775 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO cudaDriverVersion 13000
+1: g2:1059925:1059925 [0] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059925:1059925 [0] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059925:1059925 [0] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059925:1059925 [0] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059925:1059925 [0] NCCL INFO Initialized NET plugin IB
+1: g2:1059925:1059925 [0] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059925:1059925 [0] NCCL INFO Using network IB
+1: g2:1059925:1059925 [0] NCCL INFO DMA-BUF is available on GPU device 0
+1: g2:1059925:1059925 [0] NCCL INFO ncclCommInitRank comm 0x10b58440 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 19000 commId 0xab959ab129b96742 - Init START
+1: g2:1059925:1059925 [0] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059925:1059925 [0] NCCL INFO Bootstrap timings total 0.002901 (create 0.000022, send 0.000162, recv 0.000597, ring 0.001845, delay 0.000000)
+1: g2:1059925:1059925 [0] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059925:1059925 [0] NCCL INFO MNNVL busId 0x19000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059925:1059925 [0] NCCL INFO Setting affinity for GPU 0 to 0-31,64-95
+1: g2:1059925:1059925 [0] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059925:1059925 [0] NCCL INFO comm 0x10b58440 rank 8 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+1: g2:1059925:1059925 [0] NCCL INFO Trees [0] 9/-1/-1->8->0 [1] -1/-1/-1->8->15 [2] 9/-1/-1->8->15 [3] 9/-1/-1->8->15 [4] 9/-1/-1->8->15 [5] 9/-1/-1->8->15 [6] 9/-1/-1->8->15 [7] 9/-1/-1->8->15 [8] 9/0/-1->8->-1 [9] -1/-1/-1->8->15 [10] 9/-1/-1->8->15 [11] 9/-1/-1->8->15 [12] 9/-1/-1->8->15 [13] 9/-1/-1->8->15 [14] 9/-1/-1->8->15 [15] 9/-1/-1->8->15
+1: g2:1059925:1059925 [0] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059925:1059925 [0] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059925:1062343 [0] NCCL INFO [Proxy Service] Device 0 CPU core 70
+1: g2:1059925:1062344 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 7
+1: g2:1059925:1059925 [0] NCCL INFO Channel 02/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 04/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 06/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 10/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 12/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 14/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 01/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 03/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 05/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 07/0 : 8[0] -> 15[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 11/0 : 0[0] -> g1:1172780:1172780 [4] NCCL INFO cudaDriverVersion 13000
+0: g1:1172780:1172780 [4] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172780:1172780 [4] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172780:1172780 [4] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172780:1172780 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172780:1172780 [4] NCCL INFO Initialized NET plugin IB
+0: g1:1172780:1172780 [4] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172780:1172780 [4] NCCL INFO Using network IB
+0: g1:1172780:1172780 [4] NCCL INFO DMA-BUF is available on GPU device 4
+0: g1:1172780:1172780 [4] NCCL INFO ncclCommInitRank comm 0x10a688e0 rank 4 nranks 16 cudaDev 4 nvmlDev 4 busId 9b000 commId 0xab959ab129b96742 - Init START
+1: g2:1059925:1059925 [0] NCCL INFO Channel 09/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 11/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 13/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 15/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1062365 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 26
+1: g2:1059925:1059925 [0] NCCL INFO Channel 01/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Channel 09/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [send] via NET/IB/0/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Channel 08/0 : 8[0] -> 0[0] [send] via NET/IB/0/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059925:1059925 [0] NCCL INFO Channel 00/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 03/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 05/0 : 8[0] -> 9[1] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO RAS client listening socket at ::1<28028>
+0: g1:1172780:1172780 [4] NCCL INFO Bootstrap timings total 0.021963 (create 0.000022, send 0.000056, recv 0.000187, ring 0.021212, delay 0.000000)
+0: g1:1172780:1172780 [4] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172780:1172780 [4] NCCL INFO MNNVL busId 0x9b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172780:1172780 [4] NCCL INFO Setting affinity for GPU 4 to 32-63,96-127
+0: g1:1172780:1172780 [4] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172780:1172780 [4] NCCL INFO comm 0x10a688e0 rank 4 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+0: g1:1172780:1172780 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/12/-1->4->-1 [5] -1/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->12 [13] -1/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3
+1: g2:1059925:1059925 [0] NCCL INFO Channel 07/0 : 8[0] -> 9[1] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172780:1172780 [4] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172780:1175486 [4] NCCL INFO [Proxy Service] Device 4 CPU core 35
+0: g1:1172780:1175487 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 100
+0: g1:1172780:1172780 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1175497 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 35
+0: g1:1172780:1172780 [4] NCCL INFO Channel 04/0 : 12[4] -> 4[4] [receive] via NET/IB/6/GDRDMA
+0: g1:1172780:1172780 [4] NCCL INFO Channel 12/0 : 12[4] -> 4[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Channel 08/0 : 8[0] -> 9[1] via g2:1059935:1059935 [6] NCCL INFO cudaDriverVersion 13000
+1: g2:1059935:1059935 [6] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059935:1059935 [6] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059935:1059935 [6] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059935:1059935 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059935:1059935 [6] NCCL INFO Initialized NET plugin IB
+1: g2:1059935:1059935 [6] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059935:1059935 [6] NCCL INFO Using network IB
+1: g2:1059935:1059935 [6] NCCL INFO DMA-BUF is available on GPU device 6
+1: g2:1059935:1059935 [6] NCCL INFO ncclCommInitRank comm 0x10961960 rank 14 nranks 16 cudaDev 6 nvmlDev 6 busId cb000 commId 0xab959ab129b96742 - Init START
+0: g1:1172780:1172780 [4] NCCL INFO Channel 05/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1172780 [4] NCCL INFO Channel 13/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1172780 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 08/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 10/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 12/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 14/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172780:1172780 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059935:1059935 [6] NCCL INFO Bootstrap timings total 0.005140 (create 0.000030, send 0.000242, recv 0.002755, ring 0.001866, delay 0.000000)
+1: g2:1059935:1059935 [6] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059935:1059935 [6] NCCL INFO MNNVL busId 0xcb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059935:1059935 [6] NCCL INFO Setting affinity for GPU 6 to 32-63,96-127
+1: g2:1059935:1059935 [6] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059935:1059935 [6] NCCL INFO comm 0x10961960 rank 14 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+0: g1:1172780:1172780 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Trees [0] 15/-1/-1->14->13 [1] 15/-1/-1->14->13 [2] 15/-1/-1->14->13 [3] 15/-1/-1->14->13 [4] 15/-1/-1->14->13 [5] 15/-1/-1->14->13 [6] 15/-1/-1->14->6 [7] -1/-1/-1->14->13 [8] 15/-1/-1->14->13 [9] 15/-1/-1->14->13 [10] 15/-1/-1->14->13 [11] 15/-1/-1->14->13 [12] 15/-1/-1->14->13 [13] 15/-1/-1->14->13 [14] 15/6/-1->14->-1 [15] -1/-1/-1->14->13
+1: g2:1059935:1059935 [6] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059935:1059935 [6] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059935:1062349 [6] NCCL INFO [Proxy Service] Device 6 CPU core 36
+1: g2:1059935:1062350 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 37
+1: g2:1059935:1059935 [6] NCCL INFO Channel 00/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 02/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 04/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 08/0 : 14[6] -> 15[7] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 10/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 12/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1062364 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 104
+1: g2:1059935:1059935 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [send] via NET/IB/8/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [send] via NET/IB/8/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 01/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 03/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 05/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 07/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 09/0 : 14[6] -> 13[5] via P2P/IPC
+0: g1:1g1:1172784:1172784 [6] NCCL INFO cudaDriverVersion 13000
+0: g1:1172784:1172784 [6] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172784:1172784 [6] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172784:1172784 [6] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172784:1172784 [6] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172784:1172784 [6] NCCL INFO Initialized NET plugin IB
+0: g1:1172784:1172784 [6] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172784:1172784 [6] NCCL INFO Using network IB
+0: g1:1172784:1172784 [6] NCCL INFO DMA-BUF is available on GPU device 6
+0: g1:1172784:1172784 [6] NCCL INFO ncclCommInitRank comm 0x10e9fa20 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId cb000 commId 0xab959ab129b96742 - Init START
+0: g1:1172784:1172784 [6] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059935:1059935 [6] NCCL INFO Channel 11/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 13/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 15/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059935:1059935 [6] NCCL INFO Channel 01/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 03/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 05/0 : 14[6] -> 15[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Bootstrap timings total 0.024486 (create 0.000023, send 0.000048, recv 0.003950, ring 0.020084, delay 0.000000)
+0: g1:1172784:1172784 [6] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172784:1172784 [6] NCCL INFO MNNVL busId 0xcb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172784:1172784 [6] NCCL INFO Setting affinity for GPU 6 to 32-63,96-127
+0: g1:1172784:1172784 [6] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172784:1172784 [6] NCCL INFO comm 0x10e9fa20 rank 6 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+0: g1:1172784:1172784 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/14/-1->6->-1 [7] -1/-1/-1->6->5 [8] 7/-1/-1->6->5 [9] 7/-1/-1->6->5 [10] 7/-1/-1->6->5 [11] 7/-1/-1->6->5 [12] 7/-1/-1->6->5 [13] 7/-1/-1->6->5 [14] 7/-1/-1->6->14 [15] -1/-1/-1->6->5
+0: g1:1172784:1172784 [6] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059935:1059935 [6] NCCL INFO Channel 06/0 : 14[6] -> 15[7] via P2P/Ig2:1059928:1059928 [2] NCCL INFO cudaDriverVersion 13000
+1: g2:1059928:1059928 [2] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059928:1059928 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059928:1059928 [2] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059928:1059928 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059928:1059928 [2] NCCL INFO Initialized NET plugin IB
+1: g2:1059928:1059928 [2] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059928:1059928 [2] NCCL INFO Using network IB
+1: g2:1059928:1059928 [2] NCCL INFO DMA-BUF is available on GPU device 2
+1: g2:1059928:1059928 [2] NCCL INFO ncclCommInitRank comm 0x10f9c650 rank 10 nranks 16 cudaDev 2 nvmlDev 2 busId 4c000 commId 0xab959ab129b96742 - Init START
+0: g1:1172784:1172784 [6] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172784:1175476 [6] NCCL INFO [Proxy Service] Device 6 CPU core 62
+0: g1:1172784:1175477 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 127
+0: g1:1172784:1172784 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1175496 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 37
+0: g1:1172784:1172784 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [receive] via NET/IB/8/GDRDMA
+0: g1:1172784:1172784 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [receive] via NET/IB/8/GDRDMA
+0: g1:1172784:1172784 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059928:1059928 [2] NCCL INFO Bootstrap timings total 0.002779 (create 0.000020, send 0.000131, recv 0.000943, ring 0.001440, delay 0.000000)
+1: g2:1059928:1059928 [2] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059928:1059928 [2] NCCL INFO MNNVL busId 0x4c000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059928:1059928 [2] NCCL INFO Setting affinity for GPU 2 to 0-31,64-95
+1: g2:1059928:1059928 [2] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059928:1059928 [2] NCCL INFO comm 0x10f9c650 rank 10 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+0: g1:1172784:1172784 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1172784 [6] NCCL INFO Channel 00/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 02/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 04/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 06/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 08/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 10/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 12/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 14/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172784:1172784 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Trees [0] 11/-1/-1->10->9 [1] 11/-1/-1->10->9 [2] 11/-1/-1->10->2 [3] -1/-1/-1->10->9 [4] 11/-1/-1->10->9 [5] 11/-1/-1->10->9 [6] 11/-1/-1->10->9 [7] 11/-1/-1->10->9 [8] 11/-1/-1->10->9 [9] 11/-1/-1->10->9 [10] 11/2/-1->10->-1 [11] -1/-1/-1->10->9 [12] 11/-1/-1->10->9 [13] 11/-1/-1->10->9 [14] 11/-1/-1->10->9 [15] 11/-1/-1->10->9
+1: g2:1059928:1059928 [2] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059928:1059928 [2] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059928:1062357 [2] NCCL INFO [Proxy Service] Device 2 CPU core 20
+1: g2:1059928:1062358 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 87
+1: g2:1059928:1059928 [2] NCCL INFO Channel 00/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 04/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 06/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 08/0 : 10[2] -> 11[3] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 12/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 14/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1062363 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 25
+1: g2:1059928:1059928 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [send] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [send] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 01/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 03/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 05/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 07/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 09/0 : 10[2] -> 9[1] via P2P/IPC
+0: g1:1g1:1172778:1172778 [2] NCCL INFO cudaDriverVersion 13000
+0: g1:1172778:1172778 [2] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172778:1172778 [2] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172778:1172778 [2] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172778:1172778 [2] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172778:1172778 [2] NCCL INFO Initialized NET plugin IB
+0: g1:1172778:1172778 [2] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172778:1172778 [2] NCCL INFO Using network IB
+0: g1:1172778:1172778 [2] NCCL INFO DMA-BUF is available on GPU device 2
+0: g1:1172778:1172778 [2] NCCL INFO ncclCommInitRank comm 0x111aa9d0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 4c000 commId 0xab959ab129b96742 - Init START
+0: g1:1172778:1172778 [2] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059928:1059928 [2] NCCL INFO Channel 11/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 13/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 15/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059928:1059928 [2] NCCL INFO Channel 01/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 02/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 05/0 : 10[2] -> 11[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Bootstrap timings total 0.020530 (create 0.000022, send 0.000050, recv 0.000101, ring 0.019984, delay 0.000000)
+0: g1:1172778:1172778 [2] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172778:1172778 [2] NCCL INFO MNNVL busId 0x4c000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172778:1172778 [2] NCCL INFO Setting affinity for GPU 2 to 0-31,64-95
+0: g1:1172778:1172778 [2] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172778:1172778 [2] NCCL INFO comm 0x111aa9d0 rank 2 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+0: g1:1172778:1172778 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/10/-1->2->-1 [3] -1/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->10 [11] -1/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1
+0: g1:1172778:1172778 [2] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059928:1059928 [2] NCCL INFO Channel 07/0 : 10[2] -> 11[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172778:1175490 [2] NCCL INFO [Proxy Service] Device 2 CPU core 66
+0: g1:1172778:1175491 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 67
+0: g1:1172778:1172778 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1175493 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 70
+0: g1:1172778:1172778 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+0: g1:1172778:1172778 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+0: g1:1172778:1172778 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2]g2:1059929:1059929 [3] NCCL INFO cudaDriverVersion 13000
+1: g2:1059929:1059929 [3] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059929:1059929 [3] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059929:1059929 [3] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059929:1059929 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059929:1059929 [3] NCCL INFO Initialized NET plugin IB
+1: g2:1059929:1059929 [3] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059929:1059929 [3] NCCL INFO Using network IB
+1: g2:1059929:1059929 [3] NCCL INFO DMA-BUF is available on GPU device 3
+1: g2:1059929:1059929 [3] NCCL INFO ncclCommInitRank comm 0xf918040 rank 11 nranks 16 cudaDev 3 nvmlDev 3 busId 5d000 commId 0xab959ab129b96742 - Init START
+1: g2:1059929:1059929 [3] NCCL INFO RAS client listening socket at ::1<28028>
+0: g1:1172778:1172778 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1172778 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 08/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 10/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 12/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 14/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172778:1172778 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Bootstrap timings total 0.002604 (create 0.000036, send 0.000171, recv 0.000873, ring 0.001180, delay 0.000000)
+1: g2:1059929:1059929 [3] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059929:1059929 [3] NCCL INFO MNNVL busId 0x5d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059929:1059929 [3] NCCL INFO Setting affinity for GPU 3 to 0-31,64-95
+1: g2:1059929:1059929 [3] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059929:1059929 [3] NCCL INFO comm 0xf918040 rank 11 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+1: g2:1059929:1059929 [3] NCCL INFO Trees [0] 12/-1/-1->11->10 [1] 12/-1/-1->11->10 [2] 12/-1/-1->11->10 [3] 12/-1/-1->11->3 [4] -1/-1/-1->11->10 [5] 12/-1/-1->11->10 [6] 12/-1/-1->11->10 [7] 12/-1/-1->11->10 [8] 12/-1/-1->11->10 [9] 12/-1/-1->11->10 [10] 12/-1/-1->11->10 [11] 12/3/-1->11->-1 [12] -1/-1/-1->11->10 [13] 12/-1/-1->11->10 [14] 12/-1/-1->11->10 [15] 12/-1/-1->11->10
+1: g2:1059929:1059929 [3] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172778:1172778 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059929:1062345 [3] NCCL INFO [Proxy Service] Device 3 CPU core 66
+1: g2:1059929:1062346 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 14
+1: g2:1059929:1059929 [3] NCCL INFO Channel 00/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 02/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 04/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 06/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 08/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 10/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 12/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 14/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1062360 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 18
+1: g2:1059929:1059929 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+0: g1:1172g1:1172776:1172776 [1] NCCL INFO cudaDriverVersion 13000
+0: g1:1172776:1172776 [1] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172776:1172776 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172776:1172776 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172776:1172776 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172776:1172776 [1] NCCL INFO Initialized NET plugin IB
+0: g1:1172776:1172776 [1] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172776:1172776 [1] NCCL INFO Using network IB
+0: g1:1172776:1172776 [1] NCCL INFO DMA-BUF is available on GPU device 1
+0: g1:1172776:1172776 [1] NCCL INFO ncclCommInitRank comm 0x10882e80 rank 1 nranks 16 cudaDev 1 nvmlDev 1 busId 3b000 commId 0xab959ab129b96742 - Init START
+0: g1:1172776:1172776 [1] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059929:1059929 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059929:1059929 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [send] via NET/IB/5/GDRDMA
+1: g2:1059929:1059929 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [send] via NET/IB/5/GDRDMA
+1: g2:1059929:1059929 [3] NCCL INFO Channel 01/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 05/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 07/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 09/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 13/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 15/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059929:1059929 [3] NCCL INFO Channel 01/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 03/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 05/0 : 11[3] -> 12[4] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Bootstrap timings total 0.020740 (create 0.000022, send 0.000058, recv 0.000272, ring 0.020024, delay 0.000000)
+0: g1:1172776:1172776 [1] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172776:1172776 [1] NCCL INFO MNNVL busId 0x3b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172776:1172776 [1] NCCL INFO Setting affinity for GPU 1 to 0-31,64-95
+0: g1:1172776:1172776 [1] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172776:1172776 [1] NCCL INFO comm 0x10882e80 rank 1 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+0: g1:1172776:1172776 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/9/-1->1->-1 [2] -1/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->9 [10] -1/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0
+0: g1:1172776:1172776 [1] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059929:1059929 [3] NCCL INFO Channel 07/0 : 11[3] -> 12[4] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172776:1175482 [1] NCCL INFO [Proxy Service] Device 1 CPU core 19
+0: g1:1172776:1175483 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 20
+0: g1:1172776:1172776 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1175492 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 85
+0: g1:1172776:1172776 [1] NCCL INFO Channel 01/0 : 9[1] -> 1[1] [receive] via NET/IB/3/GDRDMA
+1: g2g2:1059927:1059927 [1] NCCL INFO cudaDriverVersion 13000
+1: g2:1059927:1059927 [1] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059927:1059927 [1] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059927:1059927 [1] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059927:1059927 [1] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059927:1059927 [1] NCCL INFO Initialized NET plugin IB
+1: g2:1059927:1059927 [1] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059927:1059927 [1] NCCL INFO Using network IB
+1: g2:1059927:1059927 [1] NCCL INFO DMA-BUF is available on GPU device 1
+1: g2:1059927:1059927 [1] NCCL INFO ncclCommInitRank comm 0x106145a0 rank 9 nranks 16 cudaDev 1 nvmlDev 1 busId 3b000 commId 0xab959ab129b96742 - Init START
+1: g2:1059927:1059927 [1] NCCL INFO RAS client listening socket at ::1<28028>
+0: g1:1172776:1172776 [1] NCCL INFO Channel 09/0 : 9[1] -> 1[1] [receive] via NET/IB/3/GDRDMA
+0: g1:1172776:1172776 [1] NCCL INFO Channel 00/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1172776 [1] NCCL INFO Channel 08/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1172776 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172776:1172776 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Bootstrap timings total 0.003044 (create 0.000021, send 0.000169, recv 0.000297, ring 0.001846, delay 0.000000)
+1: g2:1059927:1059927 [1] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059927:1059927 [1] NCCL INFO MNNVL busId 0x3b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059927:1059927 [1] NCCL INFO Setting affinity for GPU 1 to 0-31,64-95
+1: g2:1059927:1059927 [1] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059927:1059927 [1] NCCL INFO comm 0x106145a0 rank 9 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+1: g2:1059927:1059927 [1] NCCL INFO Trees [0] 10/-1/-1->9->8 [1] 10/-1/-1->9->1 [2] -1/-1/-1->9->8 [3] 10/-1/-1->9->8 [4] 10/-1/-1->9->8 [5] 10/-1/-1->9->8 [6] 10/-1/-1->9->8 [7] 10/-1/-1->9->8 [8] 10/-1/-1->9->8 [9] 10/1/-1->9->-1 [10] -1/-1/-1->9->8 [11] 10/-1/-1->9->8 [12] 10/-1/-1->9->8 [13] 10/-1/-1->9->8 [14] 10/-1/-1->9->8 [15] 10/-1/-1->9->8
+1: g2:1059927:1059927 [1] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172776:1172776 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059927:1062355 [1] NCCL INFO [Proxy Service] Device 1 CPU core 18
+1: g2:1059927:1062356 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 83
+1: g2:1059927:1059927 [1] NCCL INFO Channel 00/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 02/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 04/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 06/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 08/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 10/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 12/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 14/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1062359 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 24
+1: g2:1059927:1059927 [1] NCCL INFO Channel 00/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+0: g1:1172776:11g1:1172782:1172782 [5] NCCL INFO cudaDriverVersion 13000
+0: g1:1172782:1172782 [5] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172782:1172782 [5] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172782:1172782 [5] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172782:1172782 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172782:1172782 [5] NCCL INFO Initialized NET plugin IB
+0: g1:1172782:1172782 [5] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172782:1172782 [5] NCCL INFO Using network IB
+0: g1:1172782:1172782 [5] NCCL INFO DMA-BUF is available on GPU device 5
+0: g1:1172782:1172782 [5] NCCL INFO ncclCommInitRank comm 0x1169cc00 rank 5 nranks 16 cudaDev 5 nvmlDev 5 busId bb000 commId 0xab959ab129b96742 - Init START
+0: g1:1172782:1172782 [5] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059927:1059927 [1] NCCL INFO Channel 08/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1059927 [1] NCCL INFO Channel 01/0 : 9[1] -> 1[1] [send] via NET/IB/3/GDRDMA
+1: g2:1059927:1059927 [1] NCCL INFO Channel 09/0 : 9[1] -> 1[1] [send] via NET/IB/3/GDRDMA
+1: g2:1059927:1059927 [1] NCCL INFO Channel 03/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 05/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 07/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 11/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 13/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 15/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059927:1059927 [1] NCCL INFO Channel 01/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 03/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 05/0 : 9[1] -> 10[2] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Bootstrap timings total 0.021815 (create 0.000023, send 0.000059, recv 0.000060, ring 0.021238, delay 0.000000)
+0: g1:1172782:1172782 [5] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172782:1172782 [5] NCCL INFO MNNVL busId 0xbb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172782:1172782 [5] NCCL INFO Setting affinity for GPU 5 to 32-63,96-127
+0: g1:1172782:1172782 [5] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172782:1172782 [5] NCCL INFO comm 0x1169cc00 rank 5 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+0: g1:1172782:1172782 [5] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] 6/-1/-1->5->4 [4] 6/-1/-1->5->4 [5] 6/13/-1->5->-1 [6] -1/-1/-1->5->4 [7] 6/-1/-1->5->4 [8] 6/-1/-1->5->4 [9] 6/-1/-1->5->4 [10] 6/-1/-1->5->4 [11] 6/-1/-1->5->4 [12] 6/-1/-1->5->4 [13] 6/-1/-1->5->13 [14] -1/-1/-1->5->4 [15] 6/-1/-1->5->4
+0: g1:1172782:1172782 [5] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059927:1059927 [1] NCCL INFO Channel 07/0 : 9[1] -> 10[2] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172782:1175484 [5] NCCL INFO [Proxy Service] Device 5 CPU core 33
+0: g1:1172782:1175485 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 34
+0: g1:1172782:1172782 [5] NCCL INFO Channel 01/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 03/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 05/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 07/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 09/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 11/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 13/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 15/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1175498 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 102
+0: g1:1172782:1172782 [5] NCCL INFO Channel 05/0 : 13[5] -> 5[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059927:1059927 [1] NCCL INFO Channel 09/0 : 9[1] -> 10[2g2:1059930:1059930 [4] NCCL INFO cudaDriverVersion 13000
+1: g2:1059930:1059930 [4] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059930:1059930 [4] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059930:1059930 [4] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059930:1059930 [4] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059930:1059930 [4] NCCL INFO Initialized NET plugin IB
+1: g2:1059930:1059930 [4] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059930:1059930 [4] NCCL INFO Using network IB
+1: g2:1059930:1059930 [4] NCCL INFO DMA-BUF is available on GPU device 4
+1: g2:1059930:1059930 [4] NCCL INFO ncclCommInitRank comm 0x11265e70 rank 12 nranks 16 cudaDev 4 nvmlDev 4 busId 9b000 commId 0xab959ab129b96742 - Init START
+0: g1:1172782:1172782 [5] NCCL INFO Channel 13/0 : 13[5] -> 5[5] [receive] via NET/IB/7/GDRDMA
+0: g1:1172782:1172782 [5] NCCL INFO Channel 04/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1172782 [5] NCCL INFO Channel 12/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1172782 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 08/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 10/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 14/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172782:1172782 [5] NCCL INFO Channel 00/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 02/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 04/0 : 5[5] -> 6[6] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059930:1059930 [4] NCCL INFO Bootstrap timings total 0.002753 (create 0.000021, send 0.000153, recv 0.000237, ring 0.001244, delay 0.000000)
+1: g2:1059930:1059930 [4] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059930:1059930 [4] NCCL INFO MNNVL busId 0x9b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059930:1059930 [4] NCCL INFO Setting affinity for GPU 4 to 32-63,96-127
+1: g2:1059930:1059930 [4] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059930:1059930 [4] NCCL INFO comm 0x11265e70 rank 12 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+0: g1:1172782:1172782 [5] NCCL INFO Channel 08/0 : 5[5] -> 6[6] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Trees [0] 13/-1/-1->12->11 [1] 13/-1/-1->12->11 [2] 13/-1/-1->12->11 [3] 13/-1/-1->12->11 [4] 13/-1/-1->12->4 [5] -1/-1/-1->12->11 [6] 13/-1/-1->12->11 [7] 13/-1/-1->12->11 [8] 13/-1/-1->12->11 [9] 13/-1/-1->12->11 [10] 13/-1/-1->12->11 [11] 13/-1/-1->12->11 [12] 13/4/-1->12->-1 [13] -1/-1/-1->12->11 [14] 13/-1/-1->12->11 [15] 13/-1/-1->12->11
+1: g2:1059930:1059930 [4] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059930:1059930 [4] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059930:1062347 [4] NCCL INFO [Proxy Service] Device 4 CPU core 34
+1: g2:1059930:1062348 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 99
+1: g2:1059930:1059930 [4] NCCL INFO Channel 00/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 02/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 06/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 08/0 : 12[4] -> 13[5] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 10/0 : 5[5] -> 6[6] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 10/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 14/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1062361 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 39
+1: g2:1059930:1059930 [4] NCCL INFO Channel 05/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059930:1059930 [4] NCCL INFO Channel 13/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059930:1059930 [4] NCCL INFO Channel 04/0 : 12[4] -> 4[4] [send] via NET/IB/6/GDRDMA
+1: g2:1059930:1059930 [4] NCCL INFO Channel 12/0 : 12[4] -> 4[4] [send] via NET/IB/6/GDRDMA
+1: g2:1059930:1059930 [4] NCCL INFO Channel 01/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 03/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 05/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 07/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 09/0 : 12[4] -> 11[3] via P2P/IPC
+0: g1:1g1:1172779:1172779 [3] NCCL INFO cudaDriverVersion 13000
+0: g1:1172779:1172779 [3] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172779:1172779 [3] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172779:1172779 [3] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172779:1172779 [3] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172779:1172779 [3] NCCL INFO Initialized NET plugin IB
+0: g1:1172779:1172779 [3] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172779:1172779 [3] NCCL INFO Using network IB
+0: g1:1172779:1172779 [3] NCCL INFO DMA-BUF is available on GPU device 3
+0: g1:1172779:1172779 [3] NCCL INFO ncclCommInitRank comm 0x113c01e0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 5d000 commId 0xab959ab129b96742 - Init START
+0: g1:1172779:1172779 [3] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059930:1059930 [4] NCCL INFO Channel 11/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 13/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 15/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059930:1059930 [4] NCCL INFO Channel 01/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 03/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 04/0 : 12[4] -> 13[5] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Bootstrap timings total 0.031448 (create 0.000038, send 0.000152, recv 0.009450, ring 0.019982, delay 0.000000)
+0: g1:1172779:1172779 [3] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172779:1172779 [3] NCCL INFO MNNVL busId 0x5d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172779:1172779 [3] NCCL INFO Setting affinity for GPU 3 to 0-31,64-95
+0: g1:1172779:1172779 [3] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172779:1172779 [3] NCCL INFO comm 0x113c01e0 rank 3 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+0: g1:1172779:1172779 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/11/-1->3->-1 [4] -1/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->11 [12] -1/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2
+0: g1:1172779:1172779 [3] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059930:1059930 [4] NCCL INFO Channel 07/0 : 12[4] -> 13[5] via P2P/IPg2:1059933:1059933 [5] NCCL INFO cudaDriverVersion 13000
+1: g2:1059933:1059933 [5] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059933:1059933 [5] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059933:1059933 [5] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059933:1059933 [5] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059933:1059933 [5] NCCL INFO Initialized NET plugin IB
+1: g2:1059933:1059933 [5] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059933:1059933 [5] NCCL INFO Using network IB
+1: g2:1059933:1059933 [5] NCCL INFO DMA-BUF is available on GPU device 5
+1: g2:1059933:1059933 [5] NCCL INFO ncclCommInitRank comm 0x112de870 rank 13 nranks 16 cudaDev 5 nvmlDev 5 busId bb000 commId 0xab959ab129b96742 - Init START
+0: g1:1172779:1172779 [3] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172779:1175480 [3] NCCL INFO [Proxy Service] Device 3 CPU core 15
+0: g1:1172779:1175481 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 82
+0: g1:1172779:1172779 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1175494 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 7
+0: g1:1172779:1172779 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059933:1059933 [5] NCCL INFO Bootstrap timings total 0.004128 (create 0.000023, send 0.000166, recv 0.000208, ring 0.002020, delay 0.000000)
+1: g2:1059933:1059933 [5] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059933:1059933 [5] NCCL INFO MNNVL busId 0xbb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059933:1059933 [5] NCCL INFO Setting affinity for GPU 5 to 32-63,96-127
+1: g2:1059933:1059933 [5] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059933:1059933 [5] NCCL INFO comm 0x112de870 rank 13 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+0: g1:1172779:1172779 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+0: g1:1172779:1172779 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1172779 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1172779 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172779:1172779 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Trees [0] 14/-1/-1->13->12 [1] 14/-1/-1->13->12 [2] 14/-1/-1->13->12 [3] 14/-1/-1->13->12 [4] 14/-1/-1->13->12 [5] 14/-1/-1->13->5 [6] -1/-1/-1->13->12 [7] 14/-1/-1->13->12 [8] 14/-1/-1->13->12 [9] 14/-1/-1->13->12 [10] 14/-1/-1->13->12 [11] 14/-1/-1->13->12 [12] 14/-1/-1->13->12 [13] 14/5/-1->13->-1 [14] -1/-1/-1->13->12 [15] 14/-1/-1->13->12
+1: g2:1059933:1059933 [5] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059933:1059933 [5] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059933:1062351 [5] NCCL INFO [Proxy Service] Device 5 CPU core 58
+1: g2:1059933:1062352 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 59
+1: g2:1059933:1059933 [5] NCCL INFO Channel 00/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 02/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 04/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 06/0 : 13[5] -> 14[6] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 08/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 10/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 12/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 14/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1062362 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 60
+1: g2:1059933:1059933 [5] NCCL INFO Channel 04/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO Channel 12/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO Channel 05/0 : 13[5] -> 5[5] [send] via NET/IB/7/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO Channel 13/0 : 13[5] -> 5[5] [send] via NET/IB/7/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO Channel 01/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 03/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 07/0 : 13[5] -> 12[4] via P2P/IPC
+0: g1:11727g1:1172785:1172785 [7] NCCL INFO cudaDriverVersion 13000
+0: g1:1172785:1172785 [7] NCCL INFO Bootstrap: Using eno8303:198.18.151.51<0>
+0: g1:1172785:1172785 [7] NCCL INFO NCCL version 2.27.3+cuda12.9
+0: g1:1172785:1172785 [7] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+0: g1:1172785:1172785 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.51<0>
+0: g1:1172785:1172785 [7] NCCL INFO Initialized NET plugin IB
+0: g1:1172785:1172785 [7] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172785:1172785 [7] NCCL INFO Using network IB
+0: g1:1172785:1172785 [7] NCCL INFO DMA-BUF is available on GPU device 7
+0: g1:1172785:1172785 [7] NCCL INFO ncclCommInitRank comm 0x1132ff60 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId db000 commId 0xab959ab129b96742 - Init START
+0: g1:1172785:1172785 [7] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059933:1059933 [5] NCCL INFO Channel 09/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 11/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 15/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059933:1059933 [5] NCCL INFO Channel 01/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 03/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 05/0 : 13[5] -> 14[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Bootstrap timings total 0.020576 (create 0.000021, send 0.000051, recv 0.018143, ring 0.001848, delay 0.000000)
+0: g1:1172785:1172785 [7] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+0: g1:1172785:1172785 [7] NCCL INFO MNNVL busId 0xdb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172785:1172785 [7] NCCL INFO Setting affinity for GPU 7 to 32-63,96-127
+0: g1:1172785:1172785 [7] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+0: g1:1172785:1172785 [7] NCCL INFO comm 0x1132ff60 rank 7 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+0: g1:1172785:1172785 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 0/-1/-1->7->6 [2] 0/-1/-1->7->6 [3] 0/-1/-1->7->6 [4] 0/-1/-1->7->6 [5] 0/-1/-1->7->6 [6] 0/-1/-1->7->6 [7] 0/15/-1->7->-1 [8] -1/-1/-1->7->6 [9] 0/-1/-1->7->6 [10] 0/-1/-1->7->6 [11] 0/-1/-1->7->6 [12] 0/-1/-1->7->6 [13] 0/-1/-1->7->6 [14] 0/-1/-1->7->6 [15] 0/-1/-1->7->15
+0: g1:1172785:1172785 [7] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059933:1059933 [5] NCCL INFO Channel 07/0 : 13[5] -> 14[6] via P2P/IPg2:1059937:1059937 [7] NCCL INFO cudaDriverVersion 13000
+1: g2:1059937:1059937 [7] NCCL INFO Bootstrap: Using eno8303:198.18.151.52<0>
+1: g2:1059937:1059937 [7] NCCL INFO NCCL version 2.27.3+cuda12.9
+1: g2:1059937:1059937 [7] NCCL INFO NET/Plugin: Could not find: libnccl-net.so. 
+1: g2:1059937:1059937 [7] NCCL INFO NET/IB : Using [0]mlx5_0:1/IB [1]mlx5_1:1/RoCE [2]mlx5_2:1/RoCE [3]mlx5_3:1/IB [4]mlx5_4:1/IB [5]mlx5_5:1/IB [6]mlx5_6:1/IB [7]mlx5_7:1/IB [8]mlx5_8:1/IB [9]mlx5_9:1/IB [RO]; OOB eno8303:198.18.151.52<0>
+1: g2:1059937:1059937 [7] NCCL INFO Initialized NET plugin IB
+1: g2:1059937:1059937 [7] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059937:1059937 [7] NCCL INFO Using network IB
+1: g2:1059937:1059937 [7] NCCL INFO DMA-BUF is available on GPU device 7
+1: g2:1059937:1059937 [7] NCCL INFO ncclCommInitRank comm 0x116077a0 rank 15 nranks 16 cudaDev 7 nvmlDev 7 busId db000 commId 0xab959ab129b96742 - Init START
+0: g1:1172785:1172785 [7] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+0: g1:1172785:1175488 [7] NCCL INFO [Proxy Service] Device 7 CPU core 122
+0: g1:1172785:1175489 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 60
+0: g1:1172785:1175499 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 103
+0: g1:1172785:1172785 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [receive] via NET/IB/9/GDRDMA
+0: g1:1172785:1172785 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [receive] via NET/IB/9/GDRDMA
+0: g1:1172785:1172785 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1172785 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1172785 [7] NCCL INFO Channel 01/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 03/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 05/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 07/0 : 7[7] -> 0[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO RAS client listening socket at ::1<28028>
+1: g2:1059937:1059937 [7] NCCL INFO Bootstrap timings total 0.002667 (create 0.000040, send 0.000143, recv 0.000540, ring 0.001509, delay 0.000000)
+1: g2:1059937:1059937 [7] NCCL INFO NCCL_CUMEM_ENABLE set by environment to 0.
+1: g2:1059937:1059937 [7] NCCL INFO MNNVL busId 0xdb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059937:1059937 [7] NCCL INFO Setting affinity for GPU 7 to 32-63,96-127
+1: g2:1059937:1059937 [7] NCCL INFO NCCL_NVLS_ENABLE set by environment to 0.
+1: g2:1059937:1059937 [7] NCCL INFO comm 0x116077a0 rank 15 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+0: g1:1172785:1172785 [7] NCCL INFO Channel 09/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 11/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 13/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 15/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 08/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 10/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 12/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172785:1172785 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1172785 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+1: g2:1059937:1059937 [7] NCCL INFO Trees [0] -1/-1/-1->15->14 [1] 8/-1/-1->15->14 [2] 8/-1/-1->15->14 [3] 8/-1/-1->15->14 [4] 8/-1/-1->15->14 [5] 8/-1/-1->15->14 [6] 8/-1/-1->15->14 [7] 8/-1/-1->15->7 [8] -1/-1/-1->15->14 [9] 8/-1/-1->15->14 [10] 8/-1/-1->15->14 [11] 8/-1/-1->15->14 [12] 8/-1/-1->15->14 [13] 8/-1/-1->15->14 [14] 8/-1/-1->15->14 [15] 8/7/-1->15->-1
+1: g2:1059937:1059937 [7] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059937:1059937 [7] NCCL INFO PROFILER/Plugin: Could not find: libnccl-profiler.so. 
+1: g2:1059937:1062353 [7] NCCL INFO [Proxy Service] Device 7 CPU core 126
+1: g2:1059937:1062354 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 102
+1: g2:1059937:1062366 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 105
+1: g2:1059937:1059937 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1059937 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1059937 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1172785 [7] NCCL INFO Channel 02/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 04/0 : 7[7] -> 0[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [send] via NET/IB/9/GDRDMA
+1: g2:1059937:1059937 [7] NCCL INFO Channel 00/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 02/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 04/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 06/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 08/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 10/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 12/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 14/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 01/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 03/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 05/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 09/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 11/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 13/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059937:1059937 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1059937 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1059937 [7] NCCL INFO Channel 01/0 : 15[7] -> 8[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 06/778:1172778 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1172778 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1172778 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 09/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 11/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 13/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Channel 15/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1172778 [2] NCCL INFO Connected all trees
+0: g1:1172778:1172778 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: g1:1172778:1172778 [2] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172778:1172778 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172778:1172778 [2] NCCL INFO ncclCommInitRank comm 0x111aa9d0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 4c000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172778:1172778 [2] NCCL INFO Init timings - ncclCommInitRank: rank 2 nranks 16 total 1.33 (kernels 0.14, alloc 0.95, bootstrap 0.02, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.13, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: 172784:1172784 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1172784 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1172784 [6] NCCL INFO Channel 01/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 03/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 05/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 07/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 09/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 11/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 13/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Channel 15/0 : 6[6] -> 5[5] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 03/0 : 15[7] -> 8[] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 11/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 13/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 15/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 01/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1059927 [1] NCCL INFO Channel 09/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1059927 [1] NCCL INFO Channel 00/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 02/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 04/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 06/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 08/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 10/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Channel 12/0 : 9[1] -> 8[0] via P2P/IPC
+0: g1:1172784:1172784 [6] NCCL INFO Connected all trees
+0: g1:1172784:1172784 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: g1:1172784:1172784 [6] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172784:1172784 [6] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172784:1172784 [6] NCCL INFO ncclCommInitRank comm 0x10e9fa20 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId cb000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172784:1172784 [6] NCCL INFO Init timings - ncclCommInitRank: rank 6 nranks 16 total 1.33 (kernels 0.14, alloc 0.94, bootstrap 0.02, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059927:1059927 [1] NCCL INFO Channel 14/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1059927 [1] NCCL INFO Connected all trees
+1: g2:1059927:1059927 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059927:1059927 [1] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059927:1059927 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+1: g2:1059927:1059927 [1] NCCL INFO ncclCommInitRank comm 0x106145a0 rank 9 nranks 16 cudaDev 1 nvmlDev 1 busId 3b000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059927:1059927 [1] NCCL INFO Init timings - ncclCommInitRank: rank 9 nranks 16 total 1.33 (kernels 0.15, alloc 0.95, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: C
+1: g2:1059933:1059933 [5] NCCL INFO Channel 09/0 : 13[5] -> 14[6] via P2P/IPC
+0: 79:1172779 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1172779 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1172779 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Channel 15/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO Connected all trees
+0: g1:1172779:1172779 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059933:1059933 [5] NCCL INFO Channel 11/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 13/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 15/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 05/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO Channel 13/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1059933 [5] NCCL INFO Channel 00/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 02/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 04/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 06/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 08/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 10/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 12/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1059933 [5] NCCL INFO Channel 14/0 : 13[5] -> 12[4] via P2P/IPC
+0: g1:1172779:1172779 [3] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172779:1172779 [3] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172779:1172779 [3] NCCL INFO ncclCommInitRank comm 0x113c01e0 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 5d000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172779:1172779 [3] NCCL INFO Init timings - ncclCommInitRank: rank 3 nranks 16 total 1.32 (kernels 0.13, alloc 0.94, bootstrap 0.03, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059933:1059933 [5] NCCL INFO Connected all trees
+1: g2:1059933:1059933 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059933:1059933 [5] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059933:1059933 [5] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+1: g2:1059933:1059933 [5] NCCL INFO ncclCommInitRank comm 0x112de870 rank 13 nranks 16 cudaDev 5 nvmlDev 5 busId bb000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059933:1059933 [5] NCCL INFO Init timings - ncclCommInitRank: rank 13 nranks 16 total 1.32 (kernels 0.13, alloc 0.95, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.03)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: PC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 09/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 11/0 : 14[6] -> 15[7] via P2P/IPC
+0: 172780:1172780 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 04/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1172780 [4] NCCL INFO Channel 12/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1172780 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 09/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 11/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 13/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Channel 15/0 : 4[4] -> 3[3] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 13/0 : 14[6] -> 15[7] via P2P/IPC
+0: g1:1172780:1172780 [4] NCCL INFO Connected all trees
+0: g1:1172780:1172780 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: g1:1172780:1172780 [4] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172780:1172780 [4] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172780:1172780 [4] NCCL INFO ncclCommInitRank comm 0x10a688e0 rank 4 nranks 16 cudaDev 4 nvmlDev 4 busId 9b000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172780:1172780 [4] NCCL INFO Init timings - ncclCommInitRank: rank 4 nranks 16 total 1.34 (kernels 0.15, alloc 0.95, bootstrap 0.02, allgathers 0.01, topo 0.05, graphs 0.02, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: 172782:1172782 [5] NCCL INFO Channel 12/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 05/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 14/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1059935 [6] NCCL INFO Channel 00/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 02/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 04/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 08/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 10/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Channel 12/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1059935 [6] NCCL INFO Connected all trees
+1: g2:1059935:1059935 [6] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059935:1059935 [6] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172782:1172782 [5] NCCL INFO Channel 13/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1172782 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 09/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 11/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 12/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Channel 15/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1172782 [5] NCCL INFO Connected all trees
+0: g1:1172782:1172782 [5] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: g1:1172782:1172782 [5] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059935:1059935 [6] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+1: g2:1059935:1059935 [6] NCCL INFO ncclCommInitRank comm 0x10961960 rank 14 nranks 16 cudaDev 6 nvmlDev 6 busId cb000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059935:1059935 [6] NCCL INFO Init timings - ncclCommInitRank: rank 14 nranks 16 total 1.34 (kernels 0.15, alloc 0.95, bootstrap 0.01, allgathers 0.00, topo 0.05, graphs 0.02, connections 0.14, rest 0.02)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: C
+1: g2:1059930:1059930 [4] NCCL INFO Channel 09/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 11/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 12/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 15/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 04/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+0: g1:1172782:1172782 [5] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172782:1172782 [5] NCCL INFO ncclCommInitRank comm 0x1169cc00 rank 5 nranks 16 cudaDev 5 nvmlDev 5 busId bb000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172782:1172782 [5] NCCL INFO Init timings - ncclCommInitRank: rank 5 nranks 16 total 1.32 (kernels 0.13, alloc 0.94, bootstrap 0.02, allgathers 0.00, topo 0.05, graphs 0.02, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059930:1059930 [4] NCCL INFO Channel 12/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059930:1059930 [4] NCCL INFO Channel 00/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 02/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 06/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 08/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 10/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Channel 14/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1059930 [4] NCCL INFO Connected all trees
+1: g2:1059930:1059930 [4] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059930:1059930 [4] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059930:1059930 [4] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: 72776 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 01/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1172776 [1] NCCL INFO Channel 09/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1172776 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO Connected all trees
+0: g1:1172776:1172776 [1] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059930:1059930 [4] NCCL INFO ncclCommInitRank comm 0x11265e70 rank 12 nranks 16 cudaDev 4 nvmlDev 4 busId 9b000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059930:1059930 [4] NCCL INFO Init timings - ncclCommInitRank: rank 12 nranks 16 total 1.32 (kernels 0.13, alloc 0.95, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.02, connections 0.14, rest 0.02)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: 0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 05/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 07/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 09/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 11/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 13/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 15/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 00/0 : 15[7] -> 14[6] via P2P/IPC
+0: g1:1172776:1172776 [1] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172776:1172776 [1] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172776:1172776 [1] NCCL INFO ncclCommInitRank comm 0x10882e80 rank 1 nranks 16 cudaDev 1 nvmlDev 1 busId 3b000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172776:1172776 [1] NCCL INFO Init timings - ncclCommInitRank: rank 1 nranks 16 total 1.32 (kernels 0.16, alloc 0.92, bootstrap 0.02, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: 0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 10/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 12/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 14/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 02/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 04/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 06/0 : 15[7] -> 14[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 09/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 11/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 13/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Channel 14/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1172785 [7] NCCL INFO Connected all trees
+0: g1:1172785:1172785 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: g1:1172785:1172785 [7] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172785:1172785 [7] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+1: g2:1059937:1059937 [7] NCCL INFO Channel 08/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 10/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 12/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Channel 14/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1059937 [7] NCCL INFO Connected all trees
+1: g2:1059937:1059937 [7] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059937:1059937 [7] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059937:1059937 [7] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+1: g2:1059937:1059937 [7] NCCL INFO ncclCommInitRank comm 0x116077a0 rank 15 nranks 16 cudaDev 7 nvmlDev 7 busId db000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172785:1172785 [7] NCCL INFO ncclCommInitRank comm 0x1132ff60 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId db000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172785:1172785 [7] NCCL INFO Init timings - ncclCommInitRank: rank 7 nranks 16 total 1.32 (kernels 0.13, alloc 0.95, bootstrap 0.02, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059937:1059937 [7] NCCL INFO Init timings - ncclCommInitRank: rank 15 nranks 16 total 1.34 (kernels 0.15, alloc 0.96, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1:  NCCL INFO Channel 09/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 10/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 13/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 15/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 00/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 04/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 06/0 : 10[2] -> 9[1] via P2P/IPC
+0: 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 00/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 02/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 04/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 06/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 08/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 10/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 12/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 14/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1175495 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 72
+0: g1:1172775:1172775 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
+0: g1:1172775:1172775 [0] NCCL INFO Channel 08/0 : 8[0] -> 0[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059928:1059928 [2] NCCL INFO Channel 08/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 12/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Channel 14/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1059928 [2] NCCL INFO Connected all trees
+1: g2:1059928:1059928 [2] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059928:1059928 [2] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059928:1059928 [2] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+1: g2:1059928:1059928 [2] NCCL INFO ncclCommInitRank comm 0x10f9c650 rank 10 nranks 16 cudaDev 2 nvmlDev 2 busId 4c000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059928:1059928 [2] NCCL INFO Init timings - ncclCommInitRank: rank 10 nranks 16 total 1.32 (kernels 0.13, alloc 0.95, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.03)
+0: g1:1172775:1172775 [0] NCCL INFO Channel 01/0 : 0[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+0: g1:1172775:1172775 [0] NCCL INFO Channel 09/0 : 0[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+0: g1:1172775:1172775 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172775:1172775 [0] NCCL INFO Channel 00/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 02/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 04/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 06/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 08/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 10/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 12/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 14/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 01/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 03/0 : 0[0] -> 7[7] via P2P/IPC
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 11/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 13/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 15/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 02/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 04/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 06/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 10/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 12/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 14/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1059925 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Channel 08/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059925:1059925 [0] NCCL INFO Connected all trees
+0: g1:1172775:1172775 [0] NCCL INFO Channel 05/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 07/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 09/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 11/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 13/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 15/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1172775 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+0: g1:1172775:1172775 [0] NCCL INFO Channel 08/0 : 0[0] -> 8[0] [send] via NET/IB/0/GDRDMA
+0: g1:1172775:1172775 [0] NCCL INFO Connected all trees
+0: g1:1172775:1172775 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+0: g1:1172775:1172775 [0] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+0: g1:1172775:1172775 [0] NCCL INFO CC Off, workFifoBytes 1048576
+1: g2:1059925:1059925 [0] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059925:1059925 [0] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059925:1059925 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172775:1172775 [0] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: g1:1172775:1172775 [0] NCCL INFO ncclCommInitRank comm 0x10bc5b20 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 19000 commId 0xab959ab129b96742 - Init COMPLETE
+0: g1:1172775:1172775 [0] NCCL INFO Init timings - ncclCommInitRank: rank 0 nranks 16 total 1.35 (kernels 0.16, alloc 0.95, bootstrap 0.02, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059925:1059925 [0] NCCL INFO ncclCommInitRank comm 0x10b58440 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 19000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059925:1059925 [0] NCCL INFO Init timings - ncclCommInitRank: rank 8 nranks 16 total 1.32 (kernels 0.13, alloc 0.95, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: :1059929:1059929 [3] NCCL INFO Channel 09/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 11/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 13/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 15/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059929:1059929 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059929:1059929 [3] NCCL INFO Channel 00/0 : 11[3] -> 10[2] via P2P/IPC
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059929:1059929 [3] NCCL INFO Channel 02/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 04/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 06/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 08/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 10/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 12/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Channel 14/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1059929 [3] NCCL INFO Connected all trees
+1: g2:1059929:1059929 [3] NCCL INFO threadThresholds 8/8/64 | 128/8/64 | 512 | 512
+1: g2:1059929:1059929 [3] NCCL INFO 16 coll channels, 16 collnet channels, 0 nvls channels, 16 p2p channels, 2 p2p channels per peer
+1: g2:1059929:1059929 [3] NCCL INFO TUNER/Plugin: Could not find: libnccl-tuner.so. Using internal tuner plugin.
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: g2:1059929:1059929 [3] NCCL INFO ncclCommInitRank comm 0xf918040 rank 11 nranks 16 cudaDev 3 nvmlDev 3 busId 5d000 commId 0xab959ab129b96742 - Init COMPLETE
+1: g2:1059929:1059929 [3] NCCL INFO Init timings - ncclCommInitRank: rank 11 nranks 16 total 1.32 (kernels 0.13, alloc 0.96, bootstrap 0.00, allgathers 0.01, topo 0.05, graphs 0.01, connections 0.14, rest 0.02)
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+1: [Gloo] Rank 8 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 0 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 10 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 1 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 9 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 2 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 11 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 3 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 14 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 12 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 13 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 4 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+1: [Gloo] Rank 15 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 5 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 6 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: [Gloo] Rank 7 is connected to 15 peer ranks. Expected number of connected peer ranks is : 15
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+1: All deep_gemm operations loaded successfully!
+0: g1:1172775:1178722 [0] NCCL INFO Comm config Blocking set to 1
+0: g1:1172775:1179181 [0] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172775:1179181 [0] NCCL INFO Using network IB
+0: g1:1172775:1179181 [0] NCCL INFO DMA-BUF is available on GPU device 0
+0: g1:1172775:1179181 [0] NCCL INFO ncclCommInitRankConfig comm 0x7f304e039950 rank 0 nranks 16 cudaDev 0 nvmlDev 0 busId 19000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172775:1179181 [0] NCCL INFO Bootstrap timings total 0.038663 (create 0.000021, send 0.000058, recv 0.032478, ring 0.005990, delay 0.000000)
+0: g1:1172775:1179181 [0] NCCL INFO MNNVL busId 0x19000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172775:1179181 [0] NCCL INFO Setting affinity for GPU 0 to 0-31,64-95
+0: g1:1172775:1179181 [0] NCCL INFO comm 0x7f304e039950 rank 0 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+0: g1:1172775:1179181 [0] NCCL INFO Channel 00/16 :  0  7  6  5  4  3  2  1  9 10 11 12 13 14 15  8
+0: g1:1172775:1179181 [0] NCCL INFO Channel 01/16 :  0  8 15 14 13 12 11 10  9  1  2  3  4  5  6  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 02/16 :  0  7  6  5  4  3 11 12 13 14 15  8  9 10  2  1
+0: g1:1172775:1179181 [0] NCCL INFO Channel 03/16 :  0  1  2 10  9  8 15 14 13 12 11  3  4  5  6  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 04/16 :  0  7  6  5 13 14 15  8  9 10 11 12  4  3  2  1
+0: g1:1172775:1179181 [0] NCCL INFO Channel 05/16 :  0  1  2  3  4 12 11 10  9  8 15 14 13  5  6  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 06/16 :  0  7 15  8  9 10 11 12 13 14  6  5  4  3  2  1
+0: g1:1172775:1179181 [0] NCCL INFO Channel 07/16 :  0  1  2  3  4  5  6 14 13 12 11 10  9  8 15  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 08/16 :  0  7  6  5  4  3  2  1  9 10 11 12 13 14 15  8
+0: g1:1172775:1179181 [0] NCCL INFO Channel 09/16 :  0  8 15 14 13 12 11 10  9  1  2  3  4  5  6  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 10/16 :  0  7  6  5  4  3 11 12 13 14 15  8  9 10  2  1
+0: g1:1172775:1179181 [0] NCCL INFO Channel 11/16 :  0  1  2 10  9  8 15 14 13 12 11  3  4  5  6  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 12/16 :  0  7  6  5 13 14 15  8  9 10 11 12  4  3  2  1
+0: g1:1172775:1179181 [0] NCCL INFO Channel 13/16 :  0  1  2  3  4 12 11 10  9  8 15 14 13  5  6  7
+0: g1:1172775:1179181 [0] NCCL INFO Channel 14/16 :  0  7 15  8  9 10 11 12 13 14  6  5  4  3  2  1
+0: g1:1172775:1179181 [0] NCCL INFO Channel 15/16 :  0  1  2  3  4  5  6 14 13 12 11 10  9  8 15  7
+0: g1:1172775:1179181 [0] NCCL INFO Trees [0] 1/8/-1->0->-1 [1] -1/-1/-1->0->7 [2] 1/-1/-1->0->7 [3] 1/-1/-1->0->7 [4] 1/-1/-1->0->7 [5] 1/-1/-1->0->7 [6] 1/-1/-1->0->7 [7] 1/-1/-1->0->7 [8] 1/-1/-1->0->8 [9] -1/-1/-1->0->7 [10] 1/-1/-1->0->7 [11] 1/-1/-1->0->7 [12] 1/-1/-1->0->7 [13] 1/-1/-1->0->7 [14] 1/-1/-1->0->7 [15] 1/-1/-1->0->7
+0: g1:1172775:1179181 [0] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172775:1179181 [0] NCCL INFO Check P2P Type isAllDirectP2p 1 directMode 0
+0: g1:1172775:1179189 [0] NCCL INFO [Proxy Service] Device 0 CPU core 81
+0: g1:1172775:1179203 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 82
+0: g1:1172775:1179181 [0] NCCL INFO Channel 03/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 05/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 07/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 11/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 13/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 15/0 : 0[0] -> 1[1] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 00/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 02/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 04/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 06/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 08/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 10/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 12/0 : 0[0] -> 7[7] via P2P/IPC
+0: g1:1172775:1179181 [0] NCCL INFO Channel 14/0 : 0[0] -> 7[7] via P2P/IPC
+1: g2:1059925:1065603 [0] NCCL INFO Comm config Blocking set to 1
+1: g2:1059925:1065940 [0] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059925:1065940 [0] NCCL INFO Using network IB
+1: g2:1059925:1065940 [0] NCCL INFO DMA-BUF is available on GPU device 0
+1: g2:1059925:1065940 [0] NCCL INFO ncclCommInitRankConfig comm 0x7f7855dc6a50 rank 8 nranks 16 cudaDev 0 nvmlDev 0 busId 19000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059925:1065940 [0] NCCL INFO Bootstrap timings total 0.037073 (create 0.000024, send 0.000145, recv 0.000659, ring 0.036126, delay 0.000000)
+1: g2:1059925:1065940 [0] NCCL INFO MNNVL busId 0x19000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059925:1065940 [0] NCCL INFO Setting affinity for GPU 0 to 0-31,64-95
+1: g2:1059925:1065940 [0] NCCL INFO comm 0x7f7855dc6a50 rank 8 nRanks 16 nNodes 2 localRanks 8 localRank 0 MNNVL 0
+1: g2:1059925:1065940 [0] NCCL INFO Trees [0] 9/-1/-1->8->0 [1] -1/-1/-1->8->15 [2] 9/-1/-1->8->15 [3] 9/-1/-1->8->15 [4] 9/-1/-1->8->15 [5] 9/-1/-1->8->15 [6] 9/-1/-1->8->15 [7] 9/-1/-1->8->15 [8] 9/0/-1->8->-1 [9] -1/-1/-1->8->15 [10] 9/-1/-1->8->15 [11] 9/-1/-1->8->15 [12] 9/-1/-1->8->15 [13] 9/-1/-1->8->15 [14] 9/-1/-1->8->15 [15] 9/-1/-1->8->15
+1: g2:1059925:1065940 [0] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059925:1065950 [0] NCCL INFO [Proxy Service] Device 0 CPU core 93
+1: g2:1059925:1065960 [0] NCCL INFO [Proxy Service UDS] Device 0 CPU core 0
+1: g2:1059925:1065940 [0] NCCL INFO Channel 02/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 04/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 06/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 10/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 12/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 14/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 01/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 03/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 05/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 07/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 09/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 11/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 13/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 15/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065965 [0] NCCL INFO [Proxy Progress] Device 0 CPU core 67
+1: g2:1059925:1065940 [0] NCCL INFO Channel 01/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059925:1065940 [0] NCCL INFO Channel 09/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+1: g2:1059925:1065940 [0] NCCL INFO Channel 00/0 : 8[0] -> 0[0] [send] via NET/IB/0/GDRDMA
+1: g2:1059925:1065940 [0] NCCL INFO Channel 08/0 : 8[0] -> 0[0] [send] via NET/IB/0/GDRDMA
+1: g2:1059925:1065940 [0] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059925:1065940 [0] NCCL INFO Channel 00/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 03/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 05/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 07/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 08/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 11/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 13/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 15/0 : 8[0] -> 9[1] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 02/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 04/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 06/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 10/0 : 8[0] -> 15[7] via P2P/IPC
+0: g1:1172775:1179210 [0] NCCL INFO [Proxy Progress] Device g1:1172784:1178717 [6] NCCL INFO Comm config Blocking set to 1
+0: g1:1172784:1179179 [6] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172784:1179179 [6] NCCL INFO Using network IB
+0: g1:1172784:1179179 [6] NCCL INFO DMA-BUF is available on GPU device 6
+0: g1:1172784:1179179 [6] NCCL INFO ncclCommInitRankConfig comm 0x7f755ddc6300 rank 6 nranks 16 cudaDev 6 nvmlDev 6 busId cb000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172784:1179179 [6] NCCL INFO Bootstrap timings total 0.038860 (create 0.000024, send 0.000143, recv 0.000167, ring 0.002264, delay 0.000000)
+0: g1:1172784:1179179 [6] NCCL INFO MNNVL busId 0xcb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172784:1179179 [6] NCCL INFO Setting affinity for GPU 6 to 32-63,96-127
+0: g1:1172784:1179179 [6] NCCL INFO comm 0x7f755ddc6300 rank 6 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+1: g2:1059925:1065940 [0] NCCL INFO Channel 12/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 14/0 : 8[0] -> 15[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 00/0 : 0[0] -> 8[0] [receive] via NET/IB/0/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 7/-1/-1->6->5 [2] 7/-1/-1->6->5 [3] 7/-1/-1->6->5 [4] 7/-1/-1->6->5 [5] 7/-1/-1->6->5 [6] 7/14/-1->6->-1 [7] -1/-1/-1->6->5 [8] 7/-1/-1->6->5 [9] 7/-1/-1->6->5 [10] 7/-1/-1->6->5 [11] 7/-1/-1->6->5 [12] 7/-1/-1->6->5 [13] 7/-1/-1->6->5 [14] 7/-1/-1->6->14 [15] -1/-1/-1->6->5
+0: g1:1172784:1179179 [6] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172784:1179194 [6] NCCL INFO [Proxy Service] Device 6 CPU core 107
+0: g1:1172784:1179196 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 44
+0: g1:1172784:1179179 [6] NCCL INFO Channel 01/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 03/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 05/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 09/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 11/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 13/0 : 6[6] -> 7[7] via P2P/IPC
+1: g2:1059925:1065940 [0] NCCL INFO Channel 08g2:1059935:1065607 [6] NCCL INFO Comm config Blocking set to 1
+1: g2:1059935:1065944 [6] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059935:1065944 [6] NCCL INFO Using network IB
+1: g2:1059935:1065944 [6] NCCL INFO DMA-BUF is available on GPU device 6
+1: g2:1059935:1065944 [6] NCCL INFO ncclCommInitRankConfig comm 0x7fb9f9dcc130 rank 14 nranks 16 cudaDev 6 nvmlDev 6 busId cb000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059935:1065944 [6] NCCL INFO Bootstrap timings total 0.036857 (create 0.000025, send 0.000137, recv 0.000353, ring 0.036218, delay 0.000000)
+1: g2:1059935:1065944 [6] NCCL INFO MNNVL busId 0xcb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059935:1065944 [6] NCCL INFO Setting affinity for GPU 6 to 32-63,96-127
+1: g2:1059935:1065944 [6] NCCL INFO comm 0x7fb9f9dcc130 rank 14 nRanks 16 nNodes 2 localRanks 8 localRank 6 MNNVL 0
+0: g1:1172784:1179179 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [receive] via NET/IB/8/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [receive] via NET/IB/8/GDRDMA
+0: g1:1172784:1179209 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 113
+0: g1:1172784:1179179 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Channel 00/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 02/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 04/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 06/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 08/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 10/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 12/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 14/0 : 6[6] -> 5[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Trees [0] 15/-1/-1->14->13 [1] 15/-1/-1->14->13 [2] 15/-1/-1->14->13 [3] 15/-1/-1->14->13 [4] 15/-1/-1->14->13 [5] 15/-1/-1->14->13 [6] 15/-1/-1->14->6 [7] -1/-1/-1->14->13 [8] 15/-1/-1->14->13 [9] 15/-1/-1->14->13 [10] 15/-1/-1->14->13 [11] 15/-1/-1->14->13 [12] 15/-1/-1->14->13 [13] 15/-1/-1->14->13 [14] 15/6/-1->14->-1 [15] -1/-1/-1->14->13
+1: g2:1059935:1065944 [6] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059935:1065946 [6] NCCL INFO [Proxy Service] Device 6 CPU core 101
+1: g2:1059935:1065959 [6] NCCL INFO [Proxy Service UDS] Device 6 CPU core 106
+1: g2:1059935:1065944 [6] NCCL INFO Channel 00/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 02/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 04/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 08/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 10/0 : 14[6] -> 15[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172784:1179179 [6] NCCL INFO Channel 00/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 02/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 04/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 06/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 08/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 10/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 12/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 14/0 : 6[6] -> 7[7] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [send] via NET/IB/8/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Channel 01/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 03/0 : 6[6] -> 5[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 12/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065967 [6] NCCL INFO [Proxy Progress] Device 6 CPU core 109
+1: g2:1059935:1065944 [6] NCCL INFO Channel 07/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1065944 [6] NCCL INFO Channel 15/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1065944 [6] NCCL INFO Channel 06/0 : 14[6] -> 6[6] [send] via NET/IB/8/GDRDMA
+1: g2:1059935:1065944 [6] NCCL INFO Channel 14/0 : 14[6] -> 6[6] [send] via NET/IB/8/GDRDMA
+1: g2:1059935:1065944 [6] NCCL INFO Channel 01/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 03/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 05/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 07/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 09/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 11/0 : 14[6] -> 13[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 05/0 : 6[6] -> 5[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 07/0 : 6[6] -> 5[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 13/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 15/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059935:1065944 [6] NCCL INFO Channel 01/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 03/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 05/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 06/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 09/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 11/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 13/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 14/0 : 14[6] -> 15[7] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 06/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+1: g2:1059935:1065944 [6] NCCL INFO Channel 14/0 : 6[6] -> 14[6] [receive] via NET/IB/8/GDRDMA
+0: g1:1172784:1179179 [6] NCCL INFO Channel 09/0 : 6[6] -> 5[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 00/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 02/0 : 14[6] -> 13[5] via P2P/IPC
+1: g2:1059935:1065944 [6] NCCL INFO Channel 04/0 : 14[6] -> 13[5] via P2P/IPC
+0: g1:1172784:1179179 [6] NCCL INFO Channel 11/0 g1:1172778:1178719 [2] NCCL INFO Comm config Blocking set to 1
+0: g1:1172778:1179182 [2] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172778:1179182 [2] NCCL INFO Using network IB
+0: g1:1172778:1179182 [2] NCCL INFO DMA-BUF is available on GPU device 2
+0: g1:1172778:1179182 [2] NCCL INFO ncclCommInitRankConfig comm 0x7f4611dcfab0 rank 2 nranks 16 cudaDev 2 nvmlDev 2 busId 4c000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172778:1179182 [2] NCCL INFO Bootstrap timings total 0.018996 (create 0.000037, send 0.000070, recv 0.016893, ring 0.001889, delay 0.000000)
+0: g1:1172778:1179182 [2] NCCL INFO MNNVL busId 0x4c000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172778:1179182 [2] NCCL INFO Setting affinity for GPU 2 to 0-31,64-95
+0: g1:1172778:1179182 [2] NCCL INFO comm 0x7f4611dcfab0 rank 2 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+1: g2:1059935:1065944 [6] NCCL INFO Channel 08/0 : 14[6] -> 13[5] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Trees [0] 3/-1/-1->2->1 [1] 3/-1/-1->2->1 [2] 3/10/-1->2->-1 [3] -1/-1/-1->2->1 [4] 3/-1/-1->2->1 [5] 3/-1/-1->2->1 [6] 3/-1/-1->2->1 [7] 3/-1/-1->2->1 [8] 3/-1/-1->2->1 [9] 3/-1/-1->2->1 [10] 3/-1/-1->2->10 [11] -1/-1/-1->2->1 [12] 3/-1/-1->2->1 [13] 3/-1/-1->2->1 [14] 3/-1/-1->2->1 [15] 3/-1/-1->2->1
+0: g1:1172778:1179182 [2] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172778:1179199 [2] NCCL INFO [Proxy Service] Device 2 CPU core 2
+0: g1:1172778:1179201 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 69
+0: g1:1172778:1179182 [2] NCCL INFO Channel 01/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 05/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 07/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 09/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 13/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 15/0 : 2[2] -> 3[3] via P2P/IPC
+1: g2:1059935:10659g2:1059927:1065601 [1] NCCL INFO Comm config Blocking set to 1
+1: g2:1059927:1065938 [1] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059927:1065938 [1] NCCL INFO Using network IB
+1: g2:1059927:1065938 [1] NCCL INFO DMA-BUF is available on GPU device 1
+1: g2:1059927:1065938 [1] NCCL INFO ncclCommInitRankConfig comm 0x7f5f3ddcf9c0 rank 9 nranks 16 cudaDev 1 nvmlDev 1 busId 3b000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059927:1065938 [1] NCCL INFO Bootstrap timings total 0.036881 (create 0.000022, send 0.000129, recv 0.000626, ring 0.035992, delay 0.000000)
+1: g2:1059927:1065938 [1] NCCL INFO MNNVL busId 0x3b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059927:1065938 [1] NCCL INFO Setting affinity for GPU 1 to 0-31,64-95
+1: g2:1059927:1065938 [1] NCCL INFO comm 0x7f5f3ddcf9c0 rank 9 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+0: g1:1172778:1179206 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 13
+0: g1:1172778:1179182 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+0: g1:1172778:1179182 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [receive] via NET/IB/4/GDRDMA
+0: g1:1172778:1179182 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1179182 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1179182 [2] NCCL INFO Channel 00/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 02/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 04/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 06/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 08/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 10/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 12/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 14/0 : 2[2] -> 1[1] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Trees [0] 10/-1/-1->9->8 [1] 10/-1/-1->9->1 [2] -1/-1/-1->9->8 [3] 10/-1/-1->9->8 [4] 10/-1/-1->9->8 [5] 10/-1/-1->9->8 [6] 10/-1/-1->9->8 [7] 10/-1/-1->9->8 [8] 10/-1/-1->9->8 [9] 10/1/-1->9->-1 [10] -1/-1/-1->9->8 [11] 10/-1/-1->9->8 [12] 10/-1/-1->9->8 [13] 10/-1/-1->9->8 [14] 10/-1/-1->9->8 [15] 10/-1/-1->9->8
+1: g2:1059927:1065938 [1] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059927:1065953 [1] NCCL INFO [Proxy Service] Device 1 CPU core 76
+1: g2:1059927:1065955 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 77
+1: g2:1059927:1065938 [1] NCCL INFO Channel 00/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 02/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 04/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 06/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 08/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 10/0 : 9[1] -> 10[2] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172778:1179182 [2] NCCL INFO Channel 00/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 02/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 04/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 06/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 08/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 10/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 12/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 14/0 : 2[2] -> 3[3] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1179182 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [send] via NET/IB/4/GDRDMA
+0: g1:1172778:1179182 [2] NCCL INFO Channel 01/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 03/0 : 2[2] -> 1[1] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 12/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 14/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065961 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 78
+1: g2:1059927:1065938 [1] NCCL INFO Channel 00/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1065938 [1] NCCL INFO Channel 08/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1065938 [1] NCCL INFO Channel 01/0 : 9[1] -> 1[1] [send] via NET/IB/3/GDRDMA
+1: g2:1059927:1065938 [1] NCCL INFO Channel 09/0 : 9[1] -> 1[1] [send] via NET/IB/3/GDRDMA
+1: g2:1059927:1065938 [1] NCCL INFO Channel 03/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 05/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 07/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 11/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 13/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 15/0 : 9[1] -> 8[0] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 05/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 07/0 : 2[2] -> 1[1] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 09/0 : 2[2] -> 1[1] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059927:1065938 [1] NCCL INFO Channel 01/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 03/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 05/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 07/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 09/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 11/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 13/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 15/0 : 9[1] -> 10[2] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 01/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1065938 [1] NCCL INFO Channel 09/0 : 1[1] -> 9[1] [receive] via NET/IB/3/GDRDMA
+1: g2:1059927:1065938 [1] NCCL INFO Channel 00/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 02/0 : 9[1] -> 8[0] via P2P/IPC
+0: g1:1172778:1179182 [2] NCCL INFO Channel 11/0 : 2[2g1:1172780:1178715 [4] NCCL INFO Comm config Blocking set to 1
+0: g1:1172780:1179183 [4] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172780:1179183 [4] NCCL INFO Using network IB
+0: g1:1172780:1179183 [4] NCCL INFO DMA-BUF is available on GPU device 4
+0: g1:1172780:1179183 [4] NCCL INFO ncclCommInitRankConfig comm 0x7f1239dd9d20 rank 4 nranks 16 cudaDev 4 nvmlDev 4 busId 9b000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172780:1179183 [4] NCCL INFO Bootstrap timings total 0.011145 (create 0.000036, send 0.000088, recv 0.008418, ring 0.001862, delay 0.000000)
+0: g1:1172780:1179183 [4] NCCL INFO MNNVL busId 0x9b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172780:1179183 [4] NCCL INFO Setting affinity for GPU 4 to 32-63,96-127
+0: g1:1172780:1179183 [4] NCCL INFO comm 0x7f1239dd9d20 rank 4 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+1: g2:1059927:1065938 [1] NCCL INFO Channel 04/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 06/0 : 9[1] -> 8[0] via P2P/IPC
+1: g2:1059927:1065938 [1] NCCL INFO Channel 08/0 : 9[1] -> 8[0] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Trees [0] 5/-1/-1->4->3 [1] 5/-1/-1->4->3 [2] 5/-1/-1->4->3 [3] 5/-1/-1->4->3 [4] 5/12/-1->4->-1 [5] -1/-1/-1->4->3 [6] 5/-1/-1->4->3 [7] 5/-1/-1->4->3 [8] 5/-1/-1->4->3 [9] 5/-1/-1->4->3 [10] 5/-1/-1->4->3 [11] 5/-1/-1->4->3 [12] 5/-1/-1->4->12 [13] -1/-1/-1->4->3 [14] 5/-1/-1->4->3 [15] 5/-1/-1->4->3
+0: g1:1172780:1179183 [4] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172780:1179191 [4] NCCL INFO [Proxy Service] Device 4 CPU core 41
+0: g1:1172780:1179192 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 106
+0: g1:1172780:1179183 [4] NCCL INFO Channel 01/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 03/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 07/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 09/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 11/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 15/0 : 4[4] -> 5[5] via P2P/IPC
+1: g2:1059927:1065938 [1]g2:1059928:1065602 [2] NCCL INFO Comm config Blocking set to 1
+1: g2:1059928:1065939 [2] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059928:1065939 [2] NCCL INFO Using network IB
+1: g2:1059928:1065939 [2] NCCL INFO DMA-BUF is available on GPU device 2
+1: g2:1059928:1065939 [2] NCCL INFO ncclCommInitRankConfig comm 0x7fa669dc5690 rank 10 nranks 16 cudaDev 2 nvmlDev 2 busId 4c000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059928:1065939 [2] NCCL INFO Bootstrap timings total 0.036836 (create 0.000024, send 0.000116, recv 0.000740, ring 0.035836, delay 0.000000)
+1: g2:1059928:1065939 [2] NCCL INFO MNNVL busId 0x4c000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059928:1065939 [2] NCCL INFO Setting affinity for GPU 2 to 0-31,64-95
+1: g2:1059928:1065939 [2] NCCL INFO comm 0x7fa669dc5690 rank 10 nRanks 16 nNodes 2 localRanks 8 localRank 2 MNNVL 0
+0: g1:1172780:1179205 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 111
+0: g1:1172780:1179183 [4] NCCL INFO Channel 04/0 : 12[4] -> 4[4] [receive] via NET/IB/6/GDRDMA
+0: g1:1172780:1179183 [4] NCCL INFO Channel 12/0 : 12[4] -> 4[4] [receive] via NET/IB/6/GDRDMA
+0: g1:1172780:1179183 [4] NCCL INFO Channel 05/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1179183 [4] NCCL INFO Channel 13/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1179183 [4] NCCL INFO Channel 00/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 02/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 04/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 06/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 08/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 10/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 12/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 14/0 : 4[4] -> 3[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Trees [0] 11/-1/-1->10->9 [1] 11/-1/-1->10->9 [2] 11/-1/-1->10->2 [3] -1/-1/-1->10->9 [4] 11/-1/-1->10->9 [5] 11/-1/-1->10->9 [6] 11/-1/-1->10->9 [7] 11/-1/-1->10->9 [8] 11/-1/-1->10->9 [9] 11/-1/-1->10->9 [10] 11/2/-1->10->-1 [11] -1/-1/-1->10->9 [12] 11/-1/-1->10->9 [13] 11/-1/-1->10->9 [14] 11/-1/-1->10->9 [15] 11/-1/-1->10->9
+1: g2:1059928:1065939 [2] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059928:1065948 [2] NCCL INFO [Proxy Service] Device 2 CPU core 28
+1: g2:1059928:1065951 [2] NCCL INFO [Proxy Service UDS] Device 2 CPU core 28
+1: g2:1059928:1065939 [2] NCCL INFO Channel 00/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 04/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 06/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 08/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 12/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 14/0 : 10[2] -> 11[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172780:1179183 [4] NCCL INFO Channel 00/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 02/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 04/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 06/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 08/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 10/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 12/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 14/0 : 4[4] -> 5[5] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 04/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1179183 [4] NCCL INFO Channel 12/0 : 4[4] -> 12[4] [send] via NET/IB/6/GDRDMA
+0: g1:1172780:1179183 [4] NCCL INFO Channel 01/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 03/0 : 4[4] -> 3[3] via P2P/IPC
+1: g2:1059928:1065962 [2] NCCL INFO [Proxy Progress] Device 2 CPU core 2
+1: g2:1059928:1065939 [2] NCCL INFO Channel 03/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1065939 [2] NCCL INFO Channel 11/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1065939 [2] NCCL INFO Channel 02/0 : 10[2] -> 2[2] [send] via NET/IB/4/GDRDMA
+1: g2:1059928:1065939 [2] NCCL INFO Channel 10/0 : 10[2] -> 2[2] [send] via NET/IB/4/GDRDMA
+1: g2:1059928:1065939 [2] NCCL INFO Channel 01/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 03/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 05/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 07/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 09/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 11/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 13/0 : 10[2] -> 9[1] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 05/0 : 4[4] -> 3[3] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 07/0 : 4[4] -> 3[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 15/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059928:1065939 [2] NCCL INFO Channel 01/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 02/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 05/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 07/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 09/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 10/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 13/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 15/0 : 10[2] -> 11[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 02/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1065939 [2] NCCL INFO Channel 10/0 : 2[2] -> 10[2] [receive] via NET/IB/4/GDRDMA
+1: g2:1059928:1065939 [2] NCCL INFO Channel 00/0 : 10[2] -> 9[1] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 09/0 : 4[4] -> 3[3] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 04/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 06/0 : 10[2] -> 9[1] via P2P/IPC
+1: g2:1059928:1065939 [2] NCCL INFO Channel 08/0 : 10[2] -> 9[1] via P2P/IPC
+0: g1:1172780:1179183 [4] NCCL INFO Channel 11/0 g1:1172776:1178716 [1] NCCL INFO Comm config Blocking set to 1
+0: g1:1172776:1179184 [1] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172776:1179184 [1] NCCL INFO Using network IB
+0: g1:1172776:1179184 [1] NCCL INFO DMA-BUF is available on GPU device 1
+0: g1:1172776:1179184 [1] NCCL INFO ncclCommInitRankConfig comm 0x7eea05dcecc0 rank 1 nranks 16 cudaDev 1 nvmlDev 1 busId 3b000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172776:1179184 [1] NCCL INFO Bootstrap timings total 0.006343 (create 0.000031, send 0.000075, recv 0.000139, ring 0.005927, delay 0.000000)
+0: g1:1172776:1179184 [1] NCCL INFO MNNVL busId 0x3b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172776:1179184 [1] NCCL INFO Setting affinity for GPU 1 to 0-31,64-95
+0: g1:1172776:1179184 [1] NCCL INFO comm 0x7eea05dcecc0 rank 1 nRanks 16 nNodes 2 localRanks 8 localRank 1 MNNVL 0
+1: g2:1059928:1065939 [2] NCCL INFO Channel 12/0 : g2:1059929:1065605 [3] NCCL INFO Comm config Blocking set to 1
+1: g2:1059929:1065937 [3] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059929:1065937 [3] NCCL INFO Using network IB
+1: g2:1059929:1065937 [3] NCCL INFO DMA-BUF is available on GPU device 3
+1: g2:1059929:1065937 [3] NCCL INFO ncclCommInitRankConfig comm 0x7f09a9dcc4c0 rank 11 nranks 16 cudaDev 3 nvmlDev 3 busId 5d000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059929:1065937 [3] NCCL INFO Bootstrap timings total 0.037587 (create 0.000027, send 0.000236, recv 0.000251, ring 0.035837, delay 0.000000)
+1: g2:1059929:1065937 [3] NCCL INFO MNNVL busId 0x5d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059929:1065937 [3] NCCL INFO Setting affinity for GPU 3 to 0-31,64-95
+1: g2:1059929:1065937 [3] NCCL INFO comm 0x7f09a9dcc4c0 rank 11 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+0: g1:1172776:1179184 [1] NCCL INFO Trees [0] 2/-1/-1->1->0 [1] 2/9/-1->1->-1 [2] -1/-1/-1->1->0 [3] 2/-1/-1->1->0 [4] 2/-1/-1->1->0 [5] 2/-1/-1->1->0 [6] 2/-1/-1->1->0 [7] 2/-1/-1->1->0 [8] 2/-1/-1->1->0 [9] 2/-1/-1->1->9 [10] -1/-1/-1->1->0 [11] 2/-1/-1->1->0 [12] 2/-1/-1->1->0 [13] 2/-1/-1->1->0 [14] 2/-1/-1->1->0 [15] 2/-1/-1->1->0
+0: g1:1172776:1179184 [1] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172776:1179197 [1] NCCL INFO [Proxy Service] Device 1 CPU core 88
+0: g1:1172776:1179200 [1] NCCL INFO [Proxy Service UDS] Device 1 CPU core 26
+0: g1:1172776:1179184 [1] NCCL INFO Channel 01/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 03/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 05/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 07/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 09/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 11/0 : 1[1] -> 2[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Trees [0] 12/-1/-1->11->10 [1] 12/-1/-1->11->10 [2] 12/-1/-1->11->10 [3] 12/-1/-1->11->3 [4] -1/-1/-1->11->10 [5] 12/-1/-1->11->10 [6] 12/-1/-1->11->10 [7] 12/-1/-1->11->10 [8] 12/-1/-1->11->10 [9] 12/-1/-1->11->10 [10] 12/-1/-1->11->10 [11] 12/3/-1->11->-1 [12] -1/-1/-1->11->10 [13] 12/-1/-1->11->10 [14] 12/-1/-1->11->10 [15] 12/-1/-1->11->10
+1: g2:1059929:1065937 [3] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059929:1065949 [3] NCCL INFO [Proxy Service] Device 3 CPU core 74
+1: g2:1059929:1065952 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 75
+1: g2:1059929:1065937 [3] NCCL INFO Channel 00/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 02/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 04/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 06/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 08/0 : 11[3] -> 12[4] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 13/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 15/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179207 [1] NCCL INFO [Proxy Progress] Device 1 CPU core 89
+0: g1:1172776:1179184 [1] NCCL INFO Channel 01/0 : 9[1] -> 1[1] [receive] via NET/IB/3/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 09/0 : 9[1] -> 1[1] [receive] via NET/IB/3/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 00/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 08/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 02/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 04/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 06/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 10/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 12/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 14/0 : 1[1] -> 0[0] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 10/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 12/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 14/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065963 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 79
+1: g2:1059929:1065937 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059929:1065937 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059929:1065937 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [send] via NET/IB/5/GDRDMA
+1: g2:1059929:1065937 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [send] via NET/IB/5/GDRDMA
+1: g2:1059929:1065937 [3] NCCL INFO Channel 01/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 05/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 07/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 09/0 : 11[3] -> 10[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172776:1179184 [1] NCCL INFO Channel 00/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 04/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 06/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 08/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 12/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 14/0 : 1[1] -> 2[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 01/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 09/0 : 1[1] -> 9[1] [send] via NET/IB/3/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 00/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 03/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 05/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 07/0 : 1[1] -> 0[0] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 13/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 15/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059929:1065937 [3] NCCL INFO Channel 01/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 03/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 05/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 07/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 09/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 11/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 13/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 15/0 : 11[3] -> 12[4] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+1: g2:1059929:1065937 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [receive] via NET/IB/5/GDRDMA
+0: g1:1172776:1179184 [1] NCCL INFO Channel 08/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 11/0 : 1[1] -> 0[0] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 13/0 : 1[1] -> 0[0] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 00/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 02/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3] NCCL INFO Channel 04/0 : 11[3] -> 10[2] via P2P/IPC
+0: g1:1172776:1179184 [1] NCCL INFO Channel 15/0 : 1[1] -> 0[g1:1172779:1178720 [3] NCCL INFO Comm config Blocking set to 1
+0: g1:1172779:1179186 [3] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172779:1179186 [3] NCCL INFO Using network IB
+0: g1:1172779:1179186 [3] NCCL INFO DMA-BUF is available on GPU device 3
+0: g1:1172779:1179186 [3] NCCL INFO ncclCommInitRankConfig comm 0x7f2dcddc7a10 rank 3 nranks 16 cudaDev 3 nvmlDev 3 busId 5d000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172779:1179186 [3] NCCL INFO Bootstrap timings total 0.002125 (create 0.000023, send 0.000058, recv 0.000073, ring 0.001867, delay 0.000000)
+0: g1:1172779:1179186 [3] NCCL INFO MNNVL busId 0x5d000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172779:1179186 [3] NCCL INFO Setting affinity for GPU 3 to 0-31,64-95
+0: g1:1172779:1179186 [3] NCCL INFO comm 0x7f2dcddc7a10 rank 3 nRanks 16 nNodes 2 localRanks 8 localRank 3 MNNVL 0
+1: g2:1059929:1065937 [3] NCCL INFO Channel 06/0 : 11[3] -> 10[2] via P2P/IPC
+1: g2:1059929:1065937 [3g2:1059933:1065600 [5] NCCL INFO Comm config Blocking set to 1
+1: g2:1059933:1065942 [5] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059933:1065942 [5] NCCL INFO Using network IB
+1: g2:1059933:1065942 [5] NCCL INFO DMA-BUF is available on GPU device 5
+1: g2:1059933:1065942 [5] NCCL INFO ncclCommInitRankConfig comm 0x7faa95e9fe00 rank 13 nranks 16 cudaDev 5 nvmlDev 5 busId bb000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059933:1065942 [5] NCCL INFO Bootstrap timings total 0.037391 (create 0.000029, send 0.000153, recv 0.000740, ring 0.036373, delay 0.000000)
+1: g2:1059933:1065942 [5] NCCL INFO MNNVL busId 0xbb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059933:1065942 [5] NCCL INFO Setting affinity for GPU 5 to 32-63,96-127
+1: g2:1059933:1065942 [5] NCCL INFO comm 0x7faa95e9fe00 rank 13 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+0: g1:1172779:1179186 [3] NCCL INFO Trees [0] 4/-1/-1->3->2 [1] 4/-1/-1->3->2 [2] 4/-1/-1->3->2 [3] 4/11/-1->3->-1 [4] -1/-1/-1->3->2 [5] 4/-1/-1->3->2 [6] 4/-1/-1->3->2 [7] 4/-1/-1->3->2 [8] 4/-1/-1->3->2 [9] 4/-1/-1->3->2 [10] 4/-1/-1->3->2 [11] 4/-1/-1->3->11 [12] -1/-1/-1->3->2 [13] 4/-1/-1->3->2 [14] 4/-1/-1->3->2 [15] 4/-1/-1->3->2
+0: g1:1172779:1179186 [3] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172779:1179190 [3] NCCL INFO [Proxy Service] Device 3 CPU core 71
+0: g1:1172779:1179193 [3] NCCL INFO [Proxy Service UDS] Device 3 CPU core 12
+0: g1:1172779:1179186 [3] NCCL INFO Channel 01/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 03/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 05/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 07/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 09/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 11/0 : 3[3] -> 4[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Trees [0] 14/-1/-1->13->12 [1] 14/-1/-1->13->12 [2] 14/-1/-1->13->12 [3] 14/-1/-1->13->12 [4] 14/-1/-1->13->12 [5] 14/-1/-1->13->5 [6] -1/-1/-1->13->12 [7] 14/-1/-1->13->12 [8] 14/-1/-1->13->12 [9] 14/-1/-1->13->12 [10] 14/-1/-1->13->12 [11] 14/-1/-1->13->12 [12] 14/-1/-1->13->12 [13] 14/5/-1->13->-1 [14] -1/-1/-1->13->12 [15] 14/-1/-1->13->12
+1: g2:1059933:1065942 [5] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059933:1065956 [5] NCCL INFO [Proxy Service] Device 5 CPU core 39
+1: g2:1059933:1065958 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 41
+1: g2:1059933:1065942 [5] NCCL INFO Channel 00/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 02/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 04/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 06/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 08/0 : 13[5] -> 14[6] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 13/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 15/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179204 [3] NCCL INFO [Proxy Progress] Device 3 CPU core 73
+0: g1:1172779:1179186 [3] NCCL INFO Channel 03/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 11/0 : 11[3] -> 3[3] [receive] via NET/IB/5/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 02/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 10/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 00/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 04/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 06/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 08/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 12/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 14/0 : 3[3] -> 2[2] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 10/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 12/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 14/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065968 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 110
+1: g2:1059933:1065942 [5] NCCL INFO Channel 04/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1065942 [5] NCCL INFO Channel 12/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1065942 [5] NCCL INFO Channel 05/0 : 13[5] -> 5[5] [send] via NET/IB/7/GDRDMA
+1: g2:1059933:1065942 [5] NCCL INFO Channel 13/0 : 13[5] -> 5[5] [send] via NET/IB/7/GDRDMA
+1: g2:1059933:1065942 [5] NCCL INFO Channel 01/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 03/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 07/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 09/0 : 13[5] -> 12[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172779:1179186 [3] NCCL INFO Channel 00/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 02/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 06/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 08/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 10/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 14/0 : 3[3] -> 4[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 03/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 11/0 : 3[3] -> 11[3] [send] via NET/IB/5/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 01/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 02/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 05/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 07/0 : 3[3] -> 2[2] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 11/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 15/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059933:1065942 [5] NCCL INFO Channel 01/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 03/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 05/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 07/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 09/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 11/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 13/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 15/0 : 13[5] -> 14[6] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 05/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+1: g2:1059933:1065942 [5] NCCL INFO Channel 13/0 : 5[5] -> 13[5] [receive] via NET/IB/7/GDRDMA
+0: g1:1172779:1179186 [3] NCCL INFO Channel 09/0 : 3[3] -> 2[2] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 10/0 : 3[3] -> 2[2] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 00/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 02/0 : 13[5] -> 12[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 13/0 : 3[3] -> 2[2] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 04/0 : 13[5] -> 12[4] via P2P/IPC
+1: g2:1059933:1065942 [5] NCCL INFO Channel 06/0 : 13[5] -> 12[4] via P2P/IPC
+0: g1:1172779:1179186 [3] NCCL INFO Channel 15/0 : 3[g1:1172782:1178721 [5] NCCL INFO Comm config Blocking set to 1
+0: g1:1172782:1179185 [5] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172782:1179185 [5] NCCL INFO Using network IB
+0: g1:1172782:1179185 [5] NCCL INFO DMA-BUF is available on GPU device 5
+0: g1:1172782:1179185 [5] NCCL INFO ncclCommInitRankConfig comm 0x7fac81dc5550 rank 5 nranks 16 cudaDev 5 nvmlDev 5 busId bb000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172782:1179185 [5] NCCL INFO Bootstrap timings total 0.002722 (create 0.000023, send 0.000060, recv 0.000056, ring 0.002468, delay 0.000000)
+0: g1:1172782:1179185 [5] NCCL INFO MNNVL busId 0xbb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172782:1179185 [5] NCCL INFO Setting affinity for GPU 5 to 32-63,96-127
+0: g1:1172782:1179185 [5] NCCL INFO comm 0x7fac81dc5550 rank 5 nRanks 16 nNodes 2 localRanks 8 localRank 5 MNNVL 0
+1: g2:1059933:1065942g2:1059930:1065604 [4] NCCL INFO Comm config Blocking set to 1
+1: g2:1059930:1065941 [4] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059930:1065941 [4] NCCL INFO Using network IB
+1: g2:1059930:1065941 [4] NCCL INFO DMA-BUF is available on GPU device 4
+1: g2:1059930:1065941 [4] NCCL INFO ncclCommInitRankConfig comm 0x7f38f9dc59d0 rank 12 nranks 16 cudaDev 4 nvmlDev 4 busId 9b000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059930:1065941 [4] NCCL INFO Bootstrap timings total 0.037541 (create 0.000042, send 0.000251, recv 0.000402, ring 0.036732, delay 0.000000)
+1: g2:1059930:1065941 [4] NCCL INFO MNNVL busId 0x9b000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059930:1065941 [4] NCCL INFO Setting affinity for GPU 4 to 32-63,96-127
+1: g2:1059930:1065941 [4] NCCL INFO comm 0x7f38f9dc59d0 rank 12 nRanks 16 nNodes 2 localRanks 8 localRank 4 MNNVL 0
+0: g1:1172782:1179185 [5] NCCL INFO Trees [0] 6/-1/-1->5->4 [1] 6/-1/-1->5->4 [2] 6/-1/-1->5->4 [3] 6/-1/-1->5->4 [4] 6/-1/-1->5->4 [5] 6/13/-1->5->-1 [6] -1/-1/-1->5->4 [7] 6/-1/-1->5->4 [8] 6/-1/-1->5->4 [9] 6/-1/-1->5->4 [10] 6/-1/-1->5->4 [11] 6/-1/-1->5->4 [12] 6/-1/-1->5->4 [13] 6/-1/-1->5->13 [14] -1/-1/-1->5->4 [15] 6/-1/-1->5->4
+0: g1:1172782:1179185 [5] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172782:1179195 [5] NCCL INFO [Proxy Service] Device 5 CPU core 44
+0: g1:1172782:1179198 [5] NCCL INFO [Proxy Service UDS] Device 5 CPU core 109
+0: g1:1172782:1179185 [5] NCCL INFO Channel 01/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 03/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 05/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 07/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 09/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 11/0 : 5[5] -> 6[6] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Trees [0] 13/-1/-1->12->11 [1] 13/-1/-1->12->11 [2] 13/-1/-1->12->11 [3] 13/-1/-1->12->11 [4] 13/-1/-1->12->4 [5] -1/-1/-1->12->11 [6] 13/-1/-1->12->11 [7] 13/-1/-1->12->11 [8] 13/-1/-1->12->11 [9] 13/-1/-1->12->11 [10] 13/-1/-1->12->11 [11] 13/-1/-1->12->11 [12] 13/4/-1->12->-1 [13] -1/-1/-1->12->11 [14] 13/-1/-1->12->11 [15] 13/-1/-1->12->11
+1: g2:1059930:1065941 [4] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059930:1065954 [4] NCCL INFO [Proxy Service] Device 4 CPU core 102
+1: g2:1059930:1065957 [4] NCCL INFO [Proxy Service UDS] Device 4 CPU core 104
+1: g2:1059930:1065941 [4] NCCL INFO Channel 00/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 02/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 06/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 08/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 10/0 : 12[4] -> 13[5] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 13/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 15/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179208 [5] NCCL INFO [Proxy Progress] Device 5 CPU core 112
+0: g1:1172782:1179185 [5] NCCL INFO Channel 05/0 : 13[5] -> 5[5] [receive] via NET/IB/7/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 13/0 : 13[5] -> 5[5] [receive] via NET/IB/7/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 04/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 12/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 00/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 02/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 06/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 08/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 10/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 14/0 : 5[5] -> 4[4] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 14/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065966 [4] NCCL INFO [Proxy Progress] Device 4 CPU core 108
+1: g2:1059930:1065941 [4] NCCL INFO Channel 05/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059930:1065941 [4] NCCL INFO Channel 13/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059930:1065941 [4] NCCL INFO Channel 04/0 : 12[4] -> 4[4] [send] via NET/IB/6/GDRDMA
+1: g2:1059930:1065941 [4] NCCL INFO Channel 12/0 : 12[4] -> 4[4] [send] via NET/IB/6/GDRDMA
+1: g2:1059930:1065941 [4] NCCL INFO Channel 01/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 03/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 05/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 07/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 09/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 11/0 : 12[4] -> 11[3] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172782:1179185 [5] NCCL INFO Channel 00/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 02/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 04/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 08/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 10/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 12/0 : 5[5] -> 6[6] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 05/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 13/0 : 5[5] -> 13[5] [send] via NET/IB/7/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 01/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 03/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 04/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 07/0 : 5[5] -> 4[4] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 13/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 15/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059930:1065941 [4] NCCL INFO Channel 01/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 03/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 04/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 07/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 09/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 11/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 12/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 15/0 : 12[4] -> 13[5] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 04/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+1: g2:1059930:1065941 [4] NCCL INFO Channel 12/0 : 4[4] -> 12[4] [receive] via NET/IB/6/GDRDMA
+0: g1:1172782:1179185 [5] NCCL INFO Channel 09/0 : 5[5] -> 4[4] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 11/0 : 5[5] -> 4[4] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 00/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 02/0 : 12[4] -> 11[3] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 06/0 : 12[4] -> 11[3] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 12/0 : 5[5] -> 4[4] via P2P/IPC
+1: g2:1059930:1065941 [4] NCCL INFO Channel 08/0 : 12[4] -> 11[3] via P2P/IPC
+0: g1:1172782:1179185 [5] NCCL INFO Channel 15/0 g1:1172785:1178718 [7] NCCL INFO Comm config Blocking set to 1
+0: g1:1172785:1179180 [7] NCCL INFO Assigned NET plugin IB to comm
+0: g1:1172785:1179180 [7] NCCL INFO Using network IB
+0: g1:1172785:1179180 [7] NCCL INFO DMA-BUF is available on GPU device 7
+0: g1:1172785:1179180 [7] NCCL INFO ncclCommInitRankConfig comm 0x7fc071dc8080 rank 7 nranks 16 cudaDev 7 nvmlDev 7 busId db000 commId 0xa0bf9329cad54736 - Init START
+0: g1:1172785:1179180 [7] NCCL INFO Bootstrap timings total 0.037572 (create 0.000024, send 0.000100, recv 0.000800, ring 0.036471, delay 0.000000)
+0: g1:1172785:1179180 [7] NCCL INFO MNNVL busId 0xdb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+0: g1:1172785:1179180 [7] NCCL INFO Setting affinity for GPU 7 to 32-63,96-127
+0: g1:1172785:1179180 [7] NCCL INFO comm 0x7fc071dc8080 rank 7 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+1: g2:1059930:10659g2:1059937:1065606 [7] NCCL INFO Comm config Blocking set to 1
+1: g2:1059937:1065943 [7] NCCL INFO Assigned NET plugin IB to comm
+1: g2:1059937:1065943 [7] NCCL INFO Using network IB
+1: g2:1059937:1065943 [7] NCCL INFO DMA-BUF is available on GPU device 7
+1: g2:1059937:1065943 [7] NCCL INFO ncclCommInitRankConfig comm 0x7eed1ddcc740 rank 15 nranks 16 cudaDev 7 nvmlDev 7 busId db000 commId 0xa0bf9329cad54736 - Init START
+1: g2:1059937:1065943 [7] NCCL INFO Bootstrap timings total 0.037342 (create 0.000034, send 0.000141, recv 0.000438, ring 0.036213, delay 0.000000)
+1: g2:1059937:1065943 [7] NCCL INFO MNNVL busId 0xdb000 fabric UUID 0.0 cliqueId 0x0 state 3 healthMask 0x0
+1: g2:1059937:1065943 [7] NCCL INFO Setting affinity for GPU 7 to 32-63,96-127
+1: g2:1059937:1065943 [7] NCCL INFO comm 0x7eed1ddcc740 rank 15 nRanks 16 nNodes 2 localRanks 8 localRank 7 MNNVL 0
+0: g1:1172785:1179180 [7] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 0/-1/-1->7->6 [2] 0/-1/-1->7->6 [3] 0/-1/-1->7->6 [4] 0/-1/-1->7->6 [5] 0/-1/-1->7->6 [6] 0/-1/-1->7->6 [7] 0/15/-1->7->-1 [8] -1/-1/-1->7->6 [9] 0/-1/-1->7->6 [10] 0/-1/-1->7->6 [11] 0/-1/-1->7->6 [12] 0/-1/-1->7->6 [13] 0/-1/-1->7->6 [14] 0/-1/-1->7->6 [15] 0/-1/-1->7->15
+0: g1:1172785:1179180 [7] NCCL INFO P2P Chunksize set to 131072
+0: g1:1172785:1179188 [7] NCCL INFO [Proxy Service] Device 7 CPU core 36
+0: g1:1172785:1179202 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 110
+0: g1:1172785:1179211 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 114
+0: g1:1172785:1179180 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [receive] via NET/IB/9/GDRDMA
+0: g1:1172785:1179180 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [receive] via NET/IB/9/GDRDMA
+0: g1:1172785:1179180 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1179180 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+1: g2:1059937:1065943 [7] NCCL INFO Trees [0] -1/-1/-1->15->14 [1] 8/-1/-1->15->14 [2] 8/-1/-1->15->14 [3] 8/-1/-1->15->14 [4] 8/-1/-1->15->14 [5] 8/-1/-1->15->14 [6] 8/-1/-1->15->14 [7] 8/-1/-1->15->7 [8] -1/-1/-1->15->14 [9] 8/-1/-1->15->14 [10] 8/-1/-1->15->14 [11] 8/-1/-1->15->14 [12] 8/-1/-1->15->14 [13] 8/-1/-1->15->14 [14] 8/-1/-1->15->14 [15] 8/7/-1->15->-1
+1: g2:1059937:1065943 [7] NCCL INFO P2P Chunksize set to 131072
+1: g2:1059937:1065945 [7] NCCL INFO [Proxy Service] Device 7 CPU core 35
+1: g2:1059937:1065947 [7] NCCL INFO [Proxy Service UDS] Device 7 CPU core 101
+1: g2:1059937:1065964 [7] NCCL INFO [Proxy Progress] Device 7 CPU core 43
+1: g2:1059937:1065943 [7] NCCL INFO Channel 06/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1065943 [7] NCCL INFO Channel 14/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1065943 [7] NCCL INFO Channel 07/0 : 15[7] -> 7[7] [send] via NET/IB/9/GDRDMA
+1: g2:1059937:1065943 [7] NCCL INFO Channel 15/0 : 15[7] -> 7[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1179180 [7] NCCL INFO Channel 01/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 03/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 05/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 07/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 09/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 11/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 13/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 15/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 00/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 02/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 04/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 08/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 10/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 12/0 : 7[7] -> 6[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 00/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 02/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 04/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 06/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 08/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 10/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 12/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 14/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 01/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 03/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 05/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 09/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 11/0 : 15[7] -> 14[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+0: g1:1172785:1179180 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1179180 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [send] via NET/IB/9/GDRDMA
+0: g1:1172785:1179180 [7] NCCL INFO Channel 02/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 04/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 06/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 10/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 12/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 14/0 : 7[7] -> 0[0] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 01/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 03/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 05/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 06/0 : 7[7] -> 6[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 13/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Connected all rings, use ring PXN 0 GDR 1
+1: g2:1059937:1065943 [7] NCCL INFO Channel 07/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1065943 [7] NCCL INFO Channel 15/0 : 7[7] -> 15[7] [receive] via NET/IB/9/GDRDMA
+1: g2:1059937:1065943 [7] NCCL INFO Channel 01/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 03/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 05/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 07/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 09/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 11/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 13/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 15/0 : 15[7] -> 8[0] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 00/0 : 15[7] -> 14[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 09/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 11/0 : 7[7] -> 6[6] via P2P/IPC
+0: g1:1172785:1179180 [7] NCCL INFO Channel 13/0 : 7[7] -> 6[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 02/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 04/0 : 15[7] -> 14[6] via P2P/IPC
+1: g2:1059937:1065943 [7] NCCL INFO Channel 06/0 : 15[7] -> 14[6] via P2P/IPC
