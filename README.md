@@ -4,4 +4,4 @@ I pretty much did all of the work on the AI side, with Nathan, Josh, and Giacomo
 
 More informaiton on all of this is available on my website, but there's also a secret bit for notes on this comp that I will probably update to look nice at some point here: lowndes.dev/notes
 
-Hopefully you enjoy your HPC journey as much as I did, don't be fooled by the AI-HPC name of this competition, it's AI, and enjoy!
+Hopefully you enjoy your HPC journey as much as I did, don't be fooled by the AI-HPC name of this competition, it's HPC, and enjoy!
