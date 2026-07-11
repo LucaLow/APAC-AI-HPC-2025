@@ -77,7 +77,7 @@ time srun --label --cpu-bind=none \
       --dataset-path $HOME/ShareGPT_V3_unfiltered_cleaned_split.json \
       --num-prompts 2000 --load-format dummy --seed 2025 --dtype bfloat16 \
       --tp 16 --nnodes '"$SLURM_JOB_NUM_NODES"' --trust-remote-code \
-      --dp 2 --enable-dp-lm-head --enable-dp-attention --cuda-graph-max-bs 512 \
+      --dp 16 --enable-dp-lm-head --enable-dp-attention --cuda-graph-max-bs 2048 \
       --dist-init-addr '"${DIST_INIT_ADDR}"':5000 --node-rank $SLURM_NODEID
     sleep 3
   '
