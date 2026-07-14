@@ -1,0 +1,75 @@
+DIST_INIT_ADDR=g1
+0: TRITON_CACHE_DIR=/tmp/triton/10640/node0/rank0
+0: profile dir: /home/apacsc03/sgprofile/node0
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: [Gloo] Rank 0 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 4 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 3 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 1 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 2 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 5 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 6 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 7 is connected to 7 peer ranks. Expected number of connected peer ranks is : 7
+0: [Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 2 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 0 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 1 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 3 is connected to 3 peer ranks. Expected number of connected peer ranks is : 3
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 1 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: [Gloo] Rank 0 is connected to 1 peer ranks. Expected number of connected peer ranks is : 1
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: NCCL version 2.27.3+cuda12.9
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: [Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: All deep_gemm operations loaded successfully!
+0: #Input tokens: 305337
+0: #Output tokens: 197756
+0: #Input tokens: 4096
+0: #Output tokens: 256
+0:
+0: ====== Offline Throughput Benchmark Result =======
+0: Backend:                                 engine
+0: Successful requests:                     1000
+0: Benchmark duration (s):                  42.32
+0: Total input tokens:                      305337
+0: Total generated tokens:                  197756
+0: Last generation throughput (tok/s):      55.17
+0: Request throughput (req/s):              23.63
+0: Input token throughput (tok/s):          7214.32
+0: Output token throughput (tok/s):         4672.46
+0: Total token throughput (tok/s):          11886.79
+0: ==================================================

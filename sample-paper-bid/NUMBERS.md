@@ -23,6 +23,7 @@ Headline: **+81.2%** vs official baseline; single node beats two nodes in absolu
 | Step | Config | tok/s |
 |---|---|---|
 | Baseline venv 2N TP16 (repeats) | 9,610.57 / 9,890.30 / 10,053.70 | default/, firmus/default/ |
+| venv 1N TP8 | 11,558.91 | run 2026-07-11 via firmus/venv_1node.sh — log NOT yet in repo. NOT pure defaults: needed --mem-fraction-static 0.87 + PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True (SGLang 0.5.2 auto-sizing OOMs at 1N TP8 with ~4 GB headroom vs 0.5.3rc1 container's ~12.6 GB; first attempt job 10621 OOMed mid-decode). Footnote if used in paper. |
 | Container 2N TP16 | 11,253.39 | singularity-docker/2node.out |
 | Container 1N TP8 | 12,449.13 | singularity-docker/1node.out |
 | Container 2N TP8 PP2 | 14,632.44 | singularity-docker/pp2.out (NOT in tech report) |

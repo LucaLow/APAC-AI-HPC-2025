@@ -43,10 +43,9 @@ def chip(ax, x0, y0, x1, y1, fc, text, tc, ec="none", z=4, fs=5.0, bold=False):
             fontweight="bold" if bold else "normal")
 
 
-fig, ax = plt.subplots(figsize=(3.35, 3.0))
-ax.set_xlim(0, 10); ax.set_ylim(0, 10)
+fig, ax = plt.subplots(figsize=(3.35, 2.30))
+ax.set_xlim(0, 10); ax.set_ylim(1.85, 9.50)  # tight to node box (same in/unit scale)
 ax.axis("off")
-ax.set_title("One node: TP=4 · DP-attention=4 · PP=2", fontsize=7.8, pad=3)
 
 # ---------- node ----------
 rbox(ax, 0.30, 1.95, 9.70, 9.40, "#fbfbfb", "#444444", lw=0.9, z=1)
@@ -94,15 +93,7 @@ for i, lx in enumerate(lane_x):
 ax.text(5.0, 5.52, "activations\nNVLink", fontsize=5.2, color="#555555",
         ha="center", va="center", linespacing=1.15, zorder=7)
 
-# ---------- freed second node ----------
-rbox(ax, 0.30, 0.90, 9.70, 1.62, "none", "#aaaaaa", lw=0.8, ls=(0, (3, 3)), z=1)
-ax.text(5.0, 1.26, "Node 1 · freed — serve a second replica",
-        fontsize=6.2, color="#888888", ha="center", va="center", style="italic")
-
-ax.text(5.0, 0.32, "17,417 tok/s · 8 GPUs", fontsize=7.5,
-        ha="center", color=C["blue"], fontweight="bold")
-
-fig.subplots_adjust(left=0.01, right=0.99, top=0.91, bottom=0.01)
+fig.subplots_adjust(left=0.01, right=0.99, top=0.99, bottom=0.01)
 fig.savefig(os.path.join(OUT, "topology_1n_best.pdf"))
 fig.savefig(os.path.join(OUT, "topology_1n_best.png"), dpi=300)
 print("wrote", os.path.join(OUT, "topology_1n_best.pdf"))
