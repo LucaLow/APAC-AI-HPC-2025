@@ -36,6 +36,7 @@
 %
 
 \usepackage{tikz}
+\usepackage{enumitem}
 \usetikzlibrary{positioning, arrows.meta}
 
 \setcopyright{cc}
@@ -114,16 +115,13 @@ For distributed training, the trade-offs are well documented. Tensor, Pipeline a
 
 This paper explores a throughput-maximisation campaign that seeks to uncover the optimal configuration for deploying DeepSeek-R1 \cite{deepseekr1}, a 671B-parameter MoE reasoning model with 37B active parameters per token, using SGLang on two NVIDIA H200 nodes, under a fixed offline benchmark protocol (Section 3.3): 2,000 ShareGPT prompts, BF16 precision, and a fixed random seed.
 
-Starting from the baseline two-node deployment of 9,610.57 tok/s (TP=16), we reach a best measured run of 17,417.40 tok/s on a single node, an 81.2\% improvement. The gains decompose into a pinned container stack, runtime compilation, and above all a hybrid parallelisation (TP=4, DP=4, PP=2 with data-parallel attention) that trades communication for KV-cache capacity. Our investigation found every configuration whose per-layer collectives crossed the InfiniBand fabric ($\approx$46 GB/s per adapter) was outperformed by one that kept them on NVLink (478 GB/s). Even the best two-node engine we could construct was the same hybrid layout spanning the fabric only at one layer boundary across all 61 transformer blocks, reaching 17,032.39 tok/s while leaving half of its sixteen GPUs idle.
-
-Our contributions are:
-\begin{itemize}
+Starting from the baseline two-node deployment of 9,610.57 tok/s (TP=16), we reach a best measured run of 17,417.40 tok/s on a single node, an 81.2\% improvement. The gains decompose into a pinned container stack, runtime compilation, and above all a hybrid parallelisation (TP=4, DP=4, PP=2 with data-parallel attention) that trades communication for KV-cache capacity. Our investigation found every configuration whose per-layer collectives crossed the InfiniBand fabric ($\approx$46 GB/s per adapter) was outperformed by one that kept them on NVLink (478 GB/s). Even the best two-node engine we could construct was the same hybrid layout spanning the fabric only at one layer boundary across all 61 transformer blocks, reaching 17,032.39 tok/s while leaving half of its sixteen GPUs idle. \emph{Our contributions are:}
+\begin{itemize}[nosep]   
   \item A decomposition of the 1.81$\times$ throughput improvement into its individual configuration decisions: container stack, parallelism layout, runtime compilation, and (for the TP=16 layout only) scheduler memory policy.
   \item An in-depth explanation as to why TP=4, DP=4, PP=2 with data-parallel attention is the right shape for DeepSeek-R1 on an 8-GPU node.
   \item A sweep of 40 NCCL configurations in which no manual setting outperformed NCCL's autotuned defaults, evidence that the internode penalty is physical rather than a software misconfiguration.
   \item Deployment guidance for MoE inference at modest scale: exhaust a single node before spanning two, avoid distributing one engine where possible, and if an engine must span nodes, use pipeline parallelism to do it.
 \end{itemize}
-
 The benchmark was fixed as part of the 2025 APAC HPC-AI Competition~\cite{apachpcai2025}.
 
 \section{Background}
@@ -168,7 +166,7 @@ and \verb|--cuda-graph-max-bs| sets the largest decode batch size captured as a 
 \section{Experimental Setup}
 
 
-\begin{figure}[H]
+\begin{figure}[t]
     \centering
     % Resize box ensures the diagram fits perfectly within the column width
     \resizebox{\linewidth}{!}{%
@@ -233,7 +231,7 @@ All experiments were run on two Dell XE9680-F nodes of Sustainable Metal Cloud, 
 \subsection{Software Stack (Runtime Environment)}
 
 %% OS/Software/Versions
-During experimentation, the nodes' NVIDIA driver supported CUDA version 13.0; however, the SGLang runtime image\newline{} (\texttt{v0.5.3rc1-cu126.sif}), executed with Singularity \cite{kurtzer2017singularity}, utilises CUDA version 12.6. NCCL version 2.22.3-1 \cite{nccl} provided the collective communication (all-reduce, all-to-all) over RDMA. NVIDIA's linear algebra subroutines were provided by cuBLAS (version 12.6.1.4-1). Each compute node ran the Rocky Linux 9.8 operating system (Blue Onyx). A Rocky Linux 9.6 login node was used to orchestrate and queue jobs. Slurm (version 25.05.2) was utilised as the workload manager.
+During experimentation, the nodes' NVIDIA driver supported CUDA version 13.0; however, the SGLang runtime image\newline{} (\texttt{v0.5.3rc1-cu126.sif}), executed with Singularity \cite{kurtzer2017singularity}, utilises CUDA version 12.6. NCCL version 2.22.3-1 \cite{nccl} provided the collective communication (all-reduce, all-to-all) over RDMA. NVIDIA's linear algebra subroutines were provided by cuBLAS (version\newline{}12.6.1.4-1). Each compute node ran the Rocky Linux 9.8 operating system (Blue Onyx). A Rocky Linux 9.6 login node was used to orchestrate and queue jobs. Slurm (version 25.05.2) was utilised as the workload manager.
 
 \subsection{Benchmark and Imposed Constraints}
 
@@ -246,7 +244,7 @@ Table~\ref{tab:parallelism_configs} reports the single-node sweep of hybrid layo
 
 The dominant factor within the sweep was the DP-attention degree. Holding TP=4, PP=2 fixed, raising DP from 1 to 4 lifted throughput 44.4\%, the DP=1 layout was also the slowest configuration measured, at 11,436.32 tok/s. The alternative shape of TP=2, DP=2, PP=4, trading tensor-parallel width for pipeline depth, reached 16,498.81 tok/s at best, 4.7\% below the corresponding best hybrid sweep run.
 
-\begin{table}[H]
+\begin{table}[t]
   \centering
   \Description{A table displaying six configurations of Tensor, Data, and Pipeline Parallelism with their corresponding token throughput.}
   \begin{tabular}{c c c r}
@@ -266,7 +264,7 @@ The dominant factor within the sweep was the DP-attention degree. Holding TP=4, 
 \end{table}
 
 
-\begin{figure}[H]
+\begin{figure}[t]
       \centering
       \includegraphics[width=1\linewidth]{topology_1n_best.pdf}
       \caption{Topology of communication during the forward pass for the optimal one-node configuration of \textsc{TP=4}, \textsc{DP=4}, \textsc{PP=2}. Requests are sharded across the four DP groups, eliminating KV-cache duplication, and each GPU holds a full copy of the attention weights for its layers. The first four GPUs hold the weights for layers 1--30 and the last four GPUs hold the weights for layers 31--61 of the transformer blocks. The best run of this configuration achieved 17,417.40 tok/s.}
