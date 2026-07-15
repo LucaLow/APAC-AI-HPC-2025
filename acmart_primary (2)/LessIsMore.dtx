@@ -72,7 +72,7 @@
 
 %% The synopsis is a name for the abstract
 \begin{abstract}
-For an operator holding a fixed GPU allocation, the question is not whether a frontier open-source model can be served, but how many tokens per second the hardware can produce. This paper reports a throughput-maximisation campaign for offline inference of DeepSeek-R1 (671B parameters, 37B active per token) using SGLang 0.5.3rc1 on two 8-GPU H200 nodes, under a fixed benchmark of 2,000 ShareGPT prompts at BF16 precision. From the two-node baseline of 9,610.57 tok/s (TP=16), a pinned container image, runtime compilation, and a hybrid parallelisation of TP=4, DP=4, PP=2 with data-parallel attention raised the best run to 17,417.40 tok/s, an 81.2\% improvement using only the eight GPUs of a single node. Every layout whose per-layer collectives crossed the InfiniBand fabric was beaten by one that kept them on NVLink: the best engine spanning both nodes reached 17,032.39 tok/s while idling half its GPUs, and a 40-configuration NCCL sweep found no manual setting that outperformed the library's autotuned defaults, indicating the internode penalty is physical rather than a misconfiguration. Per GPU, the tuned single node delivers 2.05$\times$ the throughput of the best two-node engine. For multi-node serving we therefore recommend replication over distribution: a half-workload run projects two independent single-node replicas at a combined 23,773.58 tok/s, 39.6\% above the best distributed engine. At this model scale and on this class of interconnect, less is more.
+For an operator holding a fixed GPU allocation, the question is not whether a frontier open-source model can be served, but how many tokens per second the hardware can produce. This paper reports a throughput-maximisation campaign for offline inference of DeepSeek-R1 (671B parameters, 37B active per token) using SGLang 0.5.3rc1 on two 8-GPU H200 nodes, under a fixed benchmark of 2,000 ShareGPT prompts at BF16 precision. From the two-node baseline of 9,610.57 tok/s under 16-way tensor parallelism (TP=16), a pinned container image, runtime compilation, and a hybrid parallelisation of TP=4, 4-way data parallelism (DP=4), and 2-stage pipeline parallelism (PP=2) with data-parallel attention raised the best run to 17,417.40 tok/s, an 81.2\% improvement using only the eight GPUs of a single node. Every layout whose per-layer collectives crossed the InfiniBand fabric was beaten by one that kept them on NVLink: the best engine spanning both nodes reached 17,032.39 tok/s while idling half its GPUs, and a 40-configuration NCCL sweep found no manual setting that outperformed the library's autotuned defaults, indicating the internode penalty is physical rather than a misconfiguration. Per GPU, the tuned single node delivers 2.05$\times$ the throughput of the best two-node engine. For multi-node serving we therefore recommend replication over distribution: a half-workload run projects two independent single-node replicas at a combined 23,773.58 tok/s, 39.6\% above the best distributed engine. At this model scale and on this class of interconnect, less is more.
 
 % This paper builds upon current distribution methods with novel insights  
 
@@ -109,24 +109,24 @@ For an operator holding a fixed GPU allocation, the question is not whether a fr
 \maketitle
 
 \section{Introduction}
-Large language model (LLM) inference has become a dominant data-centre workload, a workload that GPUs are at the centre of.
+Large language model (LLM) inference has become a dominant data-centre workload, one served predominantly by GPUs, although other accelerators such as tensor processing units (TPUs) and language processing units (LPUs) are also used.
 
-For distributed training, the trade-offs are well documented. Tensor, Pipeline and Data Parallelism have precise, extensively studied cost models. High-throughput inference of very large mixture-of-experts (MoE) models has no such consensus, especially at smaller scales, where popular throughput maximisation techniques don't pay off. Serving frameworks expose dozens of interacting knobs: parallelism layouts, memory policies, CUDA-graph capture limits, communication-library tuning, container runtimes. Guidance is largely written for hyperscale deployments spanning tens if not hundreds of nodes. For the one-to-two node allocations that most research groups and national facilities actually grant, guides on throughput optimisations are spread thin.
+For distributed training, the trade-offs are well documented. Tensor, Pipeline and Data Parallelism (TP, PP and DP) have precise, extensively studied cost models. High-throughput inference of very large mixture-of-experts (MoE) models has no such consensus, especially at smaller scales, where popular throughput maximisation techniques don't pay off. Serving frameworks expose dozens of interacting knobs: parallelism layouts, memory policies, CUDA-graph capture limits, communication-library tuning, container runtimes. Guidance is largely written for hyperscale deployments spanning tens if not hundreds of nodes. For the one-to-two node allocations that most research groups and national facilities actually grant, guides on throughput optimisations are spread thin.
 
-This paper explores a throughput-maximisation campaign that seeks to uncover the optimal configuration for deploying DeepSeek-R1 \cite{deepseekr1}, a 671B-parameter MoE reasoning model with 37B active parameters per token, using SGLang on two NVIDIA H200 nodes, under a fixed offline benchmark protocol (Section 3.3): 2,000 ShareGPT prompts, BF16 precision, and a fixed random seed.
+This paper explores a throughput-maximisation campaign that seeks to uncover the optimal configuration for deploying DeepSeek-R1 \cite{deepseekr1}, a 671B-parameter MoE reasoning model with 37B active parameters per token, using SGLang \cite{zheng2024sglang} on two NVIDIA H200 nodes \cite{nvidiah200}, under a fixed offline benchmark protocol (Section 3.3): 2,000 ShareGPT prompts, BF16 precision, and a fixed random seed.
 
-Starting from the baseline two-node deployment of 9,610.57 tok/s (TP=16), we reach a best measured run of 17,417.40 tok/s on a single node, an 81.2\% improvement. The gains decompose into a pinned container stack, runtime compilation, and above all a hybrid parallelisation (TP=4, DP=4, PP=2 with data-parallel attention) that trades communication for KV-cache capacity. Our investigation found every configuration whose per-layer collectives crossed the InfiniBand fabric ($\approx$46 GB/s per adapter) was outperformed by one that kept them on NVLink (478 GB/s). Even the best two-node engine we could construct was the same hybrid layout spanning the fabric only at one layer boundary across all 61 transformer blocks, reaching 17,032.39 tok/s while leaving half of its sixteen GPUs idle. \emph{Our contributions are:}
+Starting from the baseline two-node deployment of 9,610.57 tok/s (TP=16), we reach a best measured run of 17,417.40 tok/s on a single node, an 81.2\% improvement. The gains decompose into a pinned container stack, runtime compilation, and above all a hybrid parallelisation (TP=4, DP=4, PP=2 with data-parallel attention, hereafter DP-attention) that trades communication for key-value (KV) cache capacity. Our investigation found every configuration whose per-layer collectives crossed the InfiniBand (IB) fabric ($\approx$46 GB/s per adapter) was outperformed by one that kept them on NVLink (478 GB/s). Even the best two-node engine we could construct was the same hybrid layout spanning the fabric only at one layer boundary across all 61 transformer blocks, reaching 17,032.39 tok/s while leaving half of its sixteen GPUs idle. \emph{Our contributions are:}
 \begin{itemize}[nosep]   
   \item A decomposition of the 1.81$\times$ throughput improvement into its individual configuration decisions: container stack, parallelism layout, runtime compilation, and (for the TP=16 layout only) scheduler memory policy.
-  \item An in-depth explanation as to why TP=4, DP=4, PP=2 with data-parallel attention is the right shape for DeepSeek-R1 on an 8-GPU node.
-  \item A sweep of 40 NCCL configurations in which no manual setting outperformed NCCL's autotuned defaults, evidence that the internode penalty is physical rather than a software misconfiguration.
+  \item An in-depth explanation as to why TP=4, DP=4, PP=2 with DP-attention is the right shape for DeepSeek-R1 on an 8-GPU node.
+  \item A sweep of 40 configurations of the NVIDIA Collective Communications Library (NCCL) \cite{nccl} in which no manual setting outperformed NCCL's autotuned defaults, evidence that the internode penalty is physical rather than a software misconfiguration.
   \item Deployment guidance for MoE inference at modest scale: exhaust a single node before spanning two, avoid distributing one engine where possible, and if an engine must span nodes, use pipeline parallelism to do it.
 \end{itemize}
 The benchmark was fixed as part of the 2025 APAC HPC-AI Competition~\cite{apachpcai2025}.
 
 \section{Background}
 
-\begin{figure}
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{parallelismTechniques.png}
     \caption{Depiction of Data Parallelism (DP), Pipeline Parallelism (PP), and Tensor Parallelism (TP). Models are duplicated across devices in DP, broken into sequential stages spread across devices in PP, and individual layers are split across devices in TP.}
@@ -134,7 +134,7 @@ The benchmark was fixed as part of the 2025 APAC HPC-AI Competition~\cite{apachp
 \end{figure}
 
 \subsection{Parallelising LLM Inference}
-Serving a model too large for one GPU requires partitioning work across devices, and the choice of what work to partition where and how defines the three primary parallelism techniques we will use. Figure~\ref{fig:parallelism} depicts these techniques.
+Serving a model too large for one GPU requires partitioning work across devices, and the choice of what work to partition where and how defines the three primary parallelism techniques we will use, which are depicted in Figure~\ref{fig:parallelism}.
 
 \emph{Tensor parallelism} (TP) shards each layer's weights across ranks. Every rank computes a partial result for every layer, and the partial results must be merged with an all-reduce collective before the next layer can proceed. Communication therefore sits on the critical path of every forward pass and scales with model depth: with DeepSeek-R1's 61 transformer blocks, a TP group that spans two nodes crosses the internode fabric at every layer for every token generated.
 
@@ -154,9 +154,9 @@ layer.
 
 
 \subsection{SGLang}
-Structured Generation Language (SGLang) is an open source framework embedded in Python for the purpose of delivering low-latency and high-throughput inference \cite{zheng2024sglang}. SGLang provides a fast runtime via techniques such as RadixAttention for prefix caching, prefill-decode disaggregation and speculative decoding, amongst other features \cite{zheng2024sglang}. SGLang has become a popular framework to distribute due to its ease of use and broad compatibility, providing extensive hardware support, a wide range of model support and RL integrations with post-training frameworks \cite{zheng2024sglang}.
+Structured Generation Language (SGLang) is an open source framework embedded in Python for the purpose of delivering low-latency and high-throughput inference \cite{zheng2024sglang}. SGLang provides a fast runtime via techniques such as RadixAttention for prefix caching, prefill-decode (PD) disaggregation and speculative decoding, amongst other features \cite{zheng2024sglang}. SGLang has become a popular framework to distribute due to its ease of use and broad compatibility, providing extensive hardware support, a wide range of model support and RL integrations with post-training frameworks \cite{zheng2024sglang}.
 
-For multi-GPU execution SGLang supports all four parallelism options within and across nodes. Its plain data parallelism (\verb|--dp| alone) is only compatible with single node deployments and launches independent engine replicas, each spanning \verb|--tp| devices behind a request router. Separately, its remedy for MLA's replication problem is data-parallel attention, enabled with \verb|--enable-dp-attention|. This mode reinterprets \verb|--dp|: instead of adding replicas, the attention layers of a single engine execute data-parallel across \verb|--dp| groups drawn from the existing TP ranks.
+For multi-GPU execution SGLang supports all four parallelism options within and across nodes. Its plain DP (\verb|--dp| alone) is only compatible with single node deployments and launches independent engine replicas, each spanning \verb|--tp| devices behind a request router. Separately, its remedy for MLA's replication problem is DP-attention, enabled with \verb|--enable-dp-attention|. This mode reinterprets \verb|--dp|: instead of adding replicas, the attention layers of a single engine execute data-parallel across \verb|--dp| groups drawn from the existing TP ranks.
 
 Finally, two scheduler parameters govern how the remaining memory is spent: \verb|--mem-fraction-static| fixes the fraction of GPU memory reserved for weights plus KV cache, setting the ceiling on concurrent requests,
 and \verb|--cuda-graph-max-bs| sets the largest decode batch size captured as a CUDA graph; decode steps beyond it fall back to slower kernel launches.
@@ -166,7 +166,7 @@ and \verb|--cuda-graph-max-bs| sets the largest decode batch size captured as a 
 \section{Experimental Setup}
 
 
-\begin{figure}[t]
+\begin{figure}[htbp]
     \centering
     % Resize box ensures the diagram fits perfectly within the column width
     \resizebox{\linewidth}{!}{%
@@ -226,7 +226,7 @@ and \verb|--cuda-graph-max-bs| sets the largest decode batch size captured as a 
 \subsection{Network and Hardware Infrastructure}
 
 %% Hardware/Network of Compute Nodes
-All experiments were run on two Dell XE9680-F nodes of Sustainable Metal Cloud, an immersion-cooled cluster operated by Firmus in Singapore, each node with 8x NVIDIA H200 Tensor Core GPUs. Each H200 GPU had 143,771 MiB ($\approx$141 GB) of memory, idling at an average temperature of 39 degrees Celsius. Each node had two NUMA domains, with NVLink connecting the eight GPUs: 18 links per GPU at a reported 26.562 GB/s each, an aggregate 478.116 GB/s of raw unidirectional capacity per GPU (450 GB/s nominal payload bandwidth per NVIDIA's specification). Internode communication was channelled via a native InfiniBand fabric through 8x NVIDIA ConnectX-7 Single Port VPI NDR (400 Gb/s) OSFP adapters per node, running firmware version 28.41.1000. A single-stream \texttt{ib\_write\_bw} test between the nodes averaged 43,904.97 MiB/sec ($\approx$46.0 GB/s, $\approx$368 Gb/s), i.e., approximately one adapter's worth of the fabric's aggregate capacity. Each node was equipped with dual socket 32-core Intel(R) Xeon(R) Platinum 8462Y+ CPUs, with a max frequency of 4,100 MHz. Each core had 2 threads, combining to a total of 128 logical processors.
+All experiments were run on two Dell XE9680-F nodes of Sustainable Metal Cloud, an immersion-cooled cluster operated by Firmus in Singapore, each node with 8x NVIDIA H200 Tensor Core GPUs. Each H200 GPU had 143,771 MiB ($\approx$141 GB) of memory, idling at an average temperature of 39 degrees Celsius. Each node had two NUMA domains, with NVLink connecting the eight GPUs: 18 links per GPU at a reported 26.562 GB/s each, an aggregate 478.116 GB/s of raw unidirectional capacity per GPU (450 GB/s nominal payload bandwidth per NVIDIA's specification). Internode communication was channelled via a native IB fabric through 8x NVIDIA ConnectX-7 Single Port VPI NDR (400 Gb/s) OSFP adapters per node, running firmware version 28.41.1000. A single-stream \texttt{ib\_write\_bw} test between the nodes averaged 43,904.97 MiB/sec ($\approx$46.0 GB/s, $\approx$368 Gb/s), i.e., approximately one adapter's worth of the fabric's aggregate capacity. Each node was equipped with dual socket 32-core Intel(R) Xeon(R) Platinum 8462Y+ CPUs, with a max frequency of 4,100 MHz. Each core had 2 threads, combining to a total of 128 logical processors.
 
 \subsection{Software Stack (Runtime Environment)}
 
@@ -240,23 +240,22 @@ The competition benchmark narrows the scope. The model architecture was confined
 \section{Results}
 
 \subsection{Single Node Performance}
-Table~\ref{tab:parallelism_configs} reports the single-node sweep of hybrid layouts occupying all eight GPUs; each layout was benchmarked twice. The maximum throughput was achieved by TP=4, DP=4, PP=2 with DP-attention enabled, whose two runs recorded 17,308.39 and 17,218.03 tok/s. A further run of this layout with \verb|--enable-torch-compile| produced the campaign best of 17,417.40 tok/s, the headline figure used throughout this paper. Its communication topology is depicted in Figure~\ref{fig:topology_1n_best}.
+Table~\ref{tab:parallelism_configs} reports the single-node sweep of hybrid layouts occupying all eight GPUs; each layout was benchmarked twice. The maximum throughput was achieved by TP=4, DP=4, PP=2 with DP-attention enabled, whose two runs recorded 17,308.39 and 17,218.03 tok/s. A further run of this layout with \verb|--enable-torch-compile| produced the campaign best of 17,417.40 tok/s (communication topology in Figure~\ref{fig:topology_1n_best}), the headline figure used throughout this paper.
 
 The dominant factor within the sweep was the DP-attention degree. Holding TP=4, PP=2 fixed, raising DP from 1 to 4 lifted throughput 44.4\%, the DP=1 layout was also the slowest configuration measured, at 11,436.32 tok/s. The alternative shape of TP=2, DP=2, PP=4, trading tensor-parallel width for pipeline depth, reached 16,498.81 tok/s at best, 4.7\% below the corresponding best hybrid sweep run.
 
 \begin{table}[t]
   \centering
-  \Description{A table displaying six configurations of Tensor, Data, and Pipeline Parallelism with their corresponding token throughput.}
-  \begin{tabular}{c c c r}
+  \Description{A table displaying three configurations of Tensor, Data, and Pipeline Parallelism with the token throughput of two independent runs of each.}
+  \begin{tabular}{r r r r r}
     \toprule
-    \textbf{TP} & \textbf{DP} & \textbf{PP} & \textbf{Throughput (tok/s)} \\
+    & & & \multicolumn{2}{c}{\textbf{Throughput (tok/s)}} \\
+    \cmidrule(lr){4-5}
+    \textbf{TP} & \textbf{DP} & \textbf{PP} & \textbf{Run 1} & \textbf{Run 2} \\
     \midrule
-    4 & 4 & 2 & 17308.39 \\
-    4 & 4 & 2 & 17218.03 \\
-    4 & 1 & 2 & 12537.46 \\
-    4 & 1 & 2 & 11436.32 \\
-    2 & 2 & 4 & 16498.81 \\
-    2 & 2 & 4 & 15228.52 \\
+    4 & 4 & 2 & 17308.39 & 17218.03 \\
+    4 & 1 & 2 & 12537.46 & 11436.32 \\
+    2 & 2 & 4 & 16498.81 & 15228.52 \\
     \bottomrule
   \end{tabular}
   \caption{Comparison of different TP, DP (with DP-attention enabled when DP > 1), and PP configurations across one H200 node on SGLang. Two independent runs are shown per configuration; all sweep runs use the default scheduler parameters.}
@@ -264,28 +263,28 @@ The dominant factor within the sweep was the DP-attention degree. Holding TP=4, 
 \end{table}
 
 
-\begin{figure}[t]
+\begin{figure}[htbp]
       \centering
       \includegraphics[width=1\linewidth]{topology_1n_best.pdf}
       \caption{Topology of communication during the forward pass for the optimal one-node configuration of \textsc{TP=4}, \textsc{DP=4}, \textsc{PP=2}. Requests are sharded across the four DP groups, eliminating KV-cache duplication, and each GPU holds a full copy of the attention weights for its layers. The first four GPUs hold the weights for layers 1--30 and the last four GPUs hold the weights for layers 31--61 of the transformer blocks. The best run of this configuration achieved 17,417.40 tok/s.}
       \label{fig:topology_1n_best}
   \end{figure} % 17,417 tok/s, one node, optimal configuration, tp = 4, dp = 4, pp=2, dp attention enabled 
 
-\begin{figure}
+\begin{figure}[htbp]
       \centering
       \includegraphics[width=1\linewidth]{topology_pp2.pdf}
       \caption{Topology of the two-node configuration with \textsc{PP=2}, \textsc{TP=8}, resulting in a throughput of 14,632.44 tok/s. Activations cross the InfiniBand gap once per micro-batch, at the 30--31 boundary of the 61 transformer blocks.}
        \label{fig:topology_pp2}
     \end{figure}  %% 14,632 tok/s, two nodes, pp = 2, tp = 8
       
-\begin{figure}
+\begin{figure}[htbp]
           \centering
           \includegraphics[width=1\linewidth]{topology_tp16.pdf}
           \caption{Topology of the two-node configuration with \textsc{TP=16}, resulting in a throughput of 11,253.39 tok/s. The KV cache is duplicated 16 times, weights are evenly distributed such that each GPU holds 1/16th of the weights, and an all-reduce occurs at every intermediate layer of the forward pass.}
           \label{fig:topology_tp16}
   \end{figure}  %% 11,253 tok/s, two nodes, tp = 16
 
-\begin{figure}
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{topology_2n_best.pdf}
     \caption{Topology of the fastest two-node configuration with one shared SGLang engine (\textsc{TP=4, DP=4, PP=2}, 17,032.39 tok/s), with 4 GPUs idle on each node. Requests are sharded across the four DP groups on each node, eliminating KV-cache duplication, and each GPU holds a full copy of the attention weights for its layers. The first node's GPUs hold the weights for layers 1--30 and the second node's GPUs hold the weights for layers 31--61 of the transformer blocks.}
@@ -293,7 +292,7 @@ The dominant factor within the sweep was the DP-attention degree. Holding TP=4, 
 \end{figure} % 17,032.39 tok/s, 2 node best, tp 4, dp 4, pp 2
 
 
-\begin{figure}
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=1\linewidth]{memfrac_tuning_pgf.pdf}
     \caption{Total token throughput for the two-node \textsc{TP=16} configuration for varying \texttt{--mem-fraction-static} and \texttt{--cuda-graph-max-bs}. Throughput rises with both parameters up to the out-of-memory boundary: 0.93 fails at batch 724, and 0.94 fails at all batch sizes.}% \textcs was a typo — would fail the next compile
@@ -307,7 +306,7 @@ Finally, we approximated serving two fully independent single-node engines, one 
 
 \begin{table}
   \centering
-  \begin{tabular}{lccccr}
+  \begin{tabular}{lrrrrr}
     \toprule
     Deployment & TP & DP & PP & GPUs & tok/s \\
     \midrule
@@ -354,7 +353,7 @@ These results could be misconstrued as an argument that DeepSeek-R1 should only 
 This projection is arithmetic rather than a measurement, and two effects would erode the ideal $2\times$ throughput. The first is saturation: each replica only sees half the requests, and this benchmark's fixed 2,000 prompts are not enough to keep two engines saturated. Halving the benchmark to 1,000 prompts per engine reduced the per-node throughput to 11,886.79 tok/s, or a combined 23,773.58 over two nodes, still 39.6\% above the best distributed engine but well short of the ideal. Under a genuinely saturated workload that gap should close toward $2\times$; benchmarking the two replicas simultaneously remains future work. The second is residual prefix-cache fragmentation, as the router trades cache affinity against load balance during prefix-cache maintenance. We do not measure load-balancer or HTTP-server overhead here: the offline benchmark exercises SGLang's engine and the LLM's inference steps, not a full serving deployment, and quantifying router overhead also remains future work.
 
 \subsection{Parameter Tuning: Batch Capacity over Everything}
-The saturation effect above is not incidental; it is the tuning lesson of this throughput maximisation campaign. Throughput at this scale is governed by how many requests the engine can keep in flight. DP-attention raised that ceiling by freeing KV memory; under-saturation in the 1,000-prompt experiment lowered it by starving the batch. On our default config (with \textsc{TP=16}), we swept \verb|--mem-fraction-static| and \verb|--cuda-graph-max-bs|. It was found that throughput rose with both parameters up to the OOM boundary, peaking at 13,059.21 tok/s, 16.0\% above the defaults (Figure~\ref{fig:memfracstat_bs_tuning}).
+The saturation effect above is not incidental; it is the tuning lesson of this throughput maximisation campaign. Throughput at this scale is governed by how many requests the engine can keep in flight. DP-attention raised that ceiling by freeing KV memory; under-saturation in the 1,000-prompt experiment lowered it by starving the batch. On our default config (with \textsc{TP=16}), we swept \verb|--mem-fraction-static| and \verb|--cuda-graph-max-bs|. It was found that throughput rose with both parameters up to the out-of-memory boundary, peaking at 13,059.21 tok/s, 16.0\% above the defaults (Figure~\ref{fig:memfracstat_bs_tuning}).
 
 Neither tuned value transferred to the optimised parallelised configuration: \textsc{TP=4, DP=4, PP=2 with DP-attention} ran out of memory at anything above its defaults. This is the batch-capacity idea seen from the other side. Under TP=16 each GPU holds a small weight shard and the defaults leave memory idle, so there is memory that can be reclaimed by varying those parameters; the hybrid parallelism configuration holds twice the weight shard per GPU and dedicates the remainder to the DP-attention's per-group KV cache.
 
@@ -369,7 +368,7 @@ This was interpreted to mean that NCCL's internal tuner was already choosing nea
 %**reference this shit here somewhere: https://www.lmsys.org/blog/2025-07-20-k2-large-scale-ep, and this one: lmsys.org/blog/2025-05-05-large-scale-ep***
 
 
-The principal limitation is scale. With two nodes we could not reap the benefits of large-scale MoE deployments, namely prefill-decode disaggregation (PD disaggregation), where the compute-bound prefill and latency-sensitive decode can be split onto differently sized GPU pools, and large-scale expert parallelism (EP), where DeepSeek-R1's 256 routed experts can be spread thinly across many GPUs, cutting per-GPU weight memory and freeing VRAM for KV cache, increasing batch capacity, which we have shown to increase throughput. The SGLang team has reported a $5\times$ throughput improvement over vanilla tensor parallelism using large-scale distributed expert parallelism and PD disaggregation \cite{lmsysep2025}. Therefore our results should be read as a guide to throughput optimisation below the threshold where large-scale distributed EP and PD disaggregation become beneficial. Additionally, SGLang's EP consistently underperformed equivalent TP configurations on our setup, and DeepEP is designed for large scale deployments in FP8 format that our BF16 2 node setup did not fulfill.
+The principal limitation is scale. With two nodes we could not reap the benefits of large-scale MoE deployments, namely PD disaggregation, where the compute-bound prefill and latency-sensitive decode can be split onto differently sized GPU pools, and large-scale EP, where DeepSeek-R1's 256 routed experts can be spread thinly across many GPUs, cutting per-GPU weight memory and freeing VRAM for KV cache, increasing batch capacity, which we have shown to increase throughput. The SGLang team has reported a $5\times$ throughput improvement over vanilla TP using large-scale distributed EP and PD disaggregation \cite{lmsysep2025}. Therefore our results should be read as a guide to throughput optimisation below the threshold where large-scale distributed EP and PD disaggregation become beneficial. Additionally, SGLang's EP consistently underperformed equivalent TP configurations on our setup, and DeepEP is designed for large scale deployments in FP8 format that our BF16 2 node setup did not fulfill.
 Additionally, several constraints were placed upon the scope of our throughput maximisation campaign, most notably:
 \begin{itemize}
     \item Offline throughput was the only metric used.
@@ -378,7 +377,7 @@ Additionally, several constraints were placed upon the scope of our throughput m
 \end{itemize}
 
 \section{Conclusion}
-We present a throughput-maximisation campaign for DeepSeek-R1 over two H200 nodes, lifting offline throughput 81.2\% over the baseline (9,610.57 to 17,417.40 tok/s) through a pinned container stack, runtime compilation, and a hybrid \textsc{TP=4, DP=4, PP=2} layout with DP-attention that trades communication for KV-cache capacity. The decisive factor was interconnect locality: every configuration whose per-layer collectives crossed InfiniBand lost to one that kept them on NVLink, a penalty a 40-configuration NCCL sweep confirmed to be physical rather than software. Below the scale where wide expert parallelism pays off, our guidance is: exhaust a single node first, replicate rather than distribute across nodes, and if an engine must span nodes, span it with pipeline parallelism.
+We present a throughput-maximisation campaign for DeepSeek-R1 over two H200 nodes, lifting offline throughput 81.2\% over the baseline (9,610.57 to 17,417.40 tok/s) through a pinned container stack, runtime compilation, and a hybrid \textsc{TP=4, DP=4, PP=2} layout with DP-attention that trades communication for KV-cache capacity. The decisive factor was interconnect locality: every configuration whose per-layer collectives crossed IB lost to one that kept them on NVLink, a penalty a 40-configuration NCCL sweep confirmed to be physical rather than software. Below the scale where wide EP pays off, our guidance is: exhaust a single node first, replicate rather than distribute across nodes, and if an engine must span nodes, span it with PP.
 
 
 \begin{acks}
